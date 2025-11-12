@@ -29,7 +29,13 @@ If this worked, you should now be in a shell within the container with access to
 $ llacie
 ```
 
-We will now run the example analysis on 100 synthetic admission notes, of which 20 have "gold standard" human-created labels for presenting signs/symptoms. For simplicity, the example uses a quantized version of Llama 3 8B that fits in ~6GB of RAM and runs on CPU only.
+To automatically download the Llama model files from HuggingFace, you need to [request access to the Llama 3 8B model](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct), [create an access token](https://huggingface.co/settings/tokens) for yourself, and save it into the container. (If asked to "Add token as git credential?", answer no.)
+
+```bash
+$ hf auth login
+```
+
+We can now run the example analysis on 100 synthetic admission notes, of which 20 have "gold standard" human-created labels for presenting signs/symptoms. For simplicity, the example uses a quantized version of Llama 3 8B that fits in ~6GB of RAM and runs on CPU only.
 
 ```bash
 $ llacie init-db

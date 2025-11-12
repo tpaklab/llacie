@@ -1,6 +1,6 @@
 # LLaCIE
 
-![PyPI - Version](https://img.shields.io/pypi/v/llacie)
+[![PyPI - Version](https://img.shields.io/pypi/v/llacie)](https://pypi.org/project/llacie/)
 
 **Large Language (model) Clinical Information Extractor**
 

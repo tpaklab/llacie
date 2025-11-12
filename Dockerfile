@@ -32,7 +32,7 @@ RUN pip install --upgrade pip setuptools wheel flit
 WORKDIR /app
 
 # Copy dependency files first (for better layer caching)
-COPY --chown=llacie:llacie pyproject.toml ./
+COPY --chown=llacie:llacie pyproject.toml README.md ./
 
 # Copy the entire application code
 COPY --chown=llacie:llacie . .

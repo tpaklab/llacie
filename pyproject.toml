@@ -1,6 +1,6 @@
 [project]
 name = "llacie"
-version = "1.0.1"
+version = "1.0.2"
 requires-python = ">= 3.11"
 authors = [{ name = "Theodore Pak", email = "theodore.r.pak@gmail.com" }]
 description = "An LLM-based clinical information extraction toolkit."
@@ -44,4 +44,12 @@ build-backend = "flit_core.buildapi"
 name = "llacie"
 
 [tool.flit.sdist]
-exclude = ["llacie/vocabs/.cache", "**/.DS_Store", "**/~$*"]
+exclude = [
+    "llacie/vocabs/.cache",
+    "**/.DS_Store",
+    "**/~$*",
+    "Dockerfile",
+    "docker-compose.yml",
+    "docker-compose.*.yml",
+    ".dockerignore"
+]

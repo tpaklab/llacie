@@ -1,0 +1,73 @@
+services:
+  # PostgreSQL 16 database
+  postgres:
+    image: postgres:16-bookworm
+    container_name: llacie-postgres
+    environment:
+      POSTGRES_DB: llacie
+      POSTGRES_USER: llacie
+      POSTGRES_PASSWORD: llacie_password
+      # Performance tuning for development
+      POSTGRES_INITDB_ARGS: "-E UTF8 --locale=en_US.UTF-8"
+    volumes:
+      # Persist database data
+      - postgres_data:/var/lib/postgresql/data
+      # Optional: mount initialization scripts
+      # - ./sql/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+    ports:
+      - "5433:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U llacie -d llacie"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - llacie-network
+    restart: unless-stopped
+
+  # LLaCIE application
+  llacie:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llacie-app
+    environment:
+      # PostgreSQL connection settings
+      PG_HOST: postgres
+      PG_DBNAME: llacie
+      PG_USER: llacie
+      PG_PASS: llacie_password
+      PG_TABLE_PREFIX: llacie_
+      PG_EPISODE_TABLE: llacie_episodes
+      # Optional: HuggingFace token for gated models
+      # HF_TOKEN: ${HF_TOKEN}
+    volumes:
+      # Mount application code for development (comment out for production)
+      - .:/app
+      # Share huggingface cache between host and container
+      - ~/.cache/huggingface:/home/llacie/.cache/huggingface
+      # Optional: mount .pgpass file
+      # - ~/.pgpass:/home/llacie/.pgpass:ro
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - llacie-network
+    # Override command for interactive development
+    # Comment out to use default CMD from Dockerfile
+    command: tail -f /dev/null
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
+volumes:
+  # PostgreSQL data persistence
+  postgres_data:
+    driver: local
+  # Model cache and HuggingFace downloads
+  model_cache:
+    driver: local
+
+networks:
+  llacie-network:
+    driver: bridge

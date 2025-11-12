@@ -1,0 +1,38 @@
+services:
+  # LLaCIE application (connects to external PostgreSQL)
+  llacie:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: llacie-app-external-db
+    environment:
+      # PostgreSQL connection settings for external database
+      # Override these via .env file or shell environment variables
+      PG_HOST: ${PG_HOST:-localhost}
+      PG_PORT: ${PG_PORT:-5432}
+      PG_DBNAME: ${PG_DBNAME:-llacie}
+      PG_USER: ${PG_USER:-llacie}
+      PG_PASS: ${PG_PASS}
+      PG_TABLE_PREFIX: ${PG_TABLE_PREFIX:-llacie_}
+      PG_EPISODE_TABLE: ${PG_EPISODE_TABLE:-llacie_episodes}
+      # Optional: HuggingFace token for gated models
+      HF_TOKEN: ${HF_TOKEN}
+    volumes:
+      # Mount application code for development (comment out for production)
+      - .:/app
+      # Mount directory for models and cache
+      - model_cache:/home/llacie/.cache
+    # Use host network mode to easily connect to localhost services
+    # Alternatively, use bridge mode if connecting to remote database
+    network_mode: ${NETWORK_MODE:-bridge}
+    # Override command for interactive development
+    # Comment out to use default CMD from Dockerfile
+    command: tail -f /dev/null
+    stdin_open: true
+    tty: true
+    restart: unless-stopped
+
+volumes:
+  # Model cache and HuggingFace downloads
+  model_cache:
+    driver: local

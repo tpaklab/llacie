@@ -1,0 +1,20 @@
+# This is the same as json_arr.gbnf but we restrict values within the array to be strings only
+# Useful for generating JSON arrays of strings
+
+root   ::= arr
+value  ::= string ws
+
+arr  ::=
+  "[" ws (
+            value
+    ("," ws value)*
+  )? "]"
+
+string ::=
+  "\"" (
+    [^"\\] |
+    "\\" (["\\/bfnrt] | "u" [0-9a-fA-F] [0-9a-fA-F] [0-9a-fA-F] [0-9a-fA-F]) # escapes
+  )* "\"" ws
+
+# Optional space: by convention, applied in this grammar after literal chars when allowed
+ws ::= ([ \t\n] ws)?

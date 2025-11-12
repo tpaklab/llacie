@@ -1,0 +1,47 @@
+[project]
+name = "llacie"
+version = "1.0.0"
+requires-python = ">= 3.11"
+authors = [{ name = "Theodore Pak", email = "theodore.r.pak@gmail.com" }]
+description = "An LLM-based clinical information extraction toolkit."
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = [
+    "click",
+    "python-dotenv",
+    "sqlalchemy",
+    "psycopg2",
+    "pandas",
+    "openpyxl",
+    "tqdm",
+    "sentencepiece",
+    "protobuf",
+    "transformers",
+    "scikit-learn",
+    "jinja2",
+    "tabulate",
+    "confidenceinterval",
+    "llama-cpp-python==0.3.2"
+]
+keywords = [
+    "natural language processing", 
+    "large language model", 
+    "clinical informatics"
+]
+
+[project.optional-dependencies]
+edw = ["pyodbc"]
+dev = ["flit"]
+
+[project.scripts]
+llacie = "llacie.scripts.llacie:main"
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.module]
+name = "llacie"
+
+[tool.flit.sdist]
+exclude = ["llacie/vocabs/.cache", "**/.DS_Store", "**/~$*"]

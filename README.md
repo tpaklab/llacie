@@ -1,6 +1,8 @@
 # LLaCIE
 
-Large Language (model) Clinical Information Extractor
+![PyPI - Version](https://img.shields.io/pypi/v/llacie)
+
+**Large Language (model) Clinical Information Extractor**
 
 This is an [information extraction](http://en.wikipedia.org/wiki/Information_extraction) pipeline that specializes in running [large language models](https://en.wikipedia.org/wiki/Large_language_model) across many clinical notes to abstract new variables.
 
@@ -41,7 +43,7 @@ $ llacie episode-labels evaluate
 
 ## Installing from PyPI
 
-You can install the package directly from PyPI, which requires Python ≥3.11.
+You can install the package directly [from PyPI](https://pypi.org/project/llacie/), which requires Python ≥3.11.
 
 ```bash
 $ pip install llacie

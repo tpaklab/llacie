@@ -1,5 +1,8 @@
 FROM python:3.11-slim-bookworm
 
+# Some steps are specific to the linux/arm64 platform
+ARG TARGETPLATFORM
+
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PIP_NO_CACHE_DIR=1 \
@@ -49,8 +52,13 @@ WORKDIR /home/llacie/.cache/outlines
 WORKDIR /app
 
 # Install the llacie package in editable mode (this installs all dependencies from pyproject.toml)
-# We include abetlen's prebuilt llama-cpp-python wheels to avoid the difficulty of compiling that
-RUN pip install --user -e . --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+# For TARGETPLATFORM=linux/arm64, use abetlen's prebuilt llama-cpp-python wheel 
+#    as it doesn't compile correctly from source
+RUN if [ "$TARGETPLATFORM" = "linux/arm64" ]; then \
+        pip install --user -e . --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu; \
+    else \
+        pip install --user -e .; \
+    fi
 
 # Set the default command to show help
 CMD ["llacie", "--help"]

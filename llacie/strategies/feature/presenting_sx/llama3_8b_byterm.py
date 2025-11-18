@@ -6,7 +6,6 @@ from ...abstract_vllm_or_lcp import AbstractVllmOrLcpStrategy
 from ...section.hpi_short.regex import ShortHPISectionRegexStrategy
 from ....tasks.feature import PresentingSymptomsFeatureTask
 from ....vocab import Vocab
-from ....inference.vllm import Vllm
 from ....utils import chunker, echo_info, echo_warn
 
 

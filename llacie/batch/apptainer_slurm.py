@@ -192,4 +192,4 @@ class ApptainerSlurmJobManager(SlurmJobManager):
                 time.sleep(self.WORKER_CACHE_POLL_INTERVAL)
             
             self._sweep_worker_cache()
-            echo_info(f"The Slurm job has completed!")
+            echo_info("The Slurm job has completed!")

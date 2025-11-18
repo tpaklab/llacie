@@ -4,8 +4,6 @@ import time
 
 from os import path
 from textwrap import dedent
-from datetime import datetime
-from zoneinfo import ZoneInfo
 
 from .slurm import SlurmJobManager
 from ..utils import chunker, echo_warn, echo_info, echo_err
@@ -203,4 +201,4 @@ class KubeSlurmJobManager(SlurmJobManager):
                 time.sleep(self.WORKER_CACHE_POLL_INTERVAL)
             
             self._sweep_worker_cache()
-            echo_info(f"The Slurm job has completed!")
+            echo_info("The Slurm job has completed!")

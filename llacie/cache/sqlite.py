@@ -13,7 +13,7 @@ from collections import defaultdict
 from .abstract import AbstractFeatureWorkerCache
 from ..batch.slurm import SlurmJobManager
 from ..tasks import TaskOutputType as out_t
-from ..utils import echo_warn, echo_err
+from ..utils import echo_warn
 
 
 class SqliteFeatureWorkerCache(AbstractFeatureWorkerCache):
@@ -117,7 +117,7 @@ class SqliteFeatureWorkerCache(AbstractFeatureWorkerCache):
             try:
                 os.makedirs(dir_path, exist_ok = True)
                 return True
-            except PermissionError as e:
+            except PermissionError:
                 echo_warn(f"Permissions error in opening worker cache directory {dir_path}.")
                 if attempt == self._retries - 1: return False
                 echo_warn(f"Attempt {attempt + 1}, retrying in {self._retry_delay} seconds...")

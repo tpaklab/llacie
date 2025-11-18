@@ -1,15 +1,13 @@
 import numpy as np
 import pandas as pd
 import confidenceinterval as ci
-pd.set_option('future.no_silent_downcasting', True)
 
 from math import log10
-from functools import partial
 from sklearn import metrics
-from click import echo
 from textwrap import dedent
 from collections import OrderedDict
 
+pd.set_option('future.no_silent_downcasting', True)
 
 def filter_to_one_humans_rows_per_episode(df):
     """For each set of rows in a table, find the first human annotator per FK_episode_id,

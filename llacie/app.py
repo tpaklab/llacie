@@ -140,7 +140,7 @@ class App(object):
         strat = strategies[0](self.db, self.config)
         ids = strat.get_unfinished_ids()
         echo_info(f"Info: {len(ids)} notes will undergo section extraction")
-        if dry_run: echo_info(f"Info: Dry run, exiting")
+        if dry_run: echo_info("Info: Dry run, exiting")
         else: strat.run(ids)
     
 
@@ -216,7 +216,7 @@ class App(object):
             ep_ids = np.intersect1d(ep_ids, annot_ep_ids)
 
         echo_info(f"Info: {len(ep_ids)} episodes will undergo label creation")
-        if dry_run: echo_info(f"Info: Dry run, exiting")
+        if dry_run: echo_info("Info: Dry run, exiting")
         else: strat.run(ep_ids)
 
 

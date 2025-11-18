@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-from click import UsageError, echo
+from click import echo
 from sqlalchemy import create_engine, text
 from tqdm import tqdm
 
@@ -118,7 +118,8 @@ class EDWDatabase(object):
             # Sometimes there are zero rows, for a chunk of NoteIDs with no NoteTXT
             if len(df) == 0: continue
             # Join the text from multiple lines/rows into a single field
-            join_func = lambda pieces: "\n".join([(p if p is not None else "") for p in pieces])
+            def join_func(pieces):
+                return "\n".join([(p if p is not None else "") for p in pieces])
             df['note_text'] = df.groupby(['NoteID'])['NoteTXT'].transform(join_func)
             # Yield a selection of columns, after deduplicating
             df = df[['NoteCSNID', 'ContactDateRealNBR', 'NoteID', 'note_text']]

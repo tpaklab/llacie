@@ -32,6 +32,7 @@ keywords = [
 [project.optional-dependencies]
 edw = ["pyodbc"]
 dev = ["flit"]
+test = ["pytest>=7.0", "pytest-cov>=4.0", "pytest-timeout>=2.1", "pytest-dependency>=0.5.1"]
 
 [project.scripts]
 llacie = "llacie.scripts.llacie:main"
@@ -53,3 +54,27 @@ exclude = [
     "docker-compose.*.yml",
     ".dockerignore"
 ]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+ignore = [
+    "E501",  # line too long (handled by line-length)
+    "E701"   # multiple statements on one line
+]
+exclude = [
+    ".git",
+    "__pycache__",
+    ".venv",
+    "venv",
+    "build",
+    "dist",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Ignore import rules in __init__.py files
+"__init__.py" = ["F401"]
+# Ignore all rules in test files except errors
+"tests/**/*.py" = ["N", "UP"]

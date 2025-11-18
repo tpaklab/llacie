@@ -2,7 +2,7 @@ import re
 import pickle
 import pandas as pd
 
-from os import path, makedirs, access, remove, W_OK
+from os import path, makedirs
 from collections import defaultdict
 from copy import deepcopy
 

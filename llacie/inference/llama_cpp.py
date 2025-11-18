@@ -8,7 +8,7 @@ import subprocess as sub
 os.environ["TRANSFORMERS_VERBOSITY"] = "error"
 from transformers import LlamaTokenizer, AutoTokenizer
 
-from ..utils import echo_err, echo_warn
+from ..utils import echo_err
 
 # Note: This eventually could be replaced with Python bindings for llama.cpp:
 # https://github.com/abetlen/llama-cpp-python

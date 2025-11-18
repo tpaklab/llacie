@@ -132,7 +132,7 @@ class AbstractLlamaCppStrategy(AbstractStrategy):
 
     def run(self, all_note_ids, max_note_ids=None, batch_size=None, dry_run=False):
         if self.within_worker:
-            if dry_run: return echo_info(f"Info: Dry run, exiting without running any LLMs")
+            if dry_run: return echo_info("Info: Dry run, exiting without running any LLMs")
             note_ids = all_note_ids
             echo_info(f"Worker started on {gethostname()}")
         else:
@@ -143,7 +143,7 @@ class AbstractLlamaCppStrategy(AbstractStrategy):
             if max_note_ids is not None and (len(note_ids) > max_note_ids):
                 echo_warn(f"Limiting to the first {max_note_ids} notes")
                 note_ids = note_ids[:max_note_ids]
-            if dry_run: return echo_info(f"Info: Dry run, exiting without running any LLMs")
+            if dry_run: return echo_info("Info: Dry run, exiting without running any LLMs")
             
             if self.slurm_enabled:
                 # Create a SlurmJobManager and submit jobs that run worker processes

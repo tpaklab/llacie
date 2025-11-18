@@ -1,4 +1,3 @@
-from os import path
 from textwrap import dedent
 
 from ...abstract_vllm_or_lcp import AbstractVllmOrLcpStrategy

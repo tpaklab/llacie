@@ -7,7 +7,6 @@ import shlex
 from os import path
 from click import echo, secho
 from textwrap import dedent
-from datetime import datetime
 
 from ..utils import chunker, strtobool, echo_err, echo_info
 

@@ -98,6 +98,16 @@ If everything worked, you should be able to see the main menu by running:
 (.venv) (llacie) $ llacie
 ```
 
+### Running tests
+
+The test suite is in `tests/`. Currently, this runs integration tests based on the Quickstart demo, checking the command outputs and that database state is updated appropriately after each step. Common test suite invocations can be run with `make`:
+
+```bash
+make test-install
+make test           # Runs all of the tests
+make test-fast      # Runs only the quicker tests that don't require LLM inference
+```
+
 ### Building the package
 
 The package is Python-only and can be built using [flit](https://flit.pypa.io/en/stable/).

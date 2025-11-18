@@ -7,7 +7,7 @@ from transformers import AutoTokenizer
 from json.decoder import JSONDecodeError
 from tqdm import tqdm
 
-from ..utils import echo_err, echo_warn
+from ..utils import echo_err
 
 class LlamaCppPython(object):
     """
@@ -114,7 +114,7 @@ class LlamaCppPython(object):
                 )
                 output = json.loads(full_output["choices"][0]["message"]["content"])
                 outputs.append(output)
-            except (IndexError, KeyError) as e:
+            except (IndexError, KeyError):
                 echo_err(f"Invalid response from create_chat_completion: {full_output}")
                 outputs.append(None)
             except JSONDecodeError as e:

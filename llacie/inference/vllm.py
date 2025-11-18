@@ -8,7 +8,7 @@ from json.decoder import JSONDecodeError
 ##### But in this unusual case, we avoid importing the `vllm` and `outlines` packages up here
 ##### because they ONLY exist inside the containerized environment used by worker processes
 
-from ..utils import echo_err, echo_warn
+from ..utils import echo_err
 
 class Vllm(object):
     """

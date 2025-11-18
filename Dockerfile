@@ -16,8 +16,9 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     # Build dependencies for psycopg2 and other packages
     gcc-12 \
     g++-12 \
-    # Git for potential repository dependencies
+    # Git and make for potential repository dependencies
     git \
+    make \
     # Clean up to reduce image size
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*

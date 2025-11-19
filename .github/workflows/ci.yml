@@ -158,7 +158,7 @@ jobs:
       env:
         HF_TOKEN: ${{ secrets.HF_TOKEN }}
       run: |
-        docker compose exec -T llacie bash -c "
+        docker compose exec -T -e HF_TOKEN llacie bash -c "
           pip install -e '.[test]'
           pytest -v --tb=short --timeout=600
         "

@@ -59,7 +59,7 @@ jobs:
           pip install -e '.[test]'
 
           echo '=== Running fast test suite ==='
-          pytest -m 'not slow' -v --tb=short
+          pytest -m 'not slow' -v -p no:cacheprovider --tb=short
         "
 
     - name: Clean up
@@ -194,7 +194,7 @@ jobs:
       run: |
         docker compose exec -T -e HF_TOKEN llacie bash -c "
           pip install -e '.[test]'
-          pytest -v --tb=short --timeout=600
+          pytest -v -p no:cacheprovider --tb=short --timeout=600
         "
 
     - name: Clean up

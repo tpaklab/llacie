@@ -33,7 +33,7 @@ class AbstractTask(ABC):
         return {
             "output_type": cls.output_type.value,
             "name": cls.name,
-            "desc": cls.desc
+            "desc": cls.desc()
         }
 
 

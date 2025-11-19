@@ -28,10 +28,19 @@ jobs:
         cache-from: type=gha
         cache-to: type=gha,mode=max
 
-    - name: Start services with docker compose
-      # We create a huggingface cache dir since it is shared between host and container
+    - name: Create a cache directory for HuggingFace data
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/huggingface
+        key: huggingface-${{ steps.get-date.outputs.date }}
+
+    - name: Setup permissions for the HuggingFace cache directory
       run: |
         mkdir -p ~/.cache/huggingface
+        chmod -R 777 ~/.cache/huggingface
+
+    - name: Start services with docker compose
+      run: |
         docker compose up -d
         # Wait for services to be ready
         sleep 10
@@ -150,10 +159,19 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Start services with docker compose
-      # We create a huggingface cache dir since it is shared between host and container
+    - name: Create a cache directory for HuggingFace data
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/huggingface
+        key: huggingface-${{ steps.get-date.outputs.date }}
+
+    - name: Setup permissions for the HuggingFace cache directory
       run: |
         mkdir -p ~/.cache/huggingface
+        chmod -R 777 ~/.cache/huggingface
+
+    - name: Start services with docker compose
+      run: |
         docker compose up -d
         sleep 10
 

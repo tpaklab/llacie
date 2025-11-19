@@ -7,6 +7,9 @@ This validates each step based on:
 import subprocess
 import pytest
 import getpass
+import gzip
+
+from pathlib import Path
 from contextlib import contextmanager
 from sqlalchemy import create_engine, text
 
@@ -20,6 +23,9 @@ NOTE_COUNT = 100
 SECTION_COUNT = 100
 SHORT_FEATURE_COUNT = 2
 HUMAN_LABELS_COUNT = 145
+
+# A fixture that contains SQL data to support tests of steps after the LLM runs
+SKIPTO_EPISODE_LABELS_SQL = "SKIPTO_episode-labels_extract.sql.gz"
 
 
 def run_cmd(cmd, timeout=None, capture_output=True):
@@ -67,6 +73,26 @@ def count_rows(engine, table_name, where_clause=None):
     with engine.connect() as conn:
         result = conn.execute(text(query))
         return result.scalar()
+
+
+def open_possible_gzip(filepath, mode='rt'):
+    """Open file, detecting gzip by magic number."""
+    with open(filepath, 'rb') as f:
+        magic = f.read(2)
+    if magic == b'\x1f\x8b':  # gzip magic number
+        return gzip.open(filepath, mode)
+    return open(filepath, mode)
+
+
+def load_sql_file(llacie_config, sql_file):
+    """Loads an SQL file (optionally gzipped) into the database."""
+    with get_db_connection(llacie_config) as engine:
+        conn = engine.raw_connection()
+        cursor = conn.cursor()
+        with open_possible_gzip(sql_file, 'rt') as f:
+            cursor.execute(f.read())
+        conn.commit()
+        conn.close()
 
 
 class TestQuickstart:
@@ -163,18 +189,16 @@ class TestQuickstart:
     @pytest.mark.slow
     @pytest.mark.timeout(LONG_TIMEOUT)
     @pytest.mark.requires_llm
-    def test_04_features_extract(self, class_isolated_env, class_temp_db):
+    def test_04_features_extract(self, isolated_env, temp_db):
         """Test: llacie features extract -s llama3_8b
 
         Expected output: "X notes will undergo feature extraction"
         Validation: Check that the note_features table has entries
-
-        NOTE: Uses class-scoped fixtures to reuse database from test_03
         """
         # Setup - only run if test_03 hasn't already done this
         # Since we're using class fixtures, we need to ensure the pipeline is run
         run_cmd(["llacie", "init-db"])
-        notes_path = class_isolated_env / "examples" / "admission-100.txt"
+        notes_path = isolated_env / "examples" / "admission-100.txt"
         run_cmd(["llacie", "import-notes", "text", str(notes_path)])
         run_cmd(["llacie", "sections", "extract", "-s", "regex"])
 
@@ -191,25 +215,28 @@ class TestQuickstart:
             f"Expected extraction message not found: {result.stderr}"
 
         # Validate database
-        with get_db_connection(class_temp_db) as engine:
+        with get_db_connection(temp_db) as engine:
             feature_count = count_rows(engine, "note_features")
             assert feature_count > 0, \
                 f"Expected >0 note_features in database, found {feature_count}"
 
         # Store result
-        output_file = class_isolated_env / "output_04_features_extract.txt"
+        output_file = isolated_env / "output_04_features_extract.txt"
         output_file.write_text(f"STDOUT:\n{result.stdout}\n\nSTDERR:\n{result.stderr}")
 
 
-    @pytest.mark.dependency(depends=["TestQuickstart::test_04_features_extract"])
+    @pytest.mark.dependency()
     def test_05_episode_labels_extract(self, class_isolated_env, class_temp_db):
         """Test: llacie episode-labels extract -s pres_sx_eplab2.llama3_8b
 
         Expected output: "X episodes will undergo label creation"
         Validation: Check that episode_labels table has entries
-
-        NOTE: Uses class-scoped fixtures to reuse database from test_04
         """
+        # This test loads a cached copy of the database from after test_04_... completed
+        sql_file = Path(__file__).parent.parent / "fixtures" / SKIPTO_EPISODE_LABELS_SQL
+        load_sql_file(class_temp_db, sql_file)
+
+        # Run the next step of the llacie pipeline: extracting episode labels
         result = run_cmd(
             ["llacie", "episode-labels", "extract", "-s", "pres_sx_eplab2.llama3_8b"]
         )
@@ -225,10 +252,6 @@ class TestQuickstart:
         with get_db_connection(class_temp_db) as engine:
             label_count = count_rows(engine, "episode_labels")
             assert label_count > 0, f"Expected >0 episode labels in database, found {label_count}"
-
-        # Store result
-        output_file = class_isolated_env / "output_05_episode_labels_extract.txt"
-        output_file.write_text(f"STDOUT:\n{result.stdout}\n\nSTDERR:\n{result.stderr}")
 
 
     @pytest.mark.dependency(depends=["TestQuickstart::test_05_episode_labels_extract"])
@@ -257,20 +280,15 @@ class TestQuickstart:
             assert label_count == HUMAN_LABELS_COUNT, \
                 f"Expected {HUMAN_LABELS_COUNT} human-created episode_labels, found {label_count}"
 
-        # Store result
-        output_file = class_isolated_env / "output_06_episode_labels_import.txt"
-        output_file.write_text(f"STDOUT:\n{result.stdout}\n\nSTDERR:\n{result.stderr}")
-
 
     @pytest.mark.dependency(depends=["TestQuickstart::test_06_episode_labels_import"])
-    def test_07_episode_labels_evaluate(self, class_isolated_env):
+    def test_07_episode_labels_evaluate(self, class_isolated_env, class_temp_db):
         """Test: llacie episode-labels evaluate
 
         Expected output: Confusion matrices with accuracy, precision, recall, F1
         Validation: Check that evaluation metrics are present in output
 
         NOTE: Uses class-scoped fixtures to reuse database from test_06
-        This test does NOT need to re-run ANY of the expensive pipeline steps!
         """
         # No setup needed - test_06 already has the full pipeline with imported labels!
 
@@ -285,7 +303,3 @@ class TestQuickstart:
         found_metrics = [m for m in metrics if m in output_lower]
         assert len(found_metrics) == 4, \
             f"Expected evaluation metrics in output, found only {found_metrics}: {result.stdout}"
-
-        # Store result
-        output_file = class_isolated_env / "output_07_episode_labels_evaluate.txt"
-        output_file.write_text(f"STDOUT:\n{result.stdout}\n\nSTDERR:\n{result.stderr}")

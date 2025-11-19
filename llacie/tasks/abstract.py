@@ -25,7 +25,6 @@ class AbstractTask(ABC):
     def output_type(cls): raise NotImplementedError
 
     @classmethod
-    @property
     def desc(cls): return dedent(cls.__doc__)
 
     @classmethod

@@ -83,9 +83,9 @@ jobs:
       postgres:
         image: postgres:15
         env:
-          POSTGRES_USER: postgres
-          POSTGRES_PASSWORD: postgres
-          POSTGRES_DB: llacie_test
+          POSTGRES_USER: llacie
+          POSTGRES_PASSWORD: llacie_password
+          POSTGRES_DB: llacie
         ports:
           - 5432:5432
         options: >-
@@ -116,11 +116,11 @@ jobs:
 
     - name: Set up database
       env:
-        DATABASE_URL: postgresql://postgres:postgres@localhost:5432/llacie_test
-        PGPASSWORD: postgres
+        PG_HOST: localhost
+        PGPASSWORD: llacie_password
       run: |
         # Wait for PostgreSQL to be ready
-        until pg_isready -h localhost -p 5432 -U postgres; do
+        until pg_isready -h localhost -p 5432 -U llacie; do
           echo "Waiting for PostgreSQL..."
           sleep 2
         done
@@ -128,7 +128,7 @@ jobs:
 
     - name: Run fast tests
       env:
-        DATABASE_URL: postgresql://postgres:postgres@localhost:5432/llacie_test
+        PG_HOST: localhost
       run: |
         pytest -m "not slow" -v --tb=short --junit-xml=test-results-${{ matrix.python-version }}.xml
 

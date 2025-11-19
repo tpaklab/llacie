@@ -13,6 +13,7 @@ dependencies = [
     "psycopg2",
     "pandas",
     "openpyxl",
+    "platformdirs",
     "tqdm",
     "sentencepiece",
     "protobuf",

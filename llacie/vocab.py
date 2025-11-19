@@ -1,5 +1,6 @@
 import re
 import pickle
+import platformdirs
 import pandas as pd
 
 from os import path, makedirs
@@ -21,7 +22,8 @@ class Vocab:
         self._ngram_dicts = []
 
         self.from_file = path.join(PACKAGE_DIR, "vocabs", from_file)
-        self.cache_file = path.join(PACKAGE_DIR, "vocabs/.cache", f"{from_file}.pkl")
+        cache_dir = platformdirs.user_cache_dir("llacie", "tpaklab")
+        self.cache_file = path.join(cache_dir, "vocabs", f"{from_file}.pkl")
 
         if self._load_from_cache():
             return

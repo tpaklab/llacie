@@ -108,6 +108,8 @@ make test           # Runs all of the tests
 make test-fast      # Runs only the quicker tests that don't require LLM inference
 ```
 
+We automatically run the test suite for every commit pushed to this repo using [Github Actions](https://github.com/tpaklab/llacie/actions/workflows/ci.yml).
+
 ### Building the package
 
 The package is Python-only and can be built using [flit](https://flit.pypa.io/en/stable/).

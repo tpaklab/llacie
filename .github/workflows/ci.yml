@@ -28,16 +28,16 @@ jobs:
         cache-from: type=gha
         cache-to: type=gha,mode=max
 
-    - name: Start services with docker-compose
+    - name: Start services with docker compose
       run: |
-        docker-compose up -d
+        docker compose up -d
         # Wait for services to be ready
         sleep 10
-        docker-compose ps
+        docker compose ps
 
     - name: Run fast tests in container
       run: |
-        docker-compose exec -T llacie bash -c "
+        docker compose exec -T llacie bash -c "
           echo '=== Installing test dependencies ==='
           pip install -e '.[test]'
 
@@ -47,7 +47,7 @@ jobs:
 
     - name: Clean up
       if: always()
-      run: docker-compose down -v
+      run: docker compose down -v
 
   lint:
     runs-on: ubuntu-latest
@@ -148,19 +148,19 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Start services with docker-compose
+    - name: Start services with docker compose
       run: |
-        docker-compose up -d
+        docker compose up -d
         sleep 10
 
     - name: Run full test suite
       timeout-minutes: 30
       run: |
-        docker-compose exec -T llacie bash -c "
+        docker compose exec -T llacie bash -c "
           pip install -e '.[test]'
           pytest -v --tb=short --timeout=600
         "
 
     - name: Clean up
       if: always()
-      run: docker-compose down -v
+      run: docker compose down -v

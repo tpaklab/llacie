@@ -24,9 +24,11 @@ HUMAN_LABELS_COUNT = 145
 
 def run_cmd(cmd, timeout=None, capture_output=True):
     if timeout is None: timeout = DEFAULT_TIMEOUT
-    kwargs = {}
-    if capture_output: kwargs["text"] = True
-    return subprocess.run(cmd, check=True, capture_output=capture_output, timeout=timeout, **kwargs)
+    kwargs = {"check": True}
+    if capture_output: 
+        kwargs["check"] = False
+        kwargs["text"] = True
+    return subprocess.run(cmd, capture_output=capture_output, timeout=timeout, **kwargs)
 
 
 @contextmanager

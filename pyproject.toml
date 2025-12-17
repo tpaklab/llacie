@@ -1,6 +1,6 @@
 [project]
 name = "llacie"
-version = "1.0.3"
+version = "1.0.4"
 requires-python = ">= 3.11"
 authors = [{ name = "Theodore Pak", email = "theodore.r.pak@gmail.com" }]
 description = "An LLM-based clinical information extraction toolkit."

@@ -29,7 +29,7 @@ class Config(UserDict):
 
         # Set os.environ if we have a HF_TOKEN in a config file, since the `transformers` library
         # will read it from there and not our config files
-        if self.data.get('HF_TOKEN') is not None and os.environ.get('HF_TOKEN') is None:
+        if self.data.get('HF_TOKEN') not in (None, "hf_...") and os.environ.get('HF_TOKEN') is None:
             os.environ['HF_TOKEN'] = self.data.get('HF_TOKEN')
 
         if self.data.get('PG_URI') is None:

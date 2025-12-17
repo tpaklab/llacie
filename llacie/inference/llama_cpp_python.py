@@ -42,10 +42,13 @@ class LlamaCppPython(object):
         self.user_prompt = user_prompt
         self.json_schema = json_schema if json_schema is not None else self.JSON_SCHEMA
 
-        self.tokenizer = AutoTokenizer.from_pretrained(
-            tokenizer_model_path, 
-            local_files_only = tokenizer_model_path.count('/') > 1
-        )
+        if tokenizer_model_path:
+            self.tokenizer = AutoTokenizer.from_pretrained(
+                tokenizer_model_path, 
+                local_files_only = tokenizer_model_path.count('/') > 1
+            )
+        else:
+            self.tokenizer = None
 
         # If provided with the "filename" engine argument, the model_path is a HuggingFace repo ID
         if engine_args.get("filename"):

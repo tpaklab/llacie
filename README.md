@@ -1,6 +1,6 @@
 # LLaCIE
 
-[![PyPI - Version](https://img.shields.io/pypi/v/llacie)](https://pypi.org/project/llacie/) [![PyPI - Python Versions](https://img.shields.io/pypi/pyversions/llacie.svg)](https://pypi.org/project/llacie/) [![CI](https://img.shields.io/github/actions/workflow/status/tpaklab/llacie/ci.yml?branch=main&label=build&logo=GitHub)](https://github.com/tpaklab/llacie/actions/workflows/ci.yml)
+[![PyPI - Version](https://img.shields.io/pypi/v/llacie)](https://pypi.org/project/llacie/) [![PyPI - Python Versions](https://img.shields.io/pypi/pyversions/llacie.svg)](https://pypi.org/project/llacie/) [![CI](https://img.shields.io/github/actions/workflow/status/tpaklab/llacie/ci.yml?branch=main&label=build&logo=GitHub)](https://github.com/tpaklab/llacie/actions/workflows/ci.yml) [![Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.18407225.svg)](https://doi.org/10.5281/zenodo.18407225)
 
 **Large Language (model) Clinical Information Extractor**
 

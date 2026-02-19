@@ -14,7 +14,8 @@ CREATE TABLE IF NOT EXISTS "{{cohort_table}}" (
 );
 
 ALTER TABLE "{{cohort_table}}" 
-    ADD CONSTRAINT "{{cohort_table}}_FK_episode_id_fk" 
+    DROP CONSTRAINT IF EXISTS "{{cohort_table}}_FK_episode_id_fk",
+    ADD CONSTRAINT  "{{cohort_table}}_FK_episode_id_fk" 
     FOREIGN KEY ("FK_episode_id")
     REFERENCES "{{episode_table}}"("id")
     ON DELETE RESTRICT

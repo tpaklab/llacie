@@ -82,7 +82,7 @@ class LlacieDatabase(object):
         with open(sql_file) as f:
             sql = self.interpolate_config_vars(f.read())
             sql_chunks = re.split(r'^\s*CREATE TABLE\s+', sql, flags = re.MULTILINE)
-            
+            existing_tables = []
             tbl_chunks = OrderedDict()
             llacie_tables = []
             for sql_chunk in sql_chunks:
@@ -94,8 +94,11 @@ class LlacieDatabase(object):
                 table_name = match.group(2).strip('"')
                 tbl_chunks[table_name] = f"CREATE TABLE {sql_chunk}"
                 if match.group(1) is None: llacie_tables.append(table_name)
+                if inspect.has_table(table_name): # This checks if all tables exist, does not affect code but helps prevent "Creating table..." when it is not needed for missing-tables
+                    existing_tables.append(table_name)
+                    
+            tables_to_drop = [tbl for tbl in llacie_tables if inspect.has_table(tbl)] # This prevents cohorts/episodes tables from being dropped. 
 
-            existing_tables = [tbl for tbl in llacie_tables if inspect.has_table(tbl)]
             if not missing_tables_only and len(existing_tables) > 0:
                 if not overwrite:
                     raise UsageError(f"Tables {', '.join(existing_tables)} already exist. If "
@@ -103,7 +106,7 @@ class LlacieDatabase(object):
                         "If you only want to add missing tables, use --missing-tables-only.")
                 else:
                     # Existing tables are deleted in reverse order of creation
-                    for existing_table in reversed(existing_tables):
+                    for existing_table in reversed(tables_to_drop):
                         echo_info(f"Dropping existing table: {existing_table}")
                         self.conn.execute(text(f"DROP TABLE \"{existing_table}\""))
 

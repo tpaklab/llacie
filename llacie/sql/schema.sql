@@ -8,18 +8,13 @@ CREATE TABLE IF NOT EXISTS "{{episode_table}}" (
 
 CREATE TABLE IF NOT EXISTS "{{cohort_table}}" (
     "id"                        BIGSERIAL PRIMARY KEY,
-    "FK_episode_id"             BIGINT NOT NULL,
+    "FK_episode_id"             BIGINT NOT NULL
+    REFERENCES "{{episode_table}}"("id")
+    ON DELETE RESTRICT ON UPDATE RESTRICT,
     "infectionCriteria"         BOOLEAN NOT NULL DEFAULT TRUE,
     "excl_ST0_combined"         BOOLEAN NOT NULL DEFAULT FALSE
 );
 
-ALTER TABLE "{{cohort_table}}" 
-    DROP CONSTRAINT IF EXISTS "{{cohort_table}}_FK_episode_id_fk",
-    ADD CONSTRAINT  "{{cohort_table}}_FK_episode_id_fk" 
-    FOREIGN KEY ("FK_episode_id")
-    REFERENCES "{{episode_table}}"("id")
-    ON DELETE RESTRICT
-    ON UPDATE RESTRICT;
 
 CREATE INDEX IF NOT EXISTS "{{cohort_table}}_FK_episode_id_key"
     ON "{{cohort_table}}" ("FK_episode_id");

@@ -82,7 +82,7 @@ class LlacieDatabase(object):
         with open(sql_file) as f:
             sql = self.interpolate_config_vars(f.read())
             sql_chunks = re.split(r'^\s*CREATE TABLE\s+', sql, flags = re.MULTILINE)
-            
+            existing_tables = []
             tbl_chunks = OrderedDict()
             llacie_tables = []
             for sql_chunk in sql_chunks:
@@ -90,12 +90,12 @@ class LlacieDatabase(object):
                 match = re.match(r'(IF +NOT +EXISTS +)?([a-zA-Z0-9_"]+) +[(]', sql_chunk)
                 if match is None: 
                     raise ConfigError("Invalid schema in sql/schema.sql")
-
                 table_name = match.group(2).strip('"')
                 tbl_chunks[table_name] = f"CREATE TABLE {sql_chunk}"
                 if match.group(1) is None: llacie_tables.append(table_name)
-
-            existing_tables = [tbl for tbl in llacie_tables if inspect.has_table(tbl)]
+                if inspect.has_table(table_name):   # Appends all tables if they exist, not relying on llacie_tables
+                    existing_tables.append(table_name) 
+            tables_to_drop = [tbl for tbl in llacie_tables if inspect.has_table(tbl)] # Excludes episodes and cohorts tables
             if not missing_tables_only and len(existing_tables) > 0:
                 if not overwrite:
                     raise UsageError(f"Tables {', '.join(existing_tables)} already exist. If "
@@ -103,7 +103,7 @@ class LlacieDatabase(object):
                         "If you only want to add missing tables, use --missing-tables-only.")
                 else:
                     # Existing tables are deleted in reverse order of creation
-                    for existing_table in reversed(existing_tables):
+                    for existing_table in reversed(tables_to_drop):
                         echo_info(f"Dropping existing table: {existing_table}")
                         self.conn.execute(text(f"DROP TABLE \"{existing_table}\""))
 

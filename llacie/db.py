@@ -94,12 +94,12 @@ class LlacieDatabase(object):
                 table_name = match.group(2).strip('"')
                 tbl_chunks[table_name] = f"CREATE TABLE {sql_chunk}"
                 if match.group(1) is None: llacie_tables.append(table_name)
-                if inspect.has_table(table_name): # This checks if all tables exist, does not affect code but helps prevent "Creating table..." when it is not needed for missing-tables
+                if inspect.has_table(table_name):
                     existing_tables.append(table_name)
-                    
-            tables_to_drop = [tbl for tbl in llacie_tables if inspect.has_table(tbl)] # This prevents cohorts/episodes tables from being dropped. 
 
-            if not missing_tables_only and len(existing_tables) > 0:
+            # Existing tables other than cohorts and episodes are dropped if overwrite=True.       
+            tables_to_drop = [tbl for tbl in llacie_tables if inspect.has_table(tbl)]
+            if not missing_tables_only and len(tables_to_drop) > 0:
                 if not overwrite:
                     raise UsageError(f"Tables {', '.join(existing_tables)} already exist. If "
                         "you want to drop and create new blank tables, use --overwrite. "

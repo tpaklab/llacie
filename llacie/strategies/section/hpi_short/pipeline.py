@@ -1,3 +1,12 @@
+# All the medspacy categories for reference
+# {'problem_list', 'other', 'neurological', 'history_of_present_illness', 'allergies', 
+# 'chief_complaint', 'siganture', 'medications', 'diagnoses', 'social_history', 'labs_and_studies', 'patient_education',
+#  'observation_and_plan', 'patient_instructions', 'imaging', 'hospital_course',
+# # 'reason_for_examination', 'signature', 'addendum', 'comments', 'family_history', 'allergy',
+#  'past_medical_history', 'physical_exam'}
+
+
+
 import re
 from tqdm import tqdm
 import medspacy
@@ -11,36 +20,6 @@ def _build_nlp():
     nlp = medspacy.load(enable=["medspacy_pyrush"])
     nlp.add_pipe("medspacy_sectionizer")
     sectionizer = nlp.get_pipe("medspacy_sectionizer")
-    # sectionizer.add([
-    #     # HPI start markers
-    #     SectionRule("HPI", "hpi_short", pattern=(
-    #         r"\b(HPI"
-    #         r"|(History|Central[ ]Elements)[ ]of[ ](the[ ])?(Present(ing)?[ ]Illness|Traumatic[ ]Injury)"
-    #         r"|Brief[ ]summary)\b"
-    #         r"(:|\s+Comments:\s*|\s+HPI\b|\s+History[ ]of[ ](the[ ])?Present[ ]Illness|\s+Chief[ ]Complaint:[^\n]*)?"
-    #     )),
-
-    #     # End-of-HPI markers — terminate the HPI body when the next section is detected
-    #     SectionRule("Review of Systems",   "ros",         pattern=r"\b(Review[ ]of[ ]Systems|ROS)\b"),
-    #     SectionRule("Past Medical History","pmh",         pattern=r"\b(Past[ ](Medical[ ])?(History|Hx)|PMH)\b"),
-    #     SectionRule("Medical History",     "pmh",         pattern=r"\bMedical([/\s]+Surgical|[ ]+(and|&)[ ]+Surgical)?[ ](History|Hx)\b"),
-    #     SectionRule("ED Course",           "ed_course",   pattern=r"\b(E[DWR]|Emergency[ ](Department|Room))[ ]Course\b"),
-    #     SectionRule("Vitals",              "vitals",      pattern=r"\b(ED[ ]Triage[ ])?(Vitals|Vital[ ]Signs)\b"),
-    #     SectionRule("Assessment and Plan", "assessment",  pattern=r"\b((Impression|Assessment)[ ]and[ ])?Plan\b|\bA[/&]P\b"),
-    #     SectionRule("Physical Exam",       "exam",        pattern=r"\b(Relevant|Pertinent[ ])?(Physical[ ])?Exam\b"),
-    #     SectionRule("Medications",         "medications", pattern=r"\b(Relevant|Pertinent[ ])?(Home[ ])?Medications\b"),
-    #     SectionRule("Data reviewed",       "data_review", pattern=r"\bData[ ]reviewed\b"),
-    #     SectionRule("Current Assessment",  "assessment",  pattern=r"\bCurrent[ ]Assessment\b"),
-    #     SectionRule("Historical features", "historical",  pattern=r"\bHistorical[ ]features\b"),
-    #     SectionRule("EDD",                 "edd",         pattern=r"\b(Estimated[ ]Date[ ]of[ ]Delivery|EDD)\b"),
-    #     SectionRule("History provided by", "history_src", pattern=r"\bHistory[ ]provided[ ]by\b"),
-    #     SectionRule("EMR Reviewed",        "emr_review",  pattern=r"\bElectronic[ ]Medical[ ]Records[ ]Reviewed\b"),
-    #     SectionRule("In the ED",           "ed_arrival",  pattern=r"\b(In|On[ ]arrival[ ](to|at))[ ](the[ ])?(\w+[ ])?(E[DWR]|Emergency[ ](Room|Department))\b"),
-    #     SectionRule("Patient Active Problem List", "problem_list",  pattern=r"\bPatient[ ]Active[ ]Problem[ ]List\b"),
-    #     SectionRule("Focused COVID History",      "covid_history", pattern=r"\bFocused[ ]COVID[ ]History\b"),
-    #     SectionRule("Quality Bundle",             "quality_bundle",pattern=r"\bQuality[ ]Bundle\b"),
-    # ])
-
     return nlp
 
 
@@ -82,14 +61,11 @@ class ShortHPISectionSpacyStrategy(AbstractStrategy):
         print(doc)
         for sec in doc._.sections:
             print(sec)
-            if sec.category in ("hpi_short", "history_of_present_illness"):
-                print('Inside HPI category')
+            if sec.category in ("history_of_present_illness"):
                 hpi_text = doc[sec.body_start:sec.body_end].text
                 print(f"HPI section [{sec.body_start}:{sec.body_end}]:  {hpi_text[:80]!r}")
-                print('Extracted',hpi_text.strip(":?-_ \xa0\n"))
                 return hpi_text.strip(":?-_ \xa0\n")
-                
-
+                e
         return None
 
     def run(self, all_note_ids, batch_size=None):
@@ -118,3 +94,4 @@ class ShortHPISectionSpacyStrategy(AbstractStrategy):
 
 
         echo_info(f"Finished! ({fail_count} failed/{len(all_note_ids)} total)")
+

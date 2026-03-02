@@ -25,3 +25,8 @@ build/
 docker-compose.override.yml
 
 debug/
+bin
+include
+lib
+share
+/.*

@@ -1,0 +1,2504 @@
+Example Hospitalist Admission History and Physical
+03/15/3086 09:42
+
+Patient: Dorothy A. Chen
+DOB: 08/22/3018 (68 y/o)
+MRN: 20193847
+PCP: Dr. Samuel J. Peters, MD
+
+Chief Complaint: Fever and wound drainage from right lower extremity ulcer
+
+History of Present Illness:
+68yo F with h/o DM2 (A1c 9.8%), HTN, CKD-3 (baseline Cr 1.5), and peripheral vascular disease p/w 3-day hx of fever up to 39.4°C, worsening erythema, and purulent drainage from a chronic right leg ulcer. Patient reports the ulcer has been present for ~6 weeks, initially managed with home wound care. Over the past 3 days she noted erythema extending ~5 cm beyond wound margins, thick purulent discharge with malodor, and chills. Her daughter noted new-onset confusion this morning, prompting ED presentation. She denies chest pain, dyspnea, or abdominal pain. She completed a 5-day oral doxycycline course 3 weeks ago for a separate superficial wound infection. No recent hospitalizations or travel. No sick contacts.
+
+Past Medical History:
+• Type 2 Diabetes Mellitus – A1c 9.8%, on insulin glargine and lispro
+• Hypertension – on amlodipine and lisinopril
+• Chronic Kidney Disease stage 3 – baseline Cr 1.5 mg/dL
+• Peripheral Vascular Disease – on aspirin 81 mg daily
+• Chronic venous insufficiency – bilateral lower extremity
+• Hyperlipidemia – on atorvastatin 40 mg
+
+Past Surgical History:
+Procedure                  Laterality     Date
+• Arterial bypass graft    Right leg      06/10/3078
+• Appendectomy             —              04/3040
+
+Family History:
+Father – DM2, died CAD age 72
+Mother – HTN, CKD, alive age 90
+Son – healthy
+
+Social History:
+Marital Status: Widowed, lives with daughter
+Employment: Retired schoolteacher
+Tobacco: Former smoker, quit 3072 (20 pack-year history)
+Alcohol: Denies
+Illicit drugs: Denies
+Living situation: Single-story home with daughter
+
+Review of Systems:
+Constitutional: +fever, +chills, +rigors, +new confusion per family; -weight loss, -night sweats
+HEENT: -headache, -vision changes, -sore throat
+Cardiovascular: -chest pain, -palpitations
+Respiratory: -cough, -dyspnea, -hemoptysis
+GI: -N/V, -diarrhea, -abdominal pain
+GU: -dysuria, -frequency, -hematuria
+Musculoskeletal: +right leg pain at wound site
+Skin: +erythema, +warmth, +purulent drainage right leg ulcer
+Neurologic: +new confusion (per family); -syncope, -seizure
+
+Prior to Admission Medications:
+Medication               Sig
+insulin glargine         24 U SC qHS
+insulin lispro           sliding scale AC
+amlodipine               10 mg PO daily
+lisinopril               10 mg PO daily
+atorvastatin             40 mg PO nightly
+aspirin                  81 mg PO daily
+furosemide               20 mg PO daily
+
+Allergies: Penicillin – rash (hives)
+
+Physical Examination:
+Temperature: 39.1 °C (102.4 °F)
+Heart Rate: 118 bpm (60–100)
+Respiratory Rate: 20 /min (12–20)
+Blood Pressure: 102/64 mmHg (110–140/70–85)
+SpO₂: 95% RA
+
+General: Elderly female, ill-appearing, mildly confused but arousable, in moderate distress.
+HEENT: Normocephalic, atraumatic, mucous membranes dry, oropharynx without exudate.
+Neck: Supple, no JVD, no meningismus.
+Cardiovascular: Tachycardic, regular rhythm, S1 S2 normal, no murmurs.
+Respiratory: Clear to auscultation bilaterally, no wheezes or crackles.
+Abdomen: Soft, non-tender, bowel sounds normoactive.
+Extremities: Right lower leg – 3×4 cm ulcer over medial malleolus with 5 cm surrounding erythema, induration, warmth, and purulent drainage. Left leg 1+ pitting edema.
+Skin: Warm, diaphoretic. No petechiae or diffuse rashes.
+Neurologic: Oriented to person only; follows simple commands.
+
+Labs (drawn 03/15/3086):
+CBC: WBC 18.4 K/µL (neut 91%), Hgb 9.8 g/dL, Plt 188 K/µL
+BMP: Na 132 mmol/L, K 4.2 mmol/L, Cl 98 mmol/L, CO₂ 20 mmol/L, BUN 38 mg/dL, Cr 2.1 mg/dL (baseline 1.5), Glucose 318 mg/dL
+Lactate: 3.2 mmol/L (elevated)
+CRP: 22.4 mg/dL
+Procalcitonin: 2.8 ng/mL
+Blood cultures: x2 drawn, pending
+Wound culture: sent; Gram stain – gram-positive cocci in clusters
+
+Imaging:
+Right leg X-ray: No osseous destruction or periosteal reaction. Soft tissue swelling noted.
+Right lower extremity Doppler US: Patent arterial and venous flow. No discrete abscess collection.
+
+Assessment and Plan:
+68yo F with DM2, CKD-3, and PVD presenting with sepsis (qSOFA 2, lactate 3.2) from a chronic right lower extremity wound with Gram stain showing gram-positive cocci in clusters, consistent with MRSA bacteremia. Penicillin allergy (hives) on record – beta-lactams held.
+
+1. Sepsis / Presumed MRSA Bacteremia:
+   • Sepsis protocol initiated: IV fluid resuscitation NS 30 mL/kg bolus.
+   • Start IV vancomycin 25 mg/kg loading dose, then 15 mg/kg q12h adjusted for CrCl 28 mL/min; target AUC/MIC 400–600 per pharmacy.
+   • Hold all beta-lactams given penicillin allergy (hives).
+   • Repeat blood cultures q48h until 2 consecutive sets negative.
+   • Adjust therapy based on final wound and blood culture sensitivities.
+   • Anticipate minimum 4-week IV vancomycin course if bacteremia confirmed.
+
+2. Wound / Osteomyelitis Workup:
+   • Wound care consult for right leg ulcer.
+   • MRI right lower extremity to evaluate for osteomyelitis.
+   • Vascular surgery consult for wound assessment and revascularization planning.
+
+3. Diabetes:
+   • Hold oral agents; insulin drip protocol targeting glucose 140–180 mg/dL.
+   • Endocrinology consult for inpatient glucose management.
+
+4. Renal:
+   • Monitor Cr q12h; vancomycin AUC adjusted by pharmacy.
+   • Avoid nephrotoxic agents.
+
+5. Altered Mental Status:
+   • Presumed septic encephalopathy; expect improvement with source control.
+   • Neurologic checks q4h.
+
+6. Labs q24h: CBC, BMP, CRP, blood cultures, vancomycin AUC.
+
+7. Disposition:
+   • Admit to Medicine with Infectious Disease consult.
+   • DVT prophylaxis: enoxaparin 30 mg SC q12h (renally adjusted).
+   • Code Status: Full Code per family.
+
+Prepared by:
+Dr. Angela V. Torres, MD
+Hospitalist – Medicine Service
+Pager # 54391
+
+######################################
+
+Example Hospitalist Admission History and Physical
+11/04/3079 14:15
+
+Patient: Richard O'Brien
+DOB: 05/30/3007 (72 y/o)
+MRN: 30482910
+PCP: Dr. Fatima N. Hassan, MD
+
+Chief Complaint: Fever, productive cough, and shortness of breath
+
+History of Present Illness:
+72yo M with h/o COPD (GOLD II, on tiotropium and albuterol PRN), HTN, and remote 40 pack-year smoking history p/w 4-day hx of fever up to 38.9°C, productive cough with yellow-green sputum, progressive dyspnea, and pleuritic right-sided chest pain. He reports symptoms began with a 1-day prodrome of myalgias and chills. He saw his PCP 2 days ago and was prescribed oral amoxicillin, but his symptoms have worsened — now dyspneic with minimal exertion and using accessory muscles to breathe. He denies hemoptysis, sore throat, sick contacts, or recent travel. No recent hospitalizations. He received influenza vaccine this season; pneumococcal vaccine status unknown. Lives alone; daughter noticed increased confusion over the phone today.
+
+Past Medical History:
+• COPD – GOLD II, FEV1 62% predicted; on tiotropium and albuterol PRN
+• Hypertension – on lisinopril 10 mg daily
+• Hyperlipidemia – on simvastatin 20 mg nightly
+• Benign prostatic hyperplasia – on tamsulosin 0.4 mg daily
+• Former smoker – quit 3065 (40 pack-year history)
+
+Past Surgical History:
+Procedure               Laterality     Date
+• Inguinal hernia repair  Right        08/3050
+
+Family History:
+Father – COPD, died lung cancer age 74
+Mother – HTN, died stroke age 81
+Brother – alive, DM2
+
+Social History:
+Marital Status: Widowed, lives alone
+Employment: Retired electrician
+Tobacco: Former smoker, quit 3065 (40 pack-years)
+Alcohol: 1–2 beers/week
+Illicit drugs: Denies
+Living situation: Second-floor apartment, no elevator
+
+Review of Systems:
+Constitutional: +fever, +chills, +myalgias, +fatigue; -weight loss, -night sweats
+HEENT: -headache, -sinus pain, -sore throat
+Cardiovascular: -chest pain (except pleuritic), -palpitations, -edema
+Respiratory: +productive cough (yellow-green), +dyspnea, +pleuritic right chest pain; -hemoptysis, -wheezing
+GI: -N/V, -diarrhea, -abdominal pain
+GU: -dysuria, -frequency
+Neurologic: +mild confusion per daughter; -syncope, -focal deficits
+
+Prior to Admission Medications:
+Medication               Sig
+tiotropium               18 mcg inhaled daily
+albuterol                2 puffs inhaled q4–6h PRN
+lisinopril               10 mg PO daily
+simvastatin              20 mg PO nightly
+tamsulosin               0.4 mg PO daily
+aspirin                  81 mg PO daily
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 38.7 °C (101.7 °F)
+Heart Rate: 106 bpm (60–100)
+Respiratory Rate: 24 /min (12–20)
+Blood Pressure: 136/82 mmHg (110–140/70–85)
+SpO₂: 90% RA → 95% on 2L NC
+
+General: Elderly male, ill-appearing, tachypneic, using accessory muscles, in moderate respiratory distress.
+HEENT: Normocephalic, atraumatic; oropharynx without exudate; no sinus tenderness.
+Neck: Supple, no JVD, no lymphadenopathy.
+Cardiovascular: Tachycardic, regular rhythm, S1 S2 normal, no murmurs.
+Respiratory: Decreased breath sounds right lower lobe with dullness to percussion; bronchial breath sounds and egophony present right base; expiratory wheezes bilateral.
+Abdomen: Soft, non-tender, bowel sounds normoactive.
+Extremities: No edema, no cyanosis.
+Skin: Warm, diaphoretic; no rashes.
+Neurologic: Alert but mildly inattentive; oriented to person and place only.
+
+Labs (drawn 11/04/3079):
+CBC: WBC 16.2 K/µL (neut 88%), Hgb 13.1 g/dL, Plt 244 K/µL
+BMP: Na 134 mmol/L, K 3.8 mmol/L, Cl 98 mmol/L, CO₂ 24 mmol/L, BUN 22 mg/dL, Cr 1.1 mg/dL, Glucose 142 mg/dL
+CRP: 18.6 mg/dL
+Procalcitonin: 1.2 ng/mL
+ABG (2L NC): pH 7.44, pCO₂ 38, pO₂ 72, HCO₃ 24
+Blood cultures: x2 drawn, pending
+Sputum: sent for Gram stain and culture
+
+Imaging:
+Chest X-ray (11/04/3079): Right lower lobe consolidation with air bronchograms. No pleural effusion. Mild hyperinflation bilaterally consistent with COPD.
+
+Assessment and Plan:
+72yo M with COPD presenting with community-acquired pneumonia (CAP), right lower lobe — PORT/PSI Class IV (score 107), warranting inpatient management. Failed outpatient amoxicillin therapy.
+
+1. Community-Acquired Pneumonia:
+   • Start IV ceftriaxone 1 g q24h for gram-negative and typical organism coverage.
+   • Add azithromycin 500 mg IV q24h for atypical organism coverage (Legionella, Mycoplasma, Chlamydophila).
+   • Standard CAP regimen: ceftriaxone + azithromycin; plan for 5-day total course.
+   • Step down to oral azithromycin 500 mg daily when clinical improvement achieved (afebrile ×24h, tolerating PO, SpO₂ ≥92% on RA).
+   • Urine Legionella antigen and Streptococcus pneumoniae antigen sent.
+   • Sputum cultures pending; adjust therapy if resistant organism identified.
+
+2. Hypoxia / COPD:
+   • Supplemental O₂ via nasal cannula, titrate to SpO₂ 88–92% (COPD target).
+   • Scheduled albuterol nebulization q4h + ipratropium q6h.
+   • Methylprednisolone 40 mg IV q8h × 5 days for COPD exacerbation component.
+
+3. Confusion:
+   • Presumed hypoxic/febrile encephalopathy; monitor after oxygenation improves.
+   • Delirium precautions: reorientation, early mobilization, avoid sedatives.
+
+4. Labs q24h: CBC, BMP, CRP; blood and sputum cultures as resulted.
+
+5. Disposition:
+   • Admit to Medicine floor with telemetry.
+   • DVT prophylaxis: enoxaparin 40 mg SC daily.
+   • Code Status: Full Code (presumed).
+
+Prepared by:
+Dr. Marcus L. Osei, MD
+Hospitalist – Medicine Service
+Pager # 67204
+
+######################################
+
+Example Hospitalist Admission History and Physical
+07/22/3082 03:51
+
+Patient: Linda S. Park
+DOB: 11/09/3027 (55 y/o)
+MRN: 48291037
+PCP: Dr. Priya V. Nair, MD
+
+Chief Complaint: Fever, right flank pain, and altered mental status
+
+History of Present Illness:
+55yo F with h/o recurrent UTIs (≥3/year), DM2 (A1c 8.4%), and CKD-2 (baseline Cr 1.2) p/w 2-day hx of high fevers up to 40.1°C, right flank pain, nausea, and acute confusion noted by her husband this morning. She reports 3 days of urinary urgency, frequency, and foul-smelling urine prior to fever onset. She was seen at urgent care 5 days ago, prescribed a 3-day course of trimethoprim-sulfamethoxazole; she completed the course but symptoms persisted and worsened. She has a known history of ESBL-producing E. coli UTIs treated with ertapenem on two prior admissions (3079, 3081). She denies chest pain, cough, or abdominal pain outside the flank. No recent travel, no sick contacts, no new sexual partners.
+
+Past Medical History:
+• Recurrent UTIs – known ESBL E. coli (prior isolates 3079, 3081)
+• Type 2 Diabetes Mellitus – A1c 8.4%, on metformin and sitagliptin
+• Chronic Kidney Disease stage 2 – baseline Cr 1.2 mg/dL
+• Hypertension – on amlodipine 5 mg daily
+• Hypothyroidism – on levothyroxine 75 mcg daily
+
+Past Surgical History:
+Procedure                  Laterality     Date
+• Cesarean section         —              04/3052
+• Laparoscopic cholecystectomy  —        09/3063
+
+Family History:
+Father – DM2, HTN, alive age 82
+Mother – breast cancer, died age 68
+Sister – healthy
+
+Social History:
+Marital Status: Married, two children (adults)
+Employment: High school librarian
+Tobacco: Never smoker
+Alcohol: Rare, socially
+Illicit drugs: Denies
+Living situation: Lives with husband in single-family home
+
+Review of Systems:
+Constitutional: +fever, +chills, +rigors, +fatigue; -weight loss
+HEENT: -headache, -vision changes, -neck stiffness
+Cardiovascular: -chest pain, -palpitations, -edema
+Respiratory: -cough, -dyspnea
+GI: +nausea, +vomiting ×2; -diarrhea, -abdominal pain (except flank)
+GU: +dysuria, +urgency, +frequency, +foul-smelling urine, +right flank pain; -hematuria
+Neurologic: +acute confusion per husband; -syncope, -seizure
+
+Prior to Admission Medications:
+Medication               Sig
+metformin                1000 mg PO BID
+sitagliptin              100 mg PO daily
+amlodipine               5 mg PO daily
+levothyroxine            75 mcg PO qAM (on empty stomach)
+aspirin                  81 mg PO daily
+
+Allergies: Sulfa drugs – rash (trimethoprim-sulfamethoxazole); Fluoroquinolones – tendinopathy (ciprofloxacin)
+
+Physical Examination:
+Temperature: 39.8 °C (103.6 °F)
+Heart Rate: 124 bpm (60–100)
+Respiratory Rate: 22 /min (12–20)
+Blood Pressure: 94/58 mmHg (110–140/70–85)
+SpO₂: 97% RA
+
+General: Middle-aged female, acutely ill, diaphoretic, disoriented to time and place.
+HEENT: Normocephalic, atraumatic; mucous membranes dry; oropharynx clear.
+Neck: Supple, no JVD, no meningismus.
+Cardiovascular: Tachycardic, regular rhythm, S1 S2 normal, no murmurs.
+Respiratory: Clear to auscultation bilaterally.
+Abdomen: Soft, moderate right costovertebral angle (CVA) tenderness; no rebound or guarding; bowel sounds normoactive.
+Extremities: No edema; capillary refill 3 seconds.
+Skin: Warm, flushed, diaphoretic. No rashes.
+Neurologic: Disoriented to time; follows commands inconsistently.
+
+Labs (drawn 07/22/3082):
+CBC: WBC 21.4 K/µL (neut 94%, bands 8%), Hgb 11.8 g/dL, Plt 162 K/µL
+BMP: Na 130 mmol/L, K 3.6 mmol/L, Cl 96 mmol/L, CO₂ 18 mmol/L, BUN 32 mg/dL, Cr 1.9 mg/dL (baseline 1.2), Glucose 284 mg/dL
+Lactate: 3.8 mmol/L (elevated)
+CRP: 28.1 mg/dL
+Procalcitonin: 4.6 ng/mL
+Urinalysis: Leukocyte esterase 3+, nitrite +, WBC >100/hpf, bacteria many
+Blood cultures: x2 drawn, pending
+Urine culture: sent — prior isolates ESBL E. coli (resistant to TMP-SMX, ciprofloxacin, cefazolin; sensitive to ertapenem, meropenem)
+
+Imaging:
+CT abdomen/pelvis with contrast (07/22/3082): Right-sided perinephric stranding consistent with pyelonephritis. No abscess or hydronephrosis. No stones.
+
+Assessment and Plan:
+55yo F with h/o ESBL E. coli UTIs, DM2, and CKD-2 presenting with urosepsis (qSOFA 3, lactate 3.8) — allergy to TMP-SMX and fluoroquinolones, prior ESBL isolates resistant to first-line oral agents.
+
+1. Urosepsis / ESBL Pyelonephritis:
+   • Sepsis protocol: IV fluid resuscitation NS 30 mL/kg bolus; reassess q30 min.
+   • Avoid TMP-SMX (allergy) and fluoroquinolones (allergy/resistance).
+   • Do NOT use ceftriaxone or cefepime given confirmed ESBL phenotype — risk of treatment failure.
+   • Start IV ertapenem 1 g q24h — drug of choice based on prior susceptibility pattern and ESBL history.
+   • Plan for 14-day total course; reassess for step-down based on final urine/blood culture sensitivities.
+   • Repeat blood cultures q48h until clearance confirmed.
+
+2. Altered Mental Status:
+   • Presumed septic encephalopathy; monitor for improvement with source control.
+   • Head CT deferred unless no improvement in 24h.
+
+3. Diabetes:
+   • Hold metformin (acute illness, elevated Cr); sliding scale insulin AC.
+   • Monitor glucose q4–6h; target 140–180 mg/dL.
+
+4. Renal:
+   • Monitor Cr q12h; ertapenem dose appropriate for CrCl >30 mL/min — reassess if worsening.
+   • IV fluids with caution given CKD.
+
+5. Labs q24h: CBC, BMP, CRP, urine and blood cultures as resulted.
+
+6. Disposition:
+   • Admit to Medicine with ID consult given ESBL history.
+   • DVT prophylaxis: enoxaparin 40 mg SC daily.
+   • Code Status: Full Code (confirmed with husband).
+
+Prepared by:
+Dr. Jonathan B. Chu, MD
+Hospitalist – Medicine Service
+Pager # 72849
+
+######################################
+
+Example Hospitalist Admission History and Physical
+09/08/3085 18:30
+
+Patient: James T. Reyes
+DOB: 03/17/3022 (63 y/o)
+MRN: 55039182
+PCP: Dr. Angela R. Cross, MD
+
+Chief Complaint: Right foot wound with fever and worsening redness
+
+History of Present Illness:
+63yo M with h/o DM2 (A1c 11.2%), HTN, peripheral arterial disease (PAD), and CKD-3 (baseline Cr 1.7) p/w 5-day hx of progressively worsening right foot wound with expanding erythema, purulent drainage, and fever up to 38.8°C. He reports a plantar ulcer that has been present for ~3 months, treated with weekly wound clinic visits and silver-impregnated dressings. Over the past week he noticed the wound "opened up" and began draining thick green material. He developed fever and chills 5 days ago but continued working until today when he could no longer bear weight on the right foot. He denies chest pain, dyspnea, or abdominal symptoms. No nausea or vomiting. Last HbA1c was 11.2% at clinic visit 6 weeks ago. He has been non-compliant with insulin, reports checking blood sugars "maybe twice a week."
+
+Past Medical History:
+• Type 2 Diabetes Mellitus – A1c 11.2%, poor compliance, on insulin and glipizide
+• Hypertension – on lisinopril and amlodipine
+• Peripheral Arterial Disease – ABI 0.62 right, 0.71 left
+• Chronic Kidney Disease stage 3 – baseline Cr 1.7 mg/dL
+• Hyperlipidemia – on atorvastatin 40 mg
+• Prior right foot osteomyelitis – 3080, treated with 6-week IV antibiotics
+
+Past Surgical History:
+Procedure                    Laterality     Date
+• Right 2nd toe amputation   Right          02/3080
+• Debridement right foot     Right          03/3080
+
+Family History:
+Father – DM2, BKA, died age 69
+Mother – HTN, alive age 84
+Brother – DM2, alive
+
+Social History:
+Marital Status: Married, lives with wife
+Employment: Plumber, now light duty
+Tobacco: Former smoker, quit 3060 (30 pack-years)
+Alcohol: Social, 3–4 beers/week
+Illicit drugs: Denies
+Living situation: Single-family home with wife and adult son
+
+Review of Systems:
+Constitutional: +fever, +chills, +fatigue; -weight loss, -night sweats
+HEENT: -headache, -vision changes
+Cardiovascular: -chest pain, -palpitations, -new edema
+Respiratory: -cough, -dyspnea
+GI: -N/V, -diarrhea, -abdominal pain
+GU: -dysuria; nocturia ×3 (baseline)
+Musculoskeletal: +right foot pain, unable to bear weight
+Skin: +right foot wound with purulent drainage, +expanding erythema
+Neurologic: -confusion, -syncope
+
+Prior to Admission Medications:
+Medication               Sig
+insulin glargine         30 U SC qHS
+glipizide                10 mg PO BID
+lisinopril               20 mg PO daily
+amlodipine               10 mg PO daily
+atorvastatin             40 mg PO nightly
+aspirin                  81 mg PO daily
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 38.6 °C (101.5 °F)
+Heart Rate: 108 bpm (60–100)
+Respiratory Rate: 18 /min (12–20)
+Blood Pressure: 144/88 mmHg (110–140/70–85)
+SpO₂: 97% RA
+
+General: Middle-aged male, ill-appearing, in mild-to-moderate distress due to right foot pain.
+HEENT: Normocephalic, atraumatic; mucous membranes moist; oropharynx clear.
+Neck: Supple, no JVD, no lymphadenopathy.
+Cardiovascular: Tachycardic, regular rhythm, S1 S2 normal, no murmurs.
+Respiratory: Clear to auscultation bilaterally.
+Abdomen: Soft, non-tender, bowel sounds normoactive.
+Extremities: Right foot — 2.5×3 cm plantar ulcer with visible tendon at base, surrounding 7 cm erythema with induration, warmth, and thick purulent drainage; no crepitus; probe-to-bone test positive. Diminished dorsal pedal and posterior tibial pulses bilaterally. Left foot intact.
+Skin: No proximal tracking erythema.
+Neurologic: Decreased monofilament sensation bilateral feet; otherwise non-focal.
+
+Labs (drawn 09/08/3085):
+CBC: WBC 17.6 K/µL (neut 89%), Hgb 10.4 g/dL, Plt 318 K/µL
+BMP: Na 136 mmol/L, K 4.8 mmol/L, Cl 100 mmol/L, CO₂ 21 mmol/L, BUN 42 mg/dL, Cr 2.4 mg/dL (baseline 1.7), Glucose 396 mg/dL
+ESR: 88 mm/hr
+CRP: 19.4 mg/dL
+Blood cultures: x2 drawn, pending
+Wound cultures: deep tissue specimen sent (Gram stain – gram-positive cocci in clusters and gram-negative rods)
+
+Imaging:
+Right foot X-ray (09/08/3085): Cortical irregularity and periosteal reaction at base of right 1st metatarsal consistent with osteomyelitis. Soft tissue swelling with gas in soft tissue planes.
+Right lower extremity Doppler: Triphasic waveforms femoral and popliteal; monophasic at dorsalis pedis, consistent with distal PAD.
+
+Assessment and Plan:
+63yo M with DM2, PAD, and prior osteomyelitis presenting with infected diabetic foot ulcer with probe-to-bone positive test, radiographic evidence of osteomyelitis, and polymicrobial wound flora (gram-positive cocci + gram-negative rods) with early sepsis physiology.
+
+1. Diabetic Foot Infection / Osteomyelitis:
+   • Broad-spectrum empiric coverage warranted given polymicrobial gram stain and prior osteomyelitis.
+   • Start IV vancomycin 15 mg/kg q8h (target AUC/MIC 400–600) for MRSA coverage.
+   • Add IV piperacillin-tazobactam 3.375 g q6h for gram-negative and anaerobic coverage.
+   • Deep tissue culture results pending — plan to de-escalate therapy at 48–72h once sensitivities available.
+   • Orthopedic Surgery and Podiatry consults for surgical debridement and bone biopsy.
+   • MRI right foot to define extent of osteomyelitis.
+   • Anticipated antibiotic duration: 6 weeks if osteomyelitis confirmed.
+
+2. Vascular / PAD:
+   • Vascular Surgery consult for revascularization assessment — ABI 0.62 will impair wound healing.
+   • Ankle-brachial index and CTA lower extremities if revascularization candidacy to be assessed.
+
+3. Diabetes:
+   • Hold glipizide (acute illness, elevated Cr); insulin drip targeting glucose 140–180 mg/dL.
+   • Endocrinology consult for optimization of long-term glucose management.
+
+4. Renal:
+   • Monitor Cr q12h; adjust vancomycin and piperacillin-tazobactam per CrCl.
+   • Avoid NSAIDs and nephrotoxic contrast.
+
+5. Labs q24h: CBC, BMP, CRP, ESR, blood and wound cultures as resulted.
+
+6. Disposition:
+   • Admit to Medicine with ID, Orthopedics, Podiatry, and Vascular Surgery co-management.
+   • DVT prophylaxis: enoxaparin 30 mg SC q12h (renally adjusted).
+   • Code Status: Full Code.
+
+Prepared by:
+Dr. Theodore N. Walsh, MD
+Hospitalist – Medicine Service
+Pager # 83017
+
+######################################
+
+Example Hospitalist Admission History and Physical
+02/19/3083 22:14
+
+Patient: George P. Sullivan
+DOB: 07/04/3012 (71 y/o)
+MRN: 61048293
+PCP: Dr. Helen M. Carr, MD
+
+Chief Complaint: Left lower quadrant abdominal pain and fever
+
+History of Present Illness:
+71yo M with h/o diverticulosis (last colonoscopy 3079 — pan-diverticulosis, no polyps), HTN, T2DM (A1c 7.1%), and prior uncomplicated diverticulitis (3076, managed outpatient) p/w 3-day hx of progressively worsening left lower quadrant (LLQ) pain, fever up to 39.2°C, nausea, and two episodes of non-bloody emesis. He reports the pain began as a dull ache and has become severe, constant, and non-radiating. He notes decreased bowel movements for 2 days; last flatus this morning. He tried ibuprofen at home with minimal relief. He denies diarrhea, hematochezia, melena, or rectal bleeding. He denies urinary symptoms. He has not had a colonoscopy since 3079. No recent travel, no sick contacts, no recent antibiotic use.
+
+Past Medical History:
+• Diverticulosis – pan-diverticulosis on colonoscopy 3079
+• Prior uncomplicated left-sided diverticulitis – 3076, managed outpatient with oral antibiotics
+• Type 2 Diabetes Mellitus – A1c 7.1%, on metformin
+• Hypertension – on lisinopril 20 mg daily and hydrochlorothiazide 12.5 mg daily
+• Hyperlipidemia – on rosuvastatin 20 mg nightly
+• Osteoarthritis – knees bilaterally, on acetaminophen PRN
+
+Past Surgical History:
+Procedure                  Laterality     Date
+• Appendectomy             —              06/3038
+• Left knee arthroscopy    Left           11/3070
+
+Family History:
+Father – colon cancer age 72, died; diverticulosis
+Mother – HTN, alive age 94
+Daughter – healthy
+
+Social History:
+Marital Status: Married, lives with wife
+Employment: Retired postal worker
+Tobacco: Former smoker, quit 3055 (15 pack-years)
+Alcohol: 2–3 glasses wine/week
+Illicit drugs: Denies
+Diet: Low-fiber diet per wife
+Living situation: Single-family home
+
+Review of Systems:
+Constitutional: +fever, +chills, +fatigue; -weight loss (recent), -night sweats
+HEENT: -headache, -vision changes
+Cardiovascular: -chest pain, -palpitations, -edema
+Respiratory: -cough, -dyspnea
+GI: +LLQ pain (severe, constant), +nausea, +vomiting ×2, +decreased bowel movements; -diarrhea, -hematochezia, -melena, -rectal bleeding
+GU: -dysuria, -frequency, -hematuria
+Musculoskeletal: +bilateral knee pain (chronic, baseline)
+Neurologic: -confusion, -headache, -syncope
+
+Prior to Admission Medications:
+Medication               Sig
+metformin                1000 mg PO BID
+lisinopril               20 mg PO daily
+hydrochlorothiazide      12.5 mg PO daily
+rosuvastatin             20 mg PO nightly
+acetaminophen            500 mg PO q6h PRN pain
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 39.0 °C (102.2 °F)
+Heart Rate: 102 bpm (60–100)
+Respiratory Rate: 18 /min (12–20)
+Blood Pressure: 128/78 mmHg (110–140/70–85)
+SpO₂: 98% RA
+
+General: Elderly male, ill-appearing, in moderate distress holding his left side.
+HEENT: Normocephalic, atraumatic; mucous membranes dry; oropharynx clear.
+Neck: Supple, no JVD, no lymphadenopathy.
+Cardiovascular: Tachycardic, regular rhythm, S1 S2 normal, no murmurs.
+Respiratory: Clear to auscultation bilaterally.
+Abdomen: Distended, hypoactive bowel sounds; severe LLQ tenderness to palpation with voluntary guarding; no rebound tenderness; no palpable mass. No hepatosplenomegaly.
+Rectal: Deferred (patient declined).
+Extremities: No edema; pulses intact.
+Skin: Warm, diaphoretic; no rashes.
+Neurologic: Alert and oriented ×3; no focal deficits.
+
+Labs (drawn 02/19/3083):
+CBC: WBC 19.8 K/µL (neut 92%, bands 6%), Hgb 12.9 g/dL, Plt 204 K/µL
+BMP: Na 136 mmol/L, K 3.4 mmol/L, Cl 98 mmol/L, CO₂ 22 mmol/L, BUN 18 mg/dL, Cr 1.0 mg/dL, Glucose 172 mg/dL
+Lactate: 2.1 mmol/L
+CRP: 26.8 mg/dL
+Lipase: 42 U/L (normal)
+Blood cultures: x2 drawn, pending
+
+Imaging:
+CT abdomen/pelvis with IV and oral contrast (02/19/3083): Sigmoid diverticulitis with microperforation — pericolic fat stranding, small extraluminal air pocket adjacent to sigmoid colon, no discrete abscess collection. No free intraperitoneal air.
+
+Assessment and Plan:
+71yo M with known diverticulosis presenting with acute complicated diverticulitis with microperforation (Hinchey Ia) based on CT findings of extraluminal air without free peritoneal perforation or abscess. Surgical evaluation warranted; bowel rest initiated.
+
+1. Complicated Diverticulitis (Hinchey Ia — Microperforation):
+   • NPO; nasogastric tube placement if vomiting persists.
+   • IV fluid resuscitation: NS 125 mL/hr; advance to maintenance once hemodynamically stable.
+   • Start IV piperacillin-tazobactam 3.375 g q6h for broad-spectrum gram-negative, gram-positive, and anaerobic coverage.
+   • Add IV metronidazole 500 mg q8h for additional anaerobic coverage given microperforation.
+   • Plan for 4–7 day IV course followed by transition to oral antibiotics (amoxicillin-clavulanate) upon clinical improvement.
+   • Reassess for surgical intervention q12–24h; General Surgery already consulted.
+
+2. Surgical Consult:
+   • General Surgery notified; recommend operative management if: peritonitis develops, no clinical improvement in 48–72h, or abscess formation on repeat imaging.
+   • Repeat CT abdomen/pelvis in 72h if clinical trajectory unclear.
+
+3. Pain Management:
+   • Morphine 2–4 mg IV q4h PRN severe pain; reassess pain trajectory.
+   • Avoid NSAIDs and opioid overuse (may mask peritonitis signs).
+
+4. Diabetes:
+   • Hold metformin; sliding scale insulin AC PRN.
+   • Monitor glucose q6h.
+
+5. GI:
+   • Strict NPO initially; advance to clear liquids when pain improves and fever resolves.
+   • Follow bowel function closely — no flatus/BM may suggest ileus.
+
+6. Labs q24h: CBC, BMP, CRP, blood cultures as resulted.
+
+7. Disposition:
+   • Admit to Medicine/Surgery step-down unit with General Surgery co-management.
+   • DVT prophylaxis: enoxaparin 40 mg SC daily.
+   • Code Status: Full Code.
+
+Prepared by:
+Dr. Vivian K. Okoye, MD
+Hospitalist – Medicine/Surgery Service
+Pager # 91342
+
+######################################
+
+Example Hospitalist Admission History and Physical
+04/03/3081 11:08
+
+Patient: Harold R. Jensen
+DOB: 01/16/3014 (67 y/o)
+MRN: 72049381
+PCP: Dr. Carol A. Bishop, MD
+
+Chief Complaint: Worsening dyspnea, productive cough, and fever
+
+History of Present Illness:
+67yo M with h/o COPD (GOLD III, FEV1 42% predicted), HTN, former smoker (45 pack-years, quit 3068), and two prior COPD exacerbations requiring hospitalization (3078, 3080) p/w 5-day hx of progressive dyspnea now present at rest, worsening productive cough with thick yellow-brown sputum, fever up to 39.0°C, and increased use of rescue inhaler (>6×/day). He reports symptoms began with an upper respiratory prodrome 1 week ago. He has been using his albuterol inhaler continuously with minimal relief. He was prescribed a prednisone burst and azithromycin by his PCP 3 days ago for presumed COPD exacerbation; he completed 3 days but feels significantly worse. He now reports frank fever, chills, and pleuritic left-sided chest pain. He denies hemoptysis, leg swelling, or recent travel. He lives alone and was brought in by neighbor who noted labored breathing.
+
+Past Medical History:
+• COPD – GOLD III, FEV1 42% predicted, on triple inhaler therapy
+• Hypertension – on amlodipine 10 mg daily
+• Hyperlipidemia – on atorvastatin 20 mg nightly
+• Gastroesophageal reflux disease – on omeprazole 20 mg daily
+• Former heavy smoker – quit 3068 (45 pack-years)
+
+Past Surgical History:
+Procedure                  Laterality     Date
+• Right total knee replacement  Right     03/3072
+
+Family History:
+Father – COPD, died age 71
+Mother – HTN, died stroke age 79
+Sister – alive, healthy
+
+Social History:
+Marital Status: Divorced, lives alone
+Employment: Retired auto mechanic
+Tobacco: Former smoker, quit 3068 (45 pack-years)
+Alcohol: 4–5 beers/week
+Illicit drugs: Denies
+Living situation: First-floor apartment, neighbor checks daily
+
+Review of Systems:
+Constitutional: +fever, +chills, +fatigue; -weight loss, -night sweats
+HEENT: -headache, -sinus pain, -sore throat (resolved)
+Cardiovascular: -chest pain (except pleuritic), -palpitations, -LE edema
+Respiratory: +dyspnea at rest, +productive cough (yellow-brown), +pleuritic left chest pain; -hemoptysis
+GI: -N/V, -diarrhea, -abdominal pain
+GU: -dysuria, -frequency
+Neurologic: -confusion, -syncope, -focal deficits
+
+Prior to Admission Medications:
+Medication                        Sig
+fluticasone/umeclidinium/vilanterol  1 puff inhaled daily
+albuterol                         2 puffs inhaled q4–6h PRN (now >6×/day)
+amlodipine                        10 mg PO daily
+atorvastatin                      20 mg PO nightly
+omeprazole                        20 mg PO daily
+prednisone                        40 mg PO daily (started 3 days ago by PCP)
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 38.9 °C (102.0 °F)
+Heart Rate: 112 bpm (60–100)
+Respiratory Rate: 26 /min (12–20)
+Blood Pressure: 142/88 mmHg (110–140/70–85)
+SpO₂: 86% RA → 93% on 4L NC
+
+General: Elderly male, ill-appearing, tachypneic, tripoding, in moderate-to-severe respiratory distress.
+HEENT: Normocephalic, atraumatic; pursed-lip breathing; mucous membranes dry.
+Neck: Supple; accessory muscle use; no JVD.
+Cardiovascular: Tachycardic, regular rhythm, distant heart sounds, no murmurs.
+Respiratory: Barrel chest; markedly decreased breath sounds left lower lobe with dullness to percussion and egophony; diffuse expiratory wheezes bilaterally; prolonged expiratory phase.
+Abdomen: Soft, non-tender, bowel sounds normoactive.
+Extremities: No edema; digital clubbing bilateral; no cyanosis on supplemental O₂.
+Skin: Diaphoretic; no rashes.
+Neurologic: Alert and oriented ×3; no focal deficits.
+
+Labs (drawn 04/03/3081):
+CBC: WBC 18.8 K/µL (neut 86%), Hgb 14.2 g/dL, Plt 298 K/µL
+BMP: Na 138 mmol/L, K 3.6 mmol/L, Cl 98 mmol/L, CO₂ 28 mmol/L, BUN 18 mg/dL, Cr 0.9 mg/dL, Glucose 188 mg/dL (steroid effect)
+CRP: 21.4 mg/dL
+Procalcitonin: 1.8 ng/mL
+ABG (4L NC): pH 7.38, pCO₂ 52, pO₂ 68, HCO₃ 30 (chronic hypercapnia)
+Blood cultures: x2 drawn, pending
+Sputum: sent for Gram stain and culture
+
+Imaging:
+Chest X-ray (04/03/3081): Left lower lobe consolidation with air bronchograms. Hyperinflation and flattened diaphragms bilaterally consistent with COPD. No effusion.
+
+Assessment and Plan:
+67yo M with severe COPD (GOLD III) presenting with COPD exacerbation complicated by community-acquired pneumonia (left lower lobe consolidation), failed outpatient azithromycin therapy, and hypercapnic respiratory failure. Elevated procalcitonin supports bacterial superinfection.
+
+1. COPD Exacerbation with Bacterial Pneumonia:
+   • Start IV levofloxacin 750 mg q24h — broad-spectrum coverage for typical and atypical organisms; appropriate monotherapy for CAP with COPD risk factors and failed azithromycin.
+   • Plan for 5-day total course; reassess de-escalation based on sputum cultures.
+   • Continue systemic corticosteroids: methylprednisolone 40 mg IV q8h × 5 days then taper.
+   • Sputum Gram stain and culture, urine Legionella and S. pneumoniae antigens sent.
+
+2. Hypoxic/Hypercapnic Respiratory Failure:
+   • Supplemental O₂ titrated to SpO₂ 88–92% to avoid hypoxic drive suppression.
+   • BiPAP if SpO₂ or work of breathing worsens (IPAP 10, EPAP 5, FiO₂ 0.35).
+   • Pulmonology consult for ventilatory management.
+
+3. Bronchospasm:
+   • Albuterol + ipratropium nebulization q4h scheduled, q2h PRN.
+   • Continue systemic steroids as above.
+
+4. Hyperglycemia (steroid-induced):
+   • Sliding scale insulin AC; monitor glucose q4–6h.
+
+5. Labs q24h: CBC, BMP, CRP, blood and sputum cultures as resulted.
+
+6. Disposition:
+   • Admit to step-down unit (intermediate care) given hypercapnia and severe COPD.
+   • DVT prophylaxis: enoxaparin 40 mg SC daily.
+   • Code Status: Full Code (discussed with patient).
+
+Prepared by:
+Dr. Sandra T. Mbeki, MD
+Hospitalist – Medicine Service
+Pager # 60182
+
+######################################
+
+Example Hospitalist Admission History and Physical
+08/14/3087 16:55
+
+Patient: Kevin D. Marsh
+DOB: 09/21/3049 (38 y/o)
+MRN: 83920145
+PCP: Dr. Owen J. Brady, MD
+
+Chief Complaint: Fever, new murmur, and left-sided chest pain
+
+History of Present Illness:
+38yo M with h/o IV drug use (heroin, last use ~2 weeks ago), chronic HCV (untreated, last viral load 2.1 million IU/mL), and prior right-sided endocarditis (3083, treated with 6-week course of IV antibiotics) p/w 6-day hx of fever up to 39.6°C, rigors, drenching night sweats, progressive fatigue, and new pleuritic left chest pain. He reports palpitations and mild exertional dyspnea beginning 3 days ago. He was seen at an outside ED 2 days ago, received empiric IV vancomycin 1 g ×1 dose, and was discharged with instructions to follow up — he did not fill the prescribed antibiotics. Today his partner noted he was confused and brought him to the ED. On arrival, a new harsh systolic murmur was noted at the left sternal border. Blood cultures drawn. TTE performed bedside showing a 1.4 cm vegetation on the tricuspid valve with moderate tricuspid regurgitation. He admits to continued IV heroin use during this illness. No dental work. No recent travel.
+
+Past Medical History:
+• IV drug use – heroin, active use
+• Chronic hepatitis C – untreated, genotype 1a
+• Prior tricuspid valve endocarditis – 3083, coagulase-negative Staphylococcus, treated with 6 weeks IV antibiotics
+• Depression – on sertraline
+
+Past Surgical History:
+Procedure                    Laterality     Date
+• None
+
+Family History:
+Father – unknown
+Mother – alive, HTN, DM2
+Brother – SUD, alive
+
+Social History:
+Marital Status: In a relationship, lives with partner
+Employment: Unemployed
+Tobacco: Active smoker, 1 ppd ×15 years
+Alcohol: Occasional binge drinking
+Illicit drugs: Active IV heroin use, denies other IV drugs
+Living situation: Apartment with partner
+
+Review of Systems:
+Constitutional: +fever, +rigors, +night sweats, +fatigue, +weight loss ~8 lb; -anorexia
+HEENT: -headache, -vision changes, -sore throat
+Cardiovascular: +palpitations, +new murmur; +pleuritic left chest pain; -syncope
+Respiratory: +dyspnea on exertion; -cough, -hemoptysis
+GI: -N/V, -diarrhea, -abdominal pain
+GU: -dysuria, -hematuria
+Musculoskeletal: +myalgias, +arthralgias
+Neurologic: +mild confusion (per partner); -seizure, -focal deficits
+Skin: +injection site marks bilateral antecubital fossae
+
+Prior to Admission Medications:
+Medication               Sig
+sertraline               100 mg PO daily
+(No other prescribed medications)
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 39.3 °C (102.7 °F)
+Heart Rate: 116 bpm (60–100)
+Respiratory Rate: 22 /min (12–20)
+Blood Pressure: 108/66 mmHg (110–140/70–85)
+SpO₂: 94% RA
+
+General: Young male, ill-appearing, diaphoretic, intermittently confused, in mild distress.
+HEENT: Normocephalic, atraumatic; conjunctival pallor; oropharynx without exudate; poor dentition.
+Neck: Supple; no JVD; no carotid bruits; no lymphadenopathy.
+Cardiovascular: Tachycardic; grade 3/6 harsh holosystolic murmur at left lower sternal border, increases with inspiration (Carvallo's sign); no rubs or gallops.
+Respiratory: Decreased breath sounds left lower lobe; dullness to percussion left base.
+Abdomen: Soft; mild splenomegaly; no hepatomegaly; no tenderness.
+Extremities: Multiple fresh and healing injection marks bilateral antecubital fossae; no peripheral stigmata of endocarditis; no edema.
+Skin: Scattered petechiae on lower extremities; no Janeway lesions; no Osler nodes.
+Neurologic: Oriented to person and place; not to time; follows simple commands; no focal deficits.
+
+Labs (drawn 08/14/3087):
+CBC: WBC 16.4 K/µL (neut 87%), Hgb 9.4 g/dL, Plt 142 K/µL
+BMP: Na 134 mmol/L, K 3.8 mmol/L, Cl 98 mmol/L, CO₂ 22 mmol/L, BUN 20 mg/dL, Cr 1.1 mg/dL, Glucose 104 mg/dL
+CRP: 24.8 mg/dL
+ESR: 78 mm/hr
+HCV RNA: 2.1 million IU/mL; HIV Ab/Ag: pending
+Blood cultures: x4 sets drawn (2 peripheral, 2 separate sites); preliminary Gram stain — gram-positive cocci in clusters
+
+Imaging:
+TTE (bedside): 1.4 cm mobile vegetation on tricuspid valve leaflet; moderate-to-severe tricuspid regurgitation; no pericardial effusion; EF 58%.
+Chest X-ray: Multiple bilateral pulmonary nodules — septic emboli. No pneumothorax.
+CT chest (08/14/3087): Bilateral cavitating pulmonary nodules consistent with septic pulmonary emboli from tricuspid valve endocarditis.
+
+Assessment and Plan:
+38yo M with active IVDU presenting with right-sided infective endocarditis (tricuspid valve vegetation 1.4 cm, septic pulmonary emboli) with gram-positive cocci in clusters on preliminary blood cultures, consistent with Staphylococcus aureus endocarditis pending final speciation. Initial empiric vancomycin given at outside ED.
+
+1. Infective Endocarditis — Empiric then Targeted Therapy:
+   • Continue IV vancomycin 25 mg/kg loading dose, then 15 mg/kg q8–12h (target AUC/MIC 400–600); pharmacy to dose and monitor.
+   • Blood cultures ×4 already drawn; check results q24–48h.
+   • Upon confirmation of MSSA (anticipated given IVDU): de-escalate to IV oxacillin 2 g q4h — preferred over vancomycin for MSSA endocarditis given superior outcomes.
+   • Add rifampin 300 mg PO q8h once bacteremia clears (anticipated if prosthetic or persistent infection).
+   • Minimum 6-week IV antibiotic course required; ID consult to guide duration and discharge planning with OPAT.
+
+2. Septic Pulmonary Emboli:
+   • Anticoagulation deferred — no benefit shown in right-sided IE with septic emboli; risk of pulmonary hemorrhage.
+   • Serial chest X-rays q48h; repeat CT chest at 2 weeks.
+
+3. Cardiology / Cardiac Surgery Consult:
+   • TEE within 24h for better vegetation characterization.
+   • Surgical evaluation if: vegetation >2 cm, persistent bacteremia at 7 days, or hemodynamic compromise.
+
+4. Substance Use:
+   • Addiction medicine consult; initiate medication-assisted treatment (buprenorphine) when clinically stable.
+   • Social work consult for housing and recovery resources.
+
+5. HCV:
+   • Defer treatment until active endocarditis treated; refer to hepatology post-discharge.
+
+6. Labs q24h: CBC, BMP, CRP, ESR, blood cultures, vancomycin AUC.
+
+7. Disposition:
+   • Admit to telemetry floor; ID and Cardiology co-management.
+   • DVT prophylaxis: hold anticoagulation given septic emboli (discuss with Cardiology).
+   • Code Status: Full Code.
+
+Prepared by:
+Dr. Natalie R. Voss, MD
+Hospitalist – Medicine Service
+Pager # 47820
+
+######################################
+
+Example Hospitalist Admission History and Physical
+06/27/3080 13:22
+
+Patient: Patricia L. Huang
+DOB: 04/11/3028 (52 y/o)
+MRN: 29403817
+PCP: Dr. James E. Whitfield, MD
+
+Chief Complaint: Left leg redness, swelling, and fever
+
+History of Present Illness:
+52yo F with h/o bilateral lower extremity lymphedema (secondary to left inguinal lymph node dissection for vulvar cancer, 3071), obesity (BMI 36), HTN, and three prior episodes of left leg cellulitis (most recently 3078 — treated with IV cefazolin inpatient ×3 days then oral amoxicillin-clavulanate ×7 days) p/w 2-day hx of rapidly expanding left lower extremity erythema, warmth, swelling, and fever up to 38.6°C. She reports she first noticed increased warmth and a small area of redness over the left shin yesterday morning. By this afternoon the redness had expanded to involve the entire left lower leg from the ankle to the knee. She endorses chills and malaise but denies rigors. She denies any skin breakdown, insect bites, or trauma. She has been compliant with compression stockings but reports they are difficult to apply with the swelling. No recent travel, no sick contacts.
+
+Past Medical History:
+• Bilateral lower extremity lymphedema – secondary to left inguinal lymph node dissection (3071)
+• Vulvar squamous cell carcinoma – s/p resection and lymph node dissection 3071, in remission
+• Obesity – BMI 36
+• Hypertension – on hydrochlorothiazide 25 mg daily
+• Hyperlipidemia – on pravastatin 40 mg nightly
+• Recurrent left leg cellulitis – ×3 prior episodes (3074, 3076, 3078)
+
+Past Surgical History:
+Procedure                         Laterality     Date
+• Radical vulvectomy + LN dissection  Left      07/3071
+• Appendectomy                    —              09/3045
+
+Family History:
+Father – CAD, died age 66
+Mother – breast cancer, survived; HTN, alive age 78
+Sister – healthy
+
+Social History:
+Marital Status: Married, two adult children
+Employment: Accountant, mostly desk work
+Tobacco: Never smoker
+Alcohol: 1 glass wine/week
+Illicit drugs: Denies
+Living situation: Two-story home; bedroom on ground floor
+
+Review of Systems:
+Constitutional: +fever, +chills, +malaise; -rigors, -weight loss
+HEENT: -headache, -vision changes
+Cardiovascular: -chest pain, -palpitations, -new edema (above baseline)
+Respiratory: -cough, -dyspnea
+GI: -N/V, -diarrhea, -abdominal pain
+GU: -dysuria, -frequency
+Musculoskeletal: +left leg pain
+Skin: +expanding erythema and warmth, left lower leg; +increased swelling
+Neurologic: -confusion, -syncope
+
+Prior to Admission Medications:
+Medication               Sig
+hydrochlorothiazide      25 mg PO daily
+pravastatin              40 mg PO nightly
+cetirizine               10 mg PO daily PRN pruritus
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 38.4 °C (101.1 °F)
+Heart Rate: 98 bpm (60–100)
+Respiratory Rate: 16 /min (12–20)
+Blood Pressure: 138/84 mmHg (110–140/70–85)
+SpO₂: 98% RA
+
+General: Middle-aged female, mildly ill-appearing, in mild distress due to left leg pain.
+HEENT: Normocephalic, atraumatic; mucous membranes moist; oropharynx clear.
+Neck: Supple; no JVD; no lymphadenopathy.
+Cardiovascular: Regular rate and rhythm; S1 S2 normal; no murmurs.
+Respiratory: Clear to auscultation bilaterally.
+Abdomen: Soft; obese; non-tender; bowel sounds normoactive.
+Extremities: Left lower leg — confluent, well-demarcated erythema from left ankle to knee (25 cm longitudinal extent), warm to touch, tender to palpation, 2+ non-pitting edema; no bullae, no fluctuance, no skin breakdown, no crepitus. Right leg with chronic 1+ pitting edema (baseline).
+Skin: No petechiae, no diffuse rash, no lymphangitic streaking noted above the knee.
+Neurologic: Alert and oriented ×3; no focal deficits.
+
+Labs (drawn 06/27/3080):
+CBC: WBC 14.6 K/µL (neut 84%), Hgb 12.8 g/dL, Plt 266 K/µL
+BMP: Na 140 mmol/L, K 3.9 mmol/L, Cl 104 mmol/L, CO₂ 24 mmol/L, BUN 14 mg/dL, Cr 0.8 mg/dL, Glucose 98 mg/dL
+CRP: 11.8 mg/dL
+Blood cultures: x2 drawn, pending
+
+Imaging:
+Left lower extremity Doppler US (06/27/3080): No deep vein thrombosis. Diffuse subcutaneous edema without discrete fluid collection. No abscess.
+
+Assessment and Plan:
+52yo F with recurrent left leg cellulitis in the setting of chronic lymphedema, now presenting with rapidly expanding non-purulent cellulitis without abscess — most likely beta-hemolytic streptococcal infection (Group A or Group B Streptococcus).
+
+1. Non-Purulent Cellulitis (Left Lower Extremity):
+   • Start IV cefazolin 1 g q8h for gram-positive coverage (streptococcal and MSSA) — treatment of choice for non-purulent cellulitis without systemic toxicity.
+   • Demarcate erythema borders with skin marker; reassess q8h for progression.
+   • Plan to step down to oral amoxicillin-clavulanate 875/125 mg PO BID upon clinical improvement (afebrile ×24h, stable or improving erythema margins).
+   • Total antibiotic course: 5–7 days (IV + PO combined).
+   • Blood cultures pending; adjust therapy if purulent organism identified.
+
+2. Lymphedema Management:
+   • Elevate left lower extremity above heart level continuously.
+   • Wound care / lymphedema therapy consult for compression dressing guidance.
+   • Compression therapy deferred until acute infection treated.
+
+3. Recurrence Prevention (post-discharge):
+   • Discuss chronic prophylaxis: penicillin VK or amoxicillin daily for patients with ≥3 episodes/year.
+   • Skin care and compression stockings education.
+
+4. DVT Prophylaxis:
+   • Enoxaparin 40 mg SC daily.
+
+5. Labs q24h: CBC, BMP, CRP; blood cultures as resulted.
+
+6. Disposition:
+   • Admit to Medicine floor.
+   • Code Status: Full Code.
+
+Prepared by:
+Dr. Aaron P. Levy, MD
+Hospitalist – Medicine Service
+Pager # 53794
+
+######################################
+
+Example Hospitalist Admission History and Physical
+10/11/3084 08:47
+
+Patient: Sandra M. Williams
+DOB: 02/28/3026 (58 y/o)
+MRN: 94038172
+PCP: Dr. Laura N. Kim, MD (Oncology: Dr. Robert H. Stern, MD)
+
+Chief Complaint: Fever and neutropenia
+
+History of Present Illness:
+58yo F with h/o AML (M2, FLT3-ITD positive, diagnosed 3083), currently on cycle 3 of induction chemotherapy (cytarabine + idarubicin, last dose 10/04/3084), HTN, and CKD-2 (baseline Cr 1.1) p/w 1-day hx of fever to 39.2°C with associated rigors and malaise. She was called to present to the ED after routine outpatient ANC check this morning returned at 0.2×10⁹/L. She reports no localizing symptoms — no cough, no dysuria, no diarrhea, no focal pain. She does endorse mild odynophagia and small aphthous ulcers in the mouth (grade 1 mucositis from chemotherapy). She has an implanted right subclavian port used for chemotherapy, last accessed 10/04/3084. She denies skin changes, perianal pain, or rash. She lives with her husband and has been avoiding public spaces. No sick contacts at home.
+
+Past Medical History:
+• Acute myeloid leukemia – AML M2, FLT3-ITD+, diagnosed 09/3083, on induction chemotherapy
+• Hypertension – on lisinopril 10 mg daily
+• Chronic Kidney Disease stage 2 – baseline Cr 1.1 mg/dL
+• Hypothyroidism – on levothyroxine 75 mcg daily
+• Grade 1 oral mucositis – current, chemotherapy-related
+
+Past Surgical History:
+Procedure                    Laterality     Date
+• Right subclavian port      Right          09/3083
+• Hysterectomy               —              04/3068
+
+Family History:
+Father – died AML age 61
+Mother – HTN, alive age 82
+Sister – healthy
+
+Social History:
+Marital Status: Married, lives with husband
+Employment: Former teacher, now on medical leave
+Tobacco: Never smoker
+Alcohol: Denies (stopped with chemotherapy)
+Illicit drugs: Denies
+Living situation: Single-family home with husband; no pets
+
+Review of Systems:
+Constitutional: +fever, +rigors, +fatigue, +malaise; -weight loss (beyond expected)
+HEENT: +mild odynophagia, +aphthous ulcers (grade 1 mucositis); -headache, -vision changes
+Cardiovascular: -chest pain, -palpitations, -edema
+Respiratory: -cough, -dyspnea, -hemoptysis
+GI: -N/V, -diarrhea, -abdominal pain; -perianal pain
+GU: -dysuria, -frequency, -hematuria
+Musculoskeletal: +diffuse myalgias (baseline from chemo); -focal bone pain
+Skin: +port site — mild erythema (1 cm); -rashes, -new lesions
+Neurologic: -confusion, -headache, -syncope
+
+Prior to Admission Medications:
+Medication               Sig
+lisinopril               10 mg PO daily
+levothyroxine            75 mcg PO qAM
+ondansetron              4 mg PO q8h PRN nausea
+lorazepam                0.5 mg PO q8h PRN anxiety
+acyclovir                400 mg PO BID (HSV prophylaxis on chemo)
+fluconazole              200 mg PO daily (antifungal prophylaxis)
+
+Allergies: Sulfa drugs – Steven-Johnson syndrome (trimethoprim-sulfamethoxazole)
+
+Physical Examination:
+Temperature: 39.0 °C (102.2 °F)
+Heart Rate: 110 bpm (60–100)
+Respiratory Rate: 20 /min (12–20)
+Blood Pressure: 118/72 mmHg (110–140/70–85)
+SpO₂: 97% RA
+
+General: Middle-aged female, ill-appearing but alert, in mild distress due to rigors.
+HEENT: Normocephalic, atraumatic; multiple small aphthous ulcers on buccal mucosa; oropharynx erythematous without exudate.
+Neck: Supple; no lymphadenopathy; no JVD.
+Cardiovascular: Tachycardic; regular rhythm; S1 S2 normal; no murmurs.
+Respiratory: Clear to auscultation bilaterally; no wheezes or crackles.
+Abdomen: Soft; mild diffuse tenderness without guarding; no hepatosplenomegaly; bowel sounds normoactive.
+Port site (right subclavian): 1 cm erythema at insertion site; no purulence; no induration; port flushes without resistance.
+Extremities: No edema; no petechiae; no ecchymoses.
+Skin: No rashes; no new lesions; no perianal erythema.
+Neurologic: Alert and oriented ×3; no focal deficits.
+
+Labs (drawn 10/11/3084):
+CBC: WBC 0.4 K/µL, ANC 0.2×10⁹/L (profound neutropenia), Hgb 8.2 g/dL, Plt 24 K/µL
+BMP: Na 138 mmol/L, K 3.2 mmol/L, Cl 100 mmol/L, CO₂ 22 mmol/L, BUN 18 mg/dL, Cr 1.2 mg/dL, Glucose 114 mg/dL
+CRP: 14.8 mg/dL
+Procalcitonin: 0.9 ng/mL
+Blood cultures: x2 peripheral + x2 via port — all drawn simultaneously, pending
+Urinalysis: negative leukocytes, negative nitrite, no WBC
+
+Imaging:
+Chest X-ray (10/11/3084): No infiltrates, no consolidation. Right subclavian port in satisfactory position. No pneumothorax.
+
+Assessment and Plan:
+58yo F with AML on induction chemotherapy presenting with febrile neutropenia (ANC 0.2, fever 39.0°C) without clear source; mild port site erythema raises concern for CLABSI. Sulfa allergy on record (SJS — severe, avoid all sulfa agents).
+
+1. Febrile Neutropenia — High Risk (ANC <0.1 anticipated, prolonged):
+   • Start IV cefepime 2 g q8h — antipseudomonal beta-lactam, first-line for high-risk febrile neutropenia per IDSA guidelines.
+   • Add IV vancomycin 15 mg/kg q12h given: port site erythema, risk of CLABSI, and gram-positive coverage needed.
+   • Continue fluconazole prophylaxis; escalate to IV micafungin if fever persists >4–5 days without source.
+   • Avoid TMP-SMX (SJS history — absolute contraindication).
+   • Blood culture ×4 pending; reassess antibiotic spectrum at 48–72h based on culture results and clinical response.
+
+2. Port Management:
+   • Keep port in place for now; remove if blood cultures positive for Staphylococcus aureus, Candida, or gram-negative rods.
+   • Port blood cultures vs. peripheral differential time-to-positivity to assess for CLABSI.
+
+3. Thrombocytopenia:
+   • Platelet transfusion for Plt <10 K/µL or active bleeding; current Plt 24 — monitor.
+   • Transfuse pRBCs if Hgb <7 or symptomatic anemia.
+
+4. Mucositis:
+   • Magic mouthwash QID; continue acyclovir prophylaxis.
+
+5. Oncology Co-management:
+   • Dr. Stern notified; G-CSF (filgrastim) to be considered per oncology decision.
+
+6. Labs q12h: CBC with differential, BMP; blood cultures q48h.
+
+7. Disposition:
+   • Admit to oncology unit with neutropenic precautions (HEPA filter room, no fresh fruits/flowers).
+   • DVT prophylaxis: hold anticoagulation given Plt 24; reassess when Plt >50.
+   • Code Status: Full Code.
+
+Prepared by:
+Dr. Priya A. Subramanian, MD
+Hospitalist – Oncology Medicine
+Pager # 38491
+
+######################################
+
+Example Hospitalist Admission History and Physical
+01/30/3086 09:15
+
+Patient: Agnes E. Turner
+DOB: 06/17/3010 (76 y/o)
+MRN: 10293847
+PCP: Dr. Martin C. Flores, MD
+
+Chief Complaint: Watery diarrhea and abdominal cramping
+
+History of Present Illness:
+76yo F with h/o diverticulosis, HTN, osteoporosis, and recent hospitalization for right hip arthroplasty (01/08/3086 – 01/14/3086) complicated by superficial wound infection, treated with a 7-day course of IV cefazolin followed by oral amoxicillin-clavulanate (completed 01/28/3086) p/w 3-day hx of profuse, watery, non-bloody diarrhea (8–10 loose stools/day), diffuse crampy abdominal pain worse in the lower quadrants, and low-grade fever up to 38.1°C. She reports stools began 2 days after completing her antibiotic course. She denies bloody stools, hematochezia, or melena. She has not tolerated PO well today due to nausea and one episode of vomiting. She notes progressive weakness and lightheadedness on standing. Her daughter reports she appears confused compared to baseline. No recent travel, no new food exposures, no sick contacts.
+
+Past Medical History:
+• Diverticulosis — known on colonoscopy 3082
+• Hypertension — on amlodipine 5 mg daily
+• Osteoporosis — on alendronate and calcium/vitamin D
+• Recent right total hip arthroplasty — 01/08/3086
+• Prior antibiotic exposure: IV cefazolin + oral amoxicillin-clavulanate (completed 01/28/3086)
+• Hypothyroidism — on levothyroxine 50 mcg daily
+
+Past Surgical History:
+Procedure                        Laterality     Date
+• Right total hip arthroplasty   Right          01/08/3086
+• Appendectomy                   —              08/3041
+
+Family History:
+Father – died colon cancer age 74
+Mother – HTN, died stroke age 83
+Son – alive, healthy
+
+Social History:
+Marital Status: Widowed, lives with daughter
+Employment: Retired nurse
+Tobacco: Former smoker, quit 3052 (10 pack-years)
+Alcohol: Rare, socially
+Illicit drugs: Denies
+Living situation: Daughter's home (moved in post-surgery)
+
+Review of Systems:
+Constitutional: +low-grade fever, +weakness, +lightheadedness; -rigors, -night sweats
+HEENT: -headache, -vision changes
+Cardiovascular: -chest pain, -palpitations
+Respiratory: -cough, -dyspnea
+GI: +profuse watery diarrhea (8–10 ×/day), +crampy lower abdominal pain, +nausea, +vomiting ×1; -bloody stools, -melena
+GU: -dysuria, -frequency; decreased urine output today
+Neurologic: +confusion (per daughter, new vs. baseline); -syncope, -focal deficits
+
+Prior to Admission Medications:
+Medication               Sig
+amlodipine               5 mg PO daily
+levothyroxine            50 mcg PO qAM
+alendronate              70 mg PO weekly
+calcium carbonate        600 mg PO BID with meals
+cholecalciferol          1000 IU PO daily
+acetaminophen            500 mg PO q6h PRN pain
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 38.0 °C (100.4 °F)
+Heart Rate: 104 bpm (60–100)
+Respiratory Rate: 18 /min (12–20)
+Blood Pressure: 104/62 mmHg (110–140/70–85); orthostatic drop 22 mmHg systolic
+SpO₂: 97% RA
+
+General: Elderly female, ill-appearing, mildly confused, visibly fatigued, in mild distress.
+HEENT: Normocephalic, atraumatic; mucous membranes very dry; sunken eyes; oropharynx clear.
+Neck: Supple; no JVD; skin tenting present.
+Cardiovascular: Tachycardic; regular rhythm; S1 S2 normal; no murmurs.
+Respiratory: Clear to auscultation bilaterally.
+Abdomen: Soft; diffuse lower abdominal tenderness on deep palpation; no rebound, no guarding; hyperactive bowel sounds; no hepatosplenomegaly.
+Extremities: No edema; capillary refill 3 seconds.
+Skin: Dry, decreased skin turgor.
+Neurologic: Oriented to person and place; mildly inattentive; follows simple commands.
+
+Labs (drawn 01/30/3086):
+CBC: WBC 22.4 K/µL (neut 90%), Hgb 13.6 g/dL, Plt 312 K/µL
+BMP: Na 148 mmol/L, K 3.0 mmol/L, Cl 112 mmol/L, CO₂ 18 mmol/L, BUN 36 mg/dL, Cr 1.6 mg/dL (baseline unknown, ~0.8), Glucose 96 mg/dL
+Lactate: 1.8 mmol/L
+CRP: 16.2 mg/dL
+Stool studies: C. difficile PCR — sent (STAT); stool culture sent; fecal WBC — positive
+Albumin: 2.8 g/dL (low)
+
+Imaging:
+CT abdomen/pelvis without contrast (01/30/3086): Diffuse colonic wall thickening most prominent in sigmoid and descending colon; pericolonic fat stranding; no perforation; no toxic megacolon (colonic diameter 5.2 cm).
+
+Assessment and Plan:
+76yo F presenting 2 days post-antibiotic completion with profuse watery diarrhea, leukocytosis (WBC 22.4), dehydration, and CT findings consistent with Clostridioides difficile colitis — non-severe to severe spectrum (WBC 22.4, Cr 1.6 with possible fulminant features pending clinical course).
+
+1. Clostridioides difficile Infection (CDI) — Non-severe to Severe:
+   • Discontinue any residual antibiotics for other indications.
+   • Start oral vancomycin 125 mg PO QID × 10 days — preferred over metronidazole for non-severe and severe CDI per current IDSA/SHEA guidelines.
+   • Add IV metronidazole 500 mg q8h given signs of possible severe-complicated disease (leukocytosis >15, rising Cr, early confusion) to augment luminal therapy.
+   • Strict Contact Precautions — gown and gloves; dedicated patient equipment; alcohol-based hand sanitizer NOT effective vs. C. difficile spores; use soap and water.
+   • C. difficile PCR result expected within 2h; treat empirically given high clinical probability.
+   • Reassess at 48–72h; escalate to oral vancomycin 500 mg QID + IV metronidazole if fulminant colitis develops.
+   • General Surgery consult on standby if toxic megacolon or perforation develops.
+
+2. Dehydration / AKI:
+   • IV fluid resuscitation: LR 500 mL bolus now; continue at 125 mL/hr; reassess.
+   • Strict I&O; Foley catheter for accurate urine output.
+   • Monitor Cr q12h; hold alendronate and NSAIDs.
+
+3. Electrolyte Repletion:
+   • IV potassium chloride 40 mEq over 4h; recheck K in 4h.
+   • Oral repletion once tolerating PO.
+
+4. Altered Mental Status:
+   • Presumed multifactorial: metabolic (hypernatremia, AKI), infectious, dehydration.
+   • Monitor after rehydration and CDI treatment initiated.
+
+5. Nutrition:
+   • Clear liquids advancing to low-fiber diet as tolerated; dietitian consult given albumin 2.8.
+
+6. Labs q12h: CBC, BMP, C. difficile PCR result.
+
+7. Disposition:
+   • Admit to Medicine with contact isolation.
+   • DVT prophylaxis: enoxaparin 40 mg SC daily once hemodynamically stable.
+   • Code Status: Full Code (confirmed with daughter — HCP).
+
+Prepared by:
+Dr. Kwame N. Asante, MD
+Hospitalist – Medicine Service
+Pager # 29104
+
+######################################
+
+Example Hospitalist Admission History and Physical
+05/09/3083 15:33
+
+Patient: Marcus T. Green
+DOB: 12/04/3022 (61 y/o)
+MRN: 37291048
+PCP: Dr. Alicia R. Mendez, MD
+
+Chief Complaint: Right knee swelling, warmth, and fever
+
+History of Present Illness:
+61yo M with h/o rheumatoid arthritis (RA, on methotrexate 20 mg weekly and etanercept 50 mg SC weekly), HTN, and CKD-2 (baseline Cr 1.3) p/w 2-day hx of acute right knee swelling, erythema, warmth, and inability to bear weight, with fever up to 38.9°C. He reports he first noticed the knee was "puffier than usual" 3 days ago and attributed it to an RA flare; he took an extra dose of ibuprofen with no relief. By yesterday he could not bend the knee and developed chills. He denies any recent trauma, injections, insect bites, or new sexual contacts. His last etanercept dose was 5 days ago. He had a left knee aspiration for gout 2 years ago but this is his first right knee episode. No rash. No recent dental work. No recent travel, no sick contacts.
+
+Past Medical History:
+• Rheumatoid Arthritis – on methotrexate 20 mg PO weekly and etanercept 50 mg SC weekly
+• Hypertension – on lisinopril 10 mg daily
+• Chronic Kidney Disease stage 2 – baseline Cr 1.3 mg/dL
+• Hyperlipidemia – on atorvastatin 20 mg nightly
+• Gout – prior left knee episode 3081, on allopurinol 300 mg daily
+
+Past Surgical History:
+Procedure                  Laterality     Date
+• Left knee arthrocentesis  Left          08/3081 (diagnostic)
+
+Family History:
+Father – RA, died age 74
+Mother – HTN, alive age 88
+Sister – SLE, alive
+
+Social History:
+Marital Status: Married, lives with wife
+Employment: High school principal
+Tobacco: Never smoker
+Alcohol: 2 glasses wine/week
+Illicit drugs: Denies
+Living situation: Single-family home, one flight of stairs
+
+Review of Systems:
+Constitutional: +fever, +chills, +fatigue; -weight loss, -night sweats
+HEENT: -headache, -vision changes, -sore throat
+Cardiovascular: -chest pain, -palpitations, -edema
+Respiratory: -cough, -dyspnea
+GI: -N/V, -diarrhea, -abdominal pain
+GU: -dysuria, -frequency, -hematuria, -urethral discharge
+Musculoskeletal: +right knee swelling, +erythema, +warmth, +inability to bear weight; -other joint involvement
+Skin: -rash, -skin lesions
+Neurologic: -confusion, -syncope
+
+Prior to Admission Medications:
+Medication               Sig
+methotrexate             20 mg PO weekly (held today)
+etanercept               50 mg SC weekly (last dose 5 days ago)
+folic acid               1 mg PO daily
+lisinopril               10 mg PO daily
+atorvastatin             20 mg PO nightly
+allopurinol              300 mg PO daily
+ibuprofen                600 mg PO q8h PRN (recently increased)
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 38.7 °C (101.7 °F)
+Heart Rate: 104 bpm (60–100)
+Respiratory Rate: 18 /min (12–20)
+Blood Pressure: 136/82 mmHg (110–140/70–85)
+SpO₂: 98% RA
+
+General: Middle-aged male, ill-appearing, guarding right knee, in moderate distress.
+HEENT: Normocephalic, atraumatic; mucous membranes moist; oropharynx clear; no oral ulcers.
+Neck: Supple; no JVD; no lymphadenopathy.
+Cardiovascular: Tachycardic; regular rhythm; S1 S2 normal; no murmurs.
+Respiratory: Clear to auscultation bilaterally.
+Abdomen: Soft; non-tender; bowel sounds normoactive.
+Musculoskeletal: Right knee — marked effusion with ballottement, 3+ warmth, confluent erythema, exquisitely tender to palpation; ROM severely limited by pain (flexion 15°); cannot bear weight. No other joint effusions. No subcutaneous nodules.
+Skin: No rash; no urethral discharge; no skin lesions.
+Neurologic: Alert and oriented ×3; no focal deficits.
+
+Labs (drawn 05/09/3083):
+CBC: WBC 17.8 K/µL (neut 88%), Hgb 11.6 g/dL, Plt 304 K/µL
+BMP: Na 138 mmol/L, K 4.1 mmol/L, Cl 102 mmol/L, CO₂ 24 mmol/L, BUN 24 mg/dL, Cr 1.6 mg/dL (baseline 1.3), Glucose 118 mg/dL
+CRP: 19.2 mg/dL
+ESR: 92 mm/hr
+Uric acid: 5.8 mg/dL (normal)
+Blood cultures: x2 drawn, pending
+Synovial fluid (right knee arthrocentesis performed in ED):
+  – Appearance: turbid, yellow
+  – WBC: 94,000/µL (neut 96%)
+  – Glucose: 28 mg/dL (serum 118; ratio 0.24 — abnormally low)
+  – Gram stain: gram-positive cocci in clusters
+  – Culture: sent
+
+Imaging:
+Right knee X-ray (05/09/3083): Significant joint space effusion; periarticular soft tissue swelling; no fracture; no chondrocalcinosis; mild joint space narrowing consistent with RA.
+
+Assessment and Plan:
+61yo M on immunosuppression (methotrexate + etanercept) presenting with septic arthritis of the right knee (synovial WBC 94,000, gram-positive cocci in clusters, low synovial glucose) — most likely Staphylococcus aureus given gram stain and MRSA risk from immunosuppression.
+
+1. Septic Arthritis (Right Knee):
+   • Hold methotrexate and etanercept immediately — immunosuppression must be paused during active infection.
+   • Start IV vancomycin 15 mg/kg q12h (target AUC/MIC 400–600) for MRSA coverage given immunosuppressed state.
+   • Add IV ceftriaxone 2 g q24h for gram-negative coverage (Neisseria gonorrhoeae possible; gonococcal cultures sent).
+   • Orthopedics consult for urgent surgical drainage vs. repeat arthrocentesis — septic joints typically require operative washout.
+   • Repeat arthrocentesis or OR washout within 24h; do not delay drainage.
+   • De-escalate antibiotics based on culture and sensitivity results at 48–72h.
+   • Plan total antibiotic duration: minimum 4 weeks; route and agent determined by organism.
+
+2. Renal:
+   • Monitor Cr q12h; hold ibuprofen (NSAIDs worsen CKD).
+   • Vancomycin AUC adjusted per pharmacy given CrCl ~50 mL/min.
+
+3. RA Management:
+   • Hold biologics until infection cleared; Rheumatology consult for bridge therapy plan.
+   • Avoid systemic steroids during active septic arthritis.
+
+4. Pain:
+   • Acetaminophen 650 mg PO q6h PRN; leg elevation and ice PRN.
+   • Avoid NSAIDs (CKD, active infection).
+
+5. Labs q24h: CBC, BMP, CRP, ESR, blood and synovial cultures as resulted.
+
+6. Disposition:
+   • Admit to Medicine with Orthopedics and Rheumatology co-management.
+   • DVT prophylaxis: enoxaparin 30 mg SC q12h (renally adjusted).
+   • Code Status: Full Code.
+
+Prepared by:
+Dr. Elena S. Park, MD
+Hospitalist – Medicine Service
+Pager # 11847
+
+######################################
+
+Example Hospitalist Admission History and Physical
+09/17/3082 02:08
+
+Patient: Tyler J. Reed
+DOB: 03/22/3058 (24 y/o)
+MRN: 50283917
+PCP: Dr. Wayne O. Tran, MD
+
+Chief Complaint: Severe headache, fever, neck stiffness, and photophobia
+
+History of Present Illness:
+24yo M with no significant PMH p/w 12-hour hx of severe, sudden-onset headache (10/10, described as "the worst of my life"), fever up to 39.8°C, neck stiffness, photophobia, and one episode of projectile vomiting. He was in his usual state of health until this morning when he awoke from sleep with the headache and felt "feverish." He reports progressive worsening of symptoms over 12 hours with new confusion and difficulty following conversation noted by his roommate. He denies recent trauma, sinus infection, or dental procedures. He lives in a college dormitory and reports that a roommate had a febrile illness 5 days ago. No recent travel outside the state. He received meningococcal vaccine (MenACWY) as required for college entry 4 years ago; booster status unknown. No rash noted on presentation.
+
+Past Medical History:
+• No significant medical history
+• Immunizations: up to date per patient report; MenACWY 4 years ago; MenB unknown
+
+Past Surgical History:
+• None
+
+Family History:
+Father – healthy, alive age 52
+Mother – migraines, alive age 50
+Sister – healthy
+
+Social History:
+Marital Status: Single
+Employment: College student (junior year)
+Tobacco: Social smoker, <5 cigarettes/week
+Alcohol: Occasional, 3–5 drinks on weekends
+Illicit drugs: Occasional marijuana (smoked), denies other drugs
+Living situation: College dormitory, shared room
+
+Review of Systems:
+Constitutional: +fever, +chills, +fatigue; -weight loss
+HEENT: +severe headache, +photophobia, +phonophobia; -vision changes, -diplopia, -epistaxis
+Cardiovascular: -chest pain, -palpitations
+Respiratory: -cough, -dyspnea
+GI: +nausea, +vomiting ×1; -diarrhea, -abdominal pain
+GU: -dysuria, -frequency
+Musculoskeletal: +neck stiffness, +myalgias
+Neurologic: +confusion (progressive), +headache; -seizure, -focal weakness, -syncope
+Skin: -rash (confirmed by patient and roommate on arrival)
+
+Prior to Admission Medications: None
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 39.6 °C (103.3 °F)
+Heart Rate: 126 bpm (60–100)
+Respiratory Rate: 22 /min (12–20)
+Blood Pressure: 112/68 mmHg (110–140/70–85)
+SpO₂: 98% RA
+
+General: Young male, acutely ill, diaphoretic, agitated, in severe distress due to headache and photophobia. Lying still with eyes closed.
+HEENT: Normocephalic, atraumatic; photophobic (avoids light); oropharynx clear; no sinus tenderness.
+Neck: Severe nuchal rigidity (cannot flex chin to chest); Kernig's sign positive bilaterally; Brudzinski's sign positive.
+Cardiovascular: Tachycardic; regular rhythm; S1 S2 normal; no murmurs.
+Respiratory: Clear to auscultation bilaterally.
+Abdomen: Soft; non-tender; bowel sounds normoactive.
+Extremities: No edema; no petechiae on extremities at time of examination.
+Skin: No rash, no petechiae, no purpura — to be monitored closely.
+Neurologic: Oriented to person only; agitated; follows simple commands inconsistently; no focal motor deficits; pupils 4 mm, equal, reactive to light (sluggish).
+
+Labs (drawn 09/17/3082):
+CBC: WBC 22.8 K/µL (neut 94%, bands 10%), Hgb 14.2 g/dL, Plt 168 K/µL
+BMP: Na 128 mmol/L (hyponatremia), K 3.8 mmol/L, Cl 92 mmol/L, CO₂ 20 mmol/L, BUN 14 mg/dL, Cr 1.0 mg/dL, Glucose 58 mg/dL
+CRP: 32.4 mg/dL
+Procalcitonin: 6.8 ng/mL
+Coagulation: PT 14.2 sec, INR 1.1, PTT 32 sec
+Blood cultures: x2 drawn before antibiotics, pending
+CT head (non-contrast, 09/17/3082): No mass lesion, no midline shift, no herniation. No hemorrhage. Sulcal effacement suggesting early cerebral edema.
+LP (performed after CT — no mass effect):
+  – Opening pressure: 340 mmH₂O (elevated)
+  – Appearance: turbid, cloudy
+  – WBC: 4,200/µL (98% neutrophils)
+  – Protein: 280 mg/dL (elevated)
+  – Glucose: 22 mg/dL (serum 58; ratio 0.38 — markedly low)
+  – Gram stain: gram-negative diplococci (intracellular)
+  – Culture: sent
+
+Assessment and Plan:
+24yo M presenting with acute bacterial meningitis — classic triad (fever, neck stiffness, altered mental status) plus LP confirming purulent CSF with gram-negative diplococci, highly consistent with Neisseria meningitidis. Severe presentation with elevated ICP, hyponatremia (SIADH), and hypoglycorrhachia.
+
+1. Bacterial Meningitis — Empiric Therapy (do NOT delay for any pending results):
+   • IV ceftriaxone 2 g q12h — primary treatment for suspected meningococcal or pneumococcal meningitis; gram-negative diplococci strongly suggests N. meningitidis.
+   • Add IV vancomycin 15 mg/kg q8–12h for empiric coverage of penicillin-resistant S. pneumoniae pending final speciation and sensitivities.
+   • Add IV ampicillin 2 g q4h for Listeria monocytogenes coverage (indicated empirically in adults given meningitis risk, and given age <1 month or >50 — patient 24 may not require Listeria coverage per strict criteria, but given severity, maintain until cultures finalize).
+   • Dexamethasone 0.15 mg/kg IV q6h × 4 days — start before or with first antibiotic dose; reduces mortality and neurological sequelae in bacterial meningitis.
+   • Antibiotics administered within 30 minutes of ED arrival — DO NOT DELAY.
+
+2. Elevated ICP / Cerebral Edema:
+   • HOB elevated 30°; avoid hypotonic fluids.
+   • Neurosurgery and Neurology consults for ICP monitoring if clinical deterioration.
+   • Seizure precautions; levetiracetam 500 mg IV load if seizure occurs.
+
+3. Hyponatremia (SIADH):
+   • Fluid restriction 1 L/day; monitor Na q6h.
+   • If Na <120 or symptomatic: hypertonic saline under close supervision.
+
+4. Contact Tracing:
+   • Notify public health — N. meningitidis is a reportable disease.
+   • Ciprofloxacin 500 mg PO ×1 (or rifampin) for close contacts (roommate, household).
+
+5. Labs q6h: BMP (Na), glucose; q12h CBC, CRP; blood and CSF cultures as resulted.
+
+6. Disposition:
+   • Admit to ICU — severe bacterial meningitis with altered mental status and elevated ICP.
+   • Droplet precautions × 24h after antibiotics initiated.
+   • Code Status: Full Code; contact family immediately.
+
+Prepared by:
+Dr. Christine A. Baxter, MD
+Hospitalist – Medicine/Neurology Interface
+Pager # 80293
+
+######################################
+
+Example Hospitalist Admission History and Physical
+12/01/3085 07:52
+
+Patient: Eleanor R. Nash
+DOB: 09/08/3005 (80 y/o)
+MRN: 81029374
+PCP: Dr. Bernard T. Cole, MD
+
+Chief Complaint: Fever, increased respiratory secretions, and altered mental status
+
+History of Present Illness:
+80yo F with h/o advanced Alzheimer's dementia (moderate-to-severe stage, non-verbal at baseline), recurrent aspiration events, dysphagia (on pureed diet and thickened liquids), HTN, DM2 (A1c 7.6%), and prior aspiration pneumonia (3083, 3084 — treated with ampicillin-sulbactam both times) p/w acute change in mental status beyond baseline, increased respiratory secretions, fever up to 38.8°C, and new hypoxia noted by facility staff this morning. Per nursing home staff, she was found in bed at 6 AM with labored breathing and O₂ sat 84% on RA. She has been coughing more since dinner last night and was noted to have gagged repeatedly during evening meal. No witnessed aspiration event, but staff noted she had been "choking" on thickened liquids at dinner. She was last seen at her baseline (non-verbal, arousable to voice) at 4 PM yesterday. No family at bedside. No recent antibiotic use in past 30 days.
+
+Past Medical History:
+• Advanced Alzheimer's dementia – moderate-to-severe, non-verbal, resides in memory care unit
+• Dysphagia – on speech therapy-recommended pureed diet and nectar-thick liquids
+• Recurrent aspiration pneumonia – 3083 (ampicillin-sulbactam), 3084 (ampicillin-sulbactam)
+• Type 2 Diabetes Mellitus – A1c 7.6%, on glipizide
+• Hypertension – on amlodipine 5 mg daily
+• Osteoporosis – on calcium and vitamin D
+• Hypothyroidism – on levothyroxine 75 mcg daily
+
+Past Surgical History:
+Procedure                  Laterality     Date
+• PEG tube placement       —              02/3084 (removed 05/3084 per family wishes)
+• Appendectomy             —              07/3042
+
+Family History:
+Daughter (HCP) – alive, contacted
+Son – alive
+
+Social History:
+Marital Status: Widowed
+Employment: Retired
+Tobacco: Former smoker, quit 3048 (20 pack-years)
+Alcohol: Denies
+Illicit drugs: Denies
+Living situation: Memory care nursing facility ×3 years
+
+Review of Systems: (obtained from nursing facility staff and chart)
+Constitutional: +fever, +increased secretions; -known weight loss recently
+Respiratory: +labored breathing, +productive-sounding cough, +hypoxia; -hemoptysis
+GI: +coughing/gagging at meals; -diarrhea, -abdominal distension
+Neurologic: +altered mental status beyond baseline (more somnolent); -witnessed seizure
+
+Prior to Admission Medications:
+Medication               Sig
+glipizide                5 mg PO daily (crushed)
+amlodipine               5 mg PO daily (crushed)
+levothyroxine            75 mcg PO qAM (crushed)
+calcium carbonate        500 mg PO BID (crushed)
+cholecalciferol          1000 IU PO daily (crushed)
+memantine                10 mg PO BID (crushed)
+donepezil                10 mg PO qHS (crushed)
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 38.6 °C (101.5 °F)
+Heart Rate: 108 bpm (60–100)
+Respiratory Rate: 24 /min (12–20)
+Blood Pressure: 122/74 mmHg (110–140/70–85)
+SpO₂: 88% RA → 94% on 4L NC
+
+General: Elderly female, ill-appearing, non-verbal at baseline, more somnolent than baseline per staff, in moderate respiratory distress with accessory muscle use.
+HEENT: Normocephalic, atraumatic; mucous membranes dry; oropharynx with pooled secretions and food particulate.
+Neck: Supple; no JVD; no lymphadenopathy.
+Cardiovascular: Tachycardic; regular rhythm; S1 S2 normal; no murmurs.
+Respiratory: Coarse crackles and rhonchi bilateral lower lobes, right greater than left; diminished breath sounds right base; dullness to percussion right base.
+Abdomen: Soft; non-tender; bowel sounds normoactive; no distension.
+Extremities: 1+ pitting edema bilateral lower extremities (chronic).
+Skin: Warm; no pressure ulcers; no rashes.
+Neurologic: Responds only to painful stimuli (beyond her baseline of arousable to voice); pupils equal and reactive.
+
+Labs (drawn 12/01/3085):
+CBC: WBC 16.2 K/µL (neut 88%), Hgb 10.8 g/dL, Plt 228 K/µL
+BMP: Na 146 mmol/L, K 4.2 mmol/L, Cl 108 mmol/L, CO₂ 22 mmol/L, BUN 28 mg/dL, Cr 1.0 mg/dL, Glucose 188 mg/dL
+CRP: 14.4 mg/dL
+Procalcitonin: 0.9 ng/mL
+Blood cultures: x2 drawn, pending
+Sputum: sent for Gram stain and culture (expectorated with suctioning)
+
+Imaging:
+Chest X-ray (12/01/3085): Right lower and middle lobe infiltrates with air bronchograms consistent with aspiration pneumonia. Mild cardiomegaly. No effusion.
+
+Assessment and Plan:
+80yo F with advanced dementia and recurrent aspiration events presenting with aspiration pneumonia (right lower and middle lobe infiltrates, hypoxia, fever, leukocytosis) — suspected mixed oral flora including anaerobes given aspiration mechanism. Prior treatment with ampicillin-sulbactam with good response on both prior admissions.
+
+1. Aspiration Pneumonia:
+   • Start IV ampicillin-sulbactam 3 g q6h — appropriate for aspiration pneumonia with mixed aerobic and anaerobic coverage; consistent with prior successful treatment course in this patient.
+   • Plan for 7-day total course; reassess for IV-to-PO step-down once tolerating crushed medications and clinically improving.
+   • Sputum Gram stain and culture sent; blood cultures pending — adjust therapy if resistant organism identified.
+   • Avoid fluoroquinolones given risk of QTc prolongation and C. difficile in elderly; avoid clindamycin monotherapy (no gram-negative coverage).
+
+2. Hypoxia:
+   • Supplemental O₂ via nasal cannula titrated to SpO₂ ≥92%.
+   • Elevate HOB 30–45° at all times to reduce aspiration risk.
+   • Pulmonary toilet: encourage deep breathing exercises as tolerated; suction as needed.
+
+3. Dysphagia / Aspiration Precautions:
+   • NPO on admission; speech therapy consult when acute illness improves.
+   • Reinforce aspiration precautions with nursing facility staff on discharge.
+   • Goals of care discussion with HCP daughter — discuss feeding tube vs. continued oral feeds given recurrent aspiration.
+
+4. Diabetes:
+   • Hold glipizide (NPO); capillary glucose monitoring q6h; correctional insulin scale.
+
+5. Goals of Care:
+   • Contact daughter (HCP) to confirm current code status and discuss prognosis.
+   • Consider palliative care consult given recurrent aspiration pneumonia trajectory.
+
+6. Labs q24h: CBC, BMP, CRP; cultures as resulted.
+
+7. Disposition:
+   • Admit to Medicine.
+   • DVT prophylaxis: enoxaparin 40 mg SC daily.
+   • Code Status: Confirm with HCP daughter — currently presumed DNR/DNI per prior documentation; update as clarified.
+
+Prepared by:
+Dr. Samuel O. Adeyemi, MD
+Hospitalist – Medicine Service
+Pager # 44019
+
+######################################
+
+Example Hospitalist Admission History and Physical
+03/22/3084 21:44
+
+Patient: Robert C. Finn
+DOB: 10/14/3010 (74 y/o)
+MRN: 62938401
+PCP: Dr. Miriam A. Shah, MD
+
+Chief Complaint: Fever, cloudy urine, and suprapubic pain — indwelling urinary catheter
+
+History of Present Illness:
+74yo M with h/o BPH (s/p TURP 3076, residual bladder dysfunction), T2DM (A1c 8.0%), HTN, and stage III chronic kidney disease (baseline Cr 1.8) p/w 3-day hx of fever up to 39.0°C, chills, cloudy and malodorous urine from indwelling Foley catheter, and suprapubic discomfort. He has had an indwelling urinary catheter in place for the past 6 weeks following urinary retention after an elective right inguinal hernia repair (02/09/3084); the catheter was last changed 3 weeks ago at urology clinic. He reports the urine became cloudy and foul-smelling 4 days ago. He noted fever and chills 3 days ago and called his PCP, who advised him to come to the ED when the fever reached 39°C today. He denies flank pain, hematuria, or pelvic pain radiating to the thigh. He denies diarrhea, cough, or skin changes. He has no known prior resistant UTI organisms. He was treated for a catheter-associated UTI in 3082 with oral ciprofloxacin with good response.
+
+Past Medical History:
+• Benign Prostatic Hyperplasia – s/p TURP 3076; residual neurogenic bladder
+• Type 2 Diabetes Mellitus – A1c 8.0%, on metformin and glipizide
+• Hypertension – on lisinopril 20 mg daily and amlodipine 5 mg daily
+• Chronic Kidney Disease stage 3 – baseline Cr 1.8 mg/dL
+• Prior catheter-associated UTI – 3082, treated with ciprofloxacin
+• Hyperlipidemia – on rosuvastatin 20 mg nightly
+
+Past Surgical History:
+Procedure                       Laterality     Date
+• TURP                          —              08/3076
+• Right inguinal hernia repair  Right          02/09/3084
+• Cholecystectomy               —              03/3058
+
+Family History:
+Father – BPH, died age 80 (unrelated)
+Mother – DM2, died age 77 (stroke)
+Son – healthy
+
+Social History:
+Marital Status: Widowed, lives alone
+Employment: Retired engineer
+Tobacco: Former smoker, quit 3062 (25 pack-years)
+Alcohol: 1–2 beers/week
+Illicit drugs: Denies
+Living situation: Single-family home; home health aide visits twice weekly
+
+Review of Systems:
+Constitutional: +fever, +chills, +malaise; -rigors, -weight loss
+HEENT: -headache, -vision changes
+Cardiovascular: -chest pain, -palpitations, -new edema
+Respiratory: -cough, -dyspnea
+GI: -N/V, -diarrhea, -abdominal pain (except suprapubic)
+GU: +cloudy malodorous urine via Foley, +suprapubic discomfort; -hematuria, -flank pain
+Neurologic: -confusion, -syncope
+
+Prior to Admission Medications:
+Medication               Sig
+metformin                1000 mg PO BID
+glipizide                5 mg PO BID
+lisinopril               20 mg PO daily
+amlodipine               5 mg PO daily
+rosuvastatin             20 mg PO nightly
+tamsulosin               0.4 mg PO daily
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 38.8 °C (101.8 °F)
+Heart Rate: 100 bpm (60–100)
+Respiratory Rate: 18 /min (12–20)
+Blood Pressure: 138/80 mmHg (110–140/70–85)
+SpO₂: 97% RA
+
+General: Elderly male, ill-appearing, in mild distress due to suprapubic discomfort.
+HEENT: Normocephalic, atraumatic; mucous membranes dry; oropharynx clear.
+Neck: Supple; no JVD; no lymphadenopathy.
+Cardiovascular: Regular rate and rhythm; S1 S2 normal; no murmurs.
+Respiratory: Clear to auscultation bilaterally.
+Abdomen: Soft; mild suprapubic tenderness on deep palpation; no rebound; no guarding; bowel sounds normoactive.
+GU: Foley catheter in situ — turbid yellow urine in bag; no erythema or discharge at urethral meatus.
+Extremities: 1+ pitting edema bilateral lower extremities (chronic, baseline).
+Skin: Warm; no rashes; no skin lesions.
+Neurologic: Alert and oriented ×3; no focal deficits.
+
+Labs (drawn 03/22/3084):
+CBC: WBC 13.8 K/µL (neut 86%), Hgb 11.4 g/dL, Plt 246 K/µL
+BMP: Na 138 mmol/L, K 4.4 mmol/L, Cl 102 mmol/L, CO₂ 22 mmol/L, BUN 40 mg/dL, Cr 2.4 mg/dL (baseline 1.8), Glucose 214 mg/dL
+CRP: 12.6 mg/dL
+Procalcitonin: 0.6 ng/mL
+Urinalysis (from catheter): Leukocyte esterase 3+, nitrite +, WBC >100/hpf, bacteria many, no casts
+Blood cultures: x2 drawn, pending
+Urine culture: sent from catheter (new catheter placed before specimen collection)
+
+Imaging:
+Renal and bladder ultrasound (03/22/3084): No hydronephrosis. Bladder catheter in place with small post-void residual. No stones. No abscess.
+
+Assessment and Plan:
+74yo M with BPH, DM2, and CKD-3 presenting with catheter-associated urinary tract infection (CAUTI) with systemic signs (fever, leukocytosis, acute rise in Cr). No localizing upper tract features but systemic inflammatory response warrants inpatient IV antibiotics.
+
+1. Catheter-Associated UTI (CAUTI) with Systemic Infection:
+   • Replace Foley catheter before urine culture specimen — already done in ED.
+   • Start IV ciprofloxacin 400 mg q12h (adjusted for CrCl ~28 mL/min) for gram-negative coverage, appropriate for uncomplicated CAUTI without ESBL risk; no prior resistant organisms documented.
+   • Plan to transition to oral ciprofloxacin 500 mg BID once afebrile ×24h and tolerating PO — total course 7 days.
+   • Urine and blood cultures pending; escalate to ceftriaxone or ertapenem if ESBL suspected on culture.
+   • Urology consult — reassess ongoing catheter necessity; remove as soon as urologic condition permits.
+
+2. Acute Kidney Injury:
+   • Hold metformin (AKI, elevated Cr); IV fluids NS 125 mL/hr.
+   • Monitor Cr q12h; adjust ciprofloxacin as needed.
+   • Avoid nephrotoxic agents.
+
+3. Diabetes:
+   • Hold metformin; sliding scale insulin AC; glucose monitoring q6h.
+
+4. Labs q24h: CBC, BMP, CRP; cultures as resulted.
+
+5. Disposition:
+   • Admit to Medicine.
+   • DVT prophylaxis: enoxaparin 30 mg SC q12h (renally adjusted).
+   • Code Status: Full Code.
+
+Prepared by:
+Dr. Isabelle M. Roux, MD
+Hospitalist – Medicine Service
+Pager # 73920
+
+######################################
+
+Example Hospitalist Admission History and Physical
+07/05/3081 14:28
+
+Patient: Walter K. Osei
+DOB: 04/18/3016 (65 y/o)
+MRN: 48201937
+PCP: Dr. Tanya B. Johansson, MD
+
+Chief Complaint: Persistent fever with tunneled central line in situ
+
+History of Present Illness:
+65yo M with h/o Crohn's disease (on adalimumab and azathioprine, complicated by short bowel syndrome s/p multiple bowel resections), chronic TPN dependence, and CKD-2 (baseline Cr 1.2) p/w 4-day hx of persistent fever up to 39.4°C, rigors, and malaise despite continuation of home TPN. He has a right-sided tunneled PICC line in place used for TPN delivery, inserted 4 months ago, last accessed daily by home infusion nurse. He reports no redness or drainage at the exit site. Three days ago he spiked fever of 38.8°C, attributed to "feeling run down"; his home infusion nurse noted no site abnormalities. He has been on broad-spectrum antibiotics twice in the past 6 months (piperacillin-tazobactam for a Crohn's-related abscess, 3081) and azole antifungal prophylaxis with fluconazole 200 mg PO daily (prescribed by gastroenterology after a prior yeast infection). Today his fever rose to 39.4°C with rigors and he presented to the ED. No localizing symptoms — no cough, no dysuria, no abdominal pain, no skin changes.
+
+Past Medical History:
+• Crohn's disease – on adalimumab and azathioprine; complicated course
+• Short bowel syndrome – s/p multiple bowel resections, on chronic TPN
+• CKD stage 2 – baseline Cr 1.2 mg/dL
+• Prior intra-abdominal abscess – 3081, treated with pip-tazo
+• Hypothyroidism – on levothyroxine 100 mcg daily
+• Prior Candida albicans fungemia – 3079, treated with fluconazole (on prophylaxis since)
+
+Past Surgical History:
+Procedure                  Laterality     Date
+• Ileocecal resection       —             04/3068
+• Small bowel resection ×2  —            09/3072, 11/3076
+• Right PICC placement      Right         03/3081
+
+Family History:
+Father – Crohn's disease, alive age 90
+Mother – HTN, died age 72
+Brother – healthy
+
+Social History:
+Marital Status: Married, lives with wife
+Employment: Retired accountant
+Tobacco: Never smoker
+Alcohol: Denies (GI disease)
+Illicit drugs: Denies
+Living situation: Single-family home with wife
+
+Review of Systems:
+Constitutional: +fever, +rigors, +malaise, +fatigue; -weight loss (beyond baseline)
+HEENT: -headache, -vision changes
+Cardiovascular: -chest pain, -palpitations, -edema
+Respiratory: -cough, -dyspnea
+GI: -abdominal pain (baseline mild), -diarrhea (baseline loose stools), -N/V
+GU: -dysuria, -frequency, -hematuria
+Skin: -rash; exit site — no erythema per patient
+Neurologic: -confusion, -syncope
+
+Prior to Admission Medications:
+Medication               Sig
+adalimumab               40 mg SC every 2 weeks (last dose 10 days ago)
+azathioprine             100 mg PO daily
+levothyroxine            100 mcg PO qAM
+fluconazole              200 mg PO daily (prophylaxis)
+TPN                      infused via right PICC 14h/day overnight
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 39.2 °C (102.6 °F)
+Heart Rate: 114 bpm (60–100)
+Respiratory Rate: 20 /min (12–20)
+Blood Pressure: 106/64 mmHg (110–140/70–85)
+SpO₂: 97% RA
+
+General: Elderly male, ill-appearing, cachectic, diaphoretic, in mild-to-moderate distress.
+HEENT: Normocephalic, atraumatic; mucous membranes dry; oropharynx clear; no oral thrush.
+Neck: Supple; no JVD; no lymphadenopathy.
+Cardiovascular: Tachycardic; regular rhythm; S1 S2 normal; no murmurs.
+Respiratory: Clear to auscultation bilaterally.
+Abdomen: Soft; multiple surgical scars; mild diffuse tenderness (baseline per patient); no guarding; bowel sounds hypoactive.
+Right PICC exit site: No erythema, no induration, no purulence; dressing intact.
+Extremities: No edema; muscle wasting consistent with chronic illness.
+Skin: No rash; no mucocutaneous candidiasis; no retinal lesions on fundoscopy (deferred to ophthalmology).
+Neurologic: Alert and oriented ×3; no focal deficits.
+
+Labs (drawn 07/05/3081):
+CBC: WBC 14.2 K/µL (neut 82%), Hgb 10.1 g/dL, Plt 196 K/µL
+BMP: Na 136 mmol/L, K 3.4 mmol/L, Cl 98 mmol/L, CO₂ 24 mmol/L, BUN 22 mg/dL, Cr 1.4 mg/dL (baseline 1.2), Glucose 168 mg/dL
+CRP: 18.8 mg/dL
+Procalcitonin: 1.4 ng/mL
+Blood cultures: x2 peripheral + x2 via PICC — all 4 sets drawn simultaneously, pending
+Beta-D-glucan: STAT sent (highly sensitive for invasive fungal infection)
+Urinalysis: trace leukocytes, no bacteria, no casts
+
+Imaging:
+Chest X-ray (07/05/3081): No infiltrates. Right PICC tip at cavoatrial junction — satisfactory position. No pneumothorax.
+TTE (07/05/3081): No vegetations. EF 62%. No valvular abnormalities. No pericardial effusion.
+
+Assessment and Plan:
+65yo M on chronic TPN via tunneled PICC, immunosuppressed (adalimumab + azathioprine), and with prior Candida fungemia presenting with persistent fever — central line-associated bloodstream infection (CLABSI) most likely, with high concern for candidemia given: TPN dependence, prior fungemia, recent broad-spectrum antibiotic exposure, and immunosuppression.
+
+1. Suspected Candidemia / CLABSI:
+   • Hold TPN pending culture results.
+   • Hold adalimumab and azathioprine — immunosuppression must be paused during active bloodstream infection.
+   • Start IV fluconazole 800 mg loading dose, then 400 mg q24h — appropriate for suspected Candida bloodstream infection in patient with prior azole-susceptible C. albicans; fluconazole prophylaxis does not preclude treatment given breakthrough risk.
+   • Add IV vancomycin 15 mg/kg q12h empirically for gram-positive CLABSI coverage pending cultures.
+   • If Candida non-albicans or azole-resistant organism confirmed on culture: escalate to IV micafungin 100 mg q24h.
+   • PICC line removal required if candidemia confirmed — do not retain line in setting of fungemia.
+   • Blood cultures to be repeated q24–48h until 2 consecutive sets negative.
+   • Ophthalmology consult for dilated fundoscopic exam within 5 days of positive cultures (candidal endophthalmitis).
+
+2. PICC Management:
+   • Plan for PICC removal if blood cultures positive; IR consult for new central access after bloodstream infection cleared (minimum 2 weeks).
+   • Consider peripheral TPN or oral nutritional support as bridge.
+
+3. Renal:
+   • Monitor Cr q12h; adjust fluconazole as needed (renally dosed for CrCl).
+   • Avoid nephrotoxic agents.
+
+4. Labs q12h: CBC, BMP, CRP, blood cultures; beta-D-glucan results pending.
+
+5. Disposition:
+   • Admit to Medicine with ID and GI co-management.
+   • DVT prophylaxis: enoxaparin 40 mg SC daily.
+   • Code Status: Full Code.
+
+Prepared by:
+Dr. Yolanda F. Mensah, MD
+Hospitalist – Medicine Service
+Pager # 62048
+
+######################################
+
+Example Hospitalist Admission History and Physical
+08/30/3086 23:17
+
+Patient: Brian A. Kovacs
+DOB: 07/12/3038 (48 y/o)
+MRN: 39102847
+PCP: Dr. Nadine P. Wolfe, MD
+
+Chief Complaint: Rapidly spreading left leg pain and redness with fever
+
+History of Present Illness:
+48yo M with h/o DM2 (A1c 10.4%, poorly controlled), obesity (BMI 42), HTN, and prior MRSA skin abscess on right arm (3083, I&D + oral doxycycline) p/w 18-hour hx of severe, rapidly worsening left lower extremity pain, expanding erythema, and fever to 39.6°C. He reports he noticed a small abrasion on his left shin 3 days ago after bumping into a table; he did not seek care. Over the past 18 hours the pain became excruciating and out of proportion to the apparent skin findings; he describes a "wooden" feeling in his leg and reports that the skin color has changed from red to violaceous in patches. His wife called 911 when she noticed he could not move his leg due to pain and appeared confused. He was brought directly to the ED. He denies IV drug use. No recent travel. No sick contacts.
+
+Past Medical History:
+• Type 2 Diabetes Mellitus – A1c 10.4%, poorly controlled, on insulin
+• Obesity – BMI 42
+• Hypertension – on lisinopril 20 mg daily and hydrochlorothiazide 12.5 mg daily
+• Prior MRSA skin abscess right arm – 3083, I&D and oral doxycycline
+• Hyperlipidemia – on atorvastatin 40 mg nightly
+• Obstructive sleep apnea – on CPAP
+
+Past Surgical History:
+Procedure                  Laterality     Date
+• I&D right arm abscess    Right          06/3083
+• Cholecystectomy          —              11/3071
+
+Family History:
+Father – DM2, HTN, alive age 72
+Mother – DM2, BKA right, alive age 70
+Brother – obese, DM2
+
+Social History:
+Marital Status: Married, lives with wife and two children
+Employment: Truck driver, long haul
+Tobacco: Active smoker, ½ ppd × 20 years
+Alcohol: 6–8 beers/week
+Illicit drugs: Denies IV drug use; occasional marijuana
+Living situation: Single-family home
+
+Review of Systems:
+Constitutional: +fever, +chills, +rigors, +new confusion (per wife); -weight loss
+HEENT: -headache, -vision changes
+Cardiovascular: -chest pain, -palpitations
+Respiratory: -cough, -dyspnea
+GI: -N/V, -diarrhea, -abdominal pain
+GU: -dysuria, -frequency
+Musculoskeletal: +left lower extremity — severe pain out of proportion to findings, rapidly worsening
+Skin: +left lower leg — expanding erythema with violaceous discoloration, skin bullae forming; no crepitus (yet)
+Neurologic: +confusion (per wife, new); -syncope, -seizure
+
+Prior to Admission Medications:
+Medication               Sig
+insulin glargine         40 U SC qHS
+insulin lispro           sliding scale AC
+lisinopril               20 mg PO daily
+hydrochlorothiazide      12.5 mg PO daily
+atorvastatin             40 mg PO nightly
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 39.4 °C (102.9 °F)
+Heart Rate: 128 bpm (60–100)
+Respiratory Rate: 24 /min (12–20)
+Blood Pressure: 92/56 mmHg (110–140/70–85)
+SpO₂: 94% RA
+
+General: Obese male, acutely ill, diaphoretic, moaning in pain, in severe distress.
+HEENT: Normocephalic, atraumatic; mucous membranes dry; oropharynx clear.
+Neck: Supple; no JVD.
+Cardiovascular: Tachycardic; regular rhythm; S1 S2 normal; no murmurs.
+Respiratory: Tachypneic; clear to auscultation bilaterally.
+Abdomen: Soft; obese; non-tender; bowel sounds normoactive.
+Extremities: Left lower leg — 12×18 cm confluent erythema with irregular violaceous borders; skin bullae (2 intact, 1 ruptured with serosanguineous fluid) over lateral shin; exquisite tenderness to light touch; woody indurated subcutaneous tissue; no palpable fluctuance; no audible crepitus; skin appears dusky at center. Passive motion of left ankle and toes elicits severe pain. Diminished left dorsalis pedis pulse. Right leg unremarkable.
+Skin: No lymphangitic streaking proximal to knee; no rashes elsewhere.
+Neurologic: Oriented to person only; follows simple commands; no focal motor deficits.
+
+Labs (drawn 08/30/3086):
+CBC: WBC 26.4 K/µL (neut 94%, bands 12%), Hgb 11.2 g/dL, Plt 92 K/µL
+BMP: Na 130 mmol/L, K 5.2 mmol/L, Cl 96 mmol/L, CO₂ 16 mmol/L, BUN 52 mg/dL, Cr 2.8 mg/dL, Glucose 448 mg/dL
+Lactate: 4.8 mmol/L (severely elevated)
+CRP: 38.2 mg/dL
+CK: 4,820 U/L (markedly elevated — myonecrosis)
+Coagulation: PT 18.4 sec, INR 1.5, PTT 48 sec (DIC pattern)
+Blood cultures: x2 drawn, pending
+Wound fluid (ruptured bulla): Gram stain — mixed gram-positive and gram-negative organisms
+
+Imaging:
+Left lower extremity X-ray (08/30/3086): Subcutaneous gas tracking along fascial planes of left lower leg — consistent with gas-forming necrotizing infection.
+CT left lower extremity with contrast: Fascial plane thickening and air tracking from ankle to mid-tibia; no discrete abscess; findings consistent with type I (polymicrobial) necrotizing fasciitis.
+
+Assessment and Plan:
+48yo M with DM2, obesity, and prior MRSA presenting with septic shock and type I polymicrobial necrotizing fasciitis of the left lower extremity (gas on X-ray and CT, woody induration, pain out of proportion, DIC, CK elevation). Surgical emergency.
+
+1. Necrotizing Fasciitis — Emergent Surgical Debridement + Broad-Spectrum Antibiotics:
+   • Immediate General Surgery consult — OR for emergent debridement within 1 hour; do not delay antibiotics for further workup.
+   • Start IV vancomycin 25 mg/kg loading dose, then 15 mg/kg q8h (target AUC/MIC 400–600) for MRSA and gram-positive coverage.
+   • Start IV piperacillin-tazobactam 4.5 g q6h for gram-negative and anaerobic coverage.
+   • Add IV clindamycin 900 mg q8h — critical addition for toxin suppression; inhibits ribosomal protein synthesis, reducing toxin production from S. pyogenes and S. aureus even after bactericidal agents initiated.
+   • Three-drug regimen (vancomycin + piperacillin-tazobactam + clindamycin) appropriate for polymicrobial NF pending intraoperative cultures.
+   • De-escalate based on intraoperative tissue culture results at 48–72h.
+
+2. Septic Shock:
+   • NS 30 mL/kg IV bolus; start norepinephrine if MAP <65 despite 2L resuscitation.
+   • ICU admission — hemodynamic instability and surgical emergency.
+   • Arterial line for continuous BP monitoring.
+
+3. DIC:
+   • FFP 2 units IV now; cryoprecipitate if fibrinogen <100 mg/dL.
+   • Monitor coags q4h.
+
+4. Diabetes / DKA Rule-out:
+   • Glucose 448, anion gap 18 — DKA protocol; insulin drip; repeat BMP in 2h.
+
+5. Renal:
+   • AKI likely prerenal + septic; monitor Cr q6h; adjust vancomycin per pharmacy AUC.
+
+6. Labs q4–6h: CBC, BMP, lactate, coags, CK, blood cultures.
+
+7. Disposition:
+   • Direct to OR then ICU.
+   • Code Status: Full Code; contact wife at bedside.
+
+Prepared by:
+Dr. Paul N. Oduya, MD
+Hospitalist/Critical Care – Emergency Admission
+Pager # 19283
+
+######################################
+
+Example Hospitalist Admission History and Physical
+11/18/3082 10:04
+
+Patient: Carol M. Yamamoto
+DOB: 02/25/3012 (70 y/o)
+MRN: 74019283
+PCP: Dr. Steven K. Larkin, MD
+
+Chief Complaint: Right hip pain, fever, and inability to bear weight
+
+History of Present Illness:
+70yo F with h/o right total hip arthroplasty (THA, cemented, 3080), DM2 (A1c 7.4%), HTN, and osteoporosis p/w 3-week hx of progressively worsening right hip and groin pain with associated low-grade fevers (Tmax 38.3°C at home) and difficulty walking, now presenting after becoming unable to bear weight this morning. She reports the pain began ~3 weeks ago as a dull ache attributed to overexertion from gardening. Over 2 weeks it intensified with night sweats and fatigue; her orthopedist obtained X-rays showing "loosening around the prosthesis" 4 days ago and referred her to the ED. She denies trauma, falls, skin breakdown, or prior hip injections. She had a right upper molar extraction 6 weeks ago. No diarrhea, no urinary symptoms. No recent travel, no sick contacts.
+
+Past Medical History:
+• Right total hip arthroplasty – cemented, 3080
+• Type 2 Diabetes Mellitus – A1c 7.4%, on metformin
+• Hypertension – on amlodipine 10 mg daily
+• Osteoporosis – on alendronate and calcium/vitamin D
+• Hypothyroidism – on levothyroxine 88 mcg daily
+
+Past Surgical History:
+Procedure                       Laterality     Date
+• Right THA (cemented)          Right          04/3080
+• Right knee arthroscopy        Right          07/3068
+• Appendectomy                  —              09/3042
+
+Family History:
+Father – OA, hip replacement, died age 84
+Mother – osteoporosis, DM2, died age 79
+Son – healthy
+
+Social History:
+Marital Status: Widowed, lives with daughter
+Employment: Retired pharmacist
+Tobacco: Never smoker
+Alcohol: 1 glass wine/week
+Illicit drugs: Denies
+Living situation: Daughter's home, single-story
+
+Review of Systems:
+Constitutional: +low-grade fever (home), +night sweats, +fatigue; -weight loss
+HEENT: -headache; recent dental extraction 6 weeks ago
+Cardiovascular: -chest pain, -palpitations, -edema
+Respiratory: -cough, -dyspnea
+GI: -N/V, -diarrhea, -abdominal pain
+GU: -dysuria, -frequency
+Musculoskeletal: +right hip and groin pain (progressive), +inability to bear weight; -other joint involvement
+Skin: -rash, -skin breakdown over hip
+Neurologic: -confusion, -syncope
+
+Prior to Admission Medications:
+Medication               Sig
+metformin                500 mg PO BID
+amlodipine               10 mg PO daily
+levothyroxine            88 mcg PO qAM
+alendronate              70 mg PO weekly
+calcium carbonate        600 mg PO BID
+cholecalciferol          1000 IU PO daily
+acetaminophen            650 mg PO q6h PRN pain
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 38.1 °C (100.6 °F)
+Heart Rate: 94 bpm (60–100)
+Respiratory Rate: 16 /min (12–20)
+Blood Pressure: 134/78 mmHg (110–140/70–85)
+SpO₂: 98% RA
+
+General: Elderly female, ill-appearing, in moderate discomfort; reluctant to move right hip.
+HEENT: Normocephalic, atraumatic; mucous membranes moist; oropharynx clear.
+Neck: Supple; no JVD; no lymphadenopathy.
+Cardiovascular: Regular rate and rhythm; S1 S2 normal; no murmurs.
+Respiratory: Clear to auscultation bilaterally.
+Abdomen: Soft; non-tender; bowel sounds normoactive.
+Musculoskeletal: Right hip — pain with any passive range of motion; internal and external rotation severely limited; held in flexed, externally rotated position. No skin erythema over surgical scar. Left hip unremarkable.
+Extremities: No edema; pulses intact bilaterally.
+Skin: Healed right hip surgical scar without erythema, drainage, or dehiscence.
+Neurologic: Alert and oriented ×3; no focal deficits.
+
+Labs (drawn 11/18/3082):
+CBC: WBC 13.4 K/µL (neut 82%), Hgb 10.6 g/dL, Plt 342 K/µL
+BMP: Na 138 mmol/L, K 3.8 mmol/L, Cl 102 mmol/L, CO₂ 24 mmol/L, BUN 18 mg/dL, Cr 0.9 mg/dL, Glucose 144 mg/dL
+ESR: 104 mm/hr
+CRP: 16.8 mg/dL
+Blood cultures: x2 drawn, pending
+Hip aspiration (by Orthopedics in ED):
+  – WBC: 48,000/µL (neutrophils 94%)
+  – Gram stain: gram-positive cocci in clusters
+  – Culture: sent; crystals: none
+
+Imaging:
+Right hip X-ray (11/18/3082): Periprosthetic lucency at cement-bone interface; periosteal reaction at proximal femur. Consistent with periprosthetic joint infection (PJI) with loosening.
+MRI right hip (11/18/3082): Periprosthetic fluid collection; marrow edema adjacent to femoral stem; no sinus tract to skin.
+
+Assessment and Plan:
+70yo F with right THA presenting with periprosthetic joint infection (PJI) — Zimmerli criteria met: ESR 104, CRP 16.8, synovial WBC 48,000 (94% neutrophils), gram-positive cocci on Gram stain, radiographic loosening. Likely hematogenous seeding from dental extraction 6 weeks ago.
+
+1. Periprosthetic Joint Infection (PJI):
+   • Orthopedic Surgery consult — surgical management required (DAIR vs. two-stage exchange given 3-week symptom duration and loosening).
+   • Hold antibiotics until adequate intraoperative tissue cultures obtained — do NOT start empiric antibiotics unless hemodynamically unstable.
+   • Once intraoperative cultures obtained: start IV vancomycin 15 mg/kg q12h (target AUC/MIC 400–600) for presumed Staphylococcus aureus or coagulase-negative staph pending cultures.
+   • Once bacteremia cleared (day 3–5) and cultures finalized: add oral rifampin 300 mg PO BID — biofilm-active agent essential for prosthetic joint infections caused by staphylococci; do NOT start rifampin until bacteremia cleared (enzyme induction worsens outcomes if started early).
+   • Anticipated total antibiotic course: 3–6 months per IDSA PJI guidelines.
+
+2. ID Consult:
+   • Antibiotic selection, duration, and OPAT planning.
+   • Review rifampin drug interactions (CYP450 inducer — adjust levothyroxine, consider metformin).
+
+3. Diabetes and Hypothyroidism:
+   • Continue metformin if renal function stable; monitor Cr.
+   • Rifampin will induce levothyroxine metabolism — anticipate dose increase.
+
+4. Labs q24h: CBC, BMP, CRP, ESR, blood and tissue cultures.
+
+5. Disposition:
+   • Admit to Orthopedics with ID co-management.
+   • DVT prophylaxis: enoxaparin 40 mg SC daily post-operatively.
+   • Code Status: Full Code.
+
+Prepared by:
+Dr. Howard B. Stein, MD
+Hospitalist – Orthopedic Medicine
+Pager # 58302
+
+######################################
+
+Example Hospitalist Admission History and Physical
+06/14/3080 16:39
+
+Patient: Amara N. Diallo
+DOB: 08/17/3045 (35 y/o)
+MRN: 28039471
+PCP: Dr. Claire E. Watkins, MD
+
+Chief Complaint: Fever, left hip pain, and right pleuritic chest pain — sickle cell disease
+
+History of Present Illness:
+35yo F with h/o sickle cell disease (HbSS), functional asplenia (s/p splenectomy 3062), recurrent vaso-occlusive crises (2–3/year), and SLE (on hydroxychloroquine and low-dose prednisone 10 mg daily × 3 months for mild flare) p/w 2-day hx of fever up to 39.4°C, rigors, left hip pain, low back pain, and new right pleuritic chest pain. She initially presented to the infusion center yesterday for a VOC and received IV fluids and analgesia with partial relief, but returned today with worsening fever, rigors, and new chest pain. She has been on penicillin prophylaxis but admits to missing doses recently due to an insurance gap. She denies cough, dysuria, or neck stiffness. She received all recommended vaccinations (PCV, PPSV, meningococcal, Hib). No recent travel. No sick contacts.
+
+Past Medical History:
+• Sickle cell disease – HbSS, on hydroxyurea and folic acid
+• Functional asplenia – s/p splenectomy 3062
+• SLE – on hydroxychloroquine 400 mg daily; prednisone 10 mg daily × 3 months
+• Recurrent vaso-occlusive crises – 2–3 hospitalizations/year
+• Avascular necrosis right femoral head – followed by Orthopedics
+• Iron overload – on deferasirox
+
+Past Surgical History:
+Procedure                  Laterality     Date
+• Splenectomy              —              07/3062
+• Cholecystectomy          —              02/3068
+
+Family History:
+Father – sickle cell trait, alive age 62
+Mother – SCD (HbSS), alive age 58
+Sister – sickle cell trait
+
+Social History:
+Marital Status: Single, lives with mother
+Employment: Social worker, on medical leave
+Tobacco: Never smoker
+Alcohol: Rare, socially
+Illicit drugs: Denies
+Living situation: Mother's apartment
+
+Review of Systems:
+Constitutional: +fever, +rigors, +fatigue; -weight loss, -night sweats
+HEENT: -headache, -vision changes, -neck stiffness
+Cardiovascular: -chest pain (except pleuritic right), -palpitations, -edema
+Respiratory: +right pleuritic chest pain; -cough, -dyspnea, -hemoptysis
+GI: -N/V, -diarrhea, -abdominal pain
+GU: -dysuria, -hematuria
+Musculoskeletal: +left hip pain, +low back pain (bilateral), +bony tenderness
+Skin: -rash, -jaundice (beyond baseline icterus)
+Neurologic: -confusion, -syncope, -focal deficits
+
+Prior to Admission Medications:
+Medication               Sig
+hydroxyurea              1000 mg PO daily
+folic acid               1 mg PO daily
+hydroxychloroquine       400 mg PO daily
+prednisone               10 mg PO daily
+deferasirox              1000 mg PO daily
+penicillin V             250 mg PO BID (prophylaxis; recently missing doses)
+oxycodone                5 mg PO q4h PRN pain
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 39.2 °C (102.6 °F)
+Heart Rate: 116 bpm (60–100)
+Respiratory Rate: 22 /min (12–20)
+Blood Pressure: 106/68 mmHg (110–140/70–85)
+SpO₂: 94% RA
+
+General: Young female, ill-appearing, diaphoretic, in moderate distress due to hip and chest pain.
+HEENT: Normocephalic, atraumatic; icteric sclerae (mild, baseline); mucous membranes dry; oropharynx clear.
+Neck: Supple; no JVD; no meningismus; no lymphadenopathy.
+Cardiovascular: Tachycardic; systolic flow murmur (baseline); no rubs or gallops.
+Respiratory: Decreased breath sounds right base; dullness to percussion right base.
+Abdomen: Soft; splenectomy scar; mild RUQ tenderness (baseline); no hepatomegaly; bowel sounds normoactive.
+Musculoskeletal: Left hip — exquisite tenderness to palpation; pain with passive internal rotation; decreased ROM. Lumbar spine — paraspinal tenderness bilateral L3–L5.
+Skin: Mild jaundice; no petechiae; no rashes; multiple old IV access scars.
+Neurologic: Alert and oriented ×3; no focal deficits.
+
+Labs (drawn 06/14/3080):
+CBC: WBC 18.4 K/µL (neut 88%), Hgb 6.8 g/dL (baseline 8.2), Plt 488 K/µL
+BMP: Na 136 mmol/L, K 4.0 mmol/L, Cl 100 mmol/L, CO₂ 22 mmol/L, BUN 14 mg/dL, Cr 0.8 mg/dL, Glucose 112 mg/dL
+LDH: 482 U/L (elevated); Total bilirubin: 4.8 mg/dL (indirect 3.9)
+CRP: 22.6 mg/dL; Procalcitonin: 3.2 ng/mL
+Blood cultures: x2 drawn, pending
+Reticulocyte count: 14%
+Chest X-ray: Right lower lobe infiltrate and small pleural effusion — consistent with acute chest syndrome.
+
+Imaging:
+MRI left hip (06/14/3080): Bone marrow edema and periosteal reaction at left femoral neck and proximal shaft; small joint effusion — cannot exclude osteomyelitis superimposed on bone infarction.
+
+Assessment and Plan:
+35yo F with SCD (HbSS) and asplenia presenting with sepsis and acute chest syndrome — high concern for Salmonella osteomyelitis/bacteremia (leading cause of osteomyelitis in SCD) given asplenic state, bony tenderness, MRI changes, and procalcitonin 3.2.
+
+1. Bacteremia / Osteomyelitis — Gram-Negative Coverage (Salmonella First-Line):
+   • Start IV ceftriaxone 2 g q24h — first-line for Salmonella bacteremia and gram-negative osteomyelitis; appropriate empiric coverage in asplenic SCD patient.
+   • Add oral ciprofloxacin 500 mg BID — second agent for Salmonella with superior intracellular penetration; combination given severity and asplenic state.
+   • If Salmonella confirmed: 4–6 week course of ciprofloxacin once sensitivities confirmed; taper ceftriaxone.
+   • If gram-positive organism identified on cultures: add vancomycin and re-evaluate regimen.
+   • Bone biopsy if osteomyelitis confirmed on MRI to obtain organism identification.
+
+2. Acute Chest Syndrome:
+   • Supplemental O₂ to maintain SpO₂ ≥95%.
+   • Exchange transfusion — Hematology/Apheresis consult; target HbS <30%.
+   • Incentive spirometry q2h; avoid oversedation.
+
+3. Pain (VOC):
+   • IV morphine per hematology pain protocol; acetaminophen 650 mg PO q6h.
+   • Ketorolac 15 mg IV q6h × 5 days.
+
+4. Labs q12h: CBC, reticulocyte count, BMP, LDH, bilirubin, CRP, blood cultures.
+
+5. Disposition:
+   • Admit to Medicine/Hematology with ID and Orthopedics co-management.
+   • DVT prophylaxis: enoxaparin 40 mg SC daily.
+   • Code Status: Full Code.
+
+Prepared by:
+Dr. Rosamund T. Achebe, MD
+Hospitalist – Medicine/Hematology Service
+Pager # 30481
+
+######################################
+
+Example Hospitalist Admission History and Physical
+02/11/3081 09:26
+
+Patient: David L. Nguyen
+DOB: 05/03/3039 (42 y/o)
+MRN: 60193847
+PCP: Dr. Barbara N. Kim, MD (HIV Clinic)
+
+Chief Complaint: Progressive dyspnea, dry cough, and fever
+
+History of Present Illness:
+42yo M with h/o HIV (diagnosed 3073, not on ART — lost to follow-up 3 years ago, last CD4 88 cells/µL in 3078, VL 142,000 copies/mL) p/w 3-week hx of progressive exertional dyspnea now at rest, persistent dry non-productive cough, low-grade fevers, drenching night sweats, and unintentional weight loss ~12 lbs over 6 weeks. He was seen at urgent care 2 weeks ago; chest X-ray read as "normal" and he received oral azithromycin with no improvement. He has been off all HIV medications for 3 years. He denies prior OI history but has not had any laboratory workup during this period. He uses marijuana (smoked), denies IV drug use. No recent travel. Lives with a roommate who has no respiratory illness.
+
+Past Medical History:
+• HIV – diagnosed 3073; off ART; last CD4 88/µL (3078); VL 142,000 (3078)
+• Depression – untreated currently
+• No prior opportunistic infections documented
+
+Past Surgical History:
+• None
+
+Family History:
+Father – alive, HTN
+Mother – alive, DM2
+Sister – healthy
+
+Social History:
+Marital Status: Single, lives with roommate
+Employment: Graphic designer, freelance
+Tobacco: Marijuana (smoked), daily; no cigarettes
+Alcohol: 2–4 drinks/week
+Illicit drugs: Daily marijuana (smoked); denies IV drugs
+Sexual history: MSM; multiple partners in past year; inconsistent condom use
+
+Review of Systems:
+Constitutional: +low-grade nightly fever, +drenching night sweats, +12 lb weight loss × 6 weeks, +fatigue
+HEENT: +white patches on tongue (oral thrush); -headache, -vision changes
+Cardiovascular: -chest pain, -palpitations, -edema
+Respiratory: +progressive dyspnea (now at rest), +dry non-productive cough; -hemoptysis, -pleuritic chest pain
+GI: -N/V, -diarrhea, -abdominal pain
+GU: -dysuria, -hematuria
+Neurologic: -confusion, -headache, -seizure, -focal deficits
+
+Prior to Admission Medications: None (off ART)
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 38.3 °C (100.9 °F)
+Heart Rate: 108 bpm (60–100)
+Respiratory Rate: 28 /min (12–20)
+Blood Pressure: 118/74 mmHg (110–140/70–85)
+SpO₂: 82% RA → 91% on 6L NC
+
+General: Young male, ill-appearing, cachectic, tachypneic, in moderate respiratory distress.
+HEENT: Normocephalic, atraumatic; bilateral white plaques on buccal mucosa and tongue (oral thrush); oropharynx otherwise clear.
+Neck: Supple; no JVD; posterior cervical lymphadenopathy bilateral (non-tender, 1 cm).
+Cardiovascular: Tachycardic; regular rhythm; S1 S2 normal; no murmurs.
+Respiratory: Tachypneic; decreased breath sounds diffusely bilateral; fine inspiratory crackles throughout; no wheezes or rhonchi.
+Abdomen: Soft; mild splenomegaly; no hepatomegaly; bowel sounds normoactive.
+Extremities: No edema; no cyanosis; temporal and thenar muscle wasting.
+Skin: No Kaposi sarcoma lesions; no rashes; no petechiae.
+Neurologic: Alert and oriented ×3; no focal deficits.
+
+Labs (drawn 02/11/3081):
+CBC: WBC 2.8 K/µL (lymphocytes 12%), Hgb 9.6 g/dL, Plt 128 K/µL
+BMP: Na 132 mmol/L, K 3.6 mmol/L, Cl 96 mmol/L, CO₂ 22 mmol/L, BUN 12 mg/dL, Cr 0.9 mg/dL, Glucose 96 mg/dL
+LDH: 680 U/L (markedly elevated — classic PCP finding)
+CRP: 8.4 mg/dL
+HIV VL (STAT): 286,000 copies/mL
+CD4 count (STAT): 42 cells/µL
+ABG (6L NC): pH 7.46, pCO₂ 30, pO₂ 56, A-a gradient 48 mmHg (markedly elevated)
+Serum beta-D-glucan: 486 pg/mL (markedly elevated — highly sensitive for PCP)
+Sputum (induced): sent for PCP DFA stain and culture
+Blood cultures: x2 drawn, pending
+
+Imaging:
+Chest X-ray (02/11/3081): Bilateral diffuse interstitial infiltrates in a perihilar "bat-wing" pattern; no consolidation; no effusion; no pneumothorax.
+CT chest HRCT (02/11/3081): Bilateral ground-glass opacities in a mosaic pattern — classic for Pneumocystis jirovecii pneumonia (PCP).
+
+Assessment and Plan:
+42yo M with advanced HIV (CD4 42, off ART) presenting with Pneumocystis jirovecii pneumonia (PCP) — classic presentation: dry cough, progressive hypoxia, bilateral ground-glass opacities, markedly elevated LDH and beta-D-glucan, CD4 <200. Moderate-to-severe PCP (A-a gradient 48, PaO₂ 56 on 6L).
+
+1. PCP — Moderate-to-Severe:
+   • Start IV trimethoprim-sulfamethoxazole (TMP-SMX) 15–20 mg/kg/day of TMP component divided q6–8h (based on ideal body weight) — first-line treatment for PCP; IV formulation required given severity.
+   • Step down to oral TMP-SMX DS 2 tabs PO TID when tolerating PO and improving; total course 21 days.
+   • Add adjunctive prednisone 40 mg PO BID × 5 days → 40 mg daily × 5 days → 20 mg daily × 11 days — indicated for moderate-to-severe PCP (A-a gradient >35 or PaO₂ <70 mmHg on room air); reduces mortality and respiratory failure.
+   • Monitor for TMP-SMX adverse effects: rash, nephrotoxicity, hyperkalemia, myelosuppression.
+
+2. Hypoxia:
+   • Supplemental O₂; titrate to SpO₂ ≥92%.
+   • Low threshold for early intubation — PCP can progress rapidly.
+   • Pulmonology consult for bronchoscopy/BAL if sputum DFA inconclusive.
+
+3. HIV / ART:
+   • ID/HIV specialist consult.
+   • Do NOT restart ART in first 2 weeks of PCP treatment — risk of IRIS.
+   • Plan ART re-initiation at weeks 2–4 after PCP therapy started.
+
+4. Oral Candidiasis:
+   • Fluconazole 200 mg PO daily × 14 days.
+
+5. OI Workup:
+   • Ophthalmology consult (CMV retinitis risk at CD4 42).
+   • Cryptococcal antigen, Toxoplasma IgG, MAC blood cultures, hepatitis B/C panel sent.
+
+6. Labs q24h: CBC, BMP (K), LDH, CRP; beta-D-glucan trend.
+
+7. Disposition:
+   • Admit to step-down/ICU given SpO₂ 82% on RA.
+   • Code Status: Full Code; goals of care discussed with patient.
+
+Prepared by:
+Dr. Grace P. Abioye, MD
+Hospitalist – Medicine/HIV Service
+Pager # 55817
+
+######################################
+
+Example Hospitalist Admission History and Physical
+10/28/3084 06:13
+
+Patient: Frank B. Boyle
+DOB: 09/11/3006 (78 y/o)
+MRN: 92038471
+PCP: Dr. Harriet J. Monroe, MD (Primary Surgery: Dr. David A. Raines, MD)
+
+Chief Complaint: Fever, hypoxia, and purulent respiratory secretions — post-operative day 5
+
+History of Present Illness:
+78yo M with h/o sigmoid colon adenocarcinoma (T3N1M0, s/p laparoscopic sigmoid colectomy 10/23/3084), HTN, DM2 (A1c 8.1%), CKD-3 (baseline Cr 1.6), and COPD (GOLD II) p/w fever to 39.1°C, worsening hypoxia (SpO₂ 88% on 2L NC), increased purulent respiratory secretions, and new confusion on post-operative day 5. His post-operative course was uncomplicated until yesterday afternoon when nursing noted a new productive cough; O₂ requirement increased from 2L to 4L overnight. He was on prophylactic cefazolin during and immediately after surgery (last dose POD1). No broad-spectrum antibiotics during this admission. He was extubated on POD1 after 48 hours of mechanical ventilation. He is on NG tube feeds.
+
+Past Medical History:
+• Sigmoid colon adenocarcinoma – T3N1M0, s/p sigmoid colectomy 10/23/3084
+• COPD – GOLD II, FEV1 68%, on tiotropium and albuterol PRN
+• Type 2 Diabetes Mellitus – A1c 8.1%, on insulin
+• Hypertension – on amlodipine and lisinopril
+• Chronic Kidney Disease stage 3 – baseline Cr 1.6 mg/dL
+• Hyperlipidemia – on rosuvastatin
+
+Past Surgical History:
+Procedure                          Laterality     Date
+• Sigmoid colectomy (laparoscopic) —              10/23/3084
+• Right inguinal hernia repair     Right          04/3064
+• TURP                             —              11/3074
+
+Family History:
+Father – colon cancer, died age 72
+Mother – HTN, died age 82
+Son – alive, healthy
+
+Social History:
+Marital Status: Widowed, lives with son
+Employment: Retired firefighter
+Tobacco: Former smoker, quit 3060 (30 pack-years)
+Alcohol: Rare, 1–2/month
+Illicit drugs: Denies
+Living situation: Son's home, first floor
+
+Review of Systems: (limited — patient mildly confused)
+Constitutional: +fever, +new confusion; -rigors
+Respiratory: +productive cough (purulent), +hypoxia; -hemoptysis
+GI: +decreased bowel sounds; NG tube feeds ongoing
+Neurologic: +new confusion today
+
+Prior to Admission Medications:
+Medication               Sig
+tiotropium               18 mcg inhaled daily
+albuterol                2 puffs inhaled q4–6h PRN
+insulin glargine         18 U SC qHS
+amlodipine               10 mg via NG daily
+lisinopril               10 mg via NG daily (held for low BP)
+rosuvastatin             20 mg via NG nightly
+
+Allergies: No known drug allergies (NKDA)
+
+Physical Examination:
+Temperature: 39.0 °C (102.2 °F)
+Heart Rate: 114 bpm (60–100)
+Respiratory Rate: 26 /min (12–20)
+Blood Pressure: 100/62 mmHg (110–140/70–85)
+SpO₂: 88% on 2L NC → 93% on 6L NC
+
+General: Elderly male, ill-appearing, mildly confused, tachypneic, in moderate respiratory distress.
+HEENT: Normocephalic, atraumatic; mucous membranes dry; oropharynx with dried secretions; NG tube in place.
+Neck: Supple; no JVD; no lymphadenopathy.
+Cardiovascular: Tachycardic; regular rhythm; S1 S2 normal; no murmurs.
+Respiratory: Bilateral coarse crackles and rhonchi; decreased breath sounds right lower lobe; dullness to percussion right base.
+Abdomen: Distended; hypoactive bowel sounds; abdominal incision intact, no erythema or drainage.
+Extremities: 1+ pitting edema bilateral lower extremities (post-operative fluid shifts).
+Skin: Warm; diaphoretic; no rashes; no pressure ulcers.
+Neurologic: Oriented to person; mildly confused; follows simple commands; no focal deficits.
+
+Labs (drawn 10/28/3084):
+CBC: WBC 21.6 K/µL (neut 92%, bands 8%), Hgb 9.8 g/dL, Plt 144 K/µL
+BMP: Na 134 mmol/L, K 3.4 mmol/L, Cl 98 mmol/L, CO₂ 22 mmol/L, BUN 38 mg/dL, Cr 2.2 mg/dL (baseline 1.6), Glucose 248 mg/dL
+Lactate: 2.8 mmol/L
+CRP: 24.6 mg/dL
+Procalcitonin: 3.8 ng/mL
+ABG (6L NC): pH 7.38, pCO₂ 46, pO₂ 64, HCO₃ 26
+Blood cultures: x2 drawn, pending
+Sputum (suctioned): Gram stain — gram-negative rods; culture sent
+
+Imaging:
+Chest X-ray (10/28/3084): Right lower lobe consolidation with air bronchograms; bilateral small pleural effusions; hyperinflation consistent with COPD.
+CT chest (10/28/3084): Right lower lobe consolidation consistent with HAP. Bilateral small effusions. No abscess. No PE.
+
+Assessment and Plan:
+78yo M, POD5 post sigmoid colectomy, presenting with hospital-acquired pneumonia (HAP) — new infiltrate, fever, leukocytosis, purulent sputum with gram-negative rods. Risk factors for MDR organisms: >5 days hospitalization, prior cefazolin, mechanical ventilation POD0-1, CKD. Broad MDR coverage required.
+
+1. Hospital-Acquired Pneumonia (HAP) — MDR Risk:
+   • Start IV meropenem 1 g q8h — broadest gram-negative and anaerobic coverage including MDR Pseudomonas; appropriate given >5 days hospitalization, prior beta-lactam exposure, and gram-negative rods on Gram stain.
+   • Add IV vancomycin 15 mg/kg q12h (target AUC/MIC 400–600) for MRSA coverage given prolonged hospitalization, prior ICU exposure, and post-operative state.
+   • Add IV amikacin 15–20 mg/kg q24h (extended-interval dosing) — synergistic gram-negative and MDR Pseudomonas double-coverage; adjust per CrCl 28 mL/min; pharmacy to dose and monitor peaks/troughs.
+   • Reassess regimen at 48–72h based on sputum and blood culture results; de-escalate aggressively per sensitivities.
+   • Plan for 7-day minimum course.
+
+2. Hypoxic Respiratory Failure:
+   • Escalate supplemental O₂; high-flow nasal cannula or BiPAP if SpO₂ <90% on 6L.
+   • Low threshold for intubation given age, post-operative state, and COPD.
+   • Pulmonology consult for ventilatory management.
+
+3. AKI:
+   • Hold lisinopril; cautious IV fluids.
+   • Amikacin peak/trough monitoring q24h; nephrotoxicity monitoring Cr q12h.
+
+4. Delirium: Septic encephalopathy — delirium precautions; reorientation.
+
+5. Abdominal Surveillance:
+   • Surgery team aware; rule out anastomotic leak — CT abdomen/pelvis with contrast if abdominal exam worsens.
+
+6. Labs q8–12h: CBC, BMP, lactate, amikacin levels, vancomycin AUC, CRP.
+
+7. Disposition:
+   • Transfer to ICU.
+   • DVT prophylaxis: hold until hemodynamically stable and coagulopathy resolved.
+   • Code Status: Full Code (confirmed with son at bedside).
+
+Prepared by:
+Dr. Lorenzo M. Vidal, MD
+Hospitalist – Surgical Medicine
+Pager # 88204
+
+######################################

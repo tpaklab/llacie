@@ -1,0 +1,20 @@
+1. vancomycin
+2. ceftriaxone | azithromycin
+3. ertapenem
+4. vancomycin | piperacillin-tazobactam
+5. piperacillin-tazobactam | metronidazole
+6. levofloxacin
+7. vancomycin | oxacillin | rifampin
+8. cefazolin | amoxicillin-clavulanate
+9. cefepime | vancomycin | micafungin
+10. vancomycin | metronidazole
+11. vancomycin | ceftriaxone
+12. ceftriaxone | vancomycin | ampicillin
+13. ampicillin-sulbactam
+14. ciprofloxacin
+15. fluconazole | vancomycin
+16. vancomycin | piperacillin-tazobactam | clindamycin
+17. vancomycin | rifampin
+18. ceftriaxone | ciprofloxacin
+19. trimethoprim-sulfamethoxazole
+20. meropenem | vancomycin | amikacin

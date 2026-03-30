@@ -1,5 +1,5 @@
 from .llama3_8b import PresentingSxFeatureLlama3Instruct8BStrategy
-from ...section.hpi_short.regex import ShortHPISectionRegexStrategy
+from ...section.hpi_short.regex_temp import ShortHPISectionRegexStrategy
 from ....tasks.feature import PresentingSymptomsFeatureTask
 
 class PresentingSxFeatureLlama31Instruct8BStrategy(PresentingSxFeatureLlama3Instruct8BStrategy):

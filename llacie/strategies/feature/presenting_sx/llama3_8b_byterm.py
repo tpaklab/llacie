@@ -3,7 +3,7 @@ from textwrap import dedent
 from collections import defaultdict
 
 from ...abstract_vllm_or_lcp import AbstractVllmOrLcpStrategy
-from ...section.hpi_short.regex import ShortHPISectionRegexStrategy
+from ...section.hpi_short.regex_temp import ShortHPISectionRegexStrategy
 from ....tasks.feature import PresentingSymptomsFeatureTask
 from ....vocab import Vocab
 from ....utils import chunker, echo_info, echo_warn

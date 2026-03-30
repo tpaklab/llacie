@@ -1,7 +1,7 @@
 from textwrap import dedent
 
 from ...abstract_llama_cpp import AbstractLlamaCppStrategy
-from ...section.hpi_short.regex import ShortHPISectionRegexStrategy
+from ...section.hpi_short.regex_temp import ShortHPISectionRegexStrategy
 from ....tasks.feature import PresentingSymptomsFeatureTask
 
 class PresentingSxFeatureLLama1Strategy(AbstractLlamaCppStrategy):

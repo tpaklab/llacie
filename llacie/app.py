@@ -96,8 +96,8 @@ class App(object):
 
         with open(input_path, 'r') as f:
             content = f.read()
-
-        notes = re.split(r'\n#{10,}\n', content)
+        # Can handle two different types of notes. 
+        notes = re.findall(r'NOTE_ID:.*?\n={10,}\n(.*?)(?=\n={10,}\n|\Z)', content, re.DOTALL)
         notes = [note.strip() for note in notes if note.strip()]
         echo_info(f"Found {len(notes)} notes to import.")
 

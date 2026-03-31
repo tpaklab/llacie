@@ -18,3 +18,17 @@ class PresentingSymptomsFeatureTask(AbstractFeatureTask):
         AND "infectionCriteria" IS TRUE
         AND "excl_ST0_combined" IS FALSE
     """
+    
+class AntibioticsFeatureTask(AbstractFeatureTask):
+    """\
+    Antibiotics taken previously in `hpi_short`, `plan and assessment` sections of a note.
+    
+    Limited to H&P notes only, for patients with suspected infection,
+    and applying the exclusions listed in Pak et al. CID 2023:
+    https://pubmed.ncbi.nlm.nih.gov/37531612/
+    """
+    name = "antibiotics"
+    note_join_sql = """
+        LEFT JOIN "{{cohort_table}}" AS esc ON
+            n."FK_episode_id" = esc."FK_episode_id"
+    """

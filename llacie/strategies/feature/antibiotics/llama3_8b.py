@@ -67,8 +67,8 @@ class AntibioticsFeatureLlama3Instruct8BStrategy(AbstractVllmOrLcpStrategy):
     LLM_USER_PROMPT = dedent("""\
         Read the following patient history and list the antibiotics the patient was taking before coming to the hospital.
         Include only antibiotics prescribed or taken prior to this hospital admission, such as those started by a primary care provider, urgent care, or during a recent prior hospitalization.
+        Identify the standardizer drug name and not a particular 
         Do not include antibiotics started for the first time during this admission.
         Give your answer as a JSON array containing up to ten strings.
-        Each string contains the antibiotic name, between one and three words.
-
+        Each string contains the antibiotic name.
         {input}""")

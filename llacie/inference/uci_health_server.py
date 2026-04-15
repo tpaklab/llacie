@@ -56,7 +56,7 @@ class UCI_HEALTH:
             temperature=temperature,
             seed=seed,
             stream=True,
-            )
+        )
 
         response_chunks = []
         reasoning_chunks = []
@@ -65,12 +65,13 @@ class UCI_HEALTH:
                 # --- Extract reasoning
                 if getattr(chunk.choices[0].delta, 'reasoning_content', None) is not None:
                     reasoning_chunks.append(chunk.choices[0].delta.reasoning_content)
-
                 # --- Extract response
                 if getattr(chunk.choices[0].delta, 'content', None) is not None:
                     response_chunks.append(chunk.choices[0].delta.content)
-            
-        return ''.join(response_chunks), ''.join(reasoning_chunks)
+
+        response = ''.join(response_chunks)
+        reasoning = ''.join(reasoning_chunks)
+        return response, reasoning
 
 
 def read_query(query):
@@ -82,8 +83,13 @@ def main(message):
     server.load_config()
     messages = message
     query,reasoning = server.create_query(messages)
+    i = 0
+    with open('reasoning.txt','w') as f:
+        f.write(f"Reasoning Logic of {i}")
+        f.write(reasoning)
+        i+=1
     read_query(query)
 
 
 if __name__ == '__main__':
-    main("Hlo")
+    raise NotImplementedError

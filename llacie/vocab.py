@@ -24,12 +24,16 @@ class Vocab:
         self.from_file = path.join(PACKAGE_DIR, "vocabs", from_file)
         cache_dir = platformdirs.user_cache_dir("llacie", "tpaklab")
         self.cache_file = path.join(cache_dir, "vocabs", f"{from_file}.pkl")
-
+        echo_info(self.from_file)
         if self._load_from_cache():
             return
         elif self.from_file.endswith(".xlsx") or self.from_file.endswith(".xls"):
             echo_info(f"Parsing and caching vocabulary in vocabs/{from_file}")
-            self._parse_df(pd.read_excel(self.from_file, sheet_name=sheet_name))
+            if self.from_file == '/app/llacie/vocabs/micro_antibiotics_TRP.xlsx':
+                self._parse_df_antibiotics(pd.read_excel(self.from_file,sheet_name=sheet_name))
+            else:
+                self._parse_df(pd.read_excel(self.from_file, sheet_name=sheet_name))
+          
         else:
             raise NotImplementedError
 
@@ -96,6 +100,19 @@ class Vocab:
             self._ngram_dicts.append(ngram_dict)
         self._save_to_cache()
 
+
+    def _parse_df_antibiotics(self, vocab_df):
+        vocab_df = vocab_df.dropna(subset=['antibiotic_short_code', 'antibiotic_concept_code']).copy()
+        vocab_df['n'] = vocab_df['antibiotic_short_code'].str.split().str.len()
+        max_n = int(vocab_df['n'].max())
+        for n in range(max_n, 0, -1):
+            ngram_dict = {}
+            for _, row in vocab_df[vocab_df.n == n].iterrows():
+                concept_code = row['antibiotic_concept_code']
+                self._add_terms([concept_code], row['antibiotic_short_code'])
+                ngram_dict[tuple(row['antibiotic_short_code'].lower().split())] = [concept_code]
+            self._ngram_dicts.append(ngram_dict)
+        self._save_to_cache()
 
     def find_terms_in_feature(self, feature_value):
         """Given a textual feature, searches each line of the feature for terms from this

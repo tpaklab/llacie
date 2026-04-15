@@ -63,7 +63,7 @@ class AntibioticsSpacyStrategy(AbstractStrategy):
                 e
         return None
 
-    def run(self, all_note_ids, batch_size=None):
+    def run(self, all_note_ids,max_note_ids=None, batch_size=None,dry_run=None):
         fail_count = 0
         batch_size = batch_size if batch_size is not None else self.BATCH_SIZE
 

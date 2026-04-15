@@ -32,3 +32,8 @@ class AntibioticsFeatureTask(AbstractFeatureTask):
         LEFT JOIN "{{cohort_table}}" AS esc ON
             n."FK_episode_id" = esc."FK_episode_id"
     """
+    note_where_sql = """
+        "InpatientNoteTypeDSC" IN ('H&P')
+        AND "infectionCriteria" IS TRUE
+        AND "excl_ST0_combined" IS FALSE
+    """

@@ -80,7 +80,7 @@ class AbstractUciHealthStrategy(AbstractStrategy):
                 output = None
 
             if output is not None and isinstance(output, list):
-                feature = "\n".join(output)
+                feature = "\n".join(output) if output and isinstance(output[0], str) else json.dumps(output)
                 output_raw = json.dumps(output)
                 self.db.upsert_note_feature(note_id, self, output_raw, feature, row.id, runtime)
             else:

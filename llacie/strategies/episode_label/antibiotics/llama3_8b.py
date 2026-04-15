@@ -1,16 +1,15 @@
-from . import AbstractPresentingSymptomsEpisodeLabelV2Strategy
+from . import AbstractAntibioticsStrategy
 from ...feature.antibiotics.llama3_8b import AntibioticsSpacyStrategy 
 from ....tasks.episode_label import AntibioticsEpisodeLabelTask
 
-class PresentingSymptomsEpisodeLabelV2Llama3Instruct8BVllmStrategy(
-        AbstractPresentingSymptomsEpisodeLabelV2Strategy):
+class AntibioticsLlama3Instruct8BVllmStrategy(
+        AbstractAntibioticsStrategy):
     """\
     Converts the ..presenting_sx.llama3_8b_vllm note features into episode labels using vocab v2.
     This vocab is UPDATED since the K08 submission after manual examination of the
     misclassifications.
     """
-    task = AntibioticsEpisodeLabelTask
-    name = "episode_label.pres_sx_eplab2.llama3_8b"
+    name = "episode_label.antibiotics_ep1.llama3_8b"
     version = "0.0.1"
     prereq_tasks = []
 

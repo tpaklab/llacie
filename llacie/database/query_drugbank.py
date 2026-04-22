@@ -1,7 +1,11 @@
 import sqlite3
 import create_db as cdb
-def insert_drug(conn, drug_id, name):
-    conn.execute("INSERT INTO drugs (drug_id, name) VALUES (?, ?)", (drug_id, name))
+def insert_drug_basic(conn, drug_id, name):
+    conn.execute("INSERT OR IGNORE INTO drugs (drug_id, cannonical_name) VALUES (?, ?)", (drug_id, name))
+    
+def insert_brand(conn, drug_id, brand_name):
+    conn.execute("INSERT INTO brands (drug_id, brand_name) VALUES (?, ?)", (drug_id, brand_name))
+
 
 
 def create_query(connection=None):

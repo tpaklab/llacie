@@ -14,7 +14,6 @@ def push_into_db(conn):
 
     conn.commit()
 
-
 def process_element(element, conn):
     drug_id = None
     all_ids = element.findall(f"{{{NS}}}drugbank-id")
@@ -26,7 +25,10 @@ def process_element(element, conn):
         drug_id = all_ids[0].text
     name = element.findtext(f"{{{NS}}}name")
     if drug_id and name:
-        query.insert_drug(conn, drug_id, name)
+        query.insert_drug_basic(conn, drug_id, name)
+    for b in element.findall(f"{{{NS}}}products/{{{NS}}}product/{{{NS}}}name"):
+        if b.text and drug_id:
+            query.insert_brand(conn, drug_id, b.text)
 
 
 if __name__ == "__main__":

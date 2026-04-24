@@ -12,9 +12,13 @@ def load_data_into_pandas()-> pd.DataFrame:
 
 
 def main():
+    """ Only run this function when first generating the dataframe,
+    any edits once the txt files are created should be done in a separate py file"""
     df  = load_data_into_pandas()
     ld.load_data_from_wikipedia(df)
+    ld.load_from_csv_to_xlsx()
 
     
 if __name__ == '__main__':
+    
     main()

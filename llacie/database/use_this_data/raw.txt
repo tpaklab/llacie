@@ -1,3 +1,4 @@
+Drug Name|Trade Names|Brand Names
 cephalothin | ERROR: DATA NOT FOUND | ERROR
 trimethoprim/sulfamethoxazole | Trade names | Bactrim, Cotrim, Septra, others
 amikacin | Trade names | Amikin, Amiglyde-V, Arikayce, others

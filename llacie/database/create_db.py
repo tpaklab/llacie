@@ -59,4 +59,4 @@ def main():
     load_drugs_to_db(cleaned_df, conn)
 
 if __name__ == '__main__':
-    main()
+    execute_load_query(input())

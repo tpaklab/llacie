@@ -15,7 +15,7 @@ from ....utils import chunker, echo_info
 
 
 
-class AntibioticsSpacyStrategy(AbstractStrategy):
+class AntibioticsNoStrategy(AbstractStrategy):
     """\
     Attempts to extract the all relevant antibiotic sections using medspaCy's sectionizer
     """

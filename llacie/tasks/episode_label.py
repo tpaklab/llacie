@@ -68,14 +68,14 @@ class AntibioticsEpisodeLabelTask(AbstractEpisodeLabelTask):
     """
     name = "antibiotics_eplab1"
 
-    vocab = Vocab("micro_antibiotics_TRP.xlsx", sheet_name="antibiotic_code_map")
+    vocab = Vocab("cleaned_antibiotics.xlsx", sheet_name="Brand Names")
     max_human_labels = 10
     episode_join_sql = """
         LEFT JOIN "{{cohort_table}}" AS esc ON
             e."id" = esc."FK_episode_id"
     """
     episode_where_sql = """
-        "infectionCriteria" IS TRUE #works with antibiotics
+        "infectionCriteria" IS TRUE
     """
     note_where_sql = """
         "InpatientNoteTypeDSC" IN ('H&P')

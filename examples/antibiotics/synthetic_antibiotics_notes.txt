@@ -3103,3 +3103,2231 @@ DISPOSITION: Admit to hematology/oncology service with ID co-management
 Signed,
 Dr. Serena Blackwood, MD (Hematology/Oncology/ID)
 12/08/2023 11:47
+
+================================================================================
+NOTE_ID: note_31
+================================================================================
+
+DATE OF ADMISSION: 06/26/2024
+TIME: 11:18
+ADMITTING SERVICE: Internal Medicine / Infectious Disease (Transfer Acceptance)
+ATTENDING: Dr. Lucia Ferreira
+NOTE TYPE: Admission H&P — Transfer from Outside Hospital (OSH)
+
+CHIEF COMPLAINT
+Per OSH transfer note: "XDR Klebsiella pneumoniae bacteremia with carbapenem resistance, failed amikacin — transferring for ID management."
+
+HISTORY OF PRESENT ILLNESS
+74 yo M w/ h/o T2DM (A1c 9.1%), CKD3 (baseline Cr 1.9), BPH, and recent elective L knee replacement (05/28/2024) p/w post-operative healthcare-associated bacteremia from extensively drug-resistant (XDR) Klebsiella pneumoniae, transferred from OSH for ID-directed management after failure of amikacin monotherapy.
+
+Per OSH records and transfer documentation: Pt underwent L TKA at OSH on 05/28/2024. Post-operative course was complicated by a surgical site infection identified on post-op day 7 (06/04/2024). Blood cultures obtained on 06/04/2024 grew Klebsiella pneumoniae. Initial susceptibilities suggested broad resistance — OSH started amikacin IV (dose and AUC monitoring per OSH pharmacy records, once-daily dosing initiated 06/18/2024) given gram-negative bacteremia and pan-resistance to most beta-lactams on their preliminary report.
+
+Final susceptibility results (returned to OSH 06/21/2024): KPC-producing K. pneumoniae (KPC-3) — resistant to all tested carbapenems (including meropenem MIC >16 and imipenem MIC >16), all tested penicillins and cephalosporins, ciprofloxacin, trimethoprim/sulfamethoxazole. Susceptible only to: polymyxin B/colistin (MIC 0.5), ceftazidime/avibactam (MIC 2 — susceptible per CLSI breakpoints), and amikacin (MIC 4, borderline susceptible). Tigecycline intermediate.
+
+OSH blood cultures failed to clear despite 6 days of amikacin (06/18–06/24/2024) — repeat blood cultures drawn 06/22 and 06/24 still positive for KPC K. pneumoniae. OSH determined case exceeded their ID capability and transferred to our institution (academic medical center with ID fellowship program) on 06/26/2024.
+
+On transfer: Patient alert but fatigued. T 38.4°C, HR 102, BP 104/66, RR 20, SpO2 95% on 2L NC. L knee surgical wound with purulent drainage and dehiscence noted at OSH prior to transfer — VAC dressing in place.
+
+PAST MEDICAL HISTORY
+1. T2DM — A1c 9.1%, on insulin
+2. CKD stage 3 — baseline Cr 1.9
+3. BPH — on tamsulosin
+4. Hypertension
+5. L TKA (05/28/2024) — complicated by post-op SSI and XDR bacteremia (see HPI)
+6. Bilateral cataracts (corrected surgically 2022)
+
+MEDICATIONS PRIOR TO ADMISSION (at OSH and on transfer)
+- Insulin glargine 18 units QHS
+- Insulin lispro sliding scale with meals
+- Tamsulosin 0.4mg PO daily
+- Lisinopril 5mg PO daily (held at OSH given hypotension)
+- Amikacin IV (once-daily dosing per OSH pharmacy, started 06/18/2024, last dose 06/24/2024 — stopped at OSH given persistent positive cultures and transfer planning)
+
+ALLERGIES
+Cephalosporins — reported rash (childhood, poorly documented; sensitivity testing not performed)
+
+SOCIAL HISTORY
+Retired electrician. Lives with wife. Former smoker, quit 2001, 30 pack-year history. No alcohol. No illicit drugs.
+
+FAMILY HISTORY
+Father with DM and renal failure. Mother deceased (stroke).
+
+REVIEW OF SYSTEMS
+Constitutional: Persistent fevers (38.2–39.1°C at OSH), significant fatigue, poor appetite, ~12 lb weight loss over hospitalization.
+HEENT: No visual changes, no headache.
+CV: No chest pain. Mild palpitations with febrile episodes.
+Pulm: Mild dyspnea on exertion. No cough.
+GI: Decreased appetite, mild nausea (antibiotic related). No diarrhea.
+GU: Decreased urinary output (on foley at OSH). CKD baseline.
+MSK: L knee — significant pain at surgical site. Minimal ROM.
+Neuro: No focal deficits. No confusion.
+
+PHYSICAL EXAMINATION
+Vitals (on arrival): T 38.3°C | HR 106 | BP 100/64 | RR 20 | SpO2 94% on 2L NC | Wt 81 kg
+General: Elderly M, thin, fatigued, ill-appearing, arrives on stretcher from transport
+HEENT: NCAT, dry mucous membranes, no scleral icterus, no LAD
+CV: Tachycardic, regular, no m/r/g. No peripheral stigmata of endocarditis.
+Pulm: Mild bibasilar crackles. No wheeze.
+Abd: Soft, NT, ND, no HSM. Foley in place.
+Ext: L knee — VAC dressing in place, wound draining serosanguineous fluid. Erythema at wound edges. Mild bilateral lower extremity pitting edema 1+.
+Neuro: A&Ox4, no focal deficits, no asterixis
+
+PERTINENT DATA (OSH and on arrival)
+WBC 21.4 (82% PMNs, 9% bands), Hgb 9.2 (anemia of chronic inflammation/hospital), Plt 154
+BMP (on arrival): Na 134, K 5.1, Cr 3.2 (worsening from baseline 1.9 — AKI on CKD), BUN 82, HCO3 16, Gluc 248
+Amikacin trough (OSH, 06/22): 6.8 mcg/mL (elevated, contributing to nephrotoxicity)
+Blood cultures (on arrival x2): sent — repeat to determine clearance
+OSH blood cultures (06/24, last set): K. pneumoniae — POSITIVE (non-cleared)
+TTE (OSH 06/21): no vegetations, no wall motion abnormalities, EF 58%
+L knee wound culture (OSH): KPC-producing K. pneumoniae (same organism)
+CXR (on arrival): no infiltrate, no pleural effusion
+
+ASSESSMENT AND PLAN
+74 yo M w/ DM, CKD p/w XDR KPC-producing K. pneumoniae bacteremia (L TKA SSI source) with non-clearance on amikacin monotherapy and amikacin-related AKI — require combination salvage therapy for carbapenem-resistant Enterobacterales (CRE).
+
+#XDR KPC KLEBSIELLA PNEUMONIAE BACTEREMIA — AMIKACIN FAILURE
+- Amikacin monotherapy inadequate for CRE bacteremia (SYNERGY trial and observational data support combination therapy for KPC)
+- Amikacin further complicated by AKI (Cr worsened 1.9 → 3.2 at OSH) — stop amikacin
+- Start meropenem 2g IV q8h (high-dose, extended infusion over 4h) — despite meropenem resistance on susceptibilities, high-dose meropenem-based combinations remain active against KPC when MIC ≤16 per PK/PD modeling; used in combination with colistin (IDSA CRE guidance 2022)
+- Start colistin IV (colistimethate sodium; loading dose 300mg CBA, then maintenance dosing per pharmacy renal adjustment given AKI) — combination with meropenem for synergy against KPC; closely monitor renal function
+- Ceftazidime/avibactam (susceptible, MIC 2) is preferred for KPC if available — pharmacy sourcing emergently; if obtained, will transition to ceftaz/avi + meropenem or ceftaz/avi monotherapy per ID guidance
+- Repeat blood cultures daily until 2 consecutive negative sets
+- ID consult (Dr. Ferreira primary attending, ID fellow Dr. O. Santos to manage)
+
+#SURGICAL SOURCE CONTROL — L KNEE SSI
+- Orthopedic surgery consult urgently — XDR source at prosthetic joint requires implant removal, debridement; antibiotics alone will not clear CRE PJI
+- Implant removal and spacer with antibiotic-impregnated cement (colistin or vancomycin based) planned when patient hemodynamically stable
+- VAC dressing continued until OR
+
+#AKI — COLISTIN/AMIKACIN NEPHROTOXICITY (Cr 3.2, baseline 1.9)
+- Stop amikacin (nephrotoxic, last dose 06/24)
+- Colistin also nephrotoxic but unavoidable given limited options — minimize concomitant nephrotoxins
+- Hold lisinopril, NSAIDs; aggressive IVF avoidance given volume status concerns
+- Nephrology consult for AKI management; HD may be needed if oliguria worsens
+- Dose all renally-cleared drugs for Cr 3.2
+
+#SEPSIS — BACTEREMIC SOURCE
+- IVF careful (CKD/AKI) — small fluid challenge 250mL NS; assess response
+- Vasopressors on standby if BP does not improve
+
+DISPOSITION: Admit to medical ICU/ID service
+
+Signed,
+Dr. Lucia Ferreira, MD (Infectious Disease)
+Dr. O. Santos, MD (ID Fellow)
+06/26/2024 12:40
+
+================================================================================
+NOTE_ID: note_32
+================================================================================
+
+DATE OF ADMISSION: 08/22/2024
+TIME: 20:15
+ADMITTING SERVICE: Internal Medicine / Infectious Disease / Neurology
+ATTENDING: Dr. Carmen Rivera
+NOTE TYPE: Admission H&P — ED Admission
+
+CHIEF COMPLAINT
+"I've had a terrible headache for a week and my vision got blurry two days ago. I had a syphilis shot about 10 days ago."
+
+HISTORY OF PRESENT ILLNESS
+31 yo M w/ HIV (well-controlled on ART, CD4 420, VL undetectable), h/o primary syphilis (treated x1), and depression p/w headache, photophobia, meningismus, and blurred vision — presenting 8 days after single-dose benzathine penicillin G for secondary syphilis, with findings concerning for neurosyphilis.
+
+Pt was seen at the STI clinic on 08/14/2024. He was diagnosed with secondary syphilis (diffuse macular rash on palms/soles x3 weeks, elevated RPR 1:64, confirmatory FTA-ABS positive). He received benzathine penicillin G 2.4 million units IM x1 dose (08/14/2024) per CDC guidelines for secondary syphilis.
+
+Approximately 4–5 days after the injection (08/18/2024) he began developing a progressively worsening bifrontal headache (7/10), initially attributed to a Jarisch-Herxheimer reaction. However, the headache did not resolve and by 08/20/2024 he developed photophobia, neck stiffness, and blurred vision in the L eye. He presented to the ED on 08/22/2024. He denies any new medications or recent illnesses beyond the syphilis diagnosis. He has been adherent to his ART.
+
+PAST MEDICAL HISTORY
+1. HIV — on ART (bictegravir/emtricitabine/tenofovir alafenamide), CD4 420, VL undetectable (most recent 07/2024)
+2. Secondary syphilis — diagnosed and treated 08/14/2024 (see HPI); prior primary syphilis episode 2022 (treated with benzathine PCN G x1)
+3. Depression — on sertraline
+
+MEDICATIONS PRIOR TO ADMISSION
+- Bictegravir/emtricitabine/tenofovir alafenamide (Biktarvy) 1 tab PO daily
+- Sertraline 100mg PO daily
+- Benzathine penicillin G 2.4 million units IM x1 (08/14/2024, administered at STI clinic for secondary syphilis — single dose given, now presenting with neurosyphilis 8 days later)
+
+ALLERGIES
+NKDA
+
+SOCIAL HISTORY
+Works in hospitality industry. Lives with partner. Non-smoker. Recreational alcohol (weekends). No illicit drugs (denies, reported). No recent travel. Multiple sexual partners in past year (MSM).
+
+FAMILY HISTORY
+Father with HTN. Mother alive and well. No family history of neurological disease.
+
+REVIEW OF SYSTEMS
+Constitutional: Malaise, fatigue, low-grade fever at home (37.8°C). No significant weight loss.
+HEENT: Bifrontal headache (7/10), photophobia, blurred vision L eye (started 2 days ago).
+CV: No chest pain, no palpitations.
+Pulm: No cough, no SOB.
+GI: Mild nausea, no vomiting.
+GU: No dysuria. Palmar/plantar rash (fading per patient since PCN injection).
+Neuro: Headache, photophobia, meningismus, L eye blurred vision.
+Skin: Fading macular rash on palms and soles.
+
+PHYSICAL EXAMINATION
+Vitals: T 37.9°C | HR 88 | BP 126/78 | RR 16 | SpO2 99% on RA
+General: Young M, ill-appearing due to headache, photophobic, lying with eyes closed
+HEENT: NCAT. Photophobic — mild resistance to eye opening with bright light. Slit-lamp exam by ophthalmology (called to bedside): mild anterior uveitis L eye with flare and cells in anterior chamber. No chorioretinitis. R eye normal.
+Neck: Marked nuchal rigidity (Kernig sign positive bilaterally; Brudzinski positive)
+CV: RRR, no m/r/g
+Pulm: CTAB
+Abd: Soft, NT, ND
+Ext: Fading macular rash on palms and soles (resolving post-treatment). No other skin lesions. No penile lesion visible.
+Neuro: A&Ox4. CN II: visual acuity R 20/20, L 20/80 (blurred). CN III-XII: no other abnormalities. Motor 5/5 throughout. Sensation intact. DTRs 2+ and symmetric. No clonus.
+
+PERTINENT DATA
+WBC 11.4 (62% lymphocytes), Hgb 14.2, Plt 228
+BMP: within normal limits, Cr 0.8
+RPR quantitative: 1:64 (08/14); repeat sent today
+FTA-ABS: reactive (08/14)
+HIV VL: undetectable (07/2024); CD4: 420 (07/2024)
+LP (performed in ED, 08/22/2024):
+  Opening pressure: 24 cmH2O
+  WBC: 88 (predominantly lymphocytes, 80%)
+  Protein: 112 mg/dL
+  Glucose: 52 (serum 94)
+  Appearance: clear
+  CSF VDRL: REACTIVE (confirmatory of neurosyphilis)
+  CSF FTA-ABS: reactive
+  CSF HSV PCR: pending
+  CSF cryptococcal antigen: negative
+MRI brain with and without contrast (ordered): pending
+
+ASSESSMENT AND PLAN
+31 yo M w/ HIV (CD4 420, VL undetectable) p/w neurosyphilis (CSF VDRL reactive, pleocytosis, elevated protein, ocular involvement — anterior uveitis L eye) presenting 8 days after benzathine penicillin G for secondary syphilis. Benzathine PCN does not achieve treponemicidal CSF concentrations and is not adequate treatment for neurosyphilis.
+
+#NEUROSYPHILIS WITH OCULAR INVOLVEMENT (OCULAR SYPHILIS)
+- CSF VDRL reactive — confirms neurosyphilis; benzathine PCN inadequate for CNS penetration (does not cross blood-brain barrier at treponemicidal levels)
+- Ocular syphilis (anterior uveitis L eye) classified as neurosyphilis per CDC — requires IV PCN G
+- Start aqueous penicillin G 4 million units IV q4h (18–24 million units/day) x14 days — CDC-recommended regimen for neurosyphilis; achieves treponemicidal CSF concentrations
+- Ophthalmology consulted for ocular syphilis management (topical steroids for uveitis per ophtho guidance after initiating systemic PCN)
+- Neurology consulted
+- ID following — Dr. Rivera primary
+
+#JARISCH-HERXHEIMER REACTION — CONSIDERATION
+- Initial symptoms post-injection (day 4–5) could represent Herxheimer; however, severity, ocular involvement, and CSF findings confirm true neurosyphilis — not Herxheimer alone
+- Herxheimer risk with IV PCN initiation: counsel patient; acetaminophen PRN; monitor
+
+#HIV — WELL-CONTROLLED
+- Continue Biktarvy throughout hospitalization
+- No significant drug interactions with IV PCN G
+- CD4 420 and VL undetectable — does not appreciably worsen prognosis of neurosyphilis at this CD4
+
+#OCULAR SYPHILIS — ANTERIOR UVEITIS L EYE
+- Ophthalmology at bedside; topical corticosteroid drops per ophtho
+- Formal visual acuity testing serial
+- Risk of permanent visual impairment if not adequately treated
+
+#MENINGITIS — ASEPTIC (SYPHILITIC)
+- IV PCN as above
+- CSF HSV PCR pending — if positive, add IV acyclovir (low clinical suspicion given RPR/VDRL context)
+- Pain management: acetaminophen for headache; dark quiet room
+
+#PARTNER NOTIFICATION
+- Public health STI notification completed (required for syphilis)
+- Partner(s) to be contacted for RPR testing and treatment as applicable
+
+DISPOSITION: Admit to internal medicine/ID/neurology service
+
+Signed,
+Dr. Carmen Rivera, MD (ID)
+Dr. K. Nakamura, MD (Neurology)
+08/22/2024 21:32
+
+================================================================================
+NOTE_ID: note_33
+================================================================================
+
+DATE OF ADMISSION: 04/26/2024
+TIME: 09:44
+ADMITTING SERVICE: Internal Medicine
+ATTENDING: Dr. Alicia Moreno
+NOTE TYPE: Admission H&P — ED Admission
+
+CHIEF COMPLAINT
+"My knee is really swollen and red. I was on antibiotics from my doctor but it's not getting better."
+
+HISTORY OF PRESENT ILLNESS
+66 yo F w/ h/o T2DM (A1c 7.8%), obesity (BMI 36), OA bilateral knees s/p L TKA (2019), and CKD2 (baseline Cr 1.4) p/w acute infectious arthritis of R knee with suspected MSSA bacteremia, failing outpatient cefadroxil prescribed by PCP.
+
+Pt has h/o bilateral knee OA. Her L knee was replaced in 2019 without complication. The R knee has been managed conservatively. She noticed progressive R knee pain, swelling, and warmth beginning approximately 10 days ago (04/16/2024). She saw her PCP on 04/22/2024 — knee was erythematous, warm, and had a moderate effusion. The PCP aspirated approximately 40mL of cloudy yellow fluid and sent it for cell count and culture. Without waiting for the aspiration result, she was started empirically on cefadroxil 500mg PO BID x7 days (04/22–04/28/2024) for presumed septic arthritis.
+
+The aspiration results returned to PCP on 04/24/2024: synovial WBC 62,000 (85% PMNs), Gram stain: gram-positive cocci in clusters. Culture pending. PCP attempted to call patient but reached a voicemail. Meanwhile patient felt no improvement — knee continued to worsen and she developed fevers to 38.8°C at home. She presented to the ED on 04/26/2024.
+
+PAST MEDICAL HISTORY
+1. T2DM — A1c 7.8%, on metformin and sitagliptin
+2. Obesity — BMI 36
+3. L TKA (2019) — no complications, well-functioning prosthesis
+4. CKD2 — baseline Cr 1.4
+5. Hypertension
+6. Hypothyroidism
+
+MEDICATIONS PRIOR TO ADMISSION
+- Metformin 1000mg PO BID
+- Sitagliptin 50mg PO daily (renally dosed for CKD)
+- Lisinopril 10mg PO daily
+- Levothyroxine 75 mcg PO daily
+- Amlodipine 5mg PO daily
+- Ibuprofen 400mg PO PRN (OTC, for knee pain)
+- Cefadroxil 500mg PO BID (started 04/22/2024 by PCP for R knee septic arthritis — 4 days into 7-day course, failing with worsening effusion, fever, and GPCs on Gram stain)
+
+ALLERGIES
+NKDA
+
+SOCIAL HISTORY
+Retired accountant. Lives with husband. Never-smoker. Occasional wine (1–2 glasses/week). No illicit drugs.
+
+FAMILY HISTORY
+Mother with T2DM and OA. Father with HTN.
+
+REVIEW OF SYSTEMS
+Constitutional: Fevers to 38.8°C, chills, fatigue x3 days.
+HEENT: No changes.
+CV: No chest pain.
+Pulm: No cough, no SOB.
+GI: Mild nausea (from cefadroxil with food). No vomiting.
+MSK: R knee pain, swelling, markedly worsened. Difficulty bearing weight on R leg. L knee (prosthesis) without new symptoms.
+Neuro: No focal deficits.
+
+PHYSICAL EXAMINATION
+Vitals: T 38.7°C | HR 104 | BP 144/86 | RR 18 | SpO2 98% on RA
+General: Obese F, uncomfortable, limping favoring R leg, NAD at rest
+HEENT: NCAT, MMM, no LAD
+CV: Tachycardic, regular, no m/r/g. No stigmata of endocarditis.
+Pulm: CTAB
+Abd: Obese, soft, NT, no HSM
+Ext: R knee — large effusion, significant warmth and erythema, tender on palpation. Passive ROM markedly limited by pain (10–70 degrees). No crepitus. L knee (prosthetic) — no warmth, no effusion, incision well-healed.
+Neuro: A&Ox4
+
+PERTINENT DATA
+WBC 21.8 (84% PMNs, 7% bands), Hgb 11.2, Plt 338
+BMP: Na 138, K 4.0, Cr 1.8 (worsening from baseline 1.4, likely from NSAIDs), BUN 28, Gluc 218
+Blood cultures x2 sent
+Repeat joint aspiration in ED: synovial fluid WBC 88,000 (90% PMNs), frank pus, gram-positive cocci in clusters
+ESR 112, CRP 198 mg/L
+Prior PCP culture (04/22 aspiration) — PENDING (expected today per lab: result called to ED — MSSA, oxacillin susceptible, cefazolin susceptible)
+
+ASSESSMENT AND PLAN
+66 yo F w/ DM, CKD p/w R knee septic arthritis (MSSA confirmed — susceptible to oxacillin/cefazolin), failing outpatient cefadroxil. Cefadroxil does not achieve adequate synovial concentrations for septic arthritis — IV therapy required.
+
+#MSSA SEPTIC ARTHRITIS — R KNEE, CEFADROXIL FAILURE
+- MSSA confirmed susceptible to cefazolin (and oxacillin)
+- Cefadroxil (1st gen oral cephalosporin) inadequate for septic arthritis — insufficient synovial penetration; IV beta-lactam required
+- Stop cefadroxil; start cefazolin 2g IV q8h — first-line for MSSA joint infections, achieves therapeutic synovial concentrations
+- Hold ibuprofen (NSAIDs worsening AKI)
+- Blood cultures x2 pending; if bacteremia confirmed, plan PICC for 4-week IV course
+
+#SEPTIC ARTHRITIS — SURGICAL
+- Orthopedics consult for joint washout — arthroscopic or open lavage likely needed; frank pus on aspiration (WBC 88,000)
+- Serial synovial fluid cultures to document clearance
+- Joint aspiration alone unlikely to be adequate source control for established septic arthritis
+
+#AKI (Cr 1.8, baseline 1.4) — NSAID-RELATED
+- Hold ibuprofen and lisinopril
+- IVF: 500mL LR bolus; maintain adequate UO
+- Recheck Cr in AM
+- Cefazolin — renally cleared; dose adjustment not needed until Cr >3
+
+#L TKA (PROSTHETIC) — NO CURRENT INVOLVEMENT
+- Carefully examine for any secondary seeding (prosthesis at risk during bacteremia)
+- If blood cultures positive, TTE to assess for endocarditis; prosthetic joint assessment by orthopedics
+
+#T2DM
+- Hold metformin and sitagliptin given AKI; FSBS QID, sliding scale insulin
+
+#HTN
+- Continue amlodipine; hold lisinopril (AKI)
+
+DISPOSITION: Admit to internal medicine/ortho co-management
+
+Signed,
+Dr. Alicia Moreno, MD
+04/26/2024 11:02
+
+================================================================================
+NOTE_ID: note_34
+================================================================================
+
+DATE OF ADMISSION: 10/22/2023
+TIME: 14:37
+ADMITTING SERVICE: Internal Medicine / Urology
+ATTENDING: Dr. Brian Hollis
+NOTE TYPE: Admission H&P — ED Admission
+
+CHIEF COMPLAINT
+"I was treated for a UTI but now I have back pain and a fever."
+
+HISTORY OF PRESENT ILLNESS
+48 yo F w/ h/o recurrent UTIs (E. coli, sensitive to TMP-SMX in prior cultures), sulfonamide hypersensitivity (rash to co-trimoxazole), and hypothyroidism p/w acute L-sided pyelonephritis and urosepsis after failing outpatient trimethoprim monotherapy for uncomplicated UTI.
+
+Pt has a long h/o recurrent UTIs treated with various antibiotics. She has a documented sulfa hypersensitivity — a rash with co-trimoxazole (TMP-SMX) in 2021, so sulfamethoxazole component is avoided. Her urologist has prescribed trimethoprim 200mg PO BID alone (without the sulfa component) as an alternative for uncomplicated UTIs with prior E. coli susceptibility.
+
+She presented to her urologist on 10/14/2023 with dysuria, urinary frequency, and mild suprapubic discomfort x2 days. UA showed pyuria. Urine culture sent. She was started on trimethoprim 200mg PO BID x7 days (10/14–10/20/2023). She completed the course.
+
+Two days after completing the course (10/22/2023) she developed severe L flank pain radiating to the groin, high fevers (39.2°C at home), nausea, and two episodes of vomiting. She called the urologist's office and was directed to the ED.
+
+Urine culture from 10/14/2023 resulted: E. coli — TMP susceptible (MIC 2 mcg/mL), but given that she is now presenting with pyelonephritis, adequacy of trimethoprim tissue levels is in question.
+
+PAST MEDICAL HISTORY
+1. Recurrent UTIs — E. coli (x4 in past 3 years, prior cultures susceptible to TMP-SMX and TMP alone)
+2. Hypothyroidism — on levothyroxine
+3. Sulfonamide hypersensitivity (rash to TMP-SMX, sulfa component implicated)
+4. Nephrolithiasis — one prior episode (2020), passed spontaneously; no surgical intervention
+
+MEDICATIONS PRIOR TO ADMISSION
+- Levothyroxine 100 mcg PO daily
+- Cetirizine 10mg PO PRN (allergic rhinitis)
+- Ibuprofen 400mg PO PRN (OTC)
+- Trimethoprim 200mg PO BID (10/14/2023–10/20/2023, prescribed by urologist for uncomplicated UTI — course completed, clinical failure with ascending infection)
+
+ALLERGIES
+Sulfonamides (sulfa component of TMP-SMX) — maculopapular rash. Trimethoprim alone is tolerated.
+
+SOCIAL HISTORY
+High school teacher. Lives with husband and two children. Non-smoker. Light alcohol (1–2 glasses wine/week). No illicit drugs. No recent travel.
+
+FAMILY HISTORY
+Mother with recurrent UTIs and diabetes. Father with HTN.
+
+REVIEW OF SYSTEMS
+Constitutional: Fevers to 39.2°C, rigors, chills, fatigue, poor appetite.
+HEENT: No changes.
+CV: No chest pain, no palpitations.
+Pulm: No cough, no SOB.
+GI: Nausea, two episodes of vomiting. No diarrhea. Unable to keep down fluids.
+GU: Dysuria persisting despite completed antibiotic course. L flank pain, radiating to L groin. Urinary frequency. No gross hematuria.
+MSK: No joint pain.
+Neuro: No focal deficits.
+
+PHYSICAL EXAMINATION
+Vitals: T 39.3°C | HR 118 | BP 98/64 | RR 20 | SpO2 98% on RA
+General: Middle-aged F, acutely ill-appearing, in pain
+HEENT: NCAT, dry mucous membranes, no LAD
+CV: Tachycardic, regular, no m/r/g
+Pulm: CTAB
+Abd: Soft. L upper quadrant and L flank tenderness. No guarding, no rebound.
+GU: L CVA tenderness 3+ (marked). R CVA tenderness 1+ (mild).
+Ext: No edema, no rash
+Neuro: A&Ox4
+
+PERTINENT DATA
+WBC 18.6 (82% PMNs, 5% bands), Hgb 12.6, Plt 292
+BMP: Na 136, K 3.5, Cl 100, HCO3 20, BUN 22, Cr 1.1 (baseline 0.9), Gluc 98
+Lactate 2.4 mmol/L
+UA: turbid, WBCs >100/hpf, nitrites positive, LE 3+, many bacteria
+Urine Gram stain: gram-negative rods
+Urine culture (repeat, today): sent
+Blood cultures x2 sent
+Beta-hCG: negative
+CT abdomen/pelvis without contrast: L hydronephrosis (grade 2), L ureter proximal dilation — 4mm obstructing stone at the L ureteropelvic junction. Surrounding fat stranding consistent with obstructive uropathy. No abscess. R kidney unremarkable.
+
+ASSESSMENT AND PLAN
+48 yo F w/ recurrent UTIs and sulfa allergy p/w L pyelonephritis and urosepsis with obstructive L UPJ calculus, failing outpatient trimethoprim monotherapy — complicated UTI with obstruction requires IV antibiotics and urological intervention.
+
+#PYELONEPHRITIS WITH OBSTRUCTIVE UROPATHY — TRIMETHOPRIM FAILURE
+- Trimethoprim failed likely because of obstructive uropathy (4mm UPJ stone with grade 2 hydronephrosis) — antibiotic penetration into obstructed collecting system is impaired regardless of susceptibility
+- Sulfa allergy (sulfonamide component) precludes TMP-SMX
+- Start ceftriaxone 1g IV q24h — broad gram-negative coverage; adjust based on urine/blood culture susceptibilities
+- Fluoroquinolones deferred given local resistance patterns (~25% E. coli resistance at our institution)
+- Blood cultures x2 pending
+
+#OBSTRUCTIVE UROPATHY — L UPJ CALCULUS
+- 4mm stone at UPJ with grade 2 hydronephrosis — urology consulted emergently
+- Urinary obstruction with concurrent infection = urological emergency; stenting or percutaneous nephrostomy required for source control
+- Urology to assess for ureteral stent placement vs. nephrostomy tube tonight
+- Foley placed in ED — UO monitoring
+
+#SEPSIS — URINARY SOURCE
+- IVF: NS 1L bolus; BP improving (repeat 110/72 after 500mL)
+- Repeat lactate in 2h
+- Serial monitoring of BP and HR
+
+#DEHYDRATION — NAUSEA/VOMITING
+- Ondansetron 4mg IV q6h PRN
+- IV maintenance IVF after bolus
+- Advance PO as tolerated once nausea controlled
+
+#MILD AKI (Cr 1.1, baseline 0.9)
+- Prerenal + obstructive component
+- IVF and source control (urological decompression) should improve
+- Hold ibuprofen
+
+DISPOSITION: Admit to urology service
+
+Signed,
+Dr. Brian Hollis, MD
+10/22/2023 15:55
+
+================================================================================
+NOTE_ID: note_35
+================================================================================
+
+DATE OF ADMISSION: 01/30/2024
+TIME: 21:09
+ADMITTING SERVICE: Otolaryngology / Internal Medicine
+ATTENDING: Dr. Daniel Park
+NOTE TYPE: Admission H&P — ED Admission
+
+CHIEF COMPLAINT
+"My gum and jaw have been swollen for two weeks. I've been on two different antibiotics and it keeps getting worse."
+
+HISTORY OF PRESENT ILLNESS
+39 yo F w/ h/o poorly controlled DM1 (A1c 12.4%), HTN, and dental phobia p/w extensive odontogenic infection with masticator and parapharyngeal space involvement, failing sequential outpatient antibiotic courses including erythromycin.
+
+Pt began having L lower molar pain approximately 3 weeks ago. She avoided dental care due to severe dental phobia. Developed increasing L cheek swelling. Saw urgent care on 01/15/2024 — noted trismus (2-finger opening), L buccal swelling, and low-grade fever. Prescribed erythromycin 500mg PO QID x7 days (01/15–01/21/2024, chosen because PCP listed a penicillin allergy — see allergies below). She completed the course with modest subjective improvement in pain but persistent swelling.
+
+She returned to urgent care on 01/23/2024 — still with L facial swelling, no further improvement. Was then switched to metronidazole 500mg PO TID x7 days (01/23–01/29/2024) with clindamycin 300mg PO TID. By 01/28/2024 swelling had spread to the L neck and she developed increasing dysphagia to solids. Today (01/30/2024) she could not swallow liquids and her husband noted her breathing was strained. Called 911.
+
+In the ED: T 38.9°C, HR 124, BP 136/88. Airway assessment performed — Mallampati class III with limited mouth opening (~1.5 cm). CT neck performed urgently.
+
+PAST MEDICAL HISTORY
+1. Type 1 DM — A1c 12.4%, on insulin pump
+2. Hypertension
+3. Dental phobia — no dental care for over 8 years
+4. Anxiety — on sertraline
+
+MEDICATIONS PRIOR TO ADMISSION
+- Insulin pump (continuous subcutaneous insulin infusion)
+- Lisinopril 10mg PO daily
+- Sertraline 100mg PO daily
+- Erythromycin 500mg PO QID (01/15/2024–01/21/2024, prescribed by urgent care for odontogenic infection — course completed, inadequate response; penicillin allergy documented as reason for choice)
+- Metronidazole 500mg PO TID (01/23/2024–01/29/2024, second outpatient course co-prescribed at urgent care — completing today, failing)
+- Clindamycin 300mg PO TID (01/23/2024–01/29/2024, co-prescribed with above)
+- Ibuprofen 600mg PO PRN (OTC for pain)
+
+ALLERGIES
+Penicillin — "allergy" documented by patient (self-reported childhood rash; no formal allergy testing performed; unclear if true allergy vs. side effect)
+
+SOCIAL HISTORY
+Hair stylist. Lives with husband and two children. Non-smoker. No alcohol. No illicit drugs. Has avoided all dental care x8 years.
+
+FAMILY HISTORY
+Mother with DM1. Father with HTN. No family history of immunodeficiency.
+
+REVIEW OF SYSTEMS
+Constitutional: Fevers (38.9°C in ED), significant fatigue, rigors.
+HEENT: Severe L jaw pain, L cheek and neck swelling, trismus (~1.5 cm opening), dysphagia — now cannot swallow liquids, muffled voice.
+CV: No chest pain.
+Pulm: Sensation of throat tightness. No stridor at rest but dyspnea worsening.
+GI: Unable to eat or drink for 24h. Significant weight loss this month.
+GU: No changes. Noted darker urine (dehydration).
+Neuro: No focal deficits.
+
+PHYSICAL EXAMINATION
+Vitals: T 38.9°C | HR 124 | BP 132/82 | RR 24 | SpO2 95% on RA
+General: F, in moderate-to-severe distress, holding L face, drooling, muffled voice
+HEENT: L facial swelling from the malar region to the mandibular border, extending to the L neck to the clavicle. Skin overlying is erythematous and tender, mildly fluctuant at the L submandibular angle. Mouth opening approximately 1.5 cm. Floor of mouth — mildly elevated sublingual space, less dramatic than Ludwig's but significant. Intraoral: L lower third molar with pericoronitis and surrounding mucosal erythema; probe passes 4mm into pericoronitis pocket.
+Neck: L submandibular, parapharyngeal edema extending to mid-neck. Trachea appears midline.
+CV: Tachycardic, regular, no m/r/g
+Pulm: Clear to auscultation; tachypneic
+Abd: Soft, NT
+Ext: No edema. Insulin pump site (abdomen) intact.
+Neuro: A&Ox4
+
+PERTINENT DATA
+WBC 26.8 (88% PMNs, 14% bands), Hgb 11.4, Plt 348
+BMP: Na 132, K 3.7, Cr 1.0, BUN 32, Gluc 488, HCO3 20
+Procalcitonin 14.2 ng/mL
+Blood cultures x2 sent
+CT neck with contrast (read as STAT): L masticator and parapharyngeal space phlegmon — no dominant drainable abscess cavity. L submandibular space involvement. Air-fluid level at inferior L masticator space suggesting early abscess formation. No mediastinal extension. Airway narrowing at L oropharynx — estimated 25% luminal reduction. Bilateral submandibular lymphadenopathy.
+Penicillin allergy: allergy history reviewed with patient — rash described as "itchy bumps on my arms" at age 6, resolved without treatment; likely low-risk drug reaction, not consistent with IgE-mediated allergy; allergy team consulted for penicillin skin testing or graded challenge
+
+ASSESSMENT AND PLAN
+39 yo F w/ DM1 (A1c 12.4%) p/w extensive odontogenic infection (masticator and parapharyngeal space phlegmon) with airway risk, failing sequential erythromycin then metronidazole/clindamycin — inadequate spectrum and route; requires IV antibiotics, surgical drainage, and airway monitoring.
+
+#ODONTOGENIC DEEP SPACE INFECTION — FAILING OUTPATIENT ERYTHROMYCIN/CLINDAMYCIN/METRONIDAZOLE
+- Erythromycin alone was inadequate spectrum and has poor tissue penetration for deep-space odontogenic infections; likely exacerbated by immunosuppression from poorly controlled DM1
+- Despite subsequent metronidazole/clindamycin, infection progressed to masticator and parapharyngeal involvement
+- Documented penicillin "allergy" requires reassessment — low-probability based on history (childhood rash, no anaphylaxis, consistent with viral exanthem); allergy consult placed for skin testing or graded PCN challenge
+- Pending allergy evaluation: start ampicillin/sulbactam 3g IV q6h — covers streptococci, anaerobes, and gram-negative oral flora for deep neck infections; risk of cross-reactivity with penicillin is low (<2% for aminopenicillins) and benefits outweigh risk in this scenario; patient counseled and consented
+- If true PCN allergy confirmed: transition to clindamycin IV 900mg q8h + metronidazole IV (already failing PO — may need alternative)
+- Stop oral clindamycin and metronidazole (ongoing home course); switch to IV ampicillin/sulbactam as above
+
+#SURGICAL DRAINAGE — OMFS/ENT
+- OMFS and ENT consulted; CT shows early abscess formation at L masticator space
+- Incision and drainage in OR planned — with simultaneous tooth #17/18 extraction
+- NPO at midnight for OR
+
+#AIRWAY MONITORING
+- Anesthesia notified — potential difficult airway (limited mouth opening, parapharyngeal edema)
+- Airway cart at bedside; fiber-optic equipment available
+- ENT will assess for awake fiberoptic intubation vs. tracheostomy backup
+- SpO2 continuous monitoring; HOB elevated 30 degrees
+
+#DM1 — SEVERE HYPERGLYCEMIA (Gluc 488)
+- Insulin pump suspended — transition to IV insulin drip per protocol (NPO + surgical planning)
+- FSBS q1h on insulin drip
+- Endocrine notified
+- Monitor for DKA: anion gap 12 (Gluc 488, HCO3 20) — not in DKA at this time; trend
+
+#DEHYDRATION / INABILITY TO SWALLOW
+- IV maintenance fluids: LR at 125 mL/h
+- Strict NPO
+
+DISPOSITION: Admit to OMFS/ENT service, ICU-level monitoring for airway given parapharyngeal involvement
+
+Signed,
+Dr. Daniel Park, MD (OMFS)
+Dr. R. Bloom, MD (Internal Medicine)
+01/30/2024 22:27
+
+================================================================================
+NOTE_ID: note_36
+================================================================================
+
+DATE OF ADMISSION: 07/10/2024
+TIME: 16:52
+ADMITTING SERVICE: Internal Medicine
+ATTENDING: Dr. Vanessa Cole
+NOTE TYPE: Admission H&P — ED Admission
+
+CHIEF COMPLAINT
+"I've been on an antibiotic for a week but my ear and face pain is getting worse and I now have a fever."
+
+HISTORY OF PRESENT ILLNESS
+54 yo M w/ h/o T2DM (A1c 9.4%), HTN, and recurrent sinusitis p/w right-sided facial swelling, periorbital edema, and fever — presenting as complicated sinusitis with suspected orbital/periorbital involvement, failing outpatient cefprozil prescribed by PCP.
+
+Pt has a h/o recurrent right maxillary sinusitis (3 episodes in 2 years, previously treated outpatient). He developed R-sided facial pressure, right nasal congestion, and headache approximately 12 days ago. He was seen by his PCP on 07/03/2024. Sinus films (plain X-ray) showed R maxillary opacification. He was started on cefprozil 500mg PO BID x10 days (07/03–07/12/2024) for presumed acute bacterial rhinosinusitis.
+
+For the first few days he noted partial improvement in congestion but then worsening facial pain. Starting 3 days ago (07/07/2024) he developed marked R-sided facial swelling involving the R cheek and lower eyelid. Yesterday (07/09/2024) he noticed significant periorbital swelling of the R upper lid, and this morning his wife noted the R eye appeared to be "pushed slightly forward." He developed fever to 38.8°C at home. He presented to the ED.
+
+No prior orbital surgery. No contact lens use. Denies visual changes — states vision in R eye is intact.
+
+PAST MEDICAL HISTORY
+1. T2DM — A1c 9.4%, on metformin and glipizide
+2. Hypertension
+3. Recurrent right maxillary sinusitis (3 episodes past 2 years)
+4. Hyperlipidemia
+
+MEDICATIONS PRIOR TO ADMISSION
+- Metformin 1000mg PO BID
+- Glipizide 5mg PO daily
+- Lisinopril 10mg PO daily
+- Atorvastatin 20mg PO QHS
+- Oxymetazoline nasal spray PRN (OTC, using x5 days)
+- Cefprozil 500mg PO BID (07/03/2024–07/12/2024, prescribed by PCP for acute bacterial rhinosinusitis — 7 days into 10-day course, failing with periorbital involvement and fever)
+
+ALLERGIES
+Penicillin — "rash" (reported childhood, details unclear; no formal evaluation)
+
+SOCIAL HISTORY
+Accountant. Lives with wife. Non-smoker. Occasional alcohol (1–2 drinks/week). No illicit drugs. No recent travel or sick contacts.
+
+FAMILY HISTORY
+Father with DM and HTN. Mother with allergies and chronic sinusitis.
+
+REVIEW OF SYSTEMS
+Constitutional: Fevers to 38.8°C x2 days, fatigue, headache (7/10, R-sided, pressure quality).
+HEENT: R facial swelling, R periorbital edema (upper and lower lid), possible R proptosis per wife. R nasal congestion with thick yellow-green drainage. No vision changes per patient (denies diplopia, visual loss).
+CV: No chest pain.
+Pulm: No cough, no SOB.
+GI: Nausea, no vomiting.
+Neuro: Headache as above. No focal deficits.
+
+PHYSICAL EXAMINATION
+Vitals: T 38.9°C | HR 102 | BP 148/92 | RR 18 | SpO2 98% on RA
+General: Overweight M, uncomfortable, R eye partially closed by swelling
+HEENT: R periorbital edema — upper and lower lids swollen, erythematous, tender to palpation; R eye able to open ~50% of normal aperture. R proptosis estimated ~2mm (Hertel exophthalmometry not performed — ophthalmology to assess). R cheek swelling 8x6 cm area, fluctuant at inferior margin. Nasal mucosa erythematous, R middle turbinate edematous, thick mucopurulent discharge R nare. L eye and orbit — normal.
+Visual acuity (bedside): R 20/30 (mildly reduced from patient's baseline 20/20 by report), L 20/20.
+Ocular motility: R eye — mild restriction of upward gaze with pain (concerning for extraocular muscle involvement).
+CV: Tachycardic, regular, no m/r/g
+Pulm: CTAB
+Abd: Soft, NT
+Neuro: A&Ox4. CN II (visual acuity as above), limited CN III (upward gaze restriction R eye as noted), otherwise intact.
+
+PERTINENT DATA
+WBC 22.6 (84% PMNs, 8% bands), Hgb 13.4, Plt 312
+BMP: Na 138, K 4.2, Cr 1.1, Gluc 328, HCO3 22
+CRP 196 mg/L
+Blood cultures x2 sent
+CT orbits/sinuses with contrast (STAT): R maxillary sinusitis with R ethmoid and frontal sinus involvement (pansinusitis R). R orbital wall medial defect with subperiosteal abscess formation (0.8 cm collection along medial R orbital wall). R proptosis 2mm. No intracranial extension. No cavernous sinus thrombosis by CT criteria (MRI with contrast ordered for definitive assessment).
+
+ASSESSMENT AND PLAN
+54 yo M w/ DM (A1c 9.4%) p/w complicated R-sided sinusitis with subperiosteal orbital abscess, probable preseptal/postseptal orbital cellulitis, failing outpatient cefprozil — requires IV antibiotics and urgent ophthalmologic and ENT evaluation.
+
+#COMPLICATED SINUSITIS WITH SUBPERIOSTEAL ORBITAL ABSCESS — CEFPROZIL FAILURE
+- Cefprozil inadequate spectrum and route for complicated sinusitis with orbital involvement; IV therapy required
+- Organisms: Streptococcus pneumoniae, H. influenzae, Staph aureus (including MRSA in DM patients) — needs broader coverage
+- Start ceftriaxone 2g IV q24h — excellent sinus and orbital penetration; covers streptococci and H. influenzae
+- Add vancomycin IV (weight-based) for MRSA coverage in the setting of DM and orbital abscess — high morbidity if MRSA not covered
+- Note: documented penicillin "allergy" — childhood rash, likely low-risk; ceftriaxone cross-reactivity very low (<0.5%); proceeding given severity; allergy consult if patient stabilizes
+- Stop cefprozil
+
+#SUBPERIOSTEAL ORBITAL ABSCESS — SURGICAL EVALUATION
+- Ophthalmology consulted emergently (subperiosteal abscess with proptosis and restricted motility = surgical emergency)
+- ENT consult for concurrent sinus drainage (functional endoscopic sinus surgery, FESS)
+- Criteria for emergent drainage: proptosis, restricted motility, visual change — all present; OR likely tonight
+- Visual acuity R 20/30 — monitor closely for deterioration
+
+#CAVERNOUS SINUS THROMBOSIS — RULED OUT BY CT, CONFIRM WITH MRI
+- MRI brain/orbits with gadolinium ordered (CT cavernous sinus assessment limited)
+- No current focal neurological deficits; high clinical suspicion threshold
+
+#T2DM — POORLY CONTROLLED (Gluc 328)
+- Poorly controlled DM increases risk of orbital complications from sinusitis — likely contributing factor
+- Hold metformin/glipizide; IV insulin sliding scale; FSBS q4h
+- Endocrine team to follow if prolonged
+
+DISPOSITION: Admit to ENT/ophthalmology service; OR evaluation tonight
+
+Signed,
+Dr. Vanessa Cole, MD
+07/10/2024 18:05
+
+================================================================================
+NOTE_ID: note_37
+================================================================================
+
+DATE OF ADMISSION: 03/12/2024
+TIME: 09:22
+ADMITTING SERVICE: Internal Medicine / Nephrology / Infectious Disease
+ATTENDING: Dr. Robert Tanaka
+NOTE TYPE: Admission H&P — Transfer from Outside Hospital (OSH)
+
+CHIEF COMPLAINT
+Per OSH: "Gram-negative bacteremia in ESRD patient — gentamicin treatment course, now acute kidney injury worsening, transferring for ID management."
+
+HISTORY OF PRESENT ILLNESS
+69 yo M w/ ESRD on HD (MWF), T2DM, and prior recurrent gram-negative UTIs p/w suspected recurrent E. coli bacteremia requiring antibiotic escalation after gentamicin course complicated by worsening AKI, transferred from OSH.
+
+Per OSH transfer records: Pt was admitted to an outside community hospital on 03/10/2024 with fever, rigors, and altered mental status. Blood cultures drawn x2 on admission — subsequently grew E. coli (ESRD patient's blood culture turn-around: 24h). OSH began gentamicin IV once-daily dosing on 03/05/2024 (patient had been seen prior to this admission at OSH ED on 03/04 with fever, sent home with plan for outpatient follow-up; gentamicin ordered at that visit as empiric outpatient therapy — doses administered 03/05–03/09/2024). On readmission 03/10, repeat blood cultures positive, Cr worsening (3.4 to 4.8 — HD-dependent but with residual renal function that is now impaired further).
+
+OSH susceptibilities (E. coli, from 03/04 blood culture): susceptible to gentamicin (MIC 1), ertapenem, meropenem, ceftriaxone; resistant to ciprofloxacin, ampicillin, TMP-SMX. OSH started meropenem (appropriately) upon re-admission but transferring given complexity of ESRD + nephrotoxicity + bacteremia management.
+
+Patient arrived on 03/12/2024, now day 2 of meropenem at OSH (meropenem started 03/10 per OSH; last dose 11:00 on 03/12 prior to transfer).
+
+PAST MEDICAL HISTORY
+1. ESRD on HD (MWF) — prior residual urine output now severely diminished
+2. T2DM — A1c 8.8%
+3. Hypertension
+4. Prior E. coli UTI/bacteremia (2022, treated at OSH)
+5. CAD — s/p CABG (2019)
+6. HFpEF — EF 50%
+
+MEDICATIONS PRIOR TO ADMISSION
+- Insulin glargine 20 units QHS
+- Sevelamer 1600mg PO TID
+- Calcium acetate 667mg PO TID with meals
+- Carvedilol 6.25mg PO BID
+- Amlodipine 5mg PO daily
+- Aspirin 81mg PO daily
+- Atorvastatin 40mg PO QHS
+- Gentamicin IV (once-daily dosing, administered at OSH starting 03/05/2024 — 5 doses given 03/05–03/09/2024; stopped prior to transfer given AKI worsening and nephrotoxicity concern)
+
+ALLERGIES
+Penicillin — anaphylaxis (hospitalized 1990s, carries EpiPen)
+
+SOCIAL HISTORY
+Retired bus driver. Lives with adult daughter. No tobacco. No alcohol. No illicit drugs. HD-dependent x3 years.
+
+FAMILY HISTORY
+Father with DM and renal disease. Mother with CAD.
+
+REVIEW OF SYSTEMS
+Constitutional: Fevers resolving since meropenem started, fatigue, poor appetite.
+HEENT: No new visual changes. Prior hearing aids for presbycusis — no new hearing changes noted (but aminoglycoside ototoxicity risk acknowledged).
+CV: No chest pain, no worsening dyspnea.
+Pulm: Mild dyspnea at baseline (HFpEF). No significant worsening.
+GI: Decreased appetite. No nausea, no vomiting, no diarrhea.
+GU: Anuric (ESRD).
+Neuro: Confusion resolved per OSH notes. A&Ox4 on arrival.
+
+PHYSICAL EXAMINATION
+Vitals: T 37.3°C | HR 86 | BP 138/82 | RR 18 | SpO2 96% on RA | Wt 78 kg
+General: Elderly M, pale, fatigued, arrives on wheelchair from transport. Alert.
+HEENT: NCAT, MMM, no scleral icterus. Bilateral hearing aids in place.
+CV: Regular rate, 2/6 systolic murmur at LUSB (known, per CABG records)
+Pulm: Mild bibasilar crackles (HFpEF at baseline). No wheeze.
+Abd: Soft, NT, ND, no HSM. No catheter site. Fistula L forearm — patent with thrill and bruit.
+Ext: L forearm AV fistula, well-functioning. Bilateral 1+ pitting edema lower extremities.
+Neuro: A&Ox4. No focal deficits. No asterixis.
+
+PERTINENT DATA (OSH and on arrival)
+WBC 11.4 (68% PMNs), Hgb 9.2 (CKD anemia), Plt 188
+BMP: Na 136, K 5.4, HCO3 18, BUN 88 (ESRD), Cr not meaningful (dialysis dependent)
+Gentamicin level (OSH, random drawn 03/10): 3.2 mcg/mL (elevated — consistent with gentamicin accumulation in ESRD)
+Blood cultures (our institution, on arrival x2): sent — pending
+OSH blood cultures (03/10/2024): E. coli, GROWING (same susceptibilities as above); 03/11 set — pending result from OSH
+TTE (OSH, 03/11): No vegetations. EF 48% (stable vs. prior). No new wall motion abnormality.
+L forearm fistula ultrasound (OSH): patent.
+
+ASSESSMENT AND PLAN
+69 yo M w/ ESRD on HD p/w E. coli bacteremia, gentamicin nephrotoxicity with worsening AKI and drug accumulation, now transferred for ongoing meropenem-based management and ID oversight.
+
+#E. COLI BACTEREMIA — CONTINUING MEROPENEM (GENTAMICIN STOPPED)
+- Gentamicin is significantly nephrotoxic in ESRD — even with HD, drug accumulates and residual renal tubular function is damaged; aminoglycosides generally avoided in ESRD except as last resort
+- Meropenem appropriately started at OSH (03/10) — continue meropenem 1g IV q8h (renally adjusted: HD patient — administer 500mg q24h, or 1g per HD session; pharmacy to dose-optimize)
+- E. coli susceptible to ceftriaxone on susceptibilities — after bacteremia clears (2 negative consecutive cultures), consider step-down to ceftriaxone (renally well-tolerated)
+- ID consult placed (Dr. Tanaka primary)
+- Blood cultures x2 (on arrival) — pending; daily cultures until clearance
+
+#GENTAMICIN NEPHROTOXICITY / ESRD WITH WORSENING RESIDUAL FUNCTION
+- Stop gentamicin (already stopped at OSH); no further aminoglycosides
+- Dialysis: continue MWF schedule; gentamicin is cleared by HD — levels declining
+- Gentamicin trough 3.2 mcg/mL (OSH) — recheck level on first HD run
+- Ototoxicity surveillance: audiology consult given pre-existing hearing loss (hearing aids) and aminoglycoside exposure
+
+#BACTEREMIA SOURCE
+- No IV catheter or fistula infection identified on exam/US; likely seeded from prior UTI/urothelial source
+- Urine culture (no urine output — unable to obtain standard UA); prior OSH UA if available reviewed
+- Repeat TTE not needed here (OSH TTE 03/11 negative); follow clinical course
+
+#HFpEF — FLUID MANAGEMENT
+- HD to manage volume; close collaboration with HD team on ultrafiltration goals
+- Bibasilar crackles at baseline — acceptable; no acute decompensation
+
+#ANEMIA OF CHRONIC KIDNEY DISEASE
+- Hgb 9.2 — stable baseline; continue HD center EPO management
+
+DISPOSITION: Admit to internal medicine/nephrology/ID service
+
+Signed,
+Dr. Robert Tanaka, MD
+03/12/2024 10:44
+
+================================================================================
+NOTE_ID: note_38
+================================================================================
+
+DATE OF ADMISSION: 09/28/2023
+TIME: 13:15
+ADMITTING SERVICE: Pulmonary / Infectious Disease
+ATTENDING: Dr. Priscilla Huang
+NOTE TYPE: Admission H&P — Clinic to Admit (ID Outpatient Clinic)
+
+CHIEF COMPLAINT
+"I've been on the antifungal pill for about 5 weeks but I'm not getting any better. I keep losing weight and the fatigue is terrible."
+
+HISTORY OF PRESENT ILLNESS
+52 yo M w/ HIV (CD4 38, not on ART — not engaged in HIV care), recent travel to the Ohio River Valley, and significant weight loss p/w progressive pulmonary and disseminated histoplasmosis on oral itraconazole, now requiring IV antifungal escalation due to progressive disease.
+
+Pt was born in the US, works as a landscaper in Indiana. He has known HIV since 2015 but has been inconsistently engaged in HIV care and has not been on ART for approximately 2 years. He presented to an urgent care clinic in early August 2023 with 6 weeks of progressive fatigue, weight loss (~18 lb), productive cough (brownish sputum), night sweats, and fevers. CXR at urgent care showed bilateral interstitial infiltrates and hilar lymphadenopathy. Blood Histoplasma urine antigen was sent — returned positive (index 4.2). A presumptive diagnosis of pulmonary histoplasmosis was made. He was started on itraconazole 200mg PO BID (08/20/2023) at the urgent care, prescribed for the standard outpatient treatment of moderate pulmonary histoplasmosis per IDSA guidelines.
+
+He presents today (09/28/2023) to the ID outpatient clinic for follow-up. Over the past 5 weeks, rather than improving, he has continued to lose weight (additional 9 lb since starting itraconazole), has progressive dyspnea (now on minimal exertion), and has developed new oral ulcers, hepatosplenomegaly noted by ID clinic on today's exam, and new skin lesions (2 erythematous papules on R forearm). Repeat urine Histoplasma antigen today: 18.4 (markedly elevated vs. 4.2 initially — worsening antigenemia). Itraconazole level checked today: result pending, but concerning for inadequate absorption.
+
+PAST MEDICAL HISTORY
+1. HIV — CD4 38 (from today's labs), not on ART x2 years; prior nadir CD4 unknown per patient
+2. Pulmonary/disseminated histoplasmosis — diagnosed 08/2023, on itraconazole
+3. Prior substance use (cocaine) — patient reports "clean" x1 year
+4. Hypertension — no medications (not engaged in primary care)
+
+MEDICATIONS PRIOR TO ADMISSION
+- Itraconazole 200mg PO BID (started 08/20/2023, prescribed for histoplasmosis — approximately 39 days, clinical failure with progressive dissemination)
+- No ART, no PCP prophylaxis, no MAC prophylaxis (not engaged in HIV care)
+
+ALLERGIES
+NKDA
+
+SOCIAL HISTORY
+Landscaper. Currently unhoused, staying with a friend. Former IV cocaine user (self-reported, last use >1 year ago). No alcohol. Does not smoke cigarettes. Born in Indiana. Outdoor work involving soil/mulch exposure. Not engaged in HIV clinic. Has not seen a physician regularly in >2 years.
+
+FAMILY HISTORY
+Non-contributory. No family history of immunodeficiency or fungal infections.
+
+REVIEW OF SYSTEMS
+Constitutional: Significant fatigue (unable to work past 2 weeks), high fevers to 39.4°C, drenching night sweats, weight loss ~27 lb total over past 3 months.
+Pulm: Progressive dyspnea on minimal exertion, productive cough (scant brown sputum). No hemoptysis.
+GI: Oral ulcers x2 weeks, decreased appetite, nausea. No diarrhea but watery stools. Abdominal fullness (splenomegaly).
+Skin: 2 erythematous papules on R forearm (new, past 2 weeks).
+Neuro: No focal deficits. No headache (meningitis symptoms specifically denied).
+
+PHYSICAL EXAMINATION
+Vitals: T 38.7°C | HR 106 | BP 98/62 | RR 22 | SpO2 91% on RA
+General: Thin, cachectic M, pale, diaphoretic. Appears chronically ill.
+HEENT: Oral mucosa: 3 painful ulcers on buccal mucosa and hard palate (1–2 cm each, with granular base). Thrush absent. No LAD in cervical chain. Bilateral submandibular LAD (1.5 cm each).
+CV: Tachycardic, regular, no m/r/g
+Pulm: Bilateral crackles and wheeze. Decreased air entry at bilateral bases.
+Abd: Hepatomegaly (17 cm span by percussion), splenomegaly (palpated 4 cm below L costal margin). Mild diffuse abdominal tenderness. No ascites.
+Ext: 2 erythematous papules on R volar forearm — firm, non-tender, with central umbilication (suspicious for cutaneous dissemination). No peripheral edema.
+Neuro: A&Ox4. No meningismus. No focal deficits.
+
+PERTINENT DATA
+CD4: 38 cells/mm3 (severely immunosuppressed)
+HIV VL: 480,000 copies/mL
+WBC 2.4 (21% PMNs, severe leukopenia), Hgb 8.2, Plt 58 (thrombocytopenic — cytopenias from disseminated histoplasmosis / bone marrow involvement)
+BMP: Na 130, K 3.8, Cr 1.2, BUN 22, Gluc 88, HCO3 18
+LFTs: AST 112, ALT 88, ALP 480, total bili 2.2 (cholestatic pattern — hepatic histoplasmosis)
+Urine Histoplasma antigen (today): 18.4 (markedly elevated vs. 4.2 at diagnosis — worsening on itraconazole)
+Itraconazole trough: pending (concern for subtherapeutic level due to poor GI absorption — itraconazole capsules require acid for absorption; patient may have achlorhydria)
+Serum Histoplasma antigen: 12.6
+Blood cultures x2 sent (for fungal and bacterial cultures)
+Skin lesion punch biopsy: sent
+CXR (today): bilateral diffuse interstitial infiltrates and hilar adenopathy, worsened from prior
+
+ASSESSMENT AND PLAN
+52 yo M w/ advanced HIV (CD4 38, off ART x2 years) p/w severe disseminated histoplasmosis (pulmonary, hepatosplenic, mucocutaneous, probable bone marrow) with markedly worsening antigenemia on oral itraconazole — requires IV amphotericin B induction and urgent ART initiation.
+
+#DISSEMINATED HISTOPLASMOSIS — ITRACONAZOLE FAILURE
+- Clinical and antigen worsening on itraconazole (urine antigen 4.2 → 18.4); itraconazole absorption erratic, especially at CD4 <100 with GI involvement; severity warrants IV induction regardless
+- Per IDSA guidelines for severe/disseminated histoplasmosis: liposomal amphotericin B is first-line induction
+- Stop itraconazole; start liposomal amphotericin B (AmBisome) 3 mg/kg IV daily — superior efficacy and lower nephrotoxicity vs. conventional amphotericin B deoxycholate
+- Itraconazole trough pending — will document subtherapeutic level for records
+- Plan: amphotericin B induction x2 weeks, then reassess antigen; step down to itraconazole 200mg BID when stable and ART established
+- ID consult (Dr. Huang primary)
+
+#HIV — ADVANCED (CD4 38), OFF ART
+- Urgent ART initiation required — defer 2–4 weeks from amphotericin B start to reduce IRIS risk in severe disseminated histoplasmosis
+- HIV clinic alerted; social work for ART adherence support and housing
+- No ART for 2 years — genotype testing sent (resistance panel prior to initiation)
+- PCP prophylaxis: TMP-SMX DS 1 tab daily (start now; CD4 <200)
+- MAC prophylaxis: azithromycin 1200mg PO weekly (CD4 <50)
+
+#CYTOPENIAS — HISTOPLASMOSIS BONE MARROW INVOLVEMENT
+- Pancytopenia: WBC 2.4, Hgb 8.2, Plt 58 — likely marrow infiltration
+- G-CSF if neutropenia worsens (ANC <500 — calculate ANC from WBC)
+- pRBC transfusion if Hgb <7 or symptomatic
+- No platelet transfusion unless active bleeding or Plt <10
+
+#HYPONATREMIA (Na 130)
+- Likely adrenal involvement (adrenal histoplasmosis) — cortisol level sent; morning cortisol and ACTH stimulation test ordered
+- If adrenal insufficiency confirmed: hydrocortisone 20-30mg/day
+
+#AMPHOTERICIN MONITORING
+- Baseline renal function and electrolytes before first dose; BMP daily during infusion
+- Pre-medicate with acetaminophen, diphenhydramine, and hydration (500mL NS before each infusion)
+- Monitor K, Mg closely — supplement aggressively; monitor for infusion reactions
+
+DISPOSITION: Admit to pulmonary/ID service
+
+Signed,
+Dr. Priscilla Huang, MD
+09/28/2023 14:28
+
+================================================================================
+NOTE_ID: note_39
+================================================================================
+
+DATE OF ADMISSION: 05/27/2024
+TIME: 18:44
+ADMITTING SERVICE: Internal Medicine / Infectious Disease
+ATTENDING: Dr. Leonard Kim
+NOTE TYPE: Admission H&P — ED Admission
+
+CHIEF COMPLAINT
+"My arm wound came back again. I had an infusion for it last month but now it's infected again and I have chills."
+
+HISTORY OF PRESENT ILLNESS
+44 yo M w/ h/o MRSA skin and soft tissue infections (recurrent, x4 in 3 years), IVDU (heroin and fentanyl, intermittent), and Hepatitis C (on treatment) p/w recurrent R antecubital MRSA abscess and bacteremia — presenting 21 days after single-dose dalbavancin infusion.
+
+Pt has a well-documented h/o recurrent MRSA SSTI related to IVDU. He enrolled in an outreach ID clinic program for patients with IVDU-related infections. At a clinic visit on 05/06/2024, he was found to have a new R antecubital abscess (4x3 cm). I&D was performed in clinic. Given prior non-compliance with oral multi-day antibiotic courses and ongoing IVDU, the team decided to administer dalbavancin 1500mg IV x1 dose (05/06/2024) at the clinic infusion center — a long-acting lipoglycopeptide with an approximate half-life of 346 hours, allowing a single infusion to provide sustained anti-MRSA coverage.
+
+Pt reported the wound appeared to be healing well over the subsequent 10–14 days. However, beginning approximately 05/20/2024 he noted new swelling, warmth, and redness at the R antecubital wound site with new purulent drainage. Since yesterday (05/26/2024) he has had fevers and rigors. He presented to the ED this evening. He denies injection at the prior wound site but admits to new IV injections in bilateral femoral veins ("running out of arm veins").
+
+In the ED: T 39.1°C, HR 128, BP 92/58. R antecubital wound: 3x2.5 cm area with purulent drainage. Bilateral femoral injection sites with erythema.
+
+PAST MEDICAL HISTORY
+1. Recurrent MRSA SSTI x4 in 3 years (IVDU-related)
+2. IVDU — heroin/fentanyl, active
+3. Hepatitis C — on sofosbuvir/velpatasvir (started 04/2024, week 6 of 12)
+4. Prior endocarditis workup (2022, negative TTE)
+5. Depression
+
+MEDICATIONS PRIOR TO ADMISSION
+- Sofosbuvir/velpatasvir (Epclusa) 1 tab PO daily (HCV treatment)
+- Buprenorphine/naloxone 8/2 mg SL daily (MAT, started 03/2024 — patient admittedly not fully compliant)
+- Sertraline 50mg PO daily
+- Dalbavancin 1500mg IV x1 dose (05/06/2024, administered at ID outreach clinic infusion center for MRSA SSTI — single dose, now relapse/reinfection 21 days later)
+
+ALLERGIES
+NKDA
+
+SOCIAL HISTORY
+Unemployed. Staying at a shelter intermittently. Active IV drug use (heroin/fentanyl) despite buprenorphine prescription — inconsistent compliance with MAT. No tobacco. HCV treatment ongoing. Prior incarceration. Enrolled in outreach ID program.
+
+FAMILY HISTORY
+Father with alcohol use disorder. Mother deceased (overdose).
+
+REVIEW OF SYSTEMS
+Constitutional: Fevers to 39.1°C, significant rigors, fatigue, poor appetite x3 days.
+HEENT: No changes.
+CV: No chest pain. Palpitations during febrile episodes.
+Pulm: No cough, no SOB.
+GI: Decreased appetite, nausea, no vomiting.
+GU: No dysuria.
+MSK: R arm pain and swelling. Bilateral groin discomfort (femoral injection sites).
+Skin: Wound drainage as noted.
+Neuro: No focal deficits.
+
+PHYSICAL EXAMINATION
+Vitals: T 38.9°C (post-IVF) | HR 118 | BP 104/68 | RR 20 | SpO2 96% on RA
+General: Thin M, diaphoretic, uncomfortable. Multiple tattoos. Appears older than stated age. Alert.
+HEENT: NCAT. No Roth spots on fundoscopic exam. No Osler nodes. No Janeway lesions.
+Neck: No JVD. No meningismus.
+CV: Tachycardic. RRR. Careful auscultation — no murmur detected in multiple positions including right-sided views (TR assessment).
+Pulm: Mild bilateral crackles (possible early septic emboli vs. atelectasis). No consolidation.
+Abd: Soft, NT, ND. Mild hepatomegaly (HCV). No splenomegaly.
+Ext: R antecubital: 3x2.5 cm wound with packing (from recent I&D at triage), surrounding erythema 7x5 cm, warm, tender. Multiple healed scars at bilateral antecubital fossae. Bilateral femoral sites: R femoral site with 2x2 cm indurated erythema (fresh injection site), L femoral site with older healing scar. No lymphangitic streaking noted from R femoral site at this time.
+Neuro: A&Ox4
+
+PERTINENT DATA
+WBC 24.6 (86% PMNs, 9% bands), Hgb 10.8, Plt 162
+BMP: Na 136, K 3.7, Cr 0.9, BUN 18, Gluc 92, HCO3 19
+Blood cultures x2 (bilateral peripheral) — SENT
+Wound culture from R antecubital (at triage, from I&D drainage) — SENT
+LFTs: AST 56, ALT 48 (mildly elevated — HCV treatment)
+CXR: No new infiltrate. No cavitary lesions on plain film.
+CT chest ordered — assess for septic pulmonary emboli (bilateral crackles in IVDU patient with suspected bacteremia)
+TTE ordered — endocarditis workup
+
+ASSESSMENT AND PLAN
+44 yo M w/ IVDU, recurrent MRSA SSTI, HCV on treatment p/w recurrent MRSA SSTI and bacteremia 21 days post-single-dose dalbavancin — likely reinfection from continued IVDU with new femoral injection sites rather than true dalbavancin failure (adequate dalbavancin half-life suggests sufficient coverage was present; however, new inoculation from continued injection drug use).
+
+#MRSA BACTEREMIA — SUSPECTED (CULTURES PENDING)
+- Dalbavancin: long half-life (~346h); level would still be detectable at day 21. Reinfection from new injection sites (bilateral femoral) is the most likely explanation rather than resistance or failure
+- Start vancomycin IV (weight-based, targeting AUC/MIC 400–600) for definitive bacteremia treatment — sustained IV coverage required
+- Blood cultures x2 pending — follow closely
+- TTE to rule out endocarditis (tricuspid IE most common in IVDU)
+- Serial blood cultures q24-48h
+- ID consult (Dr. Kim primary)
+
+#DALBAVANCIN RESISTANCE — UNLIKELY BUT EXCLUDE
+- Wound culture with susceptibility testing — request dalbavancin/vancomycin susceptibility and MIC
+- If vancomycin/dalbavancin MIC elevated (VISA/VRSA): escalate with ID guidance
+
+#SEPTIC PULMONARY EMBOLI — SUSPECT
+- Bilateral crackles in IVDU with suspected bacteremia: CT chest to evaluate
+- If confirmed: anticoagulation discussion with ID/heme
+
+#HCV — ON TREATMENT (WEEK 6 OF 12)
+- Continue sofosbuvir/velpatasvir — no significant drug interaction with vancomycin
+- Monitor LFTs — sofosbuvir/velpatasvir generally well-tolerated
+- Hepatology/ID to co-manage
+
+#IVDU — HARM REDUCTION AND MAT
+- Buprenorphine/naloxone compliance discussed; dose to be continued inpatient
+- Addiction medicine consult
+- Femoral injection sites: L femoral site healing — R femoral site may require additional drainage if fluctuance develops
+- Needle exchange and safe use education
+
+DISPOSITION: Admit to internal medicine/ID service
+
+Signed,
+Dr. Leonard Kim, MD
+05/27/2024 20:15
+
+================================================================================
+NOTE_ID: note_40
+================================================================================
+
+DATE OF ADMISSION: 12/01/2023
+TIME: 14:08
+ADMITTING SERVICE: Internal Medicine / Infectious Disease
+ATTENDING: Dr. Adrienne Walsh
+NOTE TYPE: Admission H&P — Readmission, Home IV Antibiotics Program
+
+CHIEF COMPLAINT
+"I was doing home IV antibiotics through a PICC but I spiked a fever yesterday and my leg wound looks worse again."
+
+HISTORY OF PRESENT ILLNESS
+61 yo M w/ h/o T2DM (A1c 8.2%), PAD (s/p R below-knee amputation 2021 for uncontrolled DFU), and prior L DFU complicated by osteomyelitis with Pseudomonas aeruginosa p/w recurrent L foot osteomyelitis with emergence of ceftazidime-resistant Pseudomonas on home IV ceftazidime.
+
+Patient's complex history summarized: Pt was admitted 10/22–11/09/2023 for acute L 5th metatarsal osteomyelitis with Pseudomonas aeruginosa (pan-susceptible: ceftazidime MIC 2 mcg/mL, meropenem susceptible, tobramycin susceptible, ciprofloxacin MIC 1 — borderline susceptible). He was treated with ceftazidime IV 2g q8h inpatient and transitioned to outpatient parenteral antibiotic therapy (OPAT) via a home IV program on discharge (11/10/2023). PICC line placed in L antecubital for home infusions. Plan was for 6-week total IV course (completion date 12/21/2023). He was tolerating the home ceftazidime well per nursing reports.
+
+On 11/28/2023 he noted increasing pain at the L 5th toe wound (osteomyelitis site) and new drainage. Yesterday (11/30) he spiked a fever to 39.0°C at home. Home IV nursing called our OPAT program who instructed him to go to the ED. Blood cultures were drawn via PICC and peripherally at the ED. He presents today (12/01/2023) for admission.
+
+PAST MEDICAL HISTORY
+1. T2DM — A1c 8.2%, on insulin
+2. PAD — s/p R BKA (2021, for uncontrolled MRSA DFU and osteomyelitis)
+3. L foot 5th metatarsal osteomyelitis — Pseudomonas aeruginosa (initial admission 10/22–11/09/2023)
+4. Hypertension
+5. CKD2 — baseline Cr 1.5
+6. Prior MRSA bacteremia (2020, catheter-related)
+
+MEDICATIONS PRIOR TO ADMISSION
+- Insulin glargine 22 units QHS
+- Insulin lispro sliding scale with meals
+- Amlodipine 5mg PO daily
+- Lisinopril 5mg PO daily
+- Atorvastatin 40mg PO QHS
+- Aspirin 81mg PO daily
+- Ceftazidime 2g IV q8h via PICC (started 11/10/2023 per OPAT program for Pseudomonas L foot osteomyelitis — 3 weeks into planned 6-week course; now clinical failure with fever and worsening wound)
+
+ALLERGIES
+Sulfa — rash
+
+SOCIAL HISTORY
+Retired. Lives with wife. Former smoker, 25 pack-year, quit 2016. No alcohol. No illicit drugs. Wife assists with PICC dressing care. Home health nurse x3 visits/week.
+
+FAMILY HISTORY
+Father with DM and PAD. Mother with HTN.
+
+REVIEW OF SYSTEMS
+Constitutional: Fever 39.0°C at home yesterday, rigors, fatigue worsening past 4 days.
+HEENT: No changes.
+CV: No chest pain, no palpitations.
+Pulm: No cough, no SOB.
+GI: Decreased appetite, mild nausea. No vomiting, no diarrhea.
+GU: Decreased urinary output x2 days.
+MSK: L 5th toe/foot — worsening pain and drainage, increased swelling past week.
+Skin: Wound drainage as noted.
+Neuro: No focal deficits.
+
+PHYSICAL EXAMINATION
+Vitals: T 38.6°C | HR 102 | BP 128/78 | RR 18 | SpO2 97% on RA
+General: Middle-aged M, fatigued, in some discomfort, alert
+HEENT: NCAT, MMM, no LAD
+CV: Tachycardic, regular, no m/r/g. No stigmata of endocarditis.
+Pulm: CTAB
+Abd: Soft, NT, ND
+Ext: R BKA stump — well-healed, no swelling. L foot: 5th metatarsal/toe area with 3x2 cm wound, worsening purulent drainage (yellow-green, malodorous), surrounding erythema 7x5 cm, increased warmth. Probe-to-bone positive at 5th metatarsal head. L antecubital PICC — site clean and intact; no erythema or induration at insertion site. Bilateral 1+ ankle edema.
+Neuro: A&Ox4
+
+PERTINENT DATA
+WBC 19.4 (84% PMNs, 8% bands), Hgb 10.4, Plt 228
+BMP: Na 136, K 4.4, Cr 2.1 (worsened from baseline 1.5), BUN 42, Gluc 244, HCO3 20
+ESR 108, CRP 188 mg/L
+Blood cultures x2 PICC and x2 peripheral — sent
+Wound culture (from L 5th toe wound drainage, sent in ED) — sent
+MRI L foot (ordered): assess for progression of osteomyelitis, new joint involvement
+Prior susceptibilities (inpatient 10/22 culture): Pseudomonas aeruginosa — ceftazidime MIC 2 (susceptible), meropenem MIC 0.5 (susceptible), tobramycin susceptible, ciprofloxacin MIC 1 (borderline susceptible)
+PICC site: no evidence of line infection per exam; line maintained for IV access
+
+ASSESSMENT AND PLAN
+61 yo M w/ DM, PAD p/w recurrent L foot Pseudomonas osteomyelitis with clinical failure on home IV ceftazidime x3 weeks — likely emergence of ceftazidime resistance in Pseudomonas (AmpC derepression is a well-recognized mechanism during cephalosporin monotherapy for Pseudomonas).
+
+#PSEUDOMONAS OSTEOMYELITIS — CEFTAZIDIME FAILURE (PROBABLE RESISTANCE EMERGENCE)
+- Ceftazidime monotherapy for Pseudomonas osteomyelitis is complicated by high risk of AmpC beta-lactamase derepression → resistance emergence during treatment; reported in 10–15% of Pseudomonas treated with 3rd gen cephalosporins
+- Stop ceftazidime
+- Start ceftolozane/tazobactam 1.5g IV q8h — superior Pseudomonas activity vs. pip/tazo, retains activity against AmpC-producing Pseudomonas; dose-adjust for CKD (Cr 2.1 → use 750mg q8h per renal dosing table; pharmacy to verify)
+- Wound culture with susceptibilities critical — specifically request ceftolozane/tazobactam and meropenem MICs; if meropenem susceptible, alternative would be meropenem
+- Blood cultures x2 PICC + x2 peripheral — if PICC cultures positive and peripheral negative, evaluate for line-associated infection vs. wound bacteremia
+- ID consult (Dr. Walsh primary)
+
+#SURGICAL SOURCE CONTROL
+- Orthopedic surgery consult: 3 weeks of systemic antibiotics with treatment failure — likely inadequate debridement or residual dead bone; repeat surgical debridement needed
+- MRI L foot to characterize extent of osteomyelitis progression
+- Possible partial amputation vs. aggressive debridement — discussion with ortho, vascular, and patient
+
+#AKI (Cr 2.1, baseline 1.5)
+- Ceftazidime-related nephrotoxicity less likely (cephalosporins not typically nephrotoxic); more likely prerenal from reduced PO intake
+- IVF: 500mL LR bolus; Cr daily
+- Adjust ceftolozane/tazobactam for renal function (pharmacy consultation)
+
+#T2DM — HYPERGLYCEMIA (Gluc 244)
+- Hold oral agents; sliding scale insulin; FSBS QID
+
+#PICC MANAGEMENT
+- PICC maintained for IV antibiotic delivery; no current evidence of line infection
+- Line cultures pending — reassess PICC if cultures positive from line
+
+DISPOSITION: Admit to internal medicine/ID service with orthopedic surgery co-management
+
+Signed,
+Dr. Adrienne Walsh, MD
+12/01/2023 15:29
+
+================================================================================
+NOTE_ID: note_41
+================================================================================
+
+DATE OF ADMISSION: 04/02/2024
+TIME: 23:44
+ADMITTING SERVICE: Surgery / Internal Medicine
+ATTENDING: Dr. Omar Nasser
+NOTE TYPE: Admission H&P — ED Admission, Night Float
+
+CHIEF COMPLAINT
+"I had some antibiotics from the dentist a few days ago but now my belly hurts really bad and I have a fever."
+
+HISTORY OF PRESENT ILLNESS
+61 yo M w/ h/o alcoholic cirrhosis (Child-Pugh B, MELD 14), portal hypertension with prior variceal bleed (2022), ascites (on diuretics), T2DM, and recent dental extraction p/w fever, abdominal pain, and ascitic fluid infection consistent with spontaneous bacterial peritonitis, presenting 5 days into a course of amoxicillin prescribed by dentist.
+
+Pt underwent extraction of R lower wisdom tooth (#32) at a dental clinic on 03/27/2024. The dentist prescribed amoxicillin 500mg PO TID x7 days (03/28/2024–04/03/2024) prophylactically for post-extraction wound infection prevention, and also to cover what they described as "early pericoronitis" surrounding that tooth.
+
+Pt has felt progressive abdominal distension, worsening abdominal pain (diffuse, 6/10), and high fevers since 04/01/2024. He initially attributed this to a reaction to the amoxicillin. He presented to the ED tonight after his wife noted he was confused and unresponsive to questions at dinner. She called 911.
+
+In the ED: T 38.9°C, HR 118, BP 92/60. Confused (GCS 13). Abdomen markedly distended with diffuse tenderness. Bedside paracentesis performed: ascitic fluid turbid. PMN count: 520 cells/mm3 — diagnostic of SBP. Dental wound: healing normally on exam, no evidence of ongoing dental infection.
+
+PAST MEDICAL HISTORY
+1. Alcoholic cirrhosis — Child-Pugh B (total bili 2.4, INR 1.8, albumin 2.8, Cr 1.2, moderate ascites); MELD 14
+2. Portal hypertension — prior esophageal variceal bleed (2022, banded, on nadolol)
+3. Ascites — on spironolactone and furosemide
+4. T2DM — on low-dose glipizide
+5. Recurrent UTIs (prior amoxicillin for dental — no SBP in past)
+
+MEDICATIONS PRIOR TO ADMISSION
+- Spironolactone 100mg PO daily
+- Furosemide 40mg PO daily
+- Nadolol 20mg PO daily
+- Rifaximin 550mg PO BID (HE prophylaxis)
+- Lactulose 30mL PO BID
+- Glipizide 2.5mg PO daily
+- Pantoprazole 40mg PO daily
+- Amoxicillin 500mg PO TID (started 03/28/2024 by dentist for post-extraction prophylaxis/pericoronitis — day 5 of 7; patient taking all doses; not effective for SBP given inadequate gram-negative coverage)
+
+ALLERGIES
+NKDA
+
+SOCIAL HISTORY
+Retired construction worker. Lives with wife. Sober x3 years (confirmed by wife, enrolled in AA). No tobacco. No illicit drugs. Followed by hepatology clinic.
+
+FAMILY HISTORY
+Father with alcohol use disorder. No family history of liver disease.
+
+REVIEW OF SYSTEMS
+Constitutional: High fevers to 39.2°C x2 days, significant fatigue, rigors.
+HEENT: Mild confusion (per wife — more confused than baseline). Mild jaundice (chronic).
+CV: No chest pain.
+Pulm: No cough, no SOB.
+GI: Worsening abdominal pain (diffuse), significantly increased abdominal distension, nausea, decreased PO intake. No hematemesis, no melena.
+GU: Decreased urinary output.
+Neuro: Confusion — per wife, more than his occasional baseline "fogginess."
+
+PHYSICAL EXAMINATION
+Vitals: T 38.7°C | HR 116 | BP 92/64 | RR 22 | SpO2 95% on RA
+General: Jaundiced, cachectic M, confused, intermittently following commands
+HEENT: Icteric sclerae, asterixis present (bilateral), dry mucous membranes, no cervical LAD. Dental wound R lower jaw — healing, no erythema or pus.
+CV: Tachycardic, regular, no m/r/g. JVP flat.
+Pulm: Dullness to percussion at bilateral bases (ascites elevation of diaphragm). CTAB upper fields.
+Abd: Massively distended with tense ascites. Diffuse tenderness to palpation. Fluid wave present. No rebound. Bowel sounds hypoactive.
+Ext: Bilateral lower extremity pitting edema 2+. Palmar erythema. Spider angiomata on chest.
+Neuro: GCS 13 (E3V4M6). Asterixis present. No focal motor deficits.
+
+PERTINENT DATA
+WBC 18.4 (80% PMNs), Hgb 10.8, Plt 88 (thrombocytopenic — cirrhosis/portal hypertension)
+BMP: Na 128, K 3.8, Cr 1.8 (baseline 1.2 — AKI), BUN 44, Gluc 188, HCO3 16
+INR 2.2 (worsened, baseline 1.8)
+Albumin 2.4 g/dL
+Total bilirubin 4.8 mg/dL (worsened)
+LFTs: AST 88, ALT 44 (minimal hepatocellular pattern — chronic cirrhosis)
+Ascitic fluid: PMN 520/mm3, protein 0.8 g/dL, albumin 0.4, glucose 64, LDH 180 — SBP by PMN criteria. Gram stain: no organisms seen. Culture sent.
+Blood cultures x2 sent
+Lactate 3.2 mmol/L
+Urine: urinalysis clean; small UO via foley
+
+ASSESSMENT AND PLAN
+61 yo M w/ alcoholic cirrhosis (Child-Pugh B), ascites, p/w spontaneous bacterial peritonitis (SBP) and hepatic encephalopathy and AKI-on-CKD — amoxicillin, while prescribed for dental infection, has no role in SBP treatment (lacks adequate gram-negative coverage for SBP organisms including E. coli and Klebsiella).
+
+#SPONTANEOUS BACTERIAL PERITONITIS — AMOXICILLIN INADEQUATE COVERAGE
+- Amoxicillin has adequate streptococcal and some gram-negative coverage but inadequate ESBL and Klebsiella/enteric coverage for SBP; cannot treat SBP with amoxicillin
+- Stop amoxicillin (dental course can be discontinued given no active dental infection and proximity to completion — dental wound healing per exam)
+- Start piperacillin/tazobactam 3.375g IV q8h — broad-spectrum SBP coverage; preferred over cefotaxime given our institution's higher ESBL rates in cirrhosis patients; covers enteric gram-negatives, streptococci, and anaerobes
+- Dose adjust for AKI (Cr 1.8 — pharmacy input)
+- SBP prophylaxis (long-term): once acute episode resolved, norfloxacin or TMP-SMX daily per hepatology protocol
+- Ascitic fluid culture pending
+- Blood cultures x2 pending — bacteremia present in ~50% of SBP cases
+
+#HEPATIC ENCEPHALOPATHY — PRECIPITATED BY SBP
+- Lactulose via NG tube if unable to take PO; titrate to 2–3 soft stools/day
+- Rifaximin: continue
+- Avoid sedatives, benzodiazepines, opioids
+- Correct electrolyte abnormalities
+- Serial mental status assessment
+
+#AKI ON CKD (Cr 1.8, baseline 1.2) — SBP-ASSOCIATED
+- IV albumin 1.5 g/kg on day 1 (today) — reduces risk of hepatorenal syndrome in SBP (NEJM 1999, standard of care)
+- Follow with albumin 1 g/kg on day 3
+- Hold diuretics (furosemide, spironolactone); hold lisinopril equivalent
+- Strict I&Os; foley in place
+
+#HYPONATREMIA (Na 128) — DILUTIONAL
+- Free water restrict to 1L/day
+- Recheck Na with albumin infusion and diuretic hold
+
+#CIRRHOSIS / VARICEAL BLEED RISK
+- Continue nadolol (hold if BP falls further)
+- GI on alert — no active upper GI bleed at this time; monitor stools
+- No NGT if possible (variceal risk)
+
+DISPOSITION: Admit to MICU/surgery service
+
+Signed,
+Dr. Omar Nasser, MD
+04/03/2024 00:58
+
+================================================================================
+NOTE_ID: note_42
+================================================================================
+
+DATE OF ADMISSION: 07/20/2024
+TIME: 08:15
+ADMITTING SERVICE: Internal Medicine / Infectious Disease (Transfer from OSH)
+ATTENDING: Dr. Yolanda Achebe
+NOTE TYPE: Admission H&P — Transfer
+
+CHIEF COMPLAINT
+Per OSH transfer documentation: "KPC-producing Klebsiella UTI/bacteremia — tigecycline treatment failure, requesting ceftazidime/avibactam."
+
+HISTORY OF PRESENT ILLNESS
+78 yo F w/ h/o T2DM (A1c 8.4%), recurrent UTIs, urinary incontinence (indwelling catheter x3 years), and CKD3 (baseline Cr 2.1) p/w carbapenem-resistant Enterobacterales (CRE) — specifically KPC-producing Klebsiella pneumoniae — UTI and bacteremia, failing OSH tigecycline treatment, transferred to our institution for ceftazidime/avibactam.
+
+Per OSH records: Pt was admitted to a community hospital on 07/13/2024 for fever, altered mental status, and urinalysis notable for pyuria and gram-negative rods on Gram stain. Blood cultures drawn x2 on admission. She was started empirically on meropenem, but blood cultures returned growing KPC-producing Klebsiella pneumoniae — resistant to meropenem (MIC >16), ertapenem, all cephalosporins, ciprofloxacin, and TMP-SMX. Sensitive only to tigecycline (intermediate per EUCAST, MIC 1) and colistin (MIC 0.5). OSH selected tigecycline 100mg load then 50mg IV q12h (07/14/2024–07/18/2024) given CKD3 and concerns about colistin nephrotoxicity.
+
+Despite 5 days of tigecycline, fever persisted, blood cultures obtained on 07/17 still positive for KPC Klebsiella, and AMS declined further. OSH contacted our ID department — ceftazidime/avibactam was not on OSH formulary and they requested transfer for definitive management with ceftazidime/avibactam, which is active against KPC-producing organisms.
+
+On arrival: T 38.1°C, HR 102, BP 104/68, RR 20. Alert but confused to date and place (baseline per family: she had mild dementia prior to admission). Indwelling Foley catheter with cloudy urine.
+
+PAST MEDICAL HISTORY
+1. T2DM — A1c 8.4%, on glipizide
+2. CKD3 — baseline Cr 2.1
+3. Recurrent UTIs — Klebsiella and E. coli on prior cultures (most recent prior: Klebsiella, susceptible to ciprofloxacin — 2023)
+4. Urinary incontinence with indwelling Foley catheter (long-term, 3 years)
+5. Mild vascular dementia — baseline MMSE ~22/30
+6. Hypertension
+7. Osteoporosis
+
+MEDICATIONS PRIOR TO ADMISSION
+- Glipizide 5mg PO daily
+- Lisinopril 5mg PO daily (held at OSH)
+- Amlodipine 5mg PO daily
+- Memantine 10mg PO BID
+- Alendronate 70mg PO weekly
+- Calcium 600mg + Vit D PO BID
+- Tigecycline 50mg IV q12h (07/14/2024–07/18/2024, administered at OSH for CRE/KPC Klebsiella bacteremia/UTI — 5-day course, clinical and microbiologic failure)
+
+ALLERGIES
+Ciprofloxacin — tendon pain (achilles tendinopathy, 2022)
+
+SOCIAL HISTORY
+Widowed. Lives in assisted living facility. Retired seamstress. Never-smoker. No alcohol. No illicit drugs. Daughter (HCP) at bedside.
+
+FAMILY HISTORY
+Mother with DM and dementia. Father with HTN.
+
+REVIEW OF SYSTEMS
+Obtained from daughter given patient's confusion. Constitutional: Persistent fevers (38.0–38.9°C at OSH), worsening confusion, fatigue, poor appetite. GU: Cloudy urine via Foley. No other focal complaints per daughter.
+
+PHYSICAL EXAMINATION
+Vitals: T 38.2°C | HR 100 | BP 106/70 | RR 20 | SpO2 94% on 2L NC
+General: Elderly F, confused, appears frail and chronically ill
+HEENT: NCAT, dry mucous membranes, no LAD. Confusion on exam — knows name, unable to state date or location.
+CV: Tachycardic, regular, no murmur
+Pulm: Mild bibasilar crackles
+Abd: Soft, mildly distended, non-tender. Foley catheter in place with cloudy amber urine.
+Ext: Bilateral lower extremity pitting edema 1+. No skin breakdown.
+Neuro: Confused to date/place. Follows simple commands. No asterixis. No focal motor deficits.
+
+PERTINENT DATA (OSH and on arrival)
+WBC 14.8 (76% PMNs), Hgb 9.4, Plt 122
+BMP: Na 134, K 4.8, Cr 3.2 (worsening from baseline 2.1 — AKI on CKD; tigecycline does not cause nephrotoxicity but sepsis and baseline CKD contributing), BUN 64, HCO3 18
+Blood cultures (on arrival x2): sent
+OSH blood cultures (07/17): KPC Klebsiella — positive (non-cleared after 5 days tigecycline)
+KPC Klebsiella susceptibilities (OSH): ceftazidime/avibactam — susceptible (MIC 0.5 — reported susceptible; our lab will confirm)
+TTE (OSH, 07/16): no vegetations, EF 60%
+Foley catheter in place — UA turbid, WBC >100/hpf, bacteria many
+
+ASSESSMENT AND PLAN
+78 yo F w/ DM, CKD, long-term Foley catheter p/w CRE/KPC Klebsiella bacteremia and catheter-associated UTI (CAUTI), failing OSH tigecycline — tigecycline achieves poor serum concentrations (tissue-concentrating agent with low blood levels) and is generally not appropriate for bacteremia; ceftazidime/avibactam is the preferred agent for KPC.
+
+#CRE/KPC KLEBSIELLA BACTEREMIA AND CAUTI — TIGECYCLINE FAILURE
+- Tigecycline failure in bacteremia expected — serum drug levels are low (highly tissue-bound); not recommended for bacteremia per IDSA and most guidelines
+- Start ceftazidime/avibactam 2.5g IV q8h — active against KPC; dose adjust for AKI (Cr 3.2 → pharmacy renally adjusting dose; typical dose 1.25g q8h or 0.94g q8h for Cr 31–50 mL/min — pharmacy to calculate GFR)
+- ID consult (Dr. Achebe primary)
+- Blood cultures q24-48h until clearance
+- Replace indwelling Foley catheter (biofilm source; new catheter placed at bedside)
+- Stop tigecycline
+
+#AKI ON CKD (Cr 3.2, baseline 2.1)
+- Sepsis-related prerenal + CKD
+- IVF: 250mL NS cautiously (no signs of significant volume depletion; elderly with CKD — avoid overload)
+- Nephrology consult — may need HD if anuric with further worsening
+- Dose all renally-cleared antibiotics for CrCl ~20–30 mL/min
+- Hold lisinopril
+
+#DELIRIUM SUPERIMPOSED ON DEMENTIA — SEPSIS PRECIPITANT
+- Treat infection (primary intervention)
+- Non-pharmacologic delirium prevention: reorientation, familiar objects (daughter at bedside), maintain day/night cycle, minimize unnecessary procedures
+- Avoid benzodiazepines and anticholinergics
+- Haloperidol 0.5mg IV PRN only for agitation risk to self or staff
+
+#CATHETER REPLACEMENT
+- Long-term Foley — main source of CRE reservoir; replaced in ED
+- Discuss with urology and patient/family regarding intermittent catheterization vs. long-term suprapubic catheter after acute episode resolves
+
+DISPOSITION: Admit to internal medicine/ID service
+
+Signed,
+Dr. Yolanda Achebe, MD (ID)
+07/20/2024 09:48
+
+================================================================================
+NOTE_ID: note_43
+================================================================================
+
+DATE OF ADMISSION: 09/12/2024
+TIME: 11:30
+ADMITTING SERVICE: Internal Medicine / Infectious Disease
+ATTENDING: Dr. Simon Okafor
+NOTE TYPE: Admission H&P — Outpatient ID Clinic to Admit
+
+CHIEF COMPLAINT
+"I was taking the antibiotic tablets for my skin infection but my leg is getting worse and I've had a fever."
+
+HISTORY OF PRESENT ILLNESS
+48 yo M w/ T2DM (A1c 8.8%), obesity (BMI 41), ESRD on HD (TuThSa), and prior MRSA skin infections p/w worsening L lower leg MRSA cellulitis with new purulent focus, failing oral tedizolid prescribed at prior ED discharge.
+
+Pt presented to an outside ED on 09/05/2024 with L lower leg erythema (8x6 cm), warmth, and pain. Prior wound cultures from 2023 had grown MRSA. He was prescribed tedizolid 200mg PO daily x6 days (09/05–09/10/2024) — selected at the outside ED for its convenient once-daily dosing and MRSA coverage. He completed the 6-day course.
+
+Rather than improving, the erythema expanded (now 20x14 cm) and on 09/11/2024 he developed a new 3x2 cm fluctuant collection at the inferior margin of the area. He has had fevers to 38.7°C since 09/08/2024. He presented to our ID outpatient clinic today (09/12/2024), referred from his HD center after staff noted he appeared ill. ID clinic exam confirms extensive cellulitis with abscess — direct admission arranged.
+
+Notable: tedizolid, while active against MRSA, has only 6-day FDA-approved labeling for ABSSSI — appropriate duration was given but the degree of cellulitis in an obese ESRD patient likely required IV therapy from the outset.
+
+PAST MEDICAL HISTORY
+1. T2DM — A1c 8.8%, on insulin
+2. Morbid obesity — BMI 41
+3. ESRD on HD (TuThSa)
+4. Prior MRSA SSTI x2 (2022 and 2023)
+5. Hypertension
+
+MEDICATIONS PRIOR TO ADMISSION
+- Insulin glargine 28 units QHS
+- Insulin lispro sliding scale with meals
+- Sevelamer 800mg PO TID with meals
+- Calcium acetate 667mg PO TID
+- Amlodipine 5mg PO daily
+- Atorvastatin 40mg PO QHS
+- Tedizolid 200mg PO daily (09/05/2024–09/10/2024, prescribed by outside ED for MRSA SSTI — 6-day course completed; clinical failure with progressive cellulitis, new abscess, and fever in obese ESRD patient)
+
+ALLERGIES
+Sulfa — rash and pruritus
+Linezolid — thrombocytopenia (documented, 2023 admission)
+
+SOCIAL HISTORY
+Retired. Lives with wife. Never-smoker. No alcohol. No illicit drugs. Has home health aide for wound care. Ambulates with difficulty due to leg edema.
+
+FAMILY HISTORY
+Mother with DM and ESRD. Father with HTN.
+
+REVIEW OF SYSTEMS
+Constitutional: Fevers to 38.7°C x4 days, chills, fatigue.
+HEENT: No changes.
+CV: No chest pain.
+Pulm: No cough, no SOB.
+GI: No nausea, no vomiting, no diarrhea.
+GU: Anuric (ESRD).
+MSK: L lower leg pain worsening, new fluctuant area noted.
+Skin: Expanding erythema L lower leg, new collection.
+Neuro: No focal deficits.
+
+PHYSICAL EXAMINATION
+Vitals: T 38.6°C | HR 106 | BP 144/88 | RR 18 | SpO2 96% on RA | Wt 142 kg
+General: Morbidly obese M, uncomfortable, favoring L leg
+HEENT: NCAT, MMM, no LAD
+CV: Tachycardic, regular, no m/r/g
+Pulm: CTAB
+Abd: Morbidly obese, soft, NT
+Ext: L lower leg — erythema expanded to 20x14 cm from proximal calf to ankle. Warmth, induration throughout. New 3x2 cm fluctuant collection at inferior margin. No lymphangitic streaking. No crepitus. No bullae. Bilateral 2+ pitting edema to mid-shin.
+Neuro: A&Ox4
+
+PERTINENT DATA
+WBC 20.4 (83% PMNs, 7% bands), Hgb 10.2, Plt 188 (recovering from prior linezolid-induced thrombocytopenia nadir of 44 in 2023)
+BMP: Na 137, K 5.0, HCO3 18, Cr >8 (ESRD), BUN 72, Gluc 268
+CRP 228 mg/L, ESR 122 mm/hr
+Blood cultures x2 sent
+Wound culture sent (from abscess — aspirated in clinic)
+L lower leg plain films: no subcutaneous gas, no cortical involvement
+
+ASSESSMENT AND PLAN
+48 yo M w/ ESRD, DM, morbid obesity p/w progressive MRSA cellulitis and new abscess formation after 6-day tedizolid course — oral therapy inadequate for degree of infection in obese ESRD patient; requires IV anti-MRSA antibiotics and surgical drainage.
+
+#MRSA SSTI — FAILING ORAL TEDIZOLID
+- Tedizolid appropriate spectrum but inadequate drug distribution in morbid obesity (volume of distribution altered) and inadequate route (IV preferred for severe SSTI with systemic signs)
+- Linezolid contraindicated (prior thrombocytopenia — plt nadir 44 in 2023); tedizolid is a related oxazolidinone — thrombocytopenia risk also exists (both share mechanism); avoid class
+- TMP-SMX contraindicated (sulfa allergy)
+- Start vancomycin IV (weight-based, target AUC/MIC 400–600) — dose after each HD session on dialysis days
+- Monitor vancomycin AUC levels per pharmacy PK protocol (adjusted for ESRD, administer post-HD)
+- Wound culture with susceptibilities
+- Blood cultures pending
+
+#ABSCESS — I&D
+- 3x2 cm fluctuant collection — bedside I&D performed in ID clinic (drainage sent for culture); pack wound
+- Wound care: dressing changes daily, nursing to follow
+
+#SEPSIS — SKIN SOURCE
+- IVF restricted given ESRD — 250mL NS bolus x1; hemodynamic monitoring
+- HD on schedule tomorrow (09/13)
+- Monitor plt (vancomycin also has thrombocytopenia risk at high levels — use AUC-guided dosing carefully)
+
+#ESRD ON HD
+- Vancomycin: administer after each HD session; check levels per AUC protocol
+- HD: continue TuThSa schedule
+
+#T2DM — HYPERGLYCEMIA
+- Continue insulin; FSBS QID; sliding scale insulin
+
+#OBESITY — DOSING CONSIDERATIONS
+- Vancomycin: use total body weight for loading dose, then adjust
+- Pharmacy consulted for all weight-based dosing
+
+DISPOSITION: Admit to internal medicine/ID service
+
+Signed,
+Dr. Simon Okafor, MD
+09/12/2024 12:49
+
+================================================================================
+NOTE_ID: note_44
+================================================================================
+
+DATE OF ADMISSION: 06/22/2024
+TIME: 17:20
+ADMITTING SERVICE: Hematology / Oncology / Infectious Disease
+ATTENDING: Dr. Helena Marsh
+NOTE TYPE: Admission H&P — Urgent Admission from Oncology Clinic
+
+CHIEF COMPLAINT
+"I've been on the antifungal pill since my transplant but I keep getting fevers and I'm much sicker this week."
+
+HISTORY OF PRESENT ILLNESS
+38 yo F w/ ALL (B-cell, s/p allogeneic bone marrow transplant 10 months ago, now on tacrolimus + mycophenolate for chronic GVHD), on posaconazole antifungal prophylaxis, p/w breakthrough invasive fungal infection (Aspergillus) with worsening clinical course, requiring escalation to IV antifungal.
+
+Pt received matched unrelated donor allogeneic BMT for relapsed B-ALL in 08/2023. Her post-transplant course has been complicated by chronic GVHD (skin and GI manifestations, on immunosuppression). She was started on posaconazole 300mg PO daily (extended-release tablets) on 05/15/2024 as secondary antifungal prophylaxis after a period of neutropenia from mycophenolate toxicity. She was compliant and had one measured posaconazole level of 1.2 mcg/mL (therapeutic >0.7).
+
+She developed low-grade fevers starting approximately 06/12/2024. Posaconazole was continued. The fevers persisted and she developed progressive fatigue and cough (dry, non-productive). She presented to oncology clinic today (06/22/2024). CT chest performed: bilateral upper lobe nodules with halo signs (3 lesions, largest 1.8 cm) — highly suspicious for invasive pulmonary aspergillosis. Serum galactomannan: 3.4 (positive). She was directed for urgent admission.
+
+PAST MEDICAL HISTORY
+1. B-ALL — s/p allogeneic BMT (08/2023), matched unrelated donor
+2. Chronic GVHD — skin (grade 2) and GI (grade 1); on tacrolimus and mycophenolate
+3. Prior neutropenic fever post-BMT (02/2024, treated empirically with cefepime, no source identified)
+4. Hypothyroidism (post-BMT)
+5. Hyperlipidemia (tacrolimus-related)
+
+MEDICATIONS PRIOR TO ADMISSION
+- Tacrolimus 2mg PO BID (GVHD prophylaxis — immunosuppression)
+- Mycophenolate mofetil 500mg PO BID
+- Acyclovir 400mg PO TID (viral prophylaxis)
+- TMP-SMX 1 SS tab PO TIW (PCP prophylaxis)
+- Levothyroxine 75 mcg PO daily
+- Atorvastatin 20mg PO QHS (tacrolimus-related hyperlipidemia)
+- Posaconazole 300mg PO daily (extended-release; started 05/15/2024, antifungal prophylaxis during immunosuppressed/GVHD treatment phase — ongoing at time of admission, now failing with breakthrough Aspergillus)
+
+ALLERGIES
+NKDA
+
+SOCIAL HISTORY
+Accountant. Lives with husband and one child. Non-smoker. No alcohol. No illicit drugs. Excellent social support. Enrolled in BMT long-term follow-up clinic.
+
+FAMILY HISTORY
+Mother with breast cancer. Father healthy.
+
+REVIEW OF SYSTEMS
+Constitutional: Low-grade fevers (37.8–38.2°C) x10 days, escalating fatigue past week, ~4 lb weight loss.
+Pulm: Dry, non-productive cough x1 week (new). Mild exertional dyspnea. No hemoptysis.
+GI: Mild diarrhea (chronic GVHD baseline — unchanged). No nausea.
+Skin: GVHD skin changes stable.
+Neuro: No focal deficits. No headache.
+
+PHYSICAL EXAMINATION
+Vitals: T 38.3°C | HR 96 | BP 112/72 | RR 20 | SpO2 94% on RA
+General: Thin F, appears fatigued. Mild cushingoid features (steroid/tacrolimus effect).
+HEENT: NCAT. Oral mucosa: mild erythema (chronic GVHD). No plaques. No thrush.
+CV: RRR, no m/r/g
+Pulm: Decreased air entry bilateral upper zones. Fine crackles bilateral upper lung fields.
+Abd: Soft, mild hepatomegaly (~13 cm). No splenomegaly. No ascites.
+Skin: Bilateral forearm and lower leg sclerotic/poikilodermatous changes (chronic GVHD). No new lesions.
+Neuro: A&Ox4. No focal deficits.
+
+PERTINENT DATA
+WBC 2.8 (ANC 1,120), Hgb 9.4, Plt 68 (thrombocytopenia — chronic GVHD/marrow suppression)
+BMP: Na 136, K 3.9, Cr 0.8, Gluc 128 (tacrolimus-related glucose elevation), HCO3 24
+Tacrolimus level (today): 8.2 ng/mL (therapeutic range 5–10)
+Serum galactomannan: 3.4 (strongly positive)
+Beta-D-glucan: 340 pg/mL
+Posaconazole level (today): 0.9 mcg/mL (therapeutic > 0.7 — breakthrough infection despite therapeutic level)
+CT chest (today): Three nodules bilateral upper lobes, largest 1.8 cm with surrounding halo sign. No cavitation. No pleural effusion.
+Blood cultures x2 sent (bacterial and fungal)
+BAL planned for tomorrow
+
+ASSESSMENT AND PLAN
+38 yo F s/p allogeneic BMT w/ chronic GVHD on immunosuppression p/w breakthrough invasive pulmonary aspergillosis on posaconazole prophylaxis (despite therapeutic drug level) — posaconazole breakthrough likely due to heavy immunosuppression; requires IV antifungal escalation.
+
+#BREAKTHROUGH INVASIVE PULMONARY ASPERGILLOSIS — POSACONAZOLE PROPHYLAXIS FAILURE
+- Breakthrough Aspergillus despite therapeutic posaconazole level (0.9 mcg/mL) — likely related to degree of immune suppression (tacrolimus + mycophenolate) rather than drug failure per se; however, azole prophylaxis failure mandates class change for treatment
+- Stop posaconazole; start micafungin 150mg IV daily (salvage/treatment dose) — echinocandin with distinct mechanism from azoles; proven efficacy for invasive aspergillosis salvage
+- BAL tomorrow for fungal culture and species identification — Aspergillus flavus or non-fumigatus species may have different azole resistance profiles; also rule out other molds
+- Galactomannan weekly on therapy; CT chest at 2 weeks to assess response
+- ID/fungal specialist co-managing
+
+#IMMUNOSUPPRESSION REDUCTION — NECESSARY TRADE-OFF
+- Discuss with BMT team: reducing mycophenolate dose to allow some immune reconstitution
+- Tacrolimus: maintain within therapeutic range for GVHD; dose reduction if clinically appropriate per BMT attending
+- GVHD activity to be closely monitored if immunosuppression reduced
+
+#THROMBOCYTOPENIA (PLT 68)
+- Platelet transfusion threshold: <10 or active bleeding; current 68 — monitor
+- No invasive procedures without plt ≥50 (BAL: plt 68 is acceptable)
+
+#NEUTROPENIA MONITORING
+- ANC 1,120 — borderline; monitor closely during antifungal treatment
+- G-CSF if ANC <500
+
+DISPOSITION: Admit to BMT/hematology-oncology service with ID co-management
+
+Signed,
+Dr. Helena Marsh, MD
+06/22/2024 18:34
+
+================================================================================
+NOTE_ID: note_45
+================================================================================
+
+DATE OF ADMISSION: 02/24/2024
+TIME: 20:08
+ADMITTING SERVICE: Obstetrics / Internal Medicine
+ATTENDING: Dr. Joyce Adeyemi
+NOTE TYPE: Admission H&P — ED Admission (OB-Medicine)
+
+CHIEF COMPLAINT
+"I finished my antibiotics yesterday but now I have severe back pain and a really high fever. I'm pregnant."
+
+HISTORY OF PRESENT ILLNESS
+28 yo F, G2P1, at 22 weeks gestation (IUP, confirmed by US), w/ recurrent UTIs and GBS colonization (known from prior pregnancy) p/w acute R pyelonephritis and early sepsis physiology following completed nitrofurantoin course for cystitis.
+
+Pt has h/o recurrent UTIs during pregnancy — one prior episode at 12 weeks treated with cefazolin IV inpatient (prior pregnancy, 2022). She was seen at the OB clinic on 02/18/2024 with dysuria, urinary frequency, and urinary urgency x3 days. No fever at that visit. UA showed pyuria (WBCs >20/hpf, LE 2+, nitrites positive). Urine culture sent. She was started on nitrofurantoin 100mg PO BID x5 days (02/18–02/22/2024) per OB standard protocol for uncomplicated UTI in pregnancy (avoidance of nitrofurantoin at term — safe in second trimester per guidelines).
+
+She completed the course on 02/22/2024. Urine culture from 02/18 grew E. coli — susceptible to nitrofurantoin (MIC 16 mcg/mL), ampicillin-resistant, susceptible to cefazolin and cefotaxime, resistant to TMP-SMX (R — not given regardless due to pregnancy, second trimester relative contraindication).
+
+Two days after completing the course (02/24/2024) she developed acute-onset severe R flank pain, chills, rigors, and fever (T 39.4°C at home). She called the OB triage line and was directed to come in immediately. She is concerned about the baby.
+
+PAST MEDICAL HISTORY (OB HISTORY)
+1. G2P1 — prior uncomplicated vaginal delivery 2022
+2. Recurrent UTIs in pregnancy (2022 — one episode pyelonephritis requiring IV antibiotics inpatient)
+3. GBS vaginal colonization — detected at 36 weeks in 2022 pregnancy; current pregnancy GBS status not yet tested
+4. Iron deficiency anemia (pregnancy-related)
+
+PAST MEDICAL HISTORY (GENERAL)
+No chronic medical conditions. No prior surgeries.
+
+MEDICATIONS PRIOR TO ADMISSION
+- Prenatal vitamins — daily
+- Ferrous sulfate 325mg PO daily (iron deficiency anemia)
+- Nitrofurantoin 100mg PO BID (02/18/2024–02/22/2024, prescribed by OB clinic for uncomplicated UTI at 22 weeks — course completed, clinical failure with ascending infection)
+
+ALLERGIES
+NKDA
+
+SOCIAL HISTORY
+Registered nurse (pediatric ward). Lives with husband and 2-year-old daughter. Non-smoker. No alcohol during pregnancy. No illicit drugs. No recent sick contacts or travel. Married, monogamous.
+
+FAMILY HISTORY
+Mother with recurrent UTIs. Father with HTN. No family history of congenital anomalies or renal disease.
+
+REVIEW OF SYSTEMS (OB AND GENERAL)
+OB: Regular fetal movements per patient ("baby is active"). No vaginal bleeding, no vaginal discharge, no contractions (per patient). No leaking fluid.
+Constitutional: High fevers (39.4°C), rigors, chills, significant fatigue. Looks "really sick" (per husband at bedside).
+GU: Persistent dysuria (post-antibiotic), R flank pain (severe, 8/10, radiating to R lower quadrant and R groin). Urinary frequency.
+GI: Nausea, one episode of vomiting en route to hospital. No diarrhea.
+CV: No chest pain.
+Pulm: No cough, no SOB.
+
+PHYSICAL EXAMINATION
+Vitals: T 39.5°C | HR 126 | BP 96/60 | RR 22 | SpO2 98% on RA
+Fetal HR (bedside Doppler): 158 bpm (tachycardic for gestational age — fetal response to maternal fever)
+General: Young F, pregnant, diaphoretic, ill-appearing, in significant flank pain
+HEENT: NCAT, dry mucous membranes, no LAD
+CV: Maternal tachycardia, regular, no m/r/g
+Pulm: CTAB
+Abdomen (OB): Fundal height 22 cm (appropriate for 22 weeks). No uterine tenderness. No contractions palpable on exam. Fetus in vertex presentation (by Leopold's maneuvers). R flank — severe tenderness on deep palpation (separate from uterus).
+GU: R CVA tenderness 3+ (marked). L CVA 1+.
+Ext: Mild bilateral ankle edema (normal for 22 weeks). No rash.
+Neuro: A&Ox4, anxious but appropriate
+
+PERTINENT DATA
+WBC 22.4 (82% PMNs, 6% bands), Hgb 10.2 (iron deficiency + dilutional), Plt 316
+BMP: Na 132, K 3.4, Cl 98, HCO3 18, BUN 12, Cr 0.7 (baseline ~0.6 in pregnancy), Gluc 96
+Lactate 3.1 mmol/L
+UA (catheter specimen): WBC >100/hpf, RBC 20/hpf, nitrites positive, LE 3+, many bacteria
+Urine Gram stain: gram-negative rods
+Urine culture: sent (new)
+Prior OB clinic urine culture (02/18): E. coli — nitrofurantoin susceptible, cefazolin susceptible, cefotaxime susceptible, ampicillin-resistant, TMP-SMX-resistant
+Blood cultures x2 sent
+Fetal ultrasound (bedside, OB team): appropriate fetal growth for 22 weeks. Fetal HR 162 bpm. Amniotic fluid adequate. Cervical length 3.8 cm (normal, no preterm labor).
+Renal ultrasound: mild R hydronephrosis (physiologic hydronephrosis of pregnancy vs. obstructive — no obvious stone). No abscess.
+
+ASSESSMENT AND PLAN
+28 yo F, G2P1 at 22 weeks EGA p/w R pyelonephritis and early sepsis physiology after failed nitrofurantoin for cystitis — nitrofurantoin does not achieve therapeutic renal parenchymal concentrations and is not appropriate for pyelonephritis regardless of susceptibility.
+
+#ACUTE PYELONEPHRITIS IN PREGNANCY — NITROFURANTOIN FAILURE
+- Nitrofurantoin inappropriate for pyelonephritis — active only in urine (urinary concentrations), not renal parenchyma; treatment failure expected for upper tract infection
+- E. coli susceptible to cefazolin and cefotaxime per prior culture; TMP-SMX resistant and pregnancy is relative contraindication for TMP-SMX in second trimester
+- Start ceftriaxone 1g IV q24h — safe in pregnancy (Category B), adequate gram-negative coverage, renal parenchymal penetration
+- Blood cultures x2 pending; urine culture sent (repeat)
+- Plan: IV ceftriaxone x48h → reassess fever/clinical course → if improving, transition to oral cephalexin PO for completion (14 days total)
+
+#SEPSIS — URINARY SOURCE
+- IVF: LR 1L bolus x1; reassess BP (concerns for preterm labor with hypotension)
+- Repeat lactate in 2h
+- OB monitoring for maternal-fetal well-being; fetal HR tachycardia related to maternal fever — expected; monitor for deceleration pattern
+
+#PRETERM LABOR — RISK (PYELONEPHRITIS + FEVER + UTERINE IRRITABILITY RISK)
+- OB team at bedside; electronic fetal monitoring (EFM) initiated — no contractions detected
+- Antipyretic: acetaminophen 650mg PO/IV q6h (ibuprofen contraindicated in second trimester)
+- If uterine contractions begin: tocolysis per OB protocol; betamethasone for fetal lung maturity if delivery threatened
+
+#FETAL HR TACHYCARDIA — MATERNAL FEVER
+- Expected fetal response to maternal pyrexia; treat fever aggressively
+- Continuous EFM; re-assess fetal HR as maternal temperature normalizes
+
+#IRON DEFICIENCY ANEMIA (HGB 10.2)
+- Continue ferrous sulfate
+- No transfusion needed at this level
+
+#HYPONATREMIA (Na 132) — DILUTIONAL (PREGNANCY) + SEPSIS
+- Mild; IV LR will help; recheck after bolus
+
+DISPOSITION: Admit to OB-medicine service; continuous EFM overnight
+
+Signed,
+Dr. Joyce Adeyemi, MD (OB) / Dr. M. Singh, MD (Internal Medicine)
+02/24/2024 21:33
+
+================================================================================
+NOTE_ID: note_46
+================================================================================
+
+DATE OF ADMISSION: 06/18/2024
+TIME: 13:55
+ADMITTING SERVICE: Neurology / Infectious Disease
+ATTENDING: Dr. Sandra Osei-Bonsu
+NOTE TYPE: Admission H&P — Neurology Clinic to Admit
+
+CHIEF COMPLAINT
+"I've been having terrible headaches and my memory is not right since my Lyme treatment. Something is worse."
+
+HISTORY OF PRESENT ILLNESS
+55 yo F w/ h/o Lyme disease (late disseminated, cardiac and neurological involvement), HTN, and hypothyroidism p/w progressive encephalopathy, confusion, and new seizure — presenting 2 days after completing 14-day outpatient IM ceftriaxone course for late Lyme neuroborreliosis, with worsening rather than improvement.
+
+Pt has a complex Lyme disease history. She was diagnosed with early Lyme disease (erythema migrans) in 04/2024 after a tick bite in New England, initially treated with doxycycline PO (see prior records — prior doxycycline course not in our system). She developed progressive neurological symptoms — cognitive slowing, short-term memory difficulty, and intermittent bifrontal headache — and was evaluated by neurology. LP performed on 05/28/2024 showed lymphocytic pleocytosis (WBC 38, lymphocyte-predominant), elevated protein (88 mg/dL), reactive CSF Lyme antibody. She was started on IM ceftriaxone 1g daily (injected at a home infusion/injection clinic) for 14 days (06/03–06/16/2024) per IDSA guidelines for Lyme neuroborreliosis.
+
+She reports the headaches did not improve during the ceftriaxone course. Two days ago (06/16/2024 — last day of ceftriaxone), she had a witnessed generalized tonic-clonic seizure at home (1 minute duration, self-terminating). Her husband called 911; she was seen at an outside ED, given levetiracetam 1g IV, and referred to her neurology clinic. At today's neurology visit, she is confused (disoriented to date and place), has mild dysarthria, and exam shows new left-sided mild arm drift. MRI brain ordered emergently. Transferred to our ED and now admitted.
+
+PAST MEDICAL HISTORY
+1. Late disseminated Lyme neuroborreliosis (diagnosed 05/2024, on IV ceftriaxone)
+2. Lyme carditis (first-degree AVB 05/2024, resolved by 06/2024 on ceftriaxone monitoring)
+3. Hypertension
+4. Hypothyroidism
+
+MEDICATIONS PRIOR TO ADMISSION
+- Lisinopril 10mg PO daily
+- Levothyroxine 100 mcg PO daily
+- Levetiracetam 500mg PO BID (started by outside ED 06/16/2024 after new-onset seizure)
+- Ceftriaxone 1g IM daily (06/03/2024–06/16/2024, administered at outpatient injection clinic for late Lyme neuroborreliosis — 14-day course completed 2 days ago; now presenting with worsening neurological status post-treatment)
+
+ALLERGIES
+NKDA
+
+SOCIAL HISTORY
+Retired librarian. Lives with husband. Non-smoker. No alcohol. No illicit drugs. No travel outside New England. Outdoor activities — hiking.
+
+FAMILY HISTORY
+Mother with MS. Father with HTN. No family history of seizure disorders.
+
+REVIEW OF SYSTEMS
+Constitutional: Significant fatigue, low-grade fevers (37.6°C at home x3 days). Weight stable.
+HEENT: Bifrontal headache worsening, photophobia.
+CV: No palpitations (AV block resolved per prior follow-up EKG). No chest pain.
+Pulm: No cough, no SOB.
+Neuro: Confusion (husband reports "not herself" since last week), short-term memory difficulty markedly worsened, new left arm weakness noticed by husband today. Seizure 06/16 as above.
+
+PHYSICAL EXAMINATION
+Vitals: T 37.7°C | HR 88 | BP 142/84 | RR 16 | SpO2 99% on RA
+General: Middle-aged F, confused, appears fatigued. Answers questions slowly.
+HEENT: NCAT. Photophobic. No papilledema on fundoscopic exam (cannot assess well without dilation). Neck: mild nuchal rigidity on forward flexion.
+CV: RRR, no m/r/g. EKG (today): normal sinus rhythm, PR 160ms (normalized from prior 260ms — cardiac Lyme resolved).
+Pulm: CTAB
+Abd: Soft, NT, no HSM
+Ext: No edema. No rash (erythema migrans fully resolved per patient).
+Neuro: Oriented to name and city only. Slow processing speed. L arm mild pronator drift (4+/5 L hand grip vs 5/5 R). Gait slightly ataxic (Romberg positive). MMSE not fully administered given confusion.
+
+PERTINENT DATA
+WBC 10.2 (62% lymphocytes — lymphocytic pattern), Hgb 12.8, Plt 234
+BMP: Na 136, K 4.0, Cr 0.9, Gluc 98 — within normal limits
+Lyme serology (today): Lyme IgG Western blot reactive (5 bands) — consistent with prior/current infection
+CSF analysis (repeat LP performed in ED today):
+  WBC: 62 (lymphocytic, 88% lymphocytes — worsening from prior 38)
+  Protein: 128 mg/dL (worsening from 88)
+  Glucose: 58 (serum 94)
+  CSF VDRL: non-reactive (syphilis excluded)
+  CSF Lyme antibody: reactive
+  CSF cultures sent (bacterial, fungal)
+  HSV PCR: negative
+  JC virus PCR: negative
+MRI brain with and without contrast: Multiple T2/FLAIR signal abnormalities in bilateral white matter, R > L. Mild leptomeningeal enhancement. No mass lesion, no hemorrhage, no herniation. Pattern most consistent with active Lyme encephalitis vs. post-infectious demyelination.
+
+ASSESSMENT AND PLAN
+55 yo F p/w Lyme encephalitis — progressive despite completed 14-day IM ceftriaxone course; worsening CSF pleocytosis and protein, new seizure, and MRI white matter changes indicate inadequate treatment or IRIS-like inflammatory response requiring IV PCN G escalation and ID/neurology co-management.
+
+#LYME ENCEPHALITIS — INSUFFICIENT RESPONSE TO IM CEFTRIAXONE
+- 14-day ceftriaxone course typically adequate for neuroborreliosis; however, severe encephalitis/white matter involvement may require extended IV therapy per IDSA
+- IM ceftriaxone achieves adequate CSF concentrations, but clinical worsening here may reflect severe disease burden or post-treatment inflammatory response
+- Escalate: stop IM ceftriaxone (course complete); start penicillin G 4 million units IV q4h — provides continuous high-level CSF treponemicidal concentrations; preferred for severe CNS Lyme per some experts
+- Alternative would be IV ceftriaxone 2g daily (also acceptable); chose PCN G given severity and neurology/ID agreement
+- Repeat LP in 2 weeks to assess CSF response
+- ID and neurology co-management (Dr. Osei-Bonsu primary)
+
+#NEW-ONSET SEIZURE — LYME ENCEPHALITIS ETIOLOGY
+- Levetiracetam 500mg PO BID (started at outside ED) — continue
+- Neurology EEG ordered — assess for subclinical seizure activity given encephalopathy
+- Seizure precautions; no driving per neurologist
+
+#MENINGEAL INFLAMMATION
+- No systemic steroids at this time — risk of suppressing anti-Borrelia immune response
+- If worsening despite IV PCN: neurology and ID to discuss short steroid course for inflammatory component
+
+#MRI WHITE MATTER CHANGES
+- MRI neurology interpretation pending formal read (preliminary: Lyme encephalitis/vasculitis pattern)
+- Repeat MRI in 4–6 weeks after IV therapy
+
+#HTN
+- Continue lisinopril
+
+#HYPOTHYROIDISM
+- Continue levothyroxine
+
+DISPOSITION: Admit to neurology/ID service, telemetry monitoring given prior cardiac Lyme and new seizure
+
+Signed,
+Dr. Sandra Osei-Bonsu, MD (Neurology/ID)
+06/18/2024 15:12
+
+================================================================================
+NOTE_ID: note_47
+================================================================================
+
+DATE OF ADMISSION: 12/14/2023
+TIME: 10:48
+ADMITTING SERVICE: Internal Medicine / Infectious Disease / Pulmonary
+ATTENDING: Dr. Christopher Nwachukwu
+NOTE TYPE: Admission H&P — ID Clinic Direct Admit
+
+CHIEF COMPLAINT
+"I've been on the antibiotic for MAC for a month but the fevers won't stop and I've lost more weight."
+
+HISTORY OF PRESENT ILLNESS
+46 yo M w/ HIV (CD4 24, newly diagnosed, not yet on ART), disseminated Mycobacterium avium complex (MAC) on azithromycin monoprophylaxis, and severe wasting p/w failure of azithromycin MAC prophylaxis — presenting with progressive disseminated MAC disease requiring treatment-dose regimen.
+
+Pt was newly diagnosed with HIV approximately 10 weeks ago (09/2023) when he presented to an urgent care with fever and weight loss. His HIV was confirmed, CD4 found to be 31 at that time. He was started on azithromycin 1200mg PO weekly (11/05/2023) for MAC prophylaxis (CD4 <50 per DHHS guidelines). He was referred to an ID clinic and to an HIV clinic for ART initiation — however, ART was not started during this period due to challenges with insurance authorization (finally approved and ready to start this week).
+
+He presents today to the ID clinic with 6 weeks of persistent high fevers (39–40°C), drenching night sweats, and significant weight loss (18 lb total in past 3 months). His abdominal exam at the clinic today shows marked hepatosplenomegaly. Blood cultures sent at the last clinic visit (12/07/2023) are growing Mycobacterium avium complex (MAC) — confirmed disseminated MAC disease despite azithromycin prophylaxis, likely because azithromycin prophylaxis alone is insufficient to treat disseminated infection. He requires full MAC treatment regimen.
+
+PAST MEDICAL HISTORY
+1. HIV — newly diagnosed 09/2023; CD4 24 (today), HIV VL 2.4 million copies/mL (not yet on ART)
+2. Disseminated MAC (diagnosed 12/2023 — blood culture positive)
+3. Pneumocystis jirovecii pneumonia (PCP) — s/p treatment 10/2023 (TMP-SMX x21 days, completed; now on secondary TMP-SMX prophylaxis)
+4. Wasting syndrome — severe, 30 lb weight loss in 3 months
+
+MEDICATIONS PRIOR TO ADMISSION
+- TMP-SMX DS 1 tab PO daily (PCP secondary prophylaxis)
+- Azithromycin 1200mg PO weekly (started 11/05/2023 for MAC prophylaxis at CD4 <50 — now confirmed disseminated MAC disease despite prophylaxis; prophylaxis dose inadequate for treatment)
+- No ART (insurance authorization just received — initiation planned this week)
+
+ALLERGIES
+NKDA
+
+SOCIAL HISTORY
+Freelance graphic designer. Lives alone. Intermittent tobacco use (rare). No IV drug use. Social alcohol. Reports unprotected sex with multiple male partners (MSM). Not previously engaged in HIV testing.
+
+FAMILY HISTORY
+Father with DM. Mother deceased (breast cancer).
+
+REVIEW OF SYSTEMS
+Constitutional: Profound fatigue (bedridden most of day), high fevers 39–40°C daily, drenching night sweats, severe anorexia, significant weight loss (~18 lb since last clinic visit 10/2023).
+Pulm: Mild dry cough (no new infiltrate suspected, no SOB at rest).
+GI: Abdominal discomfort from hepatosplenomegaly. Watery diarrhea (3–4 x/day, chronic). No hematochezia.
+Skin: Diffuse seborrheic dermatitis (chronic). No new lesions.
+Neuro: Mild cognitive slowing (AIDS-related?). No focal deficits. No headache.
+
+PHYSICAL EXAMINATION
+Vitals: T 39.1°C | HR 118 | BP 98/64 | RR 20 | SpO2 95% on RA | Wt 52 kg (BMI 17)
+General: Profoundly cachectic M, diaphoretic, ill-appearing. Temporal wasting. Loose-fitting clothing.
+HEENT: Oral thrush (moderate white plaques on tongue and buccal mucosa). Bilateral cervical LAD (1.5 cm, firm, non-tender). No scleral icterus.
+CV: Tachycardic, regular, no m/r/g
+Pulm: Mild crackles bilateral bases. No wheeze.
+Abd: Hepatomegaly (21 cm span by percussion), massive splenomegaly (palpated 8 cm below L costal margin). Diffuse abdominal tenderness (mild). No ascites.
+Skin: Seborrheic dermatitis forehead/eyebrows. Wasting as noted.
+Neuro: Alert, mildly slow. A&Ox4. No focal deficits.
+
+PERTINENT DATA
+CD4: 24 cells/mm3
+HIV VL: 2,400,000 copies/mL
+WBC 2.1 (31% PMNs, 54% lymphocytes, 15% monocytes), Hgb 7.8, Plt 62 (pancytopenia — bone marrow MAC involvement)
+BMP: Na 128, K 3.5, Cr 0.8, Gluc 72, HCO3 18
+LFTs: AST 148, ALT 88, ALP 620 (markedly elevated ALP — hepatic MAC), total bili 1.8
+Blood cultures (12/07, ID clinic): MAC growing (1 of 2 bottles) — confirmed disseminated MAC
+Repeat blood cultures (today x2): sent
+Sputum for AFB smear and culture: sent
+Bone marrow biopsy: considered — deferred initially given thrombocytopenia risk; likely needed if diagnosis or treatment response unclear
+Chest X-ray: mild bilateral haziness; no focal consolidation. No hilar adenopathy visible on plain film (CT chest ordered).
+
+ASSESSMENT AND PLAN
+46 yo M w/ advanced HIV (CD4 24, ART-naive) p/w disseminated MAC confirmed on blood culture, failing azithromycin monoprophylaxis — prophylaxis dose (1200mg weekly) is insufficient to treat disseminated MAC infection; treatment requires multidrug combination regimen.
+
+#DISSEMINATED MAC — AZITHROMYCIN PROPHYLAXIS FAILURE / INADEQUATE TREATMENT DOSE
+- Azithromycin 1200mg weekly is prophylaxis only — not therapeutic for disseminated MAC; must transition to treatment regimen
+- Stop azithromycin prophylaxis dose; start clarithromycin 500mg PO BID + ethambutol 800mg PO daily per DHHS/IDSA guidelines for disseminated MAC treatment — backbone of MAC treatment; rifabutin can be added as third agent (will defer until ART started to assess drug interactions)
+- Duration: minimum 12 months and until CD4 >100 on ART x6 months
+- Clarithromycin preferred over azithromycin for treatment (better MAC bactericidal activity and PK)
+- ID co-management (Dr. Nwachukwu primary)
+
+#ART INITIATION — URGENT
+- Start ART as soon as possible after MAC treatment begins (2 weeks after initiating MAC treatment to reduce IRIS risk per DHHS guidelines)
+- Regimen: bictegravir/emtricitabine/tenofovir alafenamide (Biktarvy) — high barrier resistance, once daily; drug interaction with clarithromycin — clarithromycin increases BIC levels (mild, acceptable; or substitute azithromycin once on ART if preferred per ID)
+- Case management to ensure adherence support given isolation
+
+#ORAL THRUSH
+- Fluconazole 150mg PO x1 dose, then 100mg daily while on immunosuppression
+- Consider esophageal candidiasis — dysphagia screening; EGD if swallowing is impaired
+
+#PANCYTOPENIA — MAC BONE MARROW INVOLVEMENT
+- Transfuse pRBC if Hgb <7 or symptomatic (Hgb 7.8 — borderline)
+- Plt 62: platelet transfusion if <10 or active bleeding
+- G-CSF for ANC if <500 (calculate ANC from WBC 2.1)
+
+#WASTING AND MALNUTRITION
+- Nutrition consult; high-calorie supplementation
+- Megestrol acetate for appetite stimulation (discuss with ID)
+
+#HYPONATREMIA (Na 128)
+- Likely dilutional/SIADH or adrenal insufficiency (HIV-related); check morning cortisol
+
+DISPOSITION: Admit to internal medicine/ID service
+
+Signed,
+Dr. Christopher Nwachukwu, MD
+12/14/2023 12:00
+
+================================================================================
+NOTE_ID: note_48
+================================================================================
+
+DATE OF ADMISSION: 04/02/2024
+TIME: 15:30
+ADMITTING SERVICE: Neurology / Internal Medicine / Infectious Disease
+ATTENDING: Dr. Maria Santos
+NOTE TYPE: Admission H&P — Neurology Clinic to Hospital Admit
+
+CHIEF COMPLAINT
+"I've been on the medications for my toxo for a few weeks but today I had a seizure at home."
+
+HISTORY OF PRESENT ILLNESS
+41 yo M w/ HIV (CD4 52, on ART — virologically suppressed on suboptimal regimen, VL 68 copies/mL "low level viremia"), cerebral toxoplasmosis (diagnosed 03/2024), on sulfadiazine + pyrimethamine for 23 days p/w new-onset seizure and worsening neurological deficits despite ongoing toxoplasmosis treatment — IRIS vs. inadequate treatment response.
+
+Pt was newly restarted on ART in 01/2024 after a prolonged period of non-compliance. He had a CD4 nadir of 14. He was admitted 03/08/2024 at another hospital with confusion and a focal seizure. MRI brain showed multiple ring-enhancing lesions in the bilateral basal ganglia and L frontal lobe. Toxoplasma IgG serology was strongly positive. He was started on sulfadiazine 1g PO QID + pyrimethamine 200mg load then 75mg daily + leucovorin 10mg daily on 03/10/2024 for empirical cerebral toxoplasmosis. Clinically he improved initially — confusion resolved, no further seizures during hospitalization. He was discharged 03/22/2024 on the same regimen with continued ART.
+
+He has been taking all medications per his partner, but approximately 10 days ago he developed worsening headaches and new R-sided arm weakness. Today (04/02/2024) he had a generalized tonic-clonic seizure at home, self-terminating at 2 minutes. EMS brought him to our ED. He was seen in neurology clinic 5 days ago (03/28) — repeat MRI at that visit: lesions stable vs. slightly increased in size, with surrounding edema, interpreted as possible IRIS or treatment failure.
+
+Dexamethasone 4mg PO q6h was started at the neurology clinic visit on 03/28 for edema/IRIS; he has been on dexamethasone for 5 days prior to this admission.
+
+PAST MEDICAL HISTORY
+1. HIV — on ART (efavirenz/emtricitabine/tenofovir DF); CD4 52; HIV VL 68 copies/mL (low-level viremia — possible emerging resistance on prior non-adherence)
+2. Cerebral toxoplasmosis (diagnosed 03/2024)
+3. Prior MAC (treated 2018, unclear records)
+4. Substance use disorder (cocaine, in recovery x1 year)
+
+MEDICATIONS PRIOR TO ADMISSION
+- Efavirenz/emtricitabine/tenofovir DF (Atripla) 1 tab PO QHS (ART — possible suboptimal given low-level viremia and prior non-compliance)
+- Sulfadiazine 1g PO QID (started 03/10/2024 for cerebral toxoplasmosis — ongoing x23 days at admission)
+- Pyrimethamine 75mg PO daily (started 03/10/2024, after 200mg load — ongoing)
+- Leucovorin 10mg PO daily (bone marrow protection with pyrimethamine)
+- Dexamethasone 4mg PO q6h (started 03/28/2024 by neurology clinic for IRIS/edema — 5 days ongoing)
+- TMP-SMX DS 1 tab PO daily (PCP prophylaxis; also secondary toxo prophylaxis long-term)
+
+ALLERGIES
+NKDA
+
+SOCIAL HISTORY
+Works part-time at a grocery store (recently returned to work). Lives with partner. Recovering cocaine user (1 year sober). Non-smoker. No alcohol. Partner is primary support.
+
+FAMILY HISTORY
+Mother with HTN. Father with HIV (stable on ART).
+
+REVIEW OF SYSTEMS
+Constitutional: Fatigue, malaise, headaches worsening x10 days.
+Neuro: R arm weakness noted by partner past week. Seizure today (2 min GTC, self-terminating; post-ictal confusion lasting ~20 min per EMS). No prior seizures since initial hospitalization.
+Pulm: No cough, no SOB.
+GI: Mild nausea (sulfadiazine-related). No vomiting. No diarrhea.
+GU: No dysuria.
+
+PHYSICAL EXAMINATION
+Vitals: T 37.3°C | HR 96 | BP 138/82 | RR 18 | SpO2 98% on RA
+General: M, post-ictal appearing, confused initially (GCS 14 on arrival, improved to 15 within 30 min), fatigued
+HEENT: NCAT. Fundi: no papilledema. No LAD. Mild oral thrush (small plaques).
+CV: RRR, no m/r/g
+Pulm: CTAB
+Abd: Soft, NT, ND. No HSM.
+Ext: No edema. No stigmata of infection.
+Neuro: A&Ox4 (improved from initial confusion). R arm mild pronator drift (4+/5 R grip vs. 5/5 L). Mild R facial asymmetry (UMN pattern — supranuclear). Gait: slightly spastic on R. No meningismus.
+
+PERTINENT DATA
+WBC 4.8 (38% PMNs — leukopenia, pyrimethamine/leucovorin effect), Hgb 10.2, Plt 88 (thrombocytopenia — pyrimethamine effect; leucovorin partially protective)
+BMP: Na 134, K 3.6, Cr 0.9, Gluc 148 (dexamethasone-related hyperglycemia), HCO3 24
+HIV VL (today): 68 copies/mL (low-level viremia — same as prior; check HIV resistance testing)
+CD4: 52 cells/mm3 (unchanged)
+Toxoplasma IgG: strongly positive (known)
+Serum toxoplasma PCR: sent
+MRI brain with and without gadolinium (today, repeat):
+  Prior lesions: basal ganglia bilateral and L frontal — ring-enhancing lesions SLIGHTLY INCREASED in size vs. 03/28 (L basal ganglia lesion 2.1 cm vs. 1.8 cm). Significant surrounding edema. Midline shift 3mm L to R (new — mild).
+  Assessment: lesion progression on treatment vs. IRIS with edema; lymphoma in differential (rare but must consider if no response after 14 days per IDSA)
+
+ASSESSMENT AND PLAN
+41 yo M w/ HIV (CD4 52, low-level viremia) p/w cerebral toxoplasmosis — clinical and radiographic worsening at day 23 of sulfadiazine/pyrimethamine, now with new seizure and mild midline shift. Likely IRIS contributing; cannot exclude treatment failure or concurrent CNS lymphoma.
+
+#CEREBRAL TOXOPLASMOSIS — POSSIBLE TREATMENT FAILURE OR IRIS
+- Continue sulfadiazine 1g PO QID + pyrimethamine 75mg PO daily + leucovorin 10mg daily — do not stop anti-toxo therapy while evaluating
+- Dexamethasone 4mg PO q6h — continue for edema/midline shift; taper plan per neurology
+- If no radiographic improvement by day 14 from now (i.e., day ~37 total): brain biopsy to exclude CNS lymphoma or alternative diagnosis
+- ID (Dr. Santos) and neurology co-managing
+
+#NEW-ONSET SEIZURE — SECONDARY TO TOXOPLASMOSIS LESIONS
+- Levetiracetam 1000mg IV load in ED → 500mg PO BID maintenance (started tonight)
+- Neurology to determine long-term anti-epileptic plan (continue until lesions resolve)
+- Seizure precautions; bed rails up; no driving
+
+#MILD MIDLINE SHIFT (3MM) — CEREBRAL EDEMA
+- Dexamethasone as above; recheck MRI in 1 week
+- Neurosurgery on radar — if midline shift worsens to >5mm or herniation signs develop: emergent neurosurgical evaluation
+- HOB 30 degrees; avoid hypotonic fluids
+
+#ART — LOW-LEVEL VIREMIA / POSSIBLE RESISTANCE
+- Continue Atripla for now — switch decision requires HIV resistance test result
+- HIV genotype/resistance sent
+- If resistance confirmed: HIV specialist to design new ART regimen (integrase-based preferred)
+- Defer ART change until acute toxo crisis stabilized
+
+#CYTOPENIAS — PYRIMETHAMINE EFFECT
+- Plt 88 — monitor; increase leucovorin to 25mg daily if plt falls further
+- Recheck CBC in 48h
+
+#ORAL THRUSH
+- Fluconazole 100mg PO daily — start
+
+DISPOSITION: Admit to neurology/ID service; telemetry given seizure
+
+Signed,
+Dr. Maria Santos, MD (ID/Neurology)
+04/02/2024 17:01
+
+================================================================================
+NOTE_ID: note_49
+================================================================================
+
+DATE OF ADMISSION: 08/28/2024
+TIME: 14:10
+ADMITTING SERVICE: Internal Medicine / Pulmonary / Infectious Disease
+ATTENDING: Dr. Julian Clarke
+NOTE TYPE: Admission H&P — ED Admission
+
+CHIEF COMPLAINT
+"I was treated for pneumonia last week but now I'm much sicker and my breathing is terrible."
+
+HISTORY OF PRESENT ILLNESS
+69 yo M w/ h/o COPD (GOLD II), T2DM, HTN, and prior healthcare exposure (colonoscopy 2 weeks ago) p/w worsening pneumonia and early respiratory failure after completing outpatient levofloxacin course — now with suspected MRSA/resistant gram-negative HCAP.
+
+Pt presented to urgent care on 08/19/2024 with 3-day h/o productive cough (yellow sputum), fever (T 38.3°C at urgent care), and mild dyspnea. CXR at urgent care showed a right lower lobe infiltrate. He was diagnosed with CAP and started on levofloxacin 500mg PO daily x7 days (08/19–08/25/2024), chosen for dual atypical and typical pneumonia coverage. He completed the course.
+
+Post-antibiotic course, rather than improving, he developed progressively worsening dyspnea, fevers to 39.4°C, and increased sputum production (now rusty-brown and copious). His wife noted increased confusion over the past 24 hours. He presented to the ED this afternoon. His PSI (PORT) score at presentation: Class V (age, confusion, tachycardia, hypotension, low pH, BUN elevation, low O2 sat).
+
+Notably, the patient had a colonoscopy at an outpatient endoscopy center 08/05/2024 (approximately 2 weeks before this illness) — healthcare-associated risk factor for HCAP pathogens including MRSA and drug-resistant gram-negatives. His PCP documented the colonoscopy in his chart. Despite this, the urgent care prescribed levofloxacin as for standard CAP without HCAP consideration.
+
+PAST MEDICAL HISTORY
+1. COPD — GOLD II, on tiotropium and albuterol PRN
+2. T2DM — A1c 8.1%, on metformin
+3. Hypertension
+4. Hyperlipidemia
+5. Recent colonoscopy (08/05/2024) — healthcare contact risk factor
+
+MEDICATIONS PRIOR TO ADMISSION
+- Tiotropium 1 puff daily
+- Albuterol MDI PRN
+- Metformin 1000mg PO BID
+- Lisinopril 10mg PO daily
+- Atorvastatin 20mg PO QHS
+- Levofloxacin 500mg PO daily (08/19/2024–08/25/2024, prescribed by urgent care for CAP — course completed; presenting 3 days after completion with HCAP/worsening pneumonia)
+
+ALLERGIES
+Penicillin — "allergy" (childhood rash, details unclear, no anaphylaxis)
+
+SOCIAL HISTORY
+Retired firefighter. Lives with wife. Former smoker, 30 pack-year, quit 2008. No alcohol. No illicit drugs. No recent travel.
+
+FAMILY HISTORY
+Father with COPD and CAD. Mother with DM.
+
+REVIEW OF SYSTEMS
+Constitutional: High fevers (39.4°C), significant chills, marked fatigue, confusion (per wife — worsened from baseline past 12 hours).
+Pulm: Marked dyspnea now at rest, productive cough (rusty-brown sputum, copious), pleuritic R-sided chest pain (moderate).
+GI: Nausea, decreased appetite. No vomiting.
+Neuro: Confusion per wife — "not himself" since yesterday.
+
+PHYSICAL EXAMINATION
+Vitals: T 39.2°C | HR 128 | BP 94/58 | RR 32 | SpO2 82% on RA → 91% on 15L NRB
+General: Elderly M, acutely ill, labored breathing, confused, diaphoretic
+HEENT: NCAT, dry mucous membranes. Confused on exam — disoriented to place and date. No LAD.
+CV: Tachycardic, regular, no m/r/g
+Pulm: Significantly decreased air entry at R lower zone. Dullness to percussion at R base. Coarse crackles throughout R lung field. Mild wheeze throughout.
+Abd: Soft, NT, mildly distended. No HSM.
+Ext: No edema. No rash. No Janeway lesions.
+Neuro: GCS 13. Confused. No focal motor deficits. No meningismus.
+
+PERTINENT DATA
+WBC 28.4 (90% PMNs, 14% bands), Hgb 11.4, Plt 198
+BMP: Na 130, K 4.4, Cr 2.4 (baseline ~1.1), BUN 68, HCO3 14, Gluc 318
+Lactate 4.8 mmol/L
+Procalcitonin 48.2 ng/mL
+ABG (on NRB 15L): pH 7.22, pCO2 48, pO2 58, HCO3 19 — hypoxic and acidotic
+Blood cultures x2 sent
+Sputum Gram stain: many gram-positive cocci in clusters
+Urine Legionella antigen: negative
+Urine pneumococcal antigen: negative
+CXR: Dense R lower lobe consolidation with large right-sided parapneumonic effusion. Not present on prior imaging (08/19 urgent care CXR reviewed — only RLL infiltrate).
+
+ASSESSMENT AND PLAN
+69 yo M w/ COPD, recent healthcare contact p/w severe HCAP / necrotizing pneumonia with septic shock and hypoxic respiratory failure, failing outpatient levofloxacin — levofloxacin monotherapy inadequate for HCAP with MRSA risk (Gram stain GPCs), Pseudomonas risk (COPD, healthcare contact), and degree of severity.
+
+#HCAP / SEVERE PNEUMONIA — LEVOFLOXACIN FAILURE
+- Sputum Gram stain: GPCs in clusters — MRSA suspected (recent healthcare contact, COPD, levofloxacin failure; levofloxacin provides no MRSA coverage)
+- Start vancomycin IV (weight-based, targeting AUC/MIC 400–600) — MRSA coverage
+- Start cefepime 2g IV q8h — broad gram-negative including Pseudomonas coverage; used instead of pip/tazo given PCN "allergy" (cefepime acceptable — cross-reactivity <2% with cephalosporins)
+- Noted "PCN allergy" — childhood rash; proceed with cefepime given clinical necessity and low cross-reactivity risk; allergy consult if stabilizes
+- De-escalate based on culture results
+- Blood cultures x2 pending; sputum culture sent
+
+#SEPTIC SHOCK
+- Norepinephrine started in ED — titrate to MAP >65
+- IVF: NS 2L bolus already given; target adequate perfusion without fluid overload
+- Repeat lactate in 2h
+
+#ACUTE HYPOXIC RESPIRATORY FAILURE
+- Intubation likely required — SpO2 91% on 15L NRB with work of breathing
+- Anesthesia at bedside — intubation planned (OB/difficult airway assessment performed — not anticipated difficult airway)
+- Post-intubation: lung-protective ventilation, PEEP optimization
+
+#AKI (Cr 2.4, baseline 1.1) — SEPSIS/PRERENAL
+- Hold metformin, lisinopril
+- IVF as above; nephrology on radar
+- Dose-adjust vancomycin for AKI (AUC-guided)
+
+#R PARAPNEUMONIC EFFUSION
+- Thoracentesis after intubation when hemodynamically stabilized
+- Pulmonary consult for pleural management
+
+DISPOSITION: Intubation in ED, then MICU
+
+Signed,
+Dr. Julian Clarke, MD
+08/28/2024 15:44
+
+================================================================================
+NOTE_ID: note_50
+================================================================================
+
+DATE OF ADMISSION: 10/14/2024
+TIME: 16:20
+ADMITTING SERVICE: Internal Medicine / Infectious Disease
+ATTENDING: Dr. Natalie Osei
+NOTE TYPE: Admission H&P — Outpatient ID Clinic to Admit
+
+CHIEF COMPLAINT
+"I've been on the antibiotic for a week for my wound but it keeps getting worse and I've had fevers every day."
+
+HISTORY OF PRESENT ILLNESS
+76 yo F w/ h/o T2DM (A1c 9.8%), PAD (s/p L fem-pop bypass 2020), prior L 2nd toe amputation (2022, due to osteomyelitis), CKD3 (baseline Cr 1.8), and recurrent lower extremity infections p/w worsening L foot wound infection with early osteomyelitis on imaging, failing outpatient amoxicillin/clavulanate prescribed by her vascular surgeon.
+
+Pt was seen at her vascular surgery clinic on 10/07/2024 with a new wound at the L 2nd toe amputation stump — approximately 2x1.5 cm with purulent drainage and surrounding erythema 6x4 cm. Peripheral pulses were diminished but palpable L. She was started on amoxicillin/clavulanate 875mg PO BID x10 days (10/07–10/16/2024) and scheduled for repeat clinic in 1 week.
+
+At today's follow-up (10/14/2024, day 8 of amoxicillin/clavulanate): wound has significantly worsened — now 4x3 cm with necrotic base and surrounding erythema expanded to 14x8 cm. She has had daily fevers (38.2–38.8°C) at home since 10/10/2024. Probe-to-bone is positive. Plain films performed at today's visit show periosteal reaction and cortical irregularity at the proximal stump of the amputated L 2nd toe (not present on X-ray from 07/2024). Wound culture obtained at the 10/07 visit grew: mixed organisms including E. coli (extended-spectrum beta-lactamase producing, ESBL) — resistant to amoxicillin/clavulanate, ampicillin/sulbactam, ceftriaxone, cefazolin; susceptible to ertapenem, meropenem, gentamicin. Also grew Staphylococcus aureus (MSSA). Amoxicillin/clavulanate is inadequate for ESBL E. coli. ID clinic called for direct admission.
+
+PAST MEDICAL HISTORY
+1. T2DM — A1c 9.8%, on insulin
+2. PAD — s/p L fem-pop bypass (2020), followed by vascular surgery
+3. L 2nd toe amputation (2022) — for MSSA osteomyelitis
+4. CKD3 — baseline Cr 1.8
+5. Hypertension
+6. HFpEF — EF 52%
+
+MEDICATIONS PRIOR TO ADMISSION
+- Insulin glargine 24 units QHS
+- Insulin lispro sliding scale with meals
+- Amlodipine 10mg PO daily
+- Furosemide 40mg PO daily
+- Aspirin 81mg PO daily
+- Clopidogrel 75mg PO daily (PAD — dual antiplatelet)
+- Atorvastatin 40mg PO QHS
+- Amoxicillin/clavulanate 875mg PO BID (10/07/2024–10/16/2024, prescribed by vascular surgeon for L foot wound infection — 8 days into 10-day course; ESBL E. coli grown on wound culture — amox/clav intrinsically resistant; clinical and microbiologic failure)
+
+ALLERGIES
+NKDA
+
+SOCIAL HISTORY
+Retired seamstress. Widowed, lives alone. Adult daughter visits daily. Non-smoker. No alcohol. No illicit drugs. Home health nurse x2/week for wound care.
+
+FAMILY HISTORY
+Mother with DM and PVD. Father with HTN.
+
+REVIEW OF SYSTEMS
+Constitutional: Daily fevers (38.2–38.8°C) since 10/10, fatigue, malaise.
+HEENT: No changes.
+CV: No chest pain. No new dyspnea beyond HFpEF baseline.
+Pulm: No cough, no SOB beyond baseline.
+GI: Nausea (amox/clav GI side effects). No vomiting. No diarrhea.
+GU: Decreased urinary output (CKD baseline).
+MSK: L foot pain worsening, unable to bear weight.
+Skin: Wound expanding with necrotic base per history.
+Neuro: No focal deficits.
+
+PHYSICAL EXAMINATION
+Vitals: T 38.5°C | HR 100 | BP 136/78 | RR 18 | SpO2 95% on RA
+General: Elderly F, thin, uncomfortable, favoring L foot
+HEENT: NCAT, MMM, no LAD
+CV: Mild tachycardia, regular, 2/6 systolic murmur at LUSB (known, aortic sclerosis)
+Pulm: Mild bibasilar crackles (HFpEF baseline). CTAB upper fields.
+Abd: Soft, NT, no HSM
+Ext: L foot: amputation stump site of L 2nd toe — 4x3 cm wound with necrotic base, seropurulent drainage (moderate, malodorous). Surrounding erythema 14x8 cm, warmth, significant tenderness. Probe-to-bone positive at proximal phalangeal remnant. L femoral and popliteal pulses palpable (bypass graft patent per today's vascular exam). L dorsalis pedis pulse diminished but present by Doppler. Bilateral lower extremity pitting edema 1+ (chronic).
+Neuro: A&Ox4
+
+PERTINENT DATA
+WBC 18.6 (82% PMNs, 8% bands), Hgb 10.2, Plt 224
+BMP: Na 138, K 4.6, Cr 2.4 (worsened from baseline 1.8 — AKI), BUN 52, HCO3 20, Gluc 312
+CRP 228 mg/L, ESR 118 mm/hr
+Blood cultures x2 sent
+Wound culture (10/07): ESBL E. coli (resistant to amox/clav, ampicillin/sulbactam, ceftriaxone, cefazolin, ciprofloxacin; susceptible to ertapenem, meropenem, gentamicin) + MSSA (susceptible to oxacillin, cefazolin, clindamycin)
+Repeat wound culture sent (today)
+L foot plain films (today): periosteal reaction at L 2nd toe amputation stump with cortical irregularity — consistent with osteomyelitis. Not present on prior films (07/2024).
+MRI L foot ordered for definitive osteomyelitis characterization
+
+ASSESSMENT AND PLAN
+76 yo F w/ DM, PAD, CKD p/w ESBL E. coli + MSSA polymicrobial wound infection with osteomyelitis at L 2nd toe amputation stump, failing amoxicillin/clavulanate — amox/clav intrinsically inadequate for ESBL-producing E. coli.
+
+#ESBL E. COLI + MSSA OSTEOMYELITIS — AMOXICILLIN/CLAVULANATE FAILURE
+- ESBL E. coli: resistant to all tested beta-lactam/beta-lactamase inhibitor combinations except carbapenems; amox/clav expected to fail against ESBL
+- MSSA co-infection: susceptible to beta-lactams; ertapenem will provide coverage
+- Stop amoxicillin/clavulanate
+- Start ertapenem 1g IV daily (renally adjusted for AKI — pharmacy to verify; typical 500mg daily for CrCl <30; CrCl estimated ~18 mL/min given Cr 2.4 and age/weight — pharmacy consultation)
+- Ertapenem covers ESBL E. coli and provides adequate MSSA coverage (cross-resistance does not apply to MSSA)
+- Wound culture repeat sent; blood cultures pending
+- ID consult (Dr. Osei primary)
+
+#OSTEOMYELITIS — SURGICAL EVALUATION
+- MRI L foot ordered — characterize extent of osteomyelitis
+- Vascular surgery (primary) + orthopedic surgery consult: likely need revision/further amputation vs. aggressive debridement + IV antibiotics
+- Source control critical — bone debridement required in addition to antibiotics
+- PICC line placement for prolonged IV course anticipated (4–6 weeks for osteomyelitis)
+
+#AKI ON CKD (Cr 2.4, baseline 1.8)
+- Hold furosemide and clopidogrel (pre-procedure planning if surgery)
+- IVF: 250mL NS cautiously given HFpEF
+- Hold amox/clav and NSAIDs (none at home)
+- Recheck Cr in AM; nephrology on radar
+- Ertapenem dose adjustment essential — pharmacy consulted
+
+#T2DM — POORLY CONTROLLED (Gluc 312)
+- Hold oral agents; FSBS QID; sliding scale insulin
+- Endocrine team if prolonged admission
+
+#PAD — VASCULAR STATUS
+- Continue aspirin (hold clopidogrel pre-operatively per surgery)
+- Vascular surgery: assess adequacy of distal perfusion; ABI if not recently done
+- Graft patency — key for wound healing prognosis
+
+#HFpEF
+- Hold furosemide given AKI; reassess after AKI resolves
+- Daily weight; strict I&Os
+
+DISPOSITION: Admit to internal medicine/ID service with vascular surgery co-management
+
+Signed,
+Dr. Natalie Osei, MD (ID)
+Dr. P. Kim, MD (Internal Medicine Resident)
+10/14/2024 17:42

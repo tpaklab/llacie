@@ -825,21 +825,24 @@ class LlacieDatabase(object):
         self.conn.execute(delete_labels_sql, params)
         print('labels_dict')
         print(labels_dict)
-        label_name, label_value = labels_dict
-        params.update({
-            "label_name": label_name,
-            "label_value": label_value
-        })
-        insert_label_sql = text(f"""
-            INSERT INTO "{self.prefix}episode_labels" ("FK_note_feature_id", 
-                "FK_episode_id", "FK_strategy_id", "FK_task_id", "task_name", 
-                "label_name", "label_value", "line_number", "FK_human_annotator")
-            VALUES (:note_feature_id, :episode_id, :strategy_id, :task_id, :task_name,
-                :label_name,:label_value , 1, NULL)
-            """)
-        self.conn.execute(insert_label_sql, params)
-    
-        self.conn.commit()
+        num = 0
+        for label_name, label_value in labels_dict:
+            num+=1
+            params.update({
+                "label_name": label_name,
+                "label_value": label_value,
+                "line_number":num
+            })
+            insert_label_sql = text(f"""
+                INSERT INTO "{self.prefix}episode_labels" ("FK_note_feature_id", 
+                    "FK_episode_id", "FK_strategy_id", "FK_task_id", "task_name", 
+                    "label_name", "label_value", "line_number", "FK_human_annotator")
+                VALUES (:note_feature_id, :episode_id, :strategy_id, :task_id, :task_name,
+                    :label_name,:label_value , :line_number , NULL)
+                """)
+            self.conn.execute(insert_label_sql, params)
+        
+            self.conn.commit()
 
 
 

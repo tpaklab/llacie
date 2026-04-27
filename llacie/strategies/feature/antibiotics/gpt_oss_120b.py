@@ -49,7 +49,8 @@ class AntibioticsGPTOSS120BStrategy(AbstractUciHealthStrategy):
         Duration: int | Duration in days
         Start date: str | MM/DD/YYYY format
         End date: str | MM/DD/YYYY format)
-        If you ever do not know the values under any key, fill it with NULL . Do not guess if you do not know. 
+        If you ever do not know the values under any key, leave it empty. . Do not guess if you do not know. 
         For each combination drug you extract, ensure that is is connected with an underscore such as :amoxicillin_clavulanate
-        If you get a generic drug name like : trimethoprim-sulfamethoxazole DS convert it to trimethoprim_sulfamethoxazole. Dropping the DS or any additional substitutes.
+        suffix normalization — strip known pharmaceutical modifiers (DS, XR, ER, SR, CR, XL, LA, HCl, etc.) from drug name. 
+        We only want the base_drug name or the brand name.      
         {input}""")

@@ -29,8 +29,9 @@ class Vocab:
             return
         elif self.from_file.endswith(".xlsx") or self.from_file.endswith(".xls"):
             echo_info(f"Parsing and caching vocabulary in vocabs/{from_file}")
-            if self.from_file == '/app/llacie/vocabs/micro_antibiotics_TRP.xlsx':
-                self._parse_df_antibiotics(pd.read_excel(self.from_file,sheet_name=sheet_name))
+            print('FILE',self.from_file)
+            if self.from_file == '/app/llacie/vocabs/cleaned_antibiotics.xlsx':
+                pass
             else:
                 self._parse_df(pd.read_excel(self.from_file, sheet_name=sheet_name))
           
@@ -102,6 +103,8 @@ class Vocab:
 
 
     def _parse_df_antibiotics(self, vocab_df):
+        print('Antibiotics')
+        print(vocab_df)
         vocab_df = vocab_df.dropna(subset=['antibiotic_short_code', 'antibiotic_concept_code']).copy()
         vocab_df['n'] = vocab_df['antibiotic_short_code'].str.split().str.len()
         max_n = int(vocab_df['n'].max())
@@ -115,6 +118,29 @@ class Vocab:
         self._save_to_cache()
 
     def find_terms_in_feature(self, feature_value):
+        """Given a textual feature, searches each line of the feature for terms from this
+        vocabulary, preferring longer n-gram matches over shorter ones. This is akin to the
+        backoff techniques used in NLP: https://www.scaler.com/topics/nlp/backoff-in-nlp/
+        
+        Returns a dict() with matched terms as keys and earliest line # matched as values."""
+
+        lines = feature_value.split("\n")
+        found_terms = {}
+        for line_no in range(len(lines) - 1, -1, -1):
+            tokens = re.split(r'\s+', re.sub(r'[^a-z0-9]+', ' ', lines[line_no].lower()).strip())
+            while len(tokens) > 0:
+                for ngram_i, ngram_dict in enumerate(self._ngram_dicts):
+                    n = len(self._ngram_dicts) - ngram_i
+                    vocab_matches = ngram_dict.get(tuple(tokens[0:n]), None)
+                    if vocab_matches is None: continue
+                    for match in vocab_matches:
+                        found_terms[match] = line_no + 1
+                    tokens = tokens[n:]
+                    break
+                if vocab_matches is None: tokens.pop(0)
+        return found_terms
+    
+    def find_antibiotic_terms_in_feature(self, feature_value):
         """Given a textual feature, searches each line of the feature for terms from this
         vocabulary, preferring longer n-gram matches over shorter ones. This is akin to the
         backoff techniques used in NLP: https://www.scaler.com/topics/nlp/backoff-in-nlp/

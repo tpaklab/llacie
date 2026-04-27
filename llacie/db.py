@@ -788,7 +788,6 @@ class LlacieDatabase(object):
                     AND "FK_human_annotator" IS NULL
             """)
         self.conn.execute(delete_labels_sql, params)
-
         for label_name, line_no in labels_dict.items():
             params.update({
                 "label_name": label_name,
@@ -804,6 +803,44 @@ class LlacieDatabase(object):
             self.conn.execute(insert_label_sql, params)
         
         self.conn.commit()
+    
+    def replace_antibiotic_episode_labels(self, ep_label_strategy, row_values, labels_dict):
+        if ep_label_strategy.task.output_type != out_t.EPISODE_LABEL:
+            raise RuntimeError("Only strategies for creating episode labels are allowed.")
+        
+        params = {
+            "episode_id": row_values.episode_id,
+            "strategy_id": ep_label_strategy.id,
+            "task_name": ep_label_strategy.task.name,
+            "note_feature_id": row_values.note_feature_id,
+            "task_id": ep_label_strategy.task_id
+        }
+        delete_labels_sql = text(f"""
+            DELETE FROM "{self.prefix}episode_labels" 
+                WHERE "FK_episode_id" = :episode_id
+                    AND "FK_strategy_id" = :strategy_id
+                    AND "task_name" = :task_name
+                    AND "FK_human_annotator" IS NULL
+            """)
+        self.conn.execute(delete_labels_sql, params)
+        print('labels_dict')
+        print(labels_dict)
+        label_name, label_value = labels_dict
+        params.update({
+            "label_name": label_name,
+            "label_value": label_value
+        })
+        insert_label_sql = text(f"""
+            INSERT INTO "{self.prefix}episode_labels" ("FK_note_feature_id", 
+                "FK_episode_id", "FK_strategy_id", "FK_task_id", "task_name", 
+                "label_name", "label_value", "line_number", "FK_human_annotator")
+            VALUES (:note_feature_id, :episode_id, :strategy_id, :task_id, :task_name,
+                :label_name,:label_value , 1, NULL)
+            """)
+        self.conn.execute(insert_label_sql, params)
+    
+        self.conn.commit()
+
 
 
     #############################

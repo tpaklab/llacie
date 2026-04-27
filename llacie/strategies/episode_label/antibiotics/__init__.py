@@ -43,14 +43,7 @@ class AbstractAntibioticsStrategy(AbstractStrategy):
                 for json_parsed in json_object:
                     drug_name = json_parsed['Drug Name'].lower()
                     # Refactor logic to calculate end/start data into new function.
-                    if json_parsed['End date'] is None or json_parsed['Start date'] is None \
-                        or json_parsed['Start date'] == 'NULL' or json_parsed['End date'] == 'NULL':
-                        diff = None
-                    else:
-                        json_parsed['End date'] = pd.to_datetime(json_parsed['End date'])
-                        json_parsed['Start date'] = pd.to_datetime(json_parsed['Start date'])
-                        diff = json_parsed['End date'] - json_parsed['Start date']
-                        diff = str(diff.days)
+                    diff = get_duration(json_parsed)
                     try:
                         drug_name_label = query(drug_name)[0][0]
                     except Exception as e:
@@ -63,3 +56,15 @@ class AbstractAntibioticsStrategy(AbstractStrategy):
                     self.db.replace_antibiotic_episode_labels(self, row, labels_dict)
 
         echo_info(f"Finished! ({fail_count} failures/{len(all_episode_ids)} total)")
+
+def get_duration(json_parsed):
+    """ Gets the json object and extracts the duration in the las """
+    if json_parsed['End date'] is None or json_parsed['Start date'] is None \
+         or json_parsed['Start date'] == 'NULL' or json_parsed['End date'] == 'NULL':
+        diff = None
+    else:
+        json_parsed['End date'] = pd.to_datetime(json_parsed['End date'])
+        json_parsed['Start date'] = pd.to_datetime(json_parsed['Start date'])
+        diff = json_parsed['End date'] - json_parsed['Start date']
+        diff = str(diff.days)
+        return diff

@@ -1,0 +1,76 @@
+note_id,drug_name,route,dose,frequency,duration_days,start_date,end_date
+note_01,nitrofurantoin,PO,,,5,06/03/2024,06/07/2024
+note_01,ceftriaxone,IV,2g,q24h,,06/09/2024,
+note_02,azithromycin,PO,500mg,daily,5,03/14/2024,03/18/2024
+note_02,ceftriaxone,IV,1g,,,03/20/2024,
+note_03,ciprofloxacin,PO,500mg,BID,7,11/05/2023,11/11/2023
+note_03,piperacillin/tazobactam,IV,3.375g,q8h,,11/14/2023,
+note_04,amoxicillin/clavulanate,PO,875mg,BID,,08/22/2023,
+note_04,vancomycin,IV,,,,08/28/2023,
+note_05,ampicillin/sulbactam,IV,3g,q6h,5,01/08/2024,01/12/2024
+note_05,meropenem,IV,1g,q8h,,01/28/2024,
+note_06,trimethoprim/sulfamethoxazole,PO,1 DS tab,BID,3,09/10/2024,09/12/2024
+note_06,cefazolin,IV,2g,q8h,,09/15/2024,
+note_07,doxycycline,PO,100mg,BID,14,05/01/2024,05/14/2024
+note_07,ceftriaxone,IV,2g,q24h,7,05/19/2024,05/25/2024
+note_08,metronidazole,PO,500mg,TID,7,02/11/2024,02/17/2024
+note_08,piperacillin/tazobactam,IV,3.375g,q6h,,02/20/2024,
+note_09,levofloxacin,PO,750mg,daily,5,07/22/2024,07/26/2024
+note_09,vancomycin,IV,,,,07/29/2024,
+note_09,cefepime,IV,2g,q8h,,07/29/2024,
+note_10,amoxicillin,PO,500mg,TID,10,10/03/2023,10/12/2023
+note_10,ertapenem,IV,1g,q24h,,10/16/2023,
+note_11,clindamycin,PO,300mg,TID,7,12/01/2023,12/07/2023
+note_11,daptomycin,IV,6mg/kg,q24h,,12/10/2023,
+note_12,cefuroxime,PO,500mg,BID,5,04/08/2024,04/12/2024
+note_12,ceftriaxone,IV,1g,q24h,,04/15/2024,
+note_13,fluconazole,PO,200mg,daily,,06/10/2024,06/23/2024
+note_13,caspofungin,IV,,,,06/25/2024,
+note_14,trimethoprim/sulfamethoxazole,PO,1 DS tab,BID,3,08/05/2024,08/07/2024
+note_14,ceftriaxone,IV,2g,q24h,,08/12/2024,
+note_15,doxycycline,PO,100mg,BID,,03/03/2024,
+note_15,meropenem,IV,1g,q8h,,03/10/2024,
+note_16,cephalexin,PO,500mg,QID,7,04/10/2024,04/16/2024
+note_16,nafcillin,IV,2g,q4h,,04/14/2024,
+note_17,fosfomycin,PO,3g,single dose,1,11/18/2023,11/18/2023
+note_17,cefepime,IV,1g,q8h,,11/21/2023,
+note_18,vancomycin (oral),PO,125mg,QID,14,12/15/2023,12/28/2023
+note_18,fidaxomicin,PO,200mg,BID,10,03/18/2024,
+note_19,linezolid,PO,600mg,BID,14,05/01/2024,05/14/2024
+note_19,daptomycin,IV,8mg/kg,q24h,,05/22/2024,
+note_20,rifampin,PO,300mg,BID,,07/29/2024,
+note_20,doxycycline,PO,100mg,BID,,07/29/2024,
+note_20,vancomycin,IV,,,, 08/18/2024,
+note_21,cefdinir,PO,300mg,BID,7,08/05/2024,08/11/2024
+note_21,penicillin G,IV,4 million units,q4h,,08/09/2024,
+note_21,metronidazole,IV,500mg,q8h,,08/09/2024,
+note_22,minocycline,PO,100mg,BID,,04/01/2024,
+note_22,ceftaroline,IV,600mg,q8h,,06/15/2024,
+note_23,tobramycin (inhaled),inhaled,300mg,BID (28 days on/off),,09/01/2023,
+note_23,tobramycin,IV,,q24h,,10/15/2023,
+note_23,aztreonam,IV,2g,q8h,,10/15/2023,
+note_24,isoniazid,PO,300mg,daily,,01/15/2024,
+note_25,oritavancin,IV,1200mg,single dose,1,03/22/2024,03/22/2024
+note_25,vancomycin,IV,,,, 04/12/2024,
+note_26,dicloxacillin,PO,500mg,QID,10,05/12/2024,05/21/2024
+note_26,oxacillin,IV,2g,q4h,,05/19/2024,
+note_27,clarithromycin,PO,500mg,BID,7,09/03/2024,09/09/2024
+note_27,ceftriaxone,IV,1g,q24h,,09/11/2024,
+note_27,metronidazole,IV,500mg,q8h,,09/11/2024,
+note_28,penicillin V,PO,500mg,TID,10,07/08/2024,07/17/2024
+note_28,penicillin G,IV,4 million units,q4h,,07/23/2024,
+note_29,cefpodoxime,PO,200mg,BID,5,02/06/2024,02/10/2024
+note_29,piperacillin/tazobactam,IV,3.375g,q8h,,02/12/2024,
+note_30,voriconazole,PO,200mg,BID,,11/01/2023,
+note_30,micafungin,IV,100mg,daily,,12/08/2023,
+note_31,amikacin,IV,,q24h,,06/18/2024,06/24/2024
+note_31,meropenem,IV,2g,q8h,,06/26/2024,
+note_31,colistin,IV,,,, 06/26/2024,
+note_32,benzathine penicillin G,IM,2.4 million units,single dose,1,08/14/2024,08/14/2024
+note_32,penicillin G,IV,4 million units,q4h,,08/22/2024,
+note_33,cefadroxil,PO,500mg,BID,7,04/22/2024,04/28/2024
+note_33,cefazolin,IV,2g,q8h,,04/26/2024,
+note_34,trimethoprim,PO,200mg,BID,7,10/14/2023,10/20/2023
+note_34,ceftriaxone,IV,1g,q24h,,10/22/2023,
+note_35,erythromycin,PO,500mg,QID,7,01/22/2024,01/28/2024
+note_35,ampicillin/sulbactam,IV,3g,q6h,,01/30/2024,

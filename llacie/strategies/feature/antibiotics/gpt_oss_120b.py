@@ -36,21 +36,32 @@ class AntibioticsGPTOSS120BStrategy(AbstractUciHealthStrategy):
         Use the drug name mentioned in the note, nothing else. 
         """)
     LLM_USER_PROMPT = dedent("""\
-        Read the following patient history and list the antiomicrobial (antibacterial, antiviral, antifungal) the patient was taking before coming to the hospital.
-        Include only antiomicrobial(antibacterial, antiviral, antifungal) prescribed or taken prior to this hospital admission, such as those started by a primary care provider
-        ,urgent care, or during a recent prior hospitalization.
-        Do not include antiomicrobial (antibacterial, antiviral, antifungal) started for the first time during this admission.
-        Return a json list consisting of dicts. Each dict under the array should follow the below format.
-        Each dict should follow the below format:
-        (Drug Name: str: The name of the drug, 1 to 2 words long
-        Route: str | The route with which the medication is given
-        Dose: str | Dose given in mg or g
-        Frequency: str | Daily/weekly etc.
-        Duration: int | Duration in days
-        Start date: str | MM/DD/YYYY format
-        End date: str | MM/DD/YYYY format)
-        If you ever do not know the values under any key, leave it empty. . Do not guess if you do not know. 
-        For each combination drug you extract, ensure that is is connected with an underscore such as :amoxicillin_clavulanate
-        suffix normalization — strip known pharmaceutical modifiers (DS, XR, ER, SR, CR, XL, LA, HCl, etc.) from drug name. 
-        We only want the base_drug name or the brand name.      
+Read the following patient history and list the antimicrobial (antibacterial, antiviral, 
+antifungal) medications the patient was taking before coming to the hospital.
+
+Include only antimicrobials prescribed or taken prior to this hospital admission, such 
+as those started by a primary care provider, urgent care, or during a recent prior 
+hospitalization that has since ended.
+
+Do not include antimicrobials started for the first time during this admission.
+
+Exclusions — do NOT extract:
+- Antiretroviral therapy (ART) for HIV (e.g., bictegravir, emtricitabine, tenofovir, 
+  efavirenz, or any fixed-dose combination ART tablet)
+- Hepatitis C direct-acting antivirals (e.g., sofosbuvir, velpatasvir, ledipasvir)
+
+Return a JSON list of dicts. Each dict must follow this format:
+(
+  "Drug Name": str,   // Base drug name. For combinations, join with underscore 
+                      // (e.g., amoxicillin_clavulanate). Strip modifiers: DS, XR, 
+                      // ER, SR, CR, XL, LA, HCl.
+  "Route": str,       // e.g., PO, IV, IM, inhaled
+  "Dose": str,        // e.g., 500mg, 2g — leave empty if unknown
+  "Frequency": str,   // e.g., BID, daily, q8h — leave empty if unknown
+  "Duration": int,    // Duration in days — leave empty if unknown
+  "Start date": str,  // MM/DD/YYYY — leave empty if unknown
+  "End date": str     // MM/DD/YYYY — leave empty if unknown
+)
+
+If a value is unknown, leave it empty. Do not guess.
         {input}""")

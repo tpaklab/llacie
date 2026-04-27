@@ -1,10 +1,11 @@
 from textwrap import dedent
 
 from ...custom_health_server import AbstractUciHealthStrategy
-from ...section.medicines.spacy import AntibioticsSpacyStrategy
+from ...section.medicines.all_sections import AntibioticsNoStrategy
 from ....tasks.feature import AntibioticsFeatureTask
 
-class AntibioticsFeatureLlama3Instruct8BStrategy(AbstractUciHealthStrategy):
+
+class AntibioticsGPTOSS120BStrategy(AbstractUciHealthStrategy):
     """\
     Attempts to extract the `antibiotics` feature using Llama 3 Instruct 8B model,
     an 8B parameter model in the Llama family released by Meta in April 2024. 
@@ -19,7 +20,7 @@ class AntibioticsFeatureLlama3Instruct8BStrategy(AbstractUciHealthStrategy):
     version = "0.0.1"
     prereq_tasks = []
 
-    SECTION_STRATEGY_CLASS = AntibioticsSpacyStrategy
+    SECTION_STRATEGY_CLASS = AntibioticsNoStrategy
 
     
     NICE_MODEL_NAME = "GPT OSS 120B"
@@ -30,12 +31,15 @@ class AntibioticsFeatureLlama3Instruct8BStrategy(AbstractUciHealthStrategy):
         You are a clinical researcher that reads medical charts and answers questions about them. 
         Use only the information in the text provided to answer the question.
         If a patient denies something, do not include it in your answer.
-        After you provide an answer, you immediately stop talking.""")
+        After you provide an answer, you immediately stop talking.
+        Remember, do not infer what is given beyong the notes, only provide info that is within the note itself. 
+        Use the drug name mentioned in the note, nothing else. 
+        """)
     LLM_USER_PROMPT = dedent("""\
-        Read the following patient history and list the antibiotics the patient was taking before coming to the hospital.
-        Include only antibiotics prescribed or taken prior to this hospital admission, such as those started by a primary care provider
+        Read the following patient history and list the antiomicrobial (antibacterial, antiviral, antifungal) the patient was taking before coming to the hospital.
+        Include only antiomicrobial(antibacterial, antiviral, antifungal) prescribed or taken prior to this hospital admission, such as those started by a primary care provider
         ,urgent care, or during a recent prior hospitalization.
-        Do not include antibiotics started for the first time during this admission.
+        Do not include antiomicrobial (antibacterial, antiviral, antifungal) started for the first time during this admission.
         Return a json list consisting of dicts. Each dict under the array should follow the below format.
         Each dict should follow the below format:
         (Drug Name: str: The name of the drug, 1 to 2 words long
@@ -46,4 +50,6 @@ class AntibioticsFeatureLlama3Instruct8BStrategy(AbstractUciHealthStrategy):
         Start date: str | MM/DD/YYYY format
         End date: str | MM/DD/YYYY format)
         If you ever do not know the values under any key, fill it with NULL . Do not guess if you do not know. 
+        For each combination drug you extract, ensure that is is connected with an underscore such as :amoxicillin_clavulanate
+        If you get a generic drug name like : trimethoprim-sulfamethoxazole DS convert it to trimethoprim_sulfamethoxazole. Dropping the DS or any additional substitutes.
         {input}""")

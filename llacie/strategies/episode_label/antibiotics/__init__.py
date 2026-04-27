@@ -40,7 +40,7 @@ class AbstractAntibioticsStrategy(AbstractStrategy):
             for _, row in df.iterrows():
                 json_parsed = json.loads(row['feature_value'])[0]
                 print(json_parsed)
-                drug_name = json_parsed['Drug Name']
+                drug_name = json_parsed['Drug Name'].lower()
                 # FIXME: Change the logic when creating it to N/A instead of NULL
                 if json_parsed['End date'] is None or json_parsed['Start date'] is None or json_parsed['Start date'] == 'NULL' or json_parsed['End date'] == 'NULL':
                     diff = None

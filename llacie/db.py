@@ -768,6 +768,58 @@ class LlacieDatabase(object):
         unique_eps = len(long_df['FK_episode_id'].unique())
         echo_info(f"{len(long_df)} labels imported for {unique_eps} episodes.")
     
+    def import_antibiotic_episode_labels(self, episode_label_task, input_xlsx, sheet_name=None, 
+            human_username=None):
+        print(f'Importing {input_xlsx}')
+        echo_info((episode_label_task,input_xlsx))
+        if sheet_name is None: sheet_name = 0
+
+        if human_username is None: human_username = getpass.getuser()
+        self.ensure_annotator_exists(human_username)
+
+        strats = find_strategies(output_type=out_t.EPISODE_LABEL, task=episode_label_task)
+        if len(strats) == 0:
+            raise RuntimeError("Could not find an episode labelling task by that name")
+        strategy = strats[0](self, self.config)
+
+        df = pd.read_excel(input_xlsx, sheet_name=sheet_name)
+        filtered_df = df.dropna(axis=0,subset=['label_name']) # Maybe remove this later
+        print('filtered df')
+        print(filtered_df.head())
+        filtered_df['label_value'] = filtered_df['label_value'].fillna(-1)
+        if len(filtered_df) < len(df):
+            echo_warn(f"{len(df) - len(filtered_df)} rows in the XLSX had zero labels")
+        long_df = filtered_df[['FK_episode_id', 'label_name', 'label_value']].copy()
+        vocab = strategy.task.vocab
+        echo_info(f'Vocab {[vocab._terms]}')
+        invalid_terms = [term for term in long_df.label_name if term not in vocab]
+        if len(invalid_terms) > 0:
+            raise RuntimeError(f"Invalid labels not in the vocab: {invalid_terms}")
+
+        long_df['FK_task_id'] = strategy.task_id
+        long_df['task_name'] = strategy.task.name
+        long_df['FK_human_annotator'] = human_username
+
+        params = {
+            "ep_ids": [int(ep_id) for ep_id in long_df['FK_episode_id'].unique()],
+            "task_id": strategy.task_id,
+            "human_username": human_username
+        }
+        delete_labels_sql = text(f"""
+            DELETE FROM "{self.prefix}episode_labels" 
+                WHERE "FK_episode_id" = ANY(:ep_ids)
+                    AND "FK_task_id" = :task_id
+                    AND "FK_strategy_id" IS NULL
+                    AND "FK_human_annotator" = :human_username
+            """)
+        self.conn.execute(delete_labels_sql, params)
+
+        self.append_df_to_table(long_df, 'episode_labels')  # This also .commit()'s changes
+
+        unique_eps = len(long_df['FK_episode_id'].unique())
+        echo_info(f"{len(long_df)} labels imported for {unique_eps} episodes.")
+    
+
 
     def replace_episode_labels(self, ep_label_strategy, row_values, labels_dict):
         if ep_label_strategy.task.output_type != out_t.EPISODE_LABEL:

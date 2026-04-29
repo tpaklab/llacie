@@ -80,9 +80,6 @@ class ConfusionMatrix:
 
     @classmethod
     def from_episode_labels(cls, df_truth, df_pred, vocab, max_line_num=9, **kwargs):
-        print(df_truth.head(15))
-        print(df_pred.head(15))
-        print(max_line_num)
         df_truth = filter_to_one_humans_rows_per_episode(df_truth)
 
         df_truth = df_truth[["FK_episode_id", "label_name", "line_number"]].copy()

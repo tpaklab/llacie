@@ -31,7 +31,7 @@ class Vocab:
             echo_info(f"Parsing and caching vocabulary in vocabs/{from_file}")
             print('FILE',self.from_file)
             if self.from_file == '/app/llacie/vocabs/cleaned_antibiotics.xlsx':
-                pass
+                self._parse_df_antibiotics(pd.read_excel(self.from_file,sheet_name=sheet_name))
             else:
                 self._parse_df(pd.read_excel(self.from_file, sheet_name=sheet_name))
           
@@ -78,7 +78,7 @@ class Vocab:
             pickled = {"_terms": self._terms, "_ngram_dicts": self._ngram_dicts}
             pickle.dump(pickled, f)
 
-
+    # What is this hmmm ?
     def _add_terms(self, terms, synonyms=None):
         if synonyms is not None:
             if not isinstance(synonyms, list):
@@ -86,6 +86,13 @@ class Vocab:
         for term in terms:
             self._terms[term].add(term)
             self._terms[term].update(synonyms)
+    
+    def _add_antibiotic_terms(self, terms, synonyms=None):
+        if synonyms is not None:
+            if not isinstance(synonyms, list):
+                synonyms = [synonyms]
+        self._terms[terms].add(terms)            
+            #self._terms[term].update(synonyms)
 
 
     def _parse_df(self, vocab_df):
@@ -105,16 +112,10 @@ class Vocab:
     def _parse_df_antibiotics(self, vocab_df):
         print('Antibiotics')
         print(vocab_df)
-        vocab_df = vocab_df.dropna(subset=['antibiotic_short_code', 'antibiotic_concept_code']).copy()
-        vocab_df['n'] = vocab_df['antibiotic_short_code'].str.split().str.len()
-        max_n = int(vocab_df['n'].max())
-        for n in range(max_n, 0, -1):
-            ngram_dict = {}
-            for _, row in vocab_df[vocab_df.n == n].iterrows():
-                concept_code = row['antibiotic_concept_code']
-                self._add_terms([concept_code], row['antibiotic_short_code'])
-                ngram_dict[tuple(row['antibiotic_short_code'].lower().split())] = [concept_code]
-            self._ngram_dicts.append(ngram_dict)
+        vocab_df = vocab_df.dropna(subset=['Drug Name']).copy()
+        for _, row in vocab_df.iterrows():
+            print(row['Drug Name'])
+            self._add_antibiotic_terms(row['Drug Name'].strip())
         self._save_to_cache()
 
     def find_terms_in_feature(self, feature_value):

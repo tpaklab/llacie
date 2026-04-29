@@ -30,3 +30,4 @@ include
 lib
 share
 /.*
+examples/antibiotics/reference/antibiotics.md

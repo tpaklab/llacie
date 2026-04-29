@@ -191,7 +191,9 @@ def import_episode_labels(app, episode_label_task, input_xlsx, sheet_name=None,
     - `FK_episode_id` - must correspond to a valid `id` in the episodes table
 
     - `human_labels` - the human-created label names, delimited by | (pipes)"""
-    app.db.import_episode_labels(episode_label_task, input_xlsx, sheet_name, human_username)
+    #app.db.import_episode_labels(episode_label_task, input_xlsx, sheet_name, human_username)
+    app.db.import_antibiotic_episode_labels(episode_label_task, input_xlsx, sheet_name, human_username)
+
 
 @episode_labels.command(name="evaluate")
 @click.option('-n', '--episode-label-task', default=None, type=str, 

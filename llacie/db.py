@@ -799,6 +799,7 @@ class LlacieDatabase(object):
         long_df['FK_task_id'] = strategy.task_id
         long_df['task_name'] = strategy.task.name
         long_df['FK_human_annotator'] = human_username
+        long_df['line_number'] = df.groupby('FK_episode_id').cumcount() + 1
 
         params = {
             "ep_ids": [int(ep_id) for ep_id in long_df['FK_episode_id'].unique()],

@@ -85,14 +85,19 @@ class ConfusionMatrix:
         df_truth = df_truth[["FK_episode_id", "label_name", "line_number"]].copy()
         df_truth["labeled"] = True
         df_truth_pivot = df_truth.pivot(index="FK_episode_id", columns="label_name", 
-            values="labeled")
+                values="labeled")
         df_truth_pivot.fillna(False, inplace=True)
         df_truth_mat = create_vocab_matrix(df_truth_pivot, vocab)
 
         df_pred = df_pred[["FK_episode_id", "label_name", "line_number"]].copy()
         df_pred["labeled"] = df_pred["line_number"] <= max_line_num
-        df_pred_pivot = df_pred.pivot(index="FK_episode_id", columns="label_name", 
-            values="labeled")
+        print(df_pred.to_string())
+        try:
+            df_pred_pivot = df_pred.pivot(index="FK_episode_id", columns="label_name", 
+                values="labeled")
+        except ValueError as e:
+            print(e)
+
         df_truth_ep_ids = df_truth_pivot.reset_index()[["FK_episode_id"]]
         df_pred_pivot = pd.merge(df_truth_ep_ids, df_pred_pivot, 
             on="FK_episode_id", how="left", suffixes=('_X', ''))

@@ -15,7 +15,6 @@ def query(value):
     """ used with the llacie program. Send sql queries here"""
     conn = sql3.connect('llacie/database/drugs.db')
     query_returned = execute_query(value,conn)
-    print(query_returned)
     return query_returned
 
 if __name__ == '__main__':

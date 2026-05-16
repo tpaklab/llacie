@@ -876,8 +876,8 @@ class LlacieDatabase(object):
                     AND "FK_human_annotator" IS NULL
             """)
         self.conn.execute(delete_labels_sql, params)
-        print('labels_dict')
-        print(labels_dict)
+        # print('labels_dict')
+        # print(labels_dict)
         num = 0
         for label_name, label_value in labels_dict:
             num+=1

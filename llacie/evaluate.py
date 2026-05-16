@@ -91,7 +91,7 @@ class ConfusionMatrix:
 
         df_pred = df_pred[["FK_episode_id", "label_name", "line_number"]].copy()
         df_pred["labeled"] = df_pred["line_number"] <= max_line_num
-        print(df_pred.to_string())
+        # print(df_pred.to_string())
         try:
             df_pred_pivot = df_pred.pivot(index="FK_episode_id", columns="label_name", 
                 values="labeled")

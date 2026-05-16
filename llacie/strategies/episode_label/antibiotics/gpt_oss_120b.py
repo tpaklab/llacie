@@ -21,5 +21,4 @@ class AntibioticsEpisodeLabellingGpt120bStrategy(
         super().__init__(db, config, **options)
         self.feat_strat = AntibioticsGPTOSS120BStrategy(db, config, **options)
 
-    def get_admission_date(self,db,config):
         

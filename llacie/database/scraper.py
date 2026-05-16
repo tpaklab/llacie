@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import pandas as pd
 import lxml
 
 def get_page(page_link):
@@ -14,13 +15,15 @@ def clean_the_document(raw_page):
     soup = BeautifulSoup(raw_page, 'html.parser')
     return soup
 
-def get_the_clinical_data(soup):
+def get_the_clinical_data(soup) -> dict | str:
+    """ Searches for the wikipedia page"""
     
     found_clinical = False
     raw_clinical_data = []
     table = soup.find("table",class_ ="infobox")
     if table is None:
-        return ("ERROR: DATA NOT FOUND", "ERROR")
+        print("The webpage was not found")
+        return ("ERROR: DATA NOT FOUND")
 
     for x in table.find_all("tr"):
         if 'Clinical data' in x.get_text(strip = True):
@@ -31,23 +34,38 @@ def get_the_clinical_data(soup):
             if th and th.get('colspan'):
                 break
             raw_clinical_data.append(x)
+    result = {}
+    result['Trade names'] = None
+    result['Other names'] = None
     for row in raw_clinical_data:
-        a=row.find('a')
-        if a:
-            if a.get_text(strip=True) == 'Trade names':
-                return (a.get_text(),row.find('td').get_text())
-    return ("ERROR: DATA NOT FOUND", "ERROR")
+        b = row.find('th')
+        if b:
+            print('B',b.get_text(strip=True))
+            print(row.find('td').get_text())
+            if b.get_text(strip=True) == 'Trade names':
+                    result['Trade names'] = row.find('td').get_text()
+            if b.get_text(strip=True) == 'Other names':
+                    result['Other names'] = row.find('td').get_text()
+    print(result)
+    if result:
+        return(result)
+    return ("ERROR: DATA NOT FOUND")
 
 def get_and_clinical_data_to_text_file(drug_name):
     print(f'Drug Name: {drug_name}')
     contents = get_page(f"https://en.wikipedia.org/wiki/{drug_name}")
     soup = clean_the_document(contents)
     brand_data= get_the_clinical_data(soup)
+    print(f'{drug_name}')
+    print(brand_data)
 
     with open("llacie/database/temp.txt", "a") as f:
-        f.write(f'{drug_name} | {brand_data[0]} | {brand_data[1]}')
+        if type(brand_data) !=str:
+            f.write(f'{drug_name} | {brand_data["Trade names"]} | {brand_data["Other names"]}')
+        else:
+            f.write(f'{drug_name} | {brand_data}')
         f.write('\n')
 
 
 if __name__ == '__main__':
-    NotImplementedError
+    get_and_clinical_data_to_text_file('Phenoxymethylpenicillin')

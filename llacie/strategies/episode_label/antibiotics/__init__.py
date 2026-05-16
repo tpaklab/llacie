@@ -31,9 +31,7 @@ class AbstractAntibioticsStrategy(AbstractStrategy):
         for ep_ids in needs_labels_pb:
             needs_labels_pb.set_description(
                 f"Creating labels ({fail_count} failures/{len(all_episode_ids)} total)")
-            print('Antibiotic df')
             df = self.db.get_earliest_notes_with_feature(ep_ids, self.feat_strat, SECS_IN_24H)
-            #print(df)
 
             # Some episodes may not have any notes with the required feature
             fail_count += len(ep_ids) - len(df)
@@ -47,8 +45,8 @@ class AbstractAntibioticsStrategy(AbstractStrategy):
                     try:
                         drug_name_label = query(drug_name)[0][0]
                     except Exception as e:
-                        drug_name_label = drug_name
-                        print(e)
+                        print('Not found', drug_name)
+                        drug_name_label = 'Drug not in List'
                     labels_dict.append((drug_name_label,diff))
                 if len(labels_dict) == 0: 
                     fail_count += 1

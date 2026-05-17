@@ -1,7 +1,7 @@
 ## This file is called from main.py
 ## It saves every scraped page into raw_wiki.txt
 ## For any small changes like drug addition, just add it manually to raw_wiki.txt
-## If you need to scrape all wikipedia pages again, then uncomment the line in main.py's main()
+## If you need to scrape all wikipedia pages again, then uncomment the line in main.py
 
 import requests
 from bs4 import BeautifulSoup
@@ -10,8 +10,8 @@ import random
 import time
 from pathlib import Path
 
-def read_vocab(file_path:Path="llacie/database/files/micro_antibiotics_TRP.xlsx")-> pd.DataFrame:
-    """ Reads `micro_antibiotics_TRP.xlsx` file and loads into pandas."""
+def read_vocab(file_path:Path="llacie/database/files/antibiotic_list_raw.xlsx")-> pd.DataFrame:
+    """ Reads `antibiotic_list_raw.xlsx` file and loads into pandas."""
     df = pd.read_excel(Path(file_path),sheet_name="antibiotic_map")
     df = df.drop_duplicates(subset=['antibioticConceptCode'])
     df = df.dropna()
@@ -83,4 +83,4 @@ def load_data_from_wikipedia(df):
 
 
 if __name__ == '__main__':
-
+    load_data_from_wikipedia(read_vocab()) # Scrapes wikipedia and saves it to raw_wiki.txt

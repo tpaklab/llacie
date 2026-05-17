@@ -29,5 +29,5 @@ WHERE cannonical_name = ?
 SYNONYMS_SQL_QUERY = """\
 SELECT d.cannonical_name
 FROM drugs as d
-INNER JOIN synonyms as s ON s.drugs_id = d.id
-WHERE s.brand_names=?"""
+INNER JOIN synonyms as s ON s.drug_id = d.id
+WHERE s.other_names=?"""

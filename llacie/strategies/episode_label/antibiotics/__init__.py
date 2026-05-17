@@ -40,6 +40,7 @@ class AbstractAntibioticsStrategy(AbstractStrategy):
                 json_object = json.loads(row['feature_value'])
                 for json_parsed in json_object:
                     drug_name = json_parsed['Drug Name'].lower()
+                    drug_name = drug_name.replace(' ','_')
                     # Refactor logic to calculate end/start data into new function.
                     diff = get_duration(json_parsed)
                     try:

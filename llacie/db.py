@@ -879,7 +879,12 @@ class LlacieDatabase(object):
         # print('labels_dict')
         # print(labels_dict)
         num = 0
+        existing_label_name = []
         for label_name, label_value in labels_dict:
+            if label_name not in existing_label_name:
+                existing_label_name.append(label_name)
+            else:
+                continue
             num+=1
             params.update({
                 "label_name": label_name,

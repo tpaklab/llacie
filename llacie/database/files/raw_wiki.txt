@@ -3,7 +3,7 @@ cephalothin | None | None
 trimethoprim/sulfamethoxazole | Bactrim, Cotrim, Septra, others | TMP/SMX, Co-trimoxazole (BAN UK)
 amikacin | Amikin, Amiglyde-V, Arikayce, others | None
 amoxicillin/clavulanate | Augmentin, Clavulin, Amoclan, others[1] | Co-amoxiclav; Amox-clav
-ampicillin | Principen, others[3] | AM/AMP[4]
+ampicillin | Principen, others[3] | AM/AMP
 ampicillin/sulbactam | Unasyn | None
 aztreonam | Azactam, others | None
 cefazolin | Ancef, Cefacidal, other | None
@@ -13,7 +13,7 @@ cefoxitin | Mefoxin, Renoxitin, others[1] | None
 ceftazidime | Fortaz, Tazicef, others[1] | None
 cefuroxime | Zinacef, others | None
 ceftriaxone | Rocephin, Epicephin, Wintriaxone, others | None
-tobramycin | Nebcin, Tobrex, Tobi, others | 47663, SPRC-AB01
+tobramycin | Nebcin, Tobrex, Tobi, others | None
 ciprofloxacin | Cipro, others | None
 ertapenem | Invanz | None
 gentamicin | Cidomycin, Genticyn, Garamycin, others | None
@@ -23,15 +23,15 @@ meropenem | Merrem, others | None
 nitrofurantoin | Macrobid, others[1] | None
 piperacillin | Pipracil | None
 piperacillin/tazobactam | Tazocin, Zosyn, others[1] | None
-tetracycline | Tetracyn | TE/TET/TC/TCY[1]
+tetracycline | Tetracyn | None
 tigecycline | Tygacil | None
 minocycline | Minocin, others | None
 vancomycin | Vancocin, others[3] | None
 rifampin | Rifadin, others | Rifampin (USAN US)
 penicillin | None | None
 oxacillin | Bactocill | None
-clindamycin | Cleocin, Clinacin, Dalacin, others | 7-chloro-lincomycin7-chloro-7-deoxylincomycin, DARE-BV1
-moxifloxacin | Avelox, Vigamox, Moxiflox, others | Moxifloxacine; BAY 12-8039
+clindamycin | Cleocin, Clinacin, Dalacin, others | DARE-BV1
+moxifloxacin | Avelox, Vigamox, Moxiflox, others | Moxifloxacine
 linezolid | Zyvox, Zyvoxam, others | None
 erythromycin | Eryc, Erythrocin, others[1] | None
 quinupristin/dalfopristin | None | None
@@ -43,15 +43,13 @@ streptomycin | None | S/STR/STS[1]
 doxycycline | Vibramycin, Doryx, others | None
 chloramphenicol | Chloromycetin, Abeed, others[1] | C/CHL/CL[2]
 fosfomycin | Monuril, Monurol, Ivozfo, others | Phosphomycin, phosphonomycin, fosfomycin tromethamine
-caspofungin | Cancidas | (4R,5S)-5-[(2-Aminoethyl)amino]-N2-(10,12-dimethyltetradecanoyl)-4-hydroxy-L-ornithyl-L-threonyl-trans-4-hydroxy-L-prolyl-(S)-4-hydroxy-4-(p-hydroxyphenyl)-L-threonyl-threo-3-hydroxy-L-ornithyl-trans-3-hydroxy-L-proline cyclic (6→1)-peptide[1]: 185 
-1-[(4R,5S)-5-[(2-Aminoethyl)amino]-N2-(10,12-dimethyl-1-oxotetradecyl)-4-hydroxy-L-ornithine]-5-[(3R)-3-hydroxy-L-ornithine] pneumocandin B0[2]
+caspofungin | Cancidas | None
 posaconazole | Noxafil, Posanol, others | None
 micafungin | Mycamine | None
 itraconazole | Sporanox, Sporaz, Orungal, others | ITZ
 flucytosine | Ancobon, Ancotil, others | None
 amphotericin/B | ERROR: DATA NOT FOUND
-anidulafungin | Eraxis, others | LY303366, (4R,5S)-4,5-Dihydroxy-N2-[[4''-(pentyloxy)-p-terphenyl-4-yl]carbonyl]-L-ornithyl-L-threonyl-trans-4-hydroxy-L-prolyl-(S)-4-hydroxy-4-(p-hydroxyphenyl)-L-threonyl-L-threonyl-(3S,4S)-3-hydroxy-4-methyl-L-proline cyclic (6→1)-peptide[1]1-[(4R,5R)-4,5-Dihydroxy-N2-[[4''-(pentyloxy)[1',1':4',1''-terphenyl]-4-yl]carbonyl]-L-ornithine]echinocandin B[2]
-colistin | Xylistin, Coly-Mycin M, Colobreathe, others | None
+anidulafungin | Eraxis, others | LY303366
 ceftaroline | Teflaro, Zinforo | PPI 0903, TAK-599
 eravacycline | None | None
 meropenem/vaborbactam | Vabomere, Vaborem, others | None
@@ -59,12 +57,12 @@ ceftazidime/avibactam | Avycaz, Zavicefta, others[1] | None
 cefiderocol | Fetroja, Fetcroja | RSC-649266
 trimethoprim | Proloprim, Monotrim, Triprim, others | None
 ceftolozane/tazobactam | Zerbaxa | None
-clarithromycin | Biaxin, Klav, etc. | 6-O-Methylerythromycin A
+clarithromycin | Biaxin, Klav, etc. |
 cefpodoxime | Vantin, others | Cefpodoxime proxetil
 cefixime | Suprax, others[1] | None
-clofazimine | Lamprene | N,5-bis(4-chlorophenyl)-3-(1-methylethylimino)-5H-phenazin-2-amine 
+clofazimine | Lamprene | 
 ticarcillin | None | None
-azithromycin | Sumamed, Hemomicin, Zithromax, others[1] | 9-deoxy-9α-aza-9α-methyl-9α-homoerythromycin A
+azithromycin | Sumamed, Hemomicin, Zithromax, others[1] | 
 penicillin/binding/protein/2a | ERROR: DATA NOT FOUND
 extended/spectrum/beta/lactamase | ERROR: DATA NOT FOUND
 sulfamethoxazole | Gantanol | None
@@ -74,9 +72,9 @@ carbapenemase/other | ERROR: DATA NOT FOUND
 imipenem/relebactam | ERROR: DATA NOT FOUND
 inducible/clindamycin/resistance | ERROR: DATA NOT FOUND
 pyrazinamide | Rifater, Tebrazid, others[1] | None
-ethambutol | Myambutol, Etibi,[1] Servambutol, others | (2S,2’S)-2,2’-(Ethane-1,2-diyldiimino)dibutan-1-ol[2]
+ethambutol | Myambutol, Etibi,[1] Servambutol, others | 
 isoniazid | Hydra, Hyzyd, Isovit, others | isonicotinic acid hydrazide, isonicotinyl hydrazine, INH, INAH, INHA
-cycloserine | Seromycin | d-cycloserine, 4-amino-3-isoxazolidinone
+cycloserine | Seromycin | 
 ethionamide | Trecator, others | None
 kanamycin | None | K/KAN/HLK/KM[1]
 capreomycin | Capastat | None
@@ -87,16 +85,16 @@ carbapenemase/kpc | ERROR: DATA NOT FOUND
 carbapenemase/oxa | ERROR: DATA NOT FOUND
 terbinafine | Lamisil, others | None
 rifabutin | Mycobutin[1] | None
-ofloxacin | Floxin, Ocuflox, others | (±)-9-fluoro-2,3-dihydro-3-methyl-10-(4-methyl-1-piperazinyl)-7-oxo-7H-pyrido[1,2,3-de][1,4]benzoxazine-6-carboxylic acid
+ofloxacin | Floxin, Ocuflox, others | None
 cefaclor | Biocef, Ceclor, Medacef, Distaclor, Keflor, Raniclor | None
-spectinomycin | Trobicin | (2R,4aR,5aR,6S,7S,8R,9S,9aR,10aS)-4a,7,9-trihydroxy-2-methyl-6,8-bis(methylamino)decahydro-4H-pyrano[2,3-b][1,4]benzodioxin-4-one , SPT/SPE/SC/SP[1]
+spectinomycin | Trobicin |SPT/SPE/SC/SP[1]
 ethambutol/rifampin | ERROR: DATA NOT FOUND
 telavancin | Vibativ | None
 amoxicillin | Amoxil, Trimox, others[1] | Amoxycillin, amox
 rezafungin | Rezzayo | Biafungin; CD101
 metronidazole | Flagyl, Metrogyl | None
 doripenem | Finibax, Doribax | None
-plazomicin | Zemdri | ACHN-490,6'-(Hydroxylethyl)-1-(HABA)-sisomicin
+plazomicin | Zemdri | ACHN-490,
 omadacycline | Nuzyra | PTK-0796,[1] BAY 73-6944
 delafloxacin | Baxdela, others | ABT-492; RX-3341; WQ-3034
 sulbactam/durlobactam | Xacduro | None
@@ -105,7 +103,7 @@ ceftazidime/clavulanate | ERROR: DATA NOT FOUND
 cefotaxime/clavulanate | ERROR: DATA NOT FOUND
 miconazole | Monistat, others | None
 terconazole | Terazol | None
-bedaquiline | Sirturo | Bedaquiline fumarate,[1] TMC207,[2] R207910, AIDS222089
+bedaquiline | Sirturo | Bedaquiline fumarate, TMC207, R207910, AIDS222089
 ketoconazole | Nizoral, others | R-41400; KW-1414
 polymyxin/B | ERROR: DATA NOT FOUND
 meropenem/imipenem | ERROR: DATA NOT FOUND
@@ -119,7 +117,7 @@ cefoperazone | None | None
 fusidic/acid | ERROR: DATA NOT FOUND
 azlocillin | Securopen | None
 bacitracin | Baciguent, Baciim, others | None
-carbenicillin | Geocillin, Pyopen | CB[1]
+carbenicillin | Geocillin, Pyopen | CB
 cefamandole | former Mandol | None
 cefonicid | None | None
 ceforanide | None | None
@@ -136,13 +134,13 @@ moxalactam | None | None
 mupirocin | Bactroban, others | muciprocin[1]
 nafcillin | None | None
 neomycin | Neo-rx | None
-netilmicin | Netromycin | 1-N-Ethylsisomicin
+netilmicin | Netromycin | 
 p/aminosalicylic/acid | ERROR: DATA NOT FOUND
 sparfloxacin | Spacin, Zagam, others | None
 sulfadiazene | ERROR: DATA NOT FOUND
 sulfisoxazole | None | None
 teicoplanin | Targocid | None
-thiacetazone | Conteben | Thiacetazone; Thiocetazone; Thioparamizone; Benzothiozane; 4-Acetylaminobenzaldehyde thiosemicarbazone; N-[4-[(Carbamothioylhydrazinylidene) methyl]phenyl]acetamide
+thiacetazone | Conteben | Thiacetazone; Thiocetazone; Thioparamizone; Benzothiozane;
 ticarcillin/clavulanate | Timentin | None
 trovafloxacin | None | None
 bacampicillin | None | None
@@ -155,7 +153,7 @@ ceftibuten | Cedax | None
 cephapirin | None | None
 cinoxacin | None | None
 cloxacillin | Cloxapen, others | None
-demeclocycline | Declomycin | RP-10192, demethylchlortetracycline
+demeclocycline | Declomycin | demethylchlortetracycline
 dirithromycin | Dynabac | None
 enoxacin | None | None
 gemifloxacin | Factive | None
@@ -170,7 +168,7 @@ novobiocin | None | None
 oritavancin | Orbactiv, others | LY333328
 paromomycin | Catenulin, Aminosidine, Humatin, others[1] | monomycin, aminosidine[2]
 retampulin | ERROR: DATA NOT FOUND
-rifapentine | Priftin | 3{[(4-cyclopentyl-1-piperazinyl)imino]methyl}rifamycin
+rifapentine | Priftin | 
 rifaximin | Xifaxan, others[1] | None
 spiramycin | None | None
 tedizolid | Sivextro | TR-700, torezolid[1]

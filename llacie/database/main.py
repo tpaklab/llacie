@@ -27,27 +27,26 @@ def create_db()->sql3.Connection:
 
 
 def _clean_name_list(val):
-    if pd.isna(val) or str(val).strip().lower() == 'none':
+    if pd.isna(val) or str(val).strip().lower() in ('none', 'error: data not found'):
         return []
     val = re.sub(r'\[\d+\](?::\s*\d+)?', '', val)       # [1], [2]: 185
     val = re.sub(r'\([^)]*\)', '', val)                   # (BAN UK), (USAN US)
     val = re.sub(r',?\s*others?\b', '', val, flags=re.IGNORECASE)
     parts = re.split(r'[,;]', val)
     parts = [p.strip().lower() for p in parts if p.strip()]
+    # drop long IUPAC names: stereochemistry notation + length heuristic
+    parts = [p for p in parts if not (len(p) > 50 and re.search(r'\(\d+[rRsS],', p))]
+    parts = [re.sub(r'[\s\-]+', '_', p) for p in parts]
     return parts
 
 
 def clean_dataframe(df):
     df.columns = df.columns.str.strip()
 
-    # drop rows where any cell contains the error sentinel
-    error_mask = df.apply(lambda row: row.astype(str).str.contains('ERROR: DATA NOT FOUND', regex=False).any(), axis=1)
-    df = df[~error_mask].copy()
-
     df['Drug Name'] = (df['Drug Name']
         .str.strip()
         .str.replace(r'\[\d+\]', '', regex=True)
-        .str.replace('/', '_', regex=False)
+        .str.replace(r'[\s\-/]+', '_', regex=True)
         .str.lower()
         .str.strip()
     )
@@ -78,8 +77,8 @@ def load_drugs_to_db(df, conn):
 def run():
     df = pd.read_csv("llacie/database/files/raw_wiki.txt",sep='|')
     cleaned_df = clean_dataframe(df)
-    print(cleaned_df)
-    cleaned_df.to_csv('llacie/database/files/cleaned_wiki.txt',sep='|',index=False)
+    ## print(cleaned_df)
+    ## cleaned_df.to_csv('llacie/database/files/cleaned_wiki.txt',sep='|',index=False) ## Used for debugging. 
     conn = create_db()
     load_drugs_to_db(cleaned_df, conn)
 

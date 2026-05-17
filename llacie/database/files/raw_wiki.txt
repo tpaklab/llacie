@@ -1,10 +1,10 @@
 Drug Name | Trade Names | Other Names
 cephalothin | None | None
-trimethoprim/sulfamethoxazole | Bactrim, Cotrim, Septra, others | TMP/SMX, Co-trimoxazole (BAN UK)
+trimethoprim_sulfamethoxazole | Bactrim, Cotrim, Septra, others | TMP_SMX, Co-trimoxazole (BAN UK)
 amikacin | Amikin, Amiglyde-V, Arikayce, others | None
-amoxicillin/clavulanate | Augmentin, Clavulin, Amoclan, others[1] | Co-amoxiclav; Amox-clav
-ampicillin | Principen, others[3] | AM/AMP
-ampicillin/sulbactam | Unasyn | None
+amoxicillin_clavulanate | Augmentin, Clavulin, Amoclan, others[1] | Co-amoxiclav; Amox-clav
+ampicillin | Principen, others[3] | AM,AMP
+ampicillin_sulbactam | Unasyn | None
 aztreonam | Azactam, others | None
 cefazolin | Ancef, Cefacidal, other | None
 cefepime | Maxipime, Voco | None
@@ -22,7 +22,7 @@ levofloxacin | Levaquin, others | None
 meropenem | Merrem, others | None
 nitrofurantoin | Macrobid, others[1] | None
 piperacillin | Pipracil | None
-piperacillin/tazobactam | Tazocin, Zosyn, others[1] | None
+piperacillin_tazobactam | Tazocin, Zosyn, others[1] | None
 tetracycline | Tetracyn | None
 tigecycline | Tygacil | None
 minocycline | Minocin, others | None
@@ -34,61 +34,61 @@ clindamycin | Cleocin, Clinacin, Dalacin, others | DARE-BV1
 moxifloxacin | Avelox, Vigamox, Moxiflox, others | Moxifloxacine
 linezolid | Zyvox, Zyvoxam, others | None
 erythromycin | Eryc, Erythrocin, others[1] | None
-quinupristin/dalfopristin | None | None
+quinupristin_dalfopristin | None | None
 voriconazole | Vfend, others | None
 fluconazole | Diflucan, others | None
 daptomycin | Cubicin, Cubicin RF, Dapzura RT | LY 146032
-beta/lactamase | ERROR: DATA NOT FOUND
-streptomycin | None | S/STR/STS[1]
+beta_lactamase | | 
+streptomycin | None | S,STR,STS[1]
 doxycycline | Vibramycin, Doryx, others | None
-chloramphenicol | Chloromycetin, Abeed, others[1] | C/CHL/CL[2]
+chloramphenicol | Chloromycetin, Abeed, others[1] | C,CHL,CL[2]
 fosfomycin | Monuril, Monurol, Ivozfo, others | Phosphomycin, phosphonomycin, fosfomycin tromethamine
 caspofungin | Cancidas | None
 posaconazole | Noxafil, Posanol, others | None
 micafungin | Mycamine | None
 itraconazole | Sporanox, Sporaz, Orungal, others | ITZ
 flucytosine | Ancobon, Ancotil, others | None
-amphotericin/B | ERROR: DATA NOT FOUND
+amphotericin_B | Fungizone, Mysteclin-F, AmBisome |
 anidulafungin | Eraxis, others | LY303366
 ceftaroline | Teflaro, Zinforo | PPI 0903, TAK-599
 eravacycline | None | None
-meropenem/vaborbactam | Vabomere, Vaborem, others | None
-ceftazidime/avibactam | Avycaz, Zavicefta, others[1] | None
+meropenem_vaborbactam | Vabomere, Vaborem, others | None
+ceftazidime_avibactam | Avycaz, Zavicefta, others[1] | None
 cefiderocol | Fetroja, Fetcroja | RSC-649266
 trimethoprim | Proloprim, Monotrim, Triprim, others | None
-ceftolozane/tazobactam | Zerbaxa | None
+ceftolozane_tazobactam | Zerbaxa | None
 clarithromycin | Biaxin, Klav, etc. |
 cefpodoxime | Vantin, others | Cefpodoxime proxetil
 cefixime | Suprax, others[1] | None
 clofazimine | Lamprene | 
 ticarcillin | None | None
 azithromycin | Sumamed, Hemomicin, Zithromax, others[1] | 
-penicillin/binding/protein/2a | ERROR: DATA NOT FOUND
-extended/spectrum/beta/lactamase | ERROR: DATA NOT FOUND
+penicillin_binding_protein_2a | | 
+extended_spectrum_beta_lactamase | | 
 sulfamethoxazole | Gantanol | None
 cefotetan | None | None
 isavuconazole | Cresemba | None
-carbapenemase/other | ERROR: DATA NOT FOUND
-imipenem/relebactam | ERROR: DATA NOT FOUND
-inducible/clindamycin/resistance | ERROR: DATA NOT FOUND
+carbapenemase_other | ERROR: DATA NOT FOUND
+imipenem_relebactam | ERROR: DATA NOT FOUND
+inducible_clindamycin_resistance | ERROR: DATA NOT FOUND
 pyrazinamide | Rifater, Tebrazid, others[1] | None
 ethambutol | Myambutol, Etibi,[1] Servambutol, others | 
 isoniazid | Hydra, Hyzyd, Isovit, others | isonicotinic acid hydrazide, isonicotinyl hydrazine, INH, INAH, INHA
 cycloserine | Seromycin | 
 ethionamide | Trecator, others | None
-kanamycin | None | K/KAN/HLK/KM[1]
+kanamycin | None | K,KAN,HLK,KM[1]
 capreomycin | Capastat | None
-carbapenemase/ndm | ERROR: DATA NOT FOUND
-carbapenemase/vim | ERROR: DATA NOT FOUND
-carbapenemase/imp | ERROR: DATA NOT FOUND
-carbapenemase/kpc | ERROR: DATA NOT FOUND
-carbapenemase/oxa | ERROR: DATA NOT FOUND
+carbapenemase_ndm | ERROR: DATA NOT FOUND
+carbapenemase_vim | ERROR: DATA NOT FOUND
+carbapenemase_imp | ERROR: DATA NOT FOUND
+carbapenemase_kpc | ERROR: DATA NOT FOUND
+carbapenemase_oxa | ERROR: DATA NOT FOUND
 terbinafine | Lamisil, others | None
 rifabutin | Mycobutin[1] | None
 ofloxacin | Floxin, Ocuflox, others | None
 cefaclor | Biocef, Ceclor, Medacef, Distaclor, Keflor, Raniclor | None
-spectinomycin | Trobicin |SPT/SPE/SC/SP[1]
-ethambutol/rifampin | ERROR: DATA NOT FOUND
+spectinomycin | Trobicin |SPT,SPE,SC,SP[1]
+ethambutol_rifampin | ERROR: DATA NOT FOUND
 telavancin | Vibativ | None
 amoxicillin | Amoxil, Trimox, others[1] | Amoxycillin, amox
 rezafungin | Rezzayo | Biafungin; CD101
@@ -97,24 +97,24 @@ doripenem | Finibax, Doribax | None
 plazomicin | Zemdri | ACHN-490,
 omadacycline | Nuzyra | PTK-0796,[1] BAY 73-6944
 delafloxacin | Baxdela, others | ABT-492; RX-3341; WQ-3034
-sulbactam/durlobactam | Xacduro | None
-aztreonam/avibactam | Emblaveo | None
-ceftazidime/clavulanate | ERROR: DATA NOT FOUND
-cefotaxime/clavulanate | ERROR: DATA NOT FOUND
+sulbactam_durlobactam | Xacduro | None
+aztreonam_avibactam | Emblaveo | None
+ceftazidime_clavulanate | ERROR: DATA NOT FOUND
+cefotaxime_clavulanate | ERROR: DATA NOT FOUND
 miconazole | Monistat, others | None
 terconazole | Terazol | None
 bedaquiline | Sirturo | Bedaquiline fumarate, TMC207, R207910, AIDS222089
 ketoconazole | Nizoral, others | R-41400; KW-1414
-polymyxin/B | ERROR: DATA NOT FOUND
-meropenem/imipenem | ERROR: DATA NOT FOUND
+polymyxin_B | Poly-Rx | 
+meropenem_imipenem | ERROR: DATA NOT FOUND
 nystatin | Mycostatin, others[1] | None
 griseofulvin | Gris-peg, Grifulvin V, others | None
 natamycin | Natacyn, others | None
 clotrimazole | Lotrimin, others | None
-nalidixic/acid | ERROR: DATA NOT FOUND
+nalidixic_acid | NegGram, Wintomylon,Nevigramon | 
 ceftizoxime | Cefizox | None
 cefoperazone | None | None
-fusidic/acid | ERROR: DATA NOT FOUND
+fusidic_acid | Fucidin, Foban | 
 azlocillin | Securopen | None
 bacitracin | Baciguent, Baciim, others | None
 carbenicillin | Geocillin, Pyopen | CB
@@ -135,13 +135,13 @@ mupirocin | Bactroban, others | muciprocin[1]
 nafcillin | None | None
 neomycin | Neo-rx | None
 netilmicin | Netromycin | 
-p/aminosalicylic/acid | ERROR: DATA NOT FOUND
+4-Aminosalicylic acid | Paser, Granupas | p_aminosalicylic_acid, para-aminosalicylic acid
 sparfloxacin | Spacin, Zagam, others | None
 sulfadiazene | ERROR: DATA NOT FOUND
 sulfisoxazole | None | None
 teicoplanin | Targocid | None
-thiacetazone | Conteben | Thiacetazone; Thiocetazone; Thioparamizone; Benzothiozane;
-ticarcillin/clavulanate | Timentin | None
+thiacetazone | Conteben | Thiacetazone, Thiocetazone, Thioparamizone, Benzothiozane
+ticarcillin_clavulanate | Timentin | None
 trovafloxacin | None | None
 bacampicillin | None | None
 cefadroxil | Duricef | None
@@ -167,7 +167,7 @@ norfloxacin | Noroxin, Chibroxin, Trizolin, others | None
 novobiocin | None | None
 oritavancin | Orbactiv, others | LY333328
 paromomycin | Catenulin, Aminosidine, Humatin, others[1] | monomycin, aminosidine[2]
-retampulin | ERROR: DATA NOT FOUND
+retampulin | Altabax, Altargo |
 rifapentine | Priftin | 
 rifaximin | Xifaxan, others[1] | None
 spiramycin | None | None

@@ -19,7 +19,7 @@ def create_db()->sql3.Connection:
     );
     """ 
     conn = sql3.connect("llacie/database/drugs.db")
-    conn.set_trace_callback(print)
+    # conn.set_trace_callback(print)
     c = conn.cursor()
     c.execute(create_drugs_table)
     c.execute(create_synonyms_table)
@@ -34,8 +34,6 @@ def _clean_name_list(val):
     val = re.sub(r',?\s*others?\b', '', val, flags=re.IGNORECASE)
     parts = re.split(r'[,;]', val)
     parts = [p.strip().lower() for p in parts if p.strip()]
-    # drop long IUPAC names: stereochemistry notation + length heuristic
-    parts = [p for p in parts if not (len(p) > 50 and re.search(r'\(\d+[rRsS],', p))]
     return parts
 
 

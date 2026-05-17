@@ -1,6 +1,5 @@
 import sqlite3 as sql3
 
-
 def execute_query(value,conn):
     c = conn.cursor()
     c.execute(BASE_SQL_QUERY, (value,))

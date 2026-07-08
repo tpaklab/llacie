@@ -155,9 +155,8 @@ CREATE TABLE "{{prefix}}episode_labels" (
     "line_number"           BIGINT,
     "FK_human_annotator"    VARCHAR(255)
 );
-
-ALTER TABLE "{{prefix}}episode_labels" 
-    ADD CONSTRAINT "{{prefix}}episode_labels_episode_feat_strategy_label_key" 
+ALTER TABLE "{{prefix}}episode_labels"
+    ADD CONSTRAINT "{{prefix}}episode_labels_episode_feat_strategy_label_key"
     UNIQUE ("FK_episode_id", "FK_task_id", "FK_strategy_id", "FK_human_annotator", 
         "label_name");
 

@@ -279,5 +279,8 @@ class App(object):
             if len(df_human) == 0:
                 echo_warn(f"Warn: No human annotations for {strategy.task.name}, skipping")
                 continue
-
+            echo_info('DF Pred')
+            print(df_pred)
+            echo_info('DF_Human')
+            print(df_human)
             self._echo_confusion_matrices(df_human, df_pred, vocab, other_human, bootstrap_samples)

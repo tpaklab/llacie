@@ -2,7 +2,10 @@ import numpy as np
 import pandas as pd
 import confidenceinterval as ci
 
+import click 
+
 from math import log10
+from scipy import stats
 from sklearn import metrics
 from textwrap import dedent
 from collections import OrderedDict
@@ -46,15 +49,19 @@ class ConfusionMatrix:
         "Recall aka sensitivity": ci.tpr_score,
         "Specificity": ci.tnr_score,
         "NPV": ci.npv_score,
-        "Cohen's kappa": "_cohen_kappa_score"
+        "Cohen's kappa": "_cohen_kappa_score",
+        "Spearman-R":'_spearman_r', 
+        "Wilcox-Assigned-Rank":"_wilcox_assigned_rank"
     }
     DEFAULT_N_RESAMPLES = 1000
     METRIC_PRECISION_SCALING = 2.4
     METRIC_MIN_DIGITS = 3
 
-    def __init__(self, vec_truth, vec_pred, other_human=None, n_resamples=None):
+    def __init__(self, vec_truth, vec_pred, value_true, value_pred,other_human=None, n_resamples=None):
         self._vec_truth = vec_truth
         self._vec_pred = vec_pred
+        self._value_true = value_true
+        self._value_pred = value_pred
         self._matrix = metrics.confusion_matrix(vec_truth, vec_pred)
         self._tn, self._fp, self._fn, self._tp = self._matrix.ravel()
         self._other_human = other_human
@@ -82,6 +89,15 @@ class ConfusionMatrix:
     def from_episode_labels(cls, df_truth, df_pred, vocab, max_line_num=9, **kwargs):
         df_truth = filter_to_one_humans_rows_per_episode(df_truth)
 
+        merged_values = pd.merge(
+            df_truth[['FK_episode_id', 'label_name', 'label_value', 'line_number']],
+            df_pred[['FK_episode_id', 'label_name', 'label_value','line_number']],
+            on=['FK_episode_id', 'label_name', 'line_number'],
+            suffixes=('_true', '_pred')
+        )
+        value_true = merged_values['label_value_true']
+        value_pred = merged_values['label_value_pred']
+
         df_truth = df_truth[["FK_episode_id", "label_name", "line_number"]].copy()
         df_truth["labeled"] = True
         df_truth_pivot = df_truth.pivot(index="FK_episode_id", columns="label_name", 
@@ -92,6 +108,8 @@ class ConfusionMatrix:
         df_pred = df_pred[["FK_episode_id", "label_name", "line_number"]].copy()
         df_pred["labeled"] = df_pred["line_number"] <= max_line_num
         # print(df_pred.to_string())
+
+
         try:
             df_pred_pivot = df_pred.pivot(index="FK_episode_id", columns="label_name", 
                 values="labeled")
@@ -107,7 +125,9 @@ class ConfusionMatrix:
 
         vec_truth = df_truth_mat.values.flatten().astype(bool)
         vec_pred = df_pred_mat.values.flatten().astype(bool)
-        return cls(vec_truth, vec_pred, **kwargs)
+
+
+        return cls(vec_truth, vec_pred, value_true, value_pred ,**kwargs)
 
 
     def _bootstrapped_metric(self, y_true, y_pred, metric):
@@ -121,7 +141,6 @@ class ConfusionMatrix:
             random_state=self._random_generator
         )
 
-
     def _balanced_accuracy_score(self, y_true, y_pred):
         return self._bootstrapped_metric(y_true, y_pred, metrics.balanced_accuracy_score)
 
@@ -129,8 +148,28 @@ class ConfusionMatrix:
     def _cohen_kappa_score(self, y_true, y_pred):
         return self._bootstrapped_metric(y_true, y_pred, metrics.cohen_kappa_score)
 
+    def _spearman_r(self, y_true, y_pred):
+        y_true.fillna(0, inplace=True)
+        y_pred.fillna(0, inplace=True)
+        return stats.spearmanr(y_true, y_pred)
+
+    def _count_expected_Nones(self, y_true, y_pred):
+        counts=0
+        n = 0
+        for i,val in enumerate(y_true):
+            if val == None:
+                if y_pred[i] == None:
+                    counts+=1
+                n+=1
+        return counts // n
+
+    def _wilcox_assigned_rank(self,y_true, y_pred):
+        y_true.fillna(0, inplace=True)
+        y_pred.fillna(0, inplace=True)
+        return stats.wilcoxon(y_true, y_pred)
 
     def metrics(self):
+        time_methods = set(['Spearman-R','Wilcox-Assigned-Rank'])
         ret = OrderedDict()
         for metric, method in self.METRIC_METHODS.items():
             # Most metric methods are stateless functions, but some are dynamically obtained from
@@ -140,11 +179,16 @@ class ConfusionMatrix:
             # We now use methods from https://github.com/jacobgil/confidenceinterval
             # These are similar to sklearn.metrics but also provide a confidence interval 
             #   along with the point estimate
-            ret[metric] = method(self._vec_truth, self._vec_pred)
+            if metric in time_methods:
+                ret[metric] = method(self._value_true, self._value_pred)
+            else:
+                ret[metric] = method(self._vec_truth, self._vec_pred)
         return ret
     
 
     def _format_metric(self, metric_name, metric_value):
+        if hasattr(metric_value, 'statistic'):  # SpearmanrResult
+            return f"{metric_name:23.23} {metric_value.statistic:10.4f} (p={metric_value.pvalue:.4f})"
         if isinstance(metric_value, tuple):
             prec = int(-log10(1 - metric_value[0]) + self.METRIC_PRECISION_SCALING)
             prec = max(prec, self.METRIC_MIN_DIGITS)
@@ -158,7 +202,9 @@ class ConfusionMatrix:
 
     def __str__(self):
         metrics = ("--------------------------- Metric ( 95% CI ) -------------\n" +
-            "\n".join([self._format_metric(key, val) for key, val in self.metrics().items()]))
+            "\n".join([self._format_metric(key, val) for key, val in self.metrics().items()])) 
+        # + 
+        #     "\n".join('Mean absolute Error:')
 
         header_1 = "                           Ground truth labels"
         header_2 = "                           Present     Absent"

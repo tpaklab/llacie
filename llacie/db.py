@@ -770,7 +770,6 @@ class LlacieDatabase(object):
     
     def import_antibiotic_episode_labels(self, episode_label_task, input_xlsx, sheet_name=None, 
             human_username=None):
-        print(f'Importing {input_xlsx}')
         echo_info((episode_label_task,input_xlsx))
         if sheet_name is None: sheet_name = 0
 
@@ -800,7 +799,6 @@ class LlacieDatabase(object):
         long_df['task_name'] = strategy.task.name
         long_df['FK_human_annotator'] = human_username
         long_df['line_number'] = df.groupby('FK_episode_id').cumcount() + 1
-
         params = {
             "ep_ids": [int(ep_id) for ep_id in long_df['FK_episode_id'].unique()],
             "task_id": strategy.task_id,

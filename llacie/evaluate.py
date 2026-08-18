@@ -51,7 +51,7 @@ class ConfusionMatrix:
         "NPV": ci.npv_score,
         "Cohen's kappa": "_cohen_kappa_score",
         "Spearman-R":'_spearman_r', 
-        "Wilcox-Assigned-Rank":"_wilcox_assigned_rank"
+        "Wilcox-Signed-Rank":"_wilcox_assigned_rank"
     }
     DEFAULT_N_RESAMPLES = 1000
     METRIC_PRECISION_SCALING = 2.4

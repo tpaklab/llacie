@@ -15,7 +15,7 @@ services:
       # Optional: mount initialization scripts
       # - ./sql/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
     ports:
-      - "5433:5432"
+      - "5434:5432"
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U llacie -d llacie"]
       interval: 10s
